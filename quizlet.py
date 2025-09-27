@@ -1,5 +1,3 @@
-# parse .md files and convert into quizlet readable format
-
 import os
 import re
 
@@ -38,14 +36,6 @@ for dir in os.listdir(base): # loop through folders inside obsidian
                             pattern2 = lines[i].startswith("![[")
                             if pattern2: # remove image embeddings
                                 lines[i] = ""
-
-                            pattern3 = lines[i] == "$$" and lines[i+1] == "\\begin{align*}"
-                            if pattern3: # remove extra latex
-                                lines[i:i+1] = ""
-                            
-                            pattern4 = lines[i] == "\\end{align*}" and lines[i+1] == "$$"
-                            if pattern3: # remove extra latex
-                                lines[i:i+1] = ""
                         
                         with open(output + folder_name + "/" + file_name + ".txt", "w") as txt: # write to .txt files
                             txt.writelines(lines)
