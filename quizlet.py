@@ -1,5 +1,4 @@
 import os
-import re
 
 base = os.path.expanduser("~") + "/Obsidian/brainTwo/"
 output = os.path.expanduser("~") + "/Downloads/Obsidian/"
