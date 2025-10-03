@@ -31,10 +31,6 @@ for dir in os.listdir(base): # loop through folders inside obsidian
                             pattern1 = lines[i+1].startswith("$$") and not lines[i+2].startswith("---")
                             if pattern or pattern1: # add newlines between term and definition
                                 lines[i] += "\n"
-                            
-                            pattern2 = lines[i].startswith("![[")
-                            if pattern2: # remove image embeddings
-                                lines[i] = ""
                         
                         with open(output + folder_name + "/" + file_name + ".txt", "w") as txt: # write to .txt files
                             txt.writelines(lines)
