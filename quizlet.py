@@ -29,7 +29,6 @@ def md_to_txt():
                             len_lines = len(lines[:-2])
 
                             for i in range(len_lines): # loop through lines inside .txt file
-
                                 pattern = not lines[i].startswith("- ") and lines[i+1].startswith("- ")
                                 pattern1 = lines[i+1].startswith("$$") and not lines[i+2].startswith("---")
                                 if pattern or pattern1: # add newlines between term and definition
