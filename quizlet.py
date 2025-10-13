@@ -2,14 +2,14 @@ import os
 
 
 def md_to_txt():
-    base = os.path.expanduser("~") + "/Obsidian/brainTwo/"
+    input = os.path.expanduser("~") + "/Obsidian/brainTwo/"
     output = os.path.expanduser("~") + "/Downloads/Obsidian/"
 
-    for dir in os.listdir(base): # loop through folders inside obsidian
+    for dir in os.listdir(input): # loop through folders inside obsidian
         ignore = ["Templates", "Linguistics"]
         if not dir.startswith(".") and dir not in ignore:
             folder_name = dir
-            folder_path = base + folder_name
+            folder_path = input + folder_name
 
             for file in os.listdir(folder_path): # loop through files inside obsidian folder
                 if file.endswith(".md"):
