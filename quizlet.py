@@ -1,20 +1,35 @@
 import os
 
+def md_to_txt():
+    """
+    Convert markdown files to text files
 
-def md_to_txt(input, output):
+    Parameters
+    ----------
+    None
+    
+    Returns
+    -------
+    dirs : dict
+        Nested dictionary where the 1st key is the folder_name, the 1st value is a dictionary of file_names, and the 2nd value is the file_path
+    """
+    input = os.path.expanduser("~") + "/Obsidian/brainTwo/"
+    output = os.path.expanduser("~") + "/Downloads/Obsidian/"
+    dirs = {}
     # loop through folders inside obsidian
     for dir in os.listdir(input):
         ignore = ["Templates", "Linguistics"]
         if not dir.startswith(".") and dir not in ignore:
             folder_name = dir
             folder_path = input + folder_name
+            dirs[folder_name] = {}
 
             # loop through files inside obsidian folder
             for file in os.listdir(folder_path):
                 if file.endswith(".md"):
                     file_path = folder_path + "/" + file
-                    file_name = os.path.basename(file)
-                    file_name = file_name.removesuffix(".md")
+                    file_name = os.path.basename(file)[:-3] # remove suffix ".md"
+                    dirs[folder_name][file_name] = file_path
 
                     # read from .md files
                     with open(file_path, "r") as md:
@@ -39,13 +54,13 @@ def md_to_txt(input, output):
                                 if pattern or pattern1:
                                     lines[i] += "\n"
                             
-                            with open(output + folder_name + "/" + file_name + ".txt", "w") as txt: # write to .txt files
+                            # write to .txt files
+                            with open(output + folder_name + "/" + file_name + ".txt", "w") as txt:
                                 txt.writelines(lines)
-    return None
+    return dirs
 
 def main():
-    x = os.path.expanduser("~") + "/Obsidian/brainTwo/"
-    y = os.path.expanduser("~") + "/Downloads/Obsidian/"
-    md_to_txt(x, y)
+    md_to_txt()
 
-main()
+if __name__ == "__main__":
+    main()
