@@ -49,10 +49,15 @@ def md_to_txt():
                             for i in range(len_lines):
                                 pattern = not lines[i].startswith("- ") and lines[i+1].startswith("- ")
                                 pattern1 = lines[i+1].startswith("$$") and not lines[i+2].startswith("---")
+                                pattern2 = lines[i+1].startswith("![[")
 
                                 # add newlines between term and definition
                                 if pattern or pattern1:
                                     lines[i] += "\n"
+                                
+                                # delete embedded image link
+                                if pattern2:
+                                    lines[i+1] = ""
                             
                             # write to .txt files
                             with open(output + folder_name + "/" + file_name + ".txt", "w") as txt:
