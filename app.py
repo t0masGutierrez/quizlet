@@ -1,59 +1,42 @@
 import streamlit as st
 from quizlet import md_to_txt
 
-def home(location):
-    """
-    Navigate to the clicked location
-
-    Parameters
-    ----------
-    location : list or string
-        The clicked location
-    """
+def home():
     st.session_state.clear()
-    if location == "Home":
-        st.session_state["location"] = "Home"
-    else:
-        st.session_state["location"] = location
     show_folders()
 
 def show_folders():
     """
     Show all of the folders as clickable buttons
     """
-    is_home = st.session_state.get("location") == "Home"
-    if is_home or not st.session_state:
-        obsidian = md_to_txt()
-        folders = []
-        for vault in obsidian:
-            if vault not in st.session_state:
-                folders.append(vault)
-                st.session_state[vault] = False
+    obsidian = md_to_txt()
+    folders = []
+    for vault in obsidian:
+        if vault not in st.session_state:
+            folders.append(vault)
+            st.session_state[vault] = False
 
-        def hide_folders(dir, obsidian=obsidian):
-            """
-            Hide all of the folders
+    def hide_folders(dir, obsidian=obsidian):
+        """
+        Hide all of the folders
 
-            Parameters
-            ----------
-            dir : string
-                Name of clicked directory
+        Parameters
+        ----------
+        dir : string
+            Name of clicked directory
 
-            Returns
-            -------
-            dir : string
-                Name of clicked directory
-            """
-            for f in folders:
-                st.session_state[f] = True
-            show_files(dir)
-        
+        Returns
+        -------
+        dir : string
+            Name of clicked directory
+        """
         for f in folders:
-            if not st.session_state[f]:
-                st.button(f, width="stretch", on_click=show_files, args=[f])
-    else:
-        dir = st.session_state.get("location")
+            st.session_state[f] = False
         show_files(dir)
+    
+    for f in folders:
+        if not st.session_state[f]:
+            st.button(f, width="stretch", on_click=hide_folders, args=[f])
 
 def show_files(dir):
     """
@@ -64,6 +47,7 @@ def show_files(dir):
     dir : string
             Name of clicked directory
     """
+    st.button("Back", on_click=home)
     obsidian = md_to_txt()
     file_names = []
     file_paths = []
@@ -71,8 +55,7 @@ def show_files(dir):
         if vault == dir:
             for file_name in subvault:
                 file_names.append(file_name)
-                file_path = subvault[file_name]
-                file_paths.append(file_path)
+                file_paths.append(subvault[file_name])
                 if file_name not in st.session_state:
                     st.session_state[file_name] = False
 
@@ -83,7 +66,7 @@ def show_files(dir):
         Parameters
         ----------
         index : int
-            Index of the clicked file_paths element
+            Index of clicked subdirectory
 
         subdir : string
             Name of clicked subdirectory
@@ -100,8 +83,7 @@ def show_files(dir):
             Location of clicked subdirectory
         """
         for f in file_names:
-            st.session_state[f] = True
-
+            st.session_state[f] = False
         file_path = file_paths[index]
         show_data(file_path, subdir, dir)
 
@@ -125,8 +107,8 @@ def show_data(file_path, subdir, dir):
     """
     st.title(subdir)
     left, middle, right = st.columns(3)
-    folders = left.button("Home", width="stretch", on_click=home, args=["Home"])
-    files = middle.button(dir, width="stretch", on_click=home, args=[dir])
+    folders = left.button("Home", width="stretch", on_click=home)
+    files = middle.button(dir, width="stretch", on_click=show_files, args=[dir])
     settings = right.button("Settings", width="stretch")
 
     with open(file_path, "r") as file:
