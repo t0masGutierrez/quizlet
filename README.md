@@ -2,4 +2,4 @@ I write my notes in Obsidian using markdown and I do active recall with Quizlet.
 
 This program converts .md into .txt so Quizlet can automatically import my notes. 
 
-Edit: I made my own quizlet. 
+Edit: I made my own Quizlet. 
