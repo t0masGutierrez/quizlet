@@ -105,7 +105,7 @@ def show_data(file_path, subdir, dir):
     dir : str
         Name of clicked directory
     """
-    def preconfigure_settings(file_path):
+    def preconfigure_settings(file_path, subdir, dir):
         """
         Send file_path for possible dismiss and call configure_settings
 
@@ -115,13 +115,13 @@ def show_data(file_path, subdir, dir):
             Location of clicked subdirectory
         """
         handle_dismiss(file_path)
-        configure_settings(file_path)
+        configure_settings(file_path, subdir, dir)
 
     st.title(subdir)
     left, middle, right = st.columns(3)
     folders = left.button("Home", width="stretch", on_click=home)
     files = middle.button(dir, width="stretch", on_click=show_files, args=[dir])
-    learn = right.button("Learn", width="stretch", on_click=preconfigure_settings, args=[file_path])
+    learn = right.button("Learn", width="stretch", on_click=preconfigure_settings, args=[file_path, subdir, dir])
 
     with open(file_path, "r") as file:
         data = file.read()
@@ -131,7 +131,7 @@ def handle_dismiss(file_path):
     pass
 
 @st.dialog("Settings", width="small", dismissible=True)
-def configure_settings(file_path):
+def configure_settings(file_path, subdir, dir):
     """
     Show all of the learning options
 
@@ -139,9 +139,13 @@ def configure_settings(file_path):
     ----------
     file_path : str
         Location of clicked subdirectory
+    subdir : str
+        Name of file
+    dir : str
+        Name of clicked directory
     """
 
-    def post_configure_settings(file_path, is_shuffle, ques_type, answ_type):
+    def save_settings(file_path, is_shuffle, ques_type, answ_type):
         """
         Show all of the learning options
 
@@ -168,7 +172,10 @@ def configure_settings(file_path):
     is_shuffle = st.toggle("Shuffle")
     ques_type = st.radio("Question type", ["Flashcards", "Multiple choice", "Write", "Test"])
     answ_type = st.radio("Answer type", ["Term", "Definition"])
-    is_save = st.button("Save", on_click=post_configure_settings, args=[file_path, is_shuffle, ques_type, answ_type])
+
+    left, right = st.columns(2)
+    left.button("Back", width="stretch", on_click=show_data, args=[file_path, subdir, dir])
+    right.button("Start", width="stretch", on_click=save_settings, args=[file_path, is_shuffle, ques_type, answ_type])
 
 def main():
     show_folders()
