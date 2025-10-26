@@ -1,0 +1,131 @@
+finite linear combination
+
+- vector of vector space expressible as linear combination of the vectors of subset
+---
+finite linear combination formula
+
+$$
+\begin{align*}
+S\prime \subset S \subset \mathcal V \leftrightarrow \vec v = c_1\vec v_1 + \dots + c_n\vec v_n \\
+S\prime = \{\vec v_1, \dots , \vec v_n\} \\
+S\prime = \text{finite subset} \\
+S = \text{infinite subset} \\
+\mathcal V = \text{vector space} \\
+\vec v = \text{vector} \\
+c = \text{scalar}
+\end{align*}
+$$
+---
+span
+
+- set of all possible finite linear combinations of the vectors of subset
+- smallest subspace of vector space with every vector of subset
+---
+span formula
+
+$$
+\begin{align*}
+\text{Span}(A) = \{\sum_{i}^n c_i\vec a_i | c \in \mathbb R, \vec a \in \mathbb R^m\} \\
+m = \text{number of rows} \\
+n = \text{number of columns} \\
+c = \text{scalar} \\
+\vec a = \text{column vector} 
+\end{align*}
+$$
+---
+terminology
+
+- if span of subset equal vector space then vector space spanned by subset
+- if span of subset equal vector space then subset spans vector space
+---
+example span
+
+- standard unit vector
+- polynomial
+- standard unit matrix
+---
+example span formula
+
+$$
+\begin{align*}
+\text{Span}(\{\vec e_1, \dots , \vec e_n\}) = \mathbb R^n \\
+\text{Span}(\{1, x, x^2, \dots , x^n\}) = \mathcal P\\
+\text{Span}(\psi_{ij}) = \mathcal M_{mn} \\
+\end{align*}
+$$
+---
+span property
+
+- closure
+- subspace
+- transitive closure
+- minimal
+---
+span property formula
+
+$$
+\begin{align*}
+S \subseteq \text{Span}(S) \\
+S \le \mathcal V \\
+(\mathcal W \le \mathcal V) \land (S \subseteq \mathcal W) \rightarrow \text{Span}(S) \subseteq \mathcal W \\
+\text{Span}(S) = \bigcap \{\mathcal W \le \mathcal V| S \subseteq \mathcal W \}
+\end{align*}
+$$
+---
+span subset property
+
+- closure
+---
+span subset property formula
+
+$$
+\begin{align*}
+(S_1, S_2 \subseteq \mathcal V) \land (S_1 \subseteq S_2) \rightarrow \text{Span}(S_1) \subseteq \text{Span}(S_2)
+\end{align*}
+$$
+---
+row space
+
+- set of all possible finite linear combinations of the rows of matrix equal the span of the set of rows of matrix
+---
+row space formula
+
+$$
+\begin{align*}
+\text{Row}(A) = \text{Span}(S)
+\end{align*}
+$$
+---
+span simplification
+
+- simplify span by row reducing the matrix whose rows equal the vectors of subset
+---
+row space membership
+
+- constant matrix equal vector
+- solve system of linear equations
+---
+row space membership formula
+
+$$
+\begin{align*}
+\exists s \in \text{RREF}(A^T | \vec v) \rightarrow \vec v \in \text{Row}(A) \\
+s = \text{solution} \\
+A = \text{coefficient matrix} \\
+T = \text{transposition} \\
+\vec v = \text{vector}
+\end{align*}
+$$
+---
+empty span
+
+- span of empty set
+---
+empty span formula
+
+$$
+\begin{align*}
+\text{Span}(\emptyset) = \{\vec 0\}
+\end{align*}
+$$
+---

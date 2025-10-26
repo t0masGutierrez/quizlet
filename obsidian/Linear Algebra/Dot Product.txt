@@ -1,0 +1,182 @@
+dot product
+
+- scalar quantity of similarity between two vectors
+---
+dot product formula
+
+$$
+\begin{align*}
+\vec x \cdot \vec y = x_1y_1 + ... + x_ny_n = \sum_k^n x_ky_k \\
+x = \text{coordinate} \\
+n = \text{number of coordinates} \\
+k = \text{index}
+\end{align*}
+$$
+---
+dot product formula
+
+$$
+\begin{align*}
+\vec x \cdot \vec y = (\| \vec x \|)(\| \vec y \|) \cos(\theta) \\
+\vec x = \text{vector} \\
+\| \vec x \| = \text{magnitude} \\
+\theta = \text{direction}
+\end{align*}
+$$
+---
+dot product property
+
+- commutative
+- identity magnitude 
+- zero magnitude
+- scalar associative
+- distributive
+---
+dot product property formula
+
+$$
+\begin{align*}
+\vec x \cdot \vec y = \vec y \cdot \vec x \\
+\vec x \cdot \vec x = \| \vec x \|^2 \ge 0 \\ 
+\vec x \cdot \vec x = 0 \leftrightarrow \vec x = 0 \\ 
+c(\vec x \cdot \vec y) = (c\vec x) \cdot \vec y = \vec x \cdot (c\vec y) \\
+\vec x \cdot (\vec y + \vec z) = (\vec x \cdot \vec y) + (\vec x \cdot \vec z) \\
+(\vec x + \vec y) \cdot \vec z = (\vec x \cdot \vec z) + (\vec y \cdot \vec z)
+\end{align*}
+$$
+---
+unit vector property
+
+- dot product between $\pm 1$ 
+---
+unit vector property formula
+
+$$
+\begin{align*}
+-1 \le \vec x \cdot \vec y \le 1 \\
+||\vec x|| = 1 \\
+||\vec y|| = 1
+\end{align*}
+$$
+---
+cauchy schwarz inequality
+
+- product of magnitudes equal upper boundary for maximum similarity between two vectors
+---
+cauchy schwarz inequality formula
+
+$$
+\begin{align*}
+|\vec x \cdot \vec y | \le (\| \vec x \|)(\| \vec y \|) \\
+\vec x = \text{vector} \\
+\| \vec x \| = \text{magnitude}
+\end{align*}
+$$
+---
+triangle inequality
+
+- sum of magnitudes equal upper boundary for magnitude of sum
+---
+minkowski’s inequality formula
+
+$$
+\begin{align*}
+\|\vec{x} + \vec{y}\| \le \|\vec{x}\| + \|\vec{y}\| \\
+\vec x = \text{vector} \\
+\| \vec x \| = \text{magnitude}
+\end{align*}
+$$
+---
+direction
+
+- counterclockwise angle between two vectors 
+![[Calculus/Images/dot product.png]]
+---
+direction formula
+
+$$
+\begin{align*}
+\cos(\theta) = \frac{\vec x \cdot \vec y}{(|| \vec x ||)(|| \vec y ||)} \\
+0 \le \theta \le \pi \\
+\vec x = \text{vector} \\
+\| \vec x \| = \text{magnitude} 
+\end{align*}
+$$
+---
+direction property
+
+- acute angle
+- right angle
+- obtuse angle
+- parallel direction
+- orthogonal direction
+---
+direction property formula
+
+$$
+\begin{align*}
+0 \le \theta \le 90 \leftrightarrow \vec x \cdot \vec y > 0 \\
+\theta = 90 \leftrightarrow \vec x \cdot \vec y = 0 \\
+90 \le \theta \le 180 \leftrightarrow \vec x \cdot \vec y < 0 \\
+\vec x \parallel \vec y \leftrightarrow \vec x \cdot \vec y = \pm (||\vec x ||)(||\vec y ||) \\
+\vec x \perp \vec y \leftrightarrow \vec x \cdot \vec y = 0
+\end{align*}
+$$
+---
+mutually orthogonal
+
+- for every pair of distinct vectors the dot product equal zero
+---
+mutually orthogonal formula
+
+$$
+\begin{align*}
+\forall i, j \in \{1, ..., k\}(i \ne j \rightarrow \vec x_i \cdot \vec x_j = 0) \\
+i = \text{row index} \\
+j = \text{column index} \\
+k = \text{number of vectors} \\
+\vec x = \text{vector}
+\end{align*}
+$$
+---
+parallel projection
+
+- parallel projection of $\vec y$ onto $\vec x$ equal vector component of $\vec y$ parallel $\vec x$ 
+---
+parallel projection formula
+
+$$
+\begin{align*}
+\text{proj}_{x}(y\parallel) = (\frac{\vec x \cdot \vec y}{\|\vec x \|^2})\vec x \\
+\vec x = \text{vector} \\
+\|\vec x \| = \text{magnitude}
+\end{align*}
+$$
+---
+orthogonal projection
+
+- orthogonal projection of $\vec y$ onto $\vec x$ equal vector component of $\vec y$ orthogonal $\vec x$ 
+![[Linear Algebra/Images/orthogonal projection.png|300]]
+---
+orthogonal projection formula
+
+$$
+\begin{align*}
+\text{proj}_{x}(y\perp) = \vec y - (\frac{\vec x \cdot \vec y}{\|\vec x \|^2})\vec x \\
+\vec x = \text{vector} \\
+\|\vec x \| = \text{magnitude}
+\end{align*}
+$$
+---
+pythagorean theorem
+
+- special right triangle
+---
+pythagorean formula
+
+$$
+\begin{align*}
+\| \vec y \|^2 = \|\text{proj}_{x}y\|^2 + \|\vec y - \text{proj}_{x}y\|^2
+\end{align*}
+$$
+---

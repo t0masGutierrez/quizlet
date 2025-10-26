@@ -1,0 +1,246 @@
+eigen
+
+- characteristic of the transformation
+---
+eigenvalue
+
+- scalar quantity that describes the magnitude of scalar multiplication with the corresponding eigenvector during transformation
+---
+eigenvalue formula
+
+$$
+\begin{align*}
+\lambda \leftrightarrow \exists\vec x, A\vec x = \lambda \vec x \\
+\vec x \ne 0 \\
+\lambda = \text{eigenvalue} \\
+\vec x = \text{eigenvector} \\
+A = \text{square matrix}
+\end{align*}
+$$
+---
+eigenvector
+
+- n-vector with variable magnitude but constant direction
+---
+eigenvector formula
+
+$$
+\begin{align*}
+\vec x \leftrightarrow \exists\vec x, A\vec x = \lambda \vec x \\
+\vec x \ne 0 \\
+\lambda = \text{eigenvalue} \\
+\vec x = \text{eigenvector} \\
+A = \text{square matrix}
+\end{align*}
+$$
+---
+eigenspace
+
+- set of all eigenvectors for matrix associated with eigenvalue
+---
+eigenspace formula
+
+$$
+\begin{align*}
+E_{\lambda} = \{\vec x | A \vec x = \lambda \vec x \} \\
+\vec x = \text{eigenvector} \\
+A = \text{square matrix} \\
+\lambda = \text{eigenvalue}
+\end{align*}
+$$
+---
+number of eigenvectors
+
+- scalar multiplication with eigenvector equal eigenvector
+---
+number of eigenvectors formula
+
+$$
+\begin{align*}
+c \in \mathbb R \rightarrow c\vec x \in E_{\lambda} \\
+c = \text{scalar} \\
+\vec x = \text{eigenvector} \\
+E_{\lambda} = \text{eigenspace}
+\end{align*}
+$$
+---
+homogeneous system of linear equations
+
+- constant matrix equal zero matrix
+---
+homogeneous system of linear equations formula
+
+$$
+\begin{align*}
+(\lambda I - A)\vec x = 0 \\
+\lambda = \text{eigenvalue} \\
+I = \text{identity matrix} \\
+A = \text{square matrix} 
+\end{align*}
+$$
+---
+singular eigenvalue property
+
+- eigenvalue if and only if determinant of coefficient matrix equal zero
+---
+singular eigenvalue property formula
+
+$$
+\begin{align*}
+\lambda \leftrightarrow |\lambda I - A| = 0 \\
+\lambda = \text{eigenvalue} \\
+I = \text{identity matrix} \\
+A = \text{square matrix}
+\end{align*}
+$$
+---
+homogeneous solution set
+
+- the eigenvectors for the corresponding eigenvalue are the nontrivial solutions of the homogeneous system of linear equations
+- the eigenspace for the corresponding eigenvectors is the complete solution set of homogeneous system of linear equations
+---
+characteristic polynomial
+
+- polynomial whose real roots equal the eigenvalues of matrix
+---
+characteristic polynomial formula
+
+$$
+\begin{align*}
+p_A(x) = |xI - A| = 0 \\
+x = \text{dummy variable} \\
+I = \text{identity matrix} \\
+A = \text{square matrix}
+\end{align*}
+$$
+---
+diagonalization
+
+- compute characteristic polynomial
+- test diagonalizability
+- substitute eigenvalues into homogeneous system of linear equations
+- form the reduced row echelon of the system
+- fundamental solutions of homogeneous system of linear equations equal fundamental eigenvectors
+- form eigenmatrix such that column vectors equal eigenvectors
+- test diagonalizability
+- compute inverse eigenmatrix
+- matrix multiplication equal diagonal matrix
+- all entries along main diagonal of diagonal matrix equal eigenvalue 
+---
+diagonalization formula
+
+$$
+\begin{align*}
+D = P^{-1}AP \leftrightarrow A = PDP^{-1} \\
+|P| \ne 0 \\
+P = \text{eigenmatrix} \\
+A = \text{square matrix} \\
+D = \text{diagonal matrix} \\
+P^{-1} = \text{inverse eigenmatrix} 
+\end{align*}
+$$
+---
+similarity
+
+- similar matrices represent the same transformation but different coordinate system
+- similar matrices have the same size
+- similar matrices are similar with themselves
+- similar matrices are commutative
+- similar matrices are transitive
+- similar matrices with identity matrix equal identity matrix
+- similar matrices have equal determinant
+- similar matrices have equal characteristic polynomial
+---
+similarity formula
+
+$$
+\begin{align*}
+A \sim D \leftrightarrow \exists P, D = P^{-1}AP \\
+|P| \ne 0 \\
+A = \text{square matrix} \\
+D = \text{diagonal matrix} \\
+P = \text{eigenmatrix} \\
+P^{-1} = \text{inverse eigenmatrix}
+\end{align*}
+$$
+---
+geometric multiplicity
+
+- dimension of eigenspace or number of independent variables
+---
+geometric multiplicity formula
+
+$$
+\begin{align*}
+E_{\lambda} = \{\sum_i^k c_i \vec x_i | c \in \mathbb R\} \\
+i = \text{eigenvector index} \\
+k = \text{geometric multiplicity} \\
+c = \text{scalar} \\
+\vec x = \text{eigenvector}
+\end{align*}
+$$
+---
+diagonalizability 
+
+- sum of geometric multiplicity equal size of square matrix if and only if diagonalizable
+---
+diagonalizability formula
+
+$$
+\begin{align*}
+\sum k = n \leftrightarrow \exists P \\
+|P| \ne 0 \\
+k = \text{geometric multiplicity} \\
+n = \text{number of rows} \\
+n = \text{number of columns} \\
+P = \text{eigenmatrix}
+\end{align*}
+$$
+---
+algebraic multiplicity
+
+- power of eigenvalue
+---
+algebraic multiplicity formula
+
+$$
+\begin{align*}
+p_A(x) = (x - \lambda)^{k_0}(x - \lambda)^{k_1}\dots(x - \lambda)^{k_n} \\
+\lambda = \text{eigenvalue} \\
+k = \text{algebraic multiplicity}
+\end{align*}
+$$
+---
+diagonalizability 
+
+- sum of algebraic multiplicity equal size of square matrix if and only if diagonalizable
+---
+diagonalizability formula
+
+$$
+\begin{align*}
+\sum k = n \leftrightarrow \exists P \\
+|P| \ne 0 \\
+k = \text{algebraic multiplicity} \\
+n = \text{number of rows} \\
+n = \text{number of columns} \\
+P = \text{eigenmatrix}
+\end{align*}
+$$
+---
+matrix exponentiation
+
+- square matrix exponentiation similar diagonal matrix exponentiation
+---
+matrix exponentiation formula
+
+$$
+\begin{align*}
+A^k = PD^kP^{-1} \\
+P = \text{eigenmatrix} \\
+D = \text{diagonal matrix} \\
+k = \text{positive integer} \\
+P^{-1} = \text{inverse eigenmatrix}
+\end{align*}
+$$
+---

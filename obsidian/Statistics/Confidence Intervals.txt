@@ -1,0 +1,242 @@
+estimator
+
+- statistic capable of estimating the value of parameter
+---
+point estimate
+
+- single best guess for the value of parameter
+---
+confidence interval
+
+- range of guesses for the value of parameter
+---
+mean confidence interval formula
+
+$$
+\begin{align*}
+\bar x \pm z^*(\frac{\sigma}{\sqrt n}) \\
+\bar x \pm t^*(\frac{s}{\sqrt n}) \\
+\bar x = \text{mean} \\
+z^* = \text{critical z value} \\
+t^* = \text{critical t value} \\
+\sigma = \text{population standard deviation} \\
+s = \text{sample standard deviation} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+proportion confidence interval formula
+
+$$
+\begin{align*}
+\hat p \pm z^* \sqrt {\frac{\hat p(1-\hat p)}{n}} \\
+\hat p = \text{proportion} \\
+z^* = \text{critical value} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+standard deviation confidence interval formula
+
+$$
+\begin{align*}
+\sqrt{\frac{(n-1)s^2}{\chi^2_{\alpha/2}}} \leq \sigma \leq \sqrt{\frac{(n-1)s^2}{\chi^2_{1-\alpha/2}}} \\
+n = \text{sample size} \\
+s = \text{sample standard deviation} \\
+\chi = \text{critical value}
+\end{align*}
+$$
+---
+correct confidence interval
+
+- 95% confidence that the value of parameter is inside the confidence interval
+---
+incorrect confidence interval
+
+- 95% chance that the value of parameter is outside the critical region  
+- 95% of statistic is between lower boundary and upper boundary
+---
+confidence level
+
+- probability of the parameter being inside the confidence interval
+![[Statistics/Images/confidence level.png|300]]
+---
+confidence level formula
+
+$$
+\begin{align*}
+\text{1-tail CL} = 1-2\alpha \\
+\text{2-tail CL} = 1-\alpha \\
+\alpha = \text{significance level}
+\end{align*}
+$$
+---
+critical z value
+
+- normal distribution significance level
+![[Statistics/Images/critical z value.png]]
+---
+critical z value formula
+
+$$
+\begin{align*}
+z^*_{two} = \text{invNorm}(1-\frac{\alpha}{2}, 0, 1) \\
+z^*_{left} = \text{invNorm}(\alpha, 0, 1) \\
+z^*_{right} = \text{invNorm}(1-\alpha, 0, 1) \\
+\alpha = \text{significance level}
+\end{align*}
+$$
+---
+margin of error
+
+- maximum likely amount of error between statistic and parameter
+---
+margin of error formula
+
+$$
+\begin{align*}
+E = \text{critical value} \times \text{standard error}
+\end{align*}
+$$
+---
+calculate point estimate via confidence interval
+
+- upper confidence interval addition with lower confidence interval  
+- sum division with two
+---
+calculate point estimate via margin of error
+
+- upper confidence interval subtraction with margin of error
+---
+calculate margin of error via confidence interval
+
+- upper confidence interval subtraction with lower confidence interval  
+- difference division with two
+---
+calculate margin of error via point estimate
+
+- upper confidence interval subtraction with point estimate
+---
+sample size
+
+- number of observations as function of margin of error
+---
+mean sample size formula
+
+$$
+\begin{align*}
+n = (\frac{z^*\sigma}{E})^2 \\
+z^* = \text{critical value} \\
+\sigma = \text{standard deviation} \\
+E = \text{margin of error}
+\end{align*}
+$$
+---
+proportion sample size formula
+
+$$
+\begin{align*}
+n = (\frac{z^*\sqrt {\hat p(1-\hat p)}}{E})^2 \\
+z^* = \text{critical value} \\
+\hat p = \text{proportion} \\
+E = \text{margin of error}
+\end{align*}
+$$
+---
+sample proportion
+
+- point estimate of population proportion
+---
+proportion confidence interval requirements
+
+- random sampling
+- trial independence
+- at least 5 successes and 5 failures
+---
+construct proportion confidence interval  
+
+- find critical value
+- calculate margin of error
+- $\hat p - E < p < \hat p + E$ 
+---
+sample mean
+
+- point estimate of population mean
+---
+mean confidence interval requirements
+
+- random sampling
+- trial independence
+- known population standard deviation
+- normal population distribution or $n\ge 30$ 
+![[Statistics/Images/mean confidence interval requirements.png|300]]
+---
+construct mean confidence interval
+
+- find critical value
+- calculate margin of error
+- $\bar x - E < \mu < \bar x + E$ 
+---
+t distribution
+
+- normal distribution except fatter tails for extra uncertainty when estimating the population standard deviation and dependence on degrees of freedom
+---
+degrees of freedom
+
+- number of sample data that can vary without changing estimate
+---
+degrees of freedom formula
+
+$$
+\begin{align*}
+\text{df} = n-1 \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+critical t value
+
+- t distribution significance level
+![[Statistics/Images/critical t value.png|400]]
+---
+critical t value formula
+
+$$
+\begin{align*}
+t^*_1 = \text{invT}(1-\alpha, \text{df}) \\
+t^*_2 = \text{invT}(1-\frac{\alpha}{2},\text{df}) \\
+\alpha = \text{significance level} \\
+\text{df} = \text{degrees of freedom}
+\end{align*}
+$$
+---
+sample standard deviation
+
+- point estimate of population standard deviation
+---
+standard deviation confidence interval requirements
+
+- random sampling
+- trial independence
+- normal population distribution
+---
+construct variance confidence interval
+
+- find both critical values
+- $\sqrt{\frac{(n-1)s^2}{\chi^2_{\alpha/2}}} \leq \sigma \leq \sqrt{\frac{(n-1)s^2}{\chi^2_{1-\alpha/2}}}$ 
+---
+chi square distribution
+
+- probability distribution of all possible sample variances from same size samples of the same population
+---
+critical chi value
+
+- chi square distribution significance level
+![[Statistics/Images/critical chi value.png|300]]
+---
+calculate critical chi value
+
+- right tail area equal half of significance level
+- left tail area equal 1 subtraction with half of significance level
+- chi square table
+---

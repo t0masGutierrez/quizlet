@@ -1,0 +1,115 @@
+sampling distribution
+
+- probability distribution of sample statistic that describes the variability of random sampling of the same size from the same population
+---
+standard error
+
+- standard deviation of sampling distribution
+---
+mean standard error formula
+
+$$
+\begin{align*}
+\sigma_\mu = \frac{\sigma}{\sqrt n} \\
+\sigma = \text{standard deviation} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+proportion standard error formula
+
+$$
+\begin{align*}
+\sigma = \sqrt{\frac{p(1-p)}{n}} \\
+p = \text{proportion} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+sum standard error formula
+
+$$
+\begin{align*}
+\sigma = \sigma\sqrt n \\
+\sigma = \text{standard deviation} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+law of large numbers
+
+- sample mean converges population mean as sample size gets large ($n\ge 30$) 
+---
+formula of large numbers
+
+$$
+\begin{align*}
+n \rightarrow \infty \Rightarrow \bar X \rightarrow \mu \\
+\end{align*}
+$$
+---
+central limit theorem
+
+- as sample size gets large the sampling distribution approaches normal distribution regardless of the population distribution
+---
+central limit formula
+
+$$
+\begin{align*}
+\bar X \sim N(\mu, \frac{\sigma}{\sqrt n}) \\
+\mu = \text{mean} \\
+\sigma = \text{standard deviation} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+estimator
+
+- statistic capable of estimating the value of parameter
+---
+biased estimator
+
+- mean of statistic not equal parameter
+---
+unbiased estimator
+
+- mean of statistic equal parameter
+---
+z score
+
+- number of standard deviations from the mean
+---
+mean z score formula
+
+$$
+\begin{align*}
+z = \frac{\bar X - \mu}{\sigma/\sqrt n} \\
+\bar X = \text{sample mean} \\
+\mu = \text{population mean} \\
+\sigma = \text{population standard deviation} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+proportion z score formula
+
+$$
+\begin{align*}
+z = \frac{\hat p - p}{\sqrt{\frac{p(1-p)}{n}}} \\
+\hat p = \text{sample proportion} \\
+p = \text{population proportion} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+sum z score formula
+
+$$
+\begin{align*}
+z = \frac{\sum X - \mu n}{\sigma \sqrt n} \\
+\mu = \text{mean} \\
+n = \text{sample size} \\
+\sigma = \text{standard deviation}
+\end{align*}
+$$
+---

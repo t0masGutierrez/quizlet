@@ -1,0 +1,131 @@
+potential energy
+
+- energy of position
+![[Physics/Images/potential energy.png]]
+---
+potential energy formula
+
+$$
+\begin{align*}
+U = \int_{r_2}^{r_1} \overrightarrow F_{cons} \cdot d \overrightarrow r \\
+F_{cons} = \text{conservative force} \\
+r = \text{position}
+\end{align*}
+$$
+---
+conservative force
+
+- reversible force that conserve mechanical energy
+- dependent position and independent path
+![[Physics/Images/gravitational conservative force.png|300]]
+---
+work energy
+
+- work done by conservative force equal negative change of potential energy
+---
+work energy formula
+
+$$
+\begin{align*}
+W_{cons} = U_i - U_f \\
+U = \text{potential energy}
+\end{align*}
+$$
+---
+gravitational potential energy
+
+- potential energy of gravity as function of position
+---
+gravitational potential energy formula
+
+$$
+\begin{align*}
+U_g = mgy \\
+m = \text{mass} \\
+g = \text{gravity} \\
+y = \text{position}
+\end{align*}
+$$
+---
+elastic potential energy
+
+- potential energy of elasticity as function of position
+---
+elastic potential energy formula
+
+$$
+\begin{align*}
+U_{el} = \frac{1}{2}kx^2 \\
+k = \text{spring constant} \\
+x = \text{position}
+\end{align*}
+$$
+---
+mechanical energy
+
+- kinetic energy and potential energy
+---
+mechanical energy formula
+
+$$
+\begin{align*}
+E = K + U \\
+K = \text{kinetic energy} \\
+U = \text{potential energy}
+\end{align*}
+$$
+---
+work energy
+
+- work done by non conservative force equal non zero change of mechanical energy
+---
+work energy formula
+
+$$
+\begin{align*}
+W_{noncons} = \Delta E \\
+W_{noncons} = \Delta K + \Delta U \\
+E = \text{mechanical energy} \\
+K = \text{kinetic energy} \\
+U = \text{potential energy}
+\end{align*}
+$$
+---
+energy conservation
+
+- work done by conservative force equal zero change of mechanical energy
+---
+energy conservation formula
+
+$$
+\begin{align*}
+E_i = E_f \\
+\Delta K = - \Delta U \\
+E = \text{mechanical energy} \\
+K = \text{kinetic energy} \\
+U = \text{potential energy}
+\end{align*}
+$$
+---
+energy diagram
+
+- mechanical energy as function of position
+![[Physics/Images/energy diagram.png]]
+---
+turning point
+
+- point where potential energy approaches total mechanical energy and turns around
+---
+equilibrium point
+
+- local extrema point where zero force acting on system
+![[Physics/Images/equilibrium point.png]]
+---
+stable equilibrium point
+
+- minima equilibrium point where changes return position
+---
+unstable equilibrium point
+
+- maxima equilibrium point where changes do not return position
+---

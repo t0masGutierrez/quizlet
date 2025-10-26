@@ -1,0 +1,165 @@
+proper subspace
+
+- subset of vector space whom itself equal vector space with the same operations
+---
+proper subspace formula
+
+$$
+\begin{align*}
+\mathcal W < \mathcal V \leftrightarrow (\mathcal W \subset \mathcal V) \land (\mathcal W \ne \{\vec 0\}) \land (\mathcal W \in \mathcal V) \\
+\mathcal W = \text{subspace} \\
+\mathcal V = \text{vector space}
+\end{align*}
+$$
+---
+improper subspace
+
+- subset of vector space whom itself equal vector space with the same operations and subset possibly equal vector space or equal zero vector
+---
+improper subspace formula
+
+$$
+\begin{align*}
+\mathcal W \le \mathcal V \leftrightarrow (\mathcal W \subseteq \mathcal V) \lor (\mathcal W = \{\vec 0\}) \land (\mathcal W \in \mathcal V) \\
+\mathcal W = \text{subspace} \\
+\mathcal V = \text{vector space}
+\end{align*}
+$$
+---
+trivial subspace
+
+- subset of vector space equal zero vector
+---
+trivial subspace formula
+
+$$
+\begin{align*}
+\mathcal W = \{\vec 0\} \\
+\mathcal W = \text{subspace} \\
+\mathcal V = \text{vector space} \\
+\vec 0 = \text{zero vector}
+\end{align*}
+$$
+---
+subspace property
+
+- subspace must satisfy closure of vector space and existence of zero vector
+---
+subspace property formula
+
+$$
+\begin{align*}
+\mathcal W \le \mathcal V \leftrightarrow (c\vec w \in \mathcal V) \land (\vec w_1 + \vec w_2 \in \mathcal V) \land (\exists \vec 0)\\
+\mathcal W \ne \emptyset \\
+\mathcal W = \text{subspace} \\
+\mathcal V = \text{vector space} \\
+\vec 0 = \text{zero vector}
+\end{align*}
+
+$$---
+example subspace
+
+- lower triangular matrix
+- upper triangular matrix
+- diagonal matrix
+- symmetric matrix
+- skew symmetric matrix
+---
+example subspace formula
+
+$$
+\begin{align*}
+\mathcal L_n \le\mathcal M_n \\
+\mathcal U_n \le\mathcal M_n \\
+\mathcal D_n \le\mathcal M_n \\
+\mathcal A^T \le\mathcal M_n \\
+\end{align*}
+$$
+---
+example nonsubspace
+
+- nonsingular matrix
+- singular matrix
+- rref square matrix
+---
+example nonsubspace formula
+
+$$
+\begin{align*}
+\{A| \det(A) \ne 0\} \not\le\mathcal M_n \\
+\{A| \det(A) = 0\} \not\le\mathcal M_n \\
+\{\text{rref}(A)\} \not\le\mathcal M_n
+\end{align*}
+$$
+---
+intersection property
+
+- intersection of subspaces of vector space equal member of subspace
+---
+intersection property formula
+
+$$
+\begin{align*}
+\mathcal W_1, \mathcal W_2 \in \mathcal W \rightarrow (\mathcal W_1 \cap \mathcal W_2) \in \mathcal W \\
+\mathcal W = \text{subspace}
+\end{align*}
+$$
+---
+zero vector property
+
+- zero vector equal member of every subspace
+---
+zero vector property formula
+
+$$
+\begin{align*}
+\mathcal W \le\mathcal V \leftrightarrow \vec 0 \in \mathcal W \\
+\mathcal W = \text{subspace} \\
+\mathcal V = \text{vector space} \\
+\vec 0 = \text{zero vector}
+\end{align*}
+$$
+---
+linear combination property
+
+- linear combination of the vectors of subspace equal member of subspace
+---
+linear combination property formula
+
+$$
+\begin{align*}
+\vec w_1, \dots , \vec w_n \in \mathcal W \rightarrow c_1\vec w_1 + \dots + c_n\vec w_n \in \mathcal W \\
+\vec w = \text{vector} \\
+\mathcal W = \text{subspace} \\
+c = \text{scalar}
+\end{align*}
+$$
+---
+single element subspace
+
+- linear combination form line through the origin
+---
+two element subspace
+
+- linear combination form plane through the origin
+---
+three element subspace
+
+- linear combination form space through the origin
+---
+eigenspace property
+
+- eigenspace equal subspace of $n$ dimensional real numbers
+---
+eigenspace property formula
+
+$$
+\begin{align*}
+E_{\lambda} \le \mathbb R^n \\
+A \in \mathcal M_n \\
+A = \text{square matrix} \\
+\lambda = \text{eigenvalue} \\
+E_{\lambda} = \text{eigenspace} 
+\end{align*}
+$$
+---

@@ -1,0 +1,44 @@
+table of contents
+
+- 4.1 Introduction
+- 4.2 Stability of linear systems
+- 4.4 The phase-plane
+- 4.7 Phase portraits of linear systems
+- 4.10 Predator-prey models
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---

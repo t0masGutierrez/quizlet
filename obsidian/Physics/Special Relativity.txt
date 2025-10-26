@@ -1,0 +1,298 @@
+reference frame
+
+- coordinate system of observer
+![[Physics/Images/reference frame.png|300]]
+---
+rest frame
+
+- coordinate system of observer with zero velocity
+---
+inertial frame
+
+- coordinate system of observer with constant velocity
+---
+non inertial frame
+
+- coordinate system of observer without constant velocity
+---
+1st postulate of special relativity
+
+- the laws of physics are the same across all inertial frames
+---
+2nd postulate of special relativity
+
+- the speed of light is the same across all inertial frames
+---
+event
+
+- occurrence with definite position and time
+---
+relativity of simultaneity
+
+- events that are simultaneous in rest frame are not simultaneous in inertial frame
+- simultaneity is not absolute but relative to the reference frame
+![[Physics/Images/relativity of simultaneity.png|400]]
+---
+lorentz factor
+
+- mathematical quantity describing the change of spacetime near the speed of light
+![[Physics/Images/lorentz factor.png|300]]
+---
+lorentz factor formula
+
+$$
+\begin{align*}
+\gamma = \sqrt[-2]{1-\frac{v_{A/B}^2}{c^2}} \ge 1 \\
+v = \text{velocity} \\
+c = 3 \times 10^8
+\end{align*}
+$$
+---
+proper time
+
+- time elapsed in the rest frame
+- shortest time between both reference frames
+---
+time dilation
+
+- increase of time elapsed in the inertial frame
+![[Physics/Images/time dilation.png]]
+---
+time dilation formula
+
+$$
+\begin{align*}
+\Delta t = \Delta t_o \gamma \\
+t_0 = \text{proper time} \\
+\gamma = \text{lorentz factor}
+\end{align*}
+$$
+---
+proper length
+
+- length measured in the rest frame
+- longest length between both reference frames
+---
+length contraction
+
+- decrease of length measured parallel the direction of motion in the inertial frame
+- zero change of length measured perpendicular the direction of motion in the inertial frame
+![[Physics/Images/length contraction.png|400]]
+---
+length contraction formula
+
+$$
+\begin{align*}
+L = \frac{L_0}{\gamma} \\
+L_0 = \text{proper length} \\
+\gamma = \text{lorentz factor}
+\end{align*}
+$$
+---
+galilean transformation
+
+- how classical mechanics relate the coordinates of event between two inertial frames
+---
+galilean transformation formula
+
+$$
+\begin{align*}
+x = x' + vt \\
+y = y' \\
+z = z' \\
+t = t' \\
+x = \text{position} \\
+v = \text{velocity} \\
+t = \text{time}
+\end{align*}
+$$
+---
+galilean velocity transformation formula
+
+$$
+\begin{align*}
+v = v' + v_{A/B} \\
+v = \text{velocity}
+\end{align*}
+$$
+---
+lorentz transformation
+
+- how special relativity relate the coordinates of event between two inertial frames
+![[Physics/Images/lorentz transformation.png|200]]
+---
+lorentz transformation formula
+
+$$
+\begin{align*}
+x = (x' + vt')\gamma \\
+y = y' \\
+z = z' \\
+t = (t' + \frac{vx'}{c^2})\gamma \\
+x = \text{position} \\
+v = \text{velocity} \\
+t = \text{time} \\
+\gamma = \text{lorentz factor} \\
+c = 3 \times 10^8
+\end{align*}
+$$
+---
+lorentz velocity transformation formula
+
+$$
+\begin{align*}
+v = \frac{v' + v_{A/B}}{1 + v_{A/B}v'/c^2}
+\end{align*}
+$$
+---
+spacetime interval
+
+- spatiotemporal difference between two 4 dimensional events
+---
+spacetime interval formula
+
+$$
+\begin{align*}
+\Delta s^2 = c^2\Delta t^2 - \Delta x^2 - \Delta y^2 - \Delta z^2 \\
+c = 3 \times 10^8 \\
+t = \text{time} \\
+x = \text{position}
+\end{align*}
+$$
+---
+lorentz invariance
+
+- the spacetime interval is the same across all inertial frames
+---
+lorentz invariance formula
+
+$$
+\begin{align*}
+\Delta s^2 = (\Delta s')^2 \\
+s = \text{spacetime}
+\end{align*}
+$$
+---
+worldline
+
+- path through spacetime
+![[Physics/Images/world line.png|200]]
+---
+light cone
+
+- all possible paths of light through spacetime to and from event
+![[Physics/Images/light cone.png|300]]
+---
+timelike interval
+
+- possible causality because order of events independent reference frame
+- inside light cone where $x < ct$ 
+---
+spacelike interval
+
+- impossible causality because order of events dependent reference frame
+- outside light cone where $x > ct$ 
+---
+proper frequency
+
+- frequency measured in the rest frame of the source
+---
+relativistic doppler effect
+
+- change of frequency due to the relative motion between source and observer
+![[Physics/Images/relativistic doppler effect.png|300]]
+---
+relativistic doppler effect formula
+
+$$
+\begin{align*}
+f = f_0\sqrt{\frac{c \pm v_{A/B}}{c \mp v_{A/B}}} \\
+f_0 = \text{proper frequency} \\
+c = 3 \times 10^8 \\
+v = \text{velocity}
+\end{align*}
+$$
+---
+red shift
+
+- increase of wavelength due to the source moving further the observer
+- relativistic frequency lesser proper frequency
+---
+blue shift
+
+- decrease of wavelength due to the source moving nearer the observer
+- relativistic frequency greater proper frequency
+---
+relativistic momentum
+
+- difficulty of stopping or changing direction of motion near the speed of light
+![[Physics/Images/relativistic momentum.png|250]]
+---
+relativistic momentum formula
+
+$$
+\begin{align*}
+\overrightarrow p = \gamma m \overrightarrow v \\
+\gamma = \text{lorentz factor} \\
+m = \text{mass} \\
+v = \text{velocity}
+\end{align*}
+$$
+---
+relativistic kinetic energy
+
+- energy of motion near the speed of light
+![[Physics/Images/relativistic kinetic energy.png|200]]
+---
+relativistic kinetic energy formula
+
+$$
+\begin{align*}
+K = (\gamma - 1)mc^2 \\
+\gamma = \text{lorentz factor} \\
+m = \text{mass} \\
+c = 3 \times 10^8
+\end{align*}
+$$
+---
+relativistic energy
+
+- energy of particle moving near the speed of light
+![[Physics/Images/relativistic energy.png|300]]
+---
+total relativistic energy formula
+
+$$
+\begin{align*}
+E = \gamma mc^2 \\
+\gamma = \text{lorentz factor} \\
+m = \text{mass} \\
+c = 3 \times 10^8
+\end{align*}
+$$
+---
+rest relativistic energy formula
+
+$$
+\begin{align*}
+E_0 = mc^2 \\
+m = \text{mass} \\
+c = 3 \times 10^8
+\end{align*}
+$$
+---
+energy and momentum
+
+- total energy of particle with zero velocity equal rest energy
+---
+energy and momentum formula
+
+$$
+\begin{align*}
+E^2 = (mc^2)^2 + (pc)^2 \\
+m = \text{mass} \\
+c = 3 \times 10^8 \\
+p = \text{momentum}
+\end{align*}
+$$
+---

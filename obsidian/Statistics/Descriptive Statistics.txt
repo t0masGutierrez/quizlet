@@ -1,0 +1,165 @@
+inferential statistics
+
+- to infer something about unknown data
+---
+descriptive statistics
+
+- to describe something about known data
+---
+stem and leaf graph
+
+- visualize frequency distribution
+---
+line graph
+
+- visualize data with respect to time
+---
+bar graph
+
+- visualize data with respect to category
+---
+measure of center
+
+- center of dataset
+- mean median and mode
+---
+mean
+
+- average frequency
+---
+mean formula
+
+$$
+\begin{align*}
+\bar x = \frac{\sum x }{n} \\
+x = \text{data} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+mean frequency formula
+
+$$
+\begin{align*}
+\bar x = \frac{\sum fm}{\sum f} \\
+f = \text{frequency} \\
+m = \text{class midpoint}
+\end{align*}
+$$
+---
+weighted frequency formula
+
+$$
+\begin{align*}
+\bar x = \frac{\sum fw}{\sum w} \\
+f = \text{frequency} \\
+w = \text{weight}
+\end{align*}
+$$
+---
+median
+
+- middle frequency
+---
+calculate median
+
+- order data from least to greatest
+- select middle data
+---
+mode
+
+- highest frequency
+---
+calculate mode
+
+- count
+---
+measure of spread
+
+- variability of dataset
+- range IQR variance and standard deviation
+---
+5 number summary
+
+- min Q1 median Q3 max
+![[Statistics/Images/5 number summary.png|300]]
+---
+range
+
+- difference between maximum and minimum
+---
+interquartile range
+
+- difference between 3rd quartile and 1st quartile
+---
+variance
+
+- standard deviation squared
+---
+standard deviation
+
+- mean difference between data and mean
+---
+empirical rule
+
+- 68% of normal data within 1 standard deviation
+- 95% of normal data within 2 standard deviation
+- 99.7% of normal data within 3 standard deviation
+![[Statistics/Images/empirical rule.png|400]]
+---
+empirical rule of thumb
+
+- if datum greater ±2 standard deviations of the mean then datum significantly deviant
+---
+outlier
+
+- extreme deviation from the mean
+---
+lower outlier formula
+
+$$
+\begin{align*}
+x_L = \text{Q1} - 1.5 \times \text{IQR} \\
+\text{Q1} = \text{1st quartile} \\
+\text{IQR} = \text{interquartile range}
+\end{align*}
+$$
+---
+upper outlier formula
+
+$$
+\begin{align*}
+x_U = \text{Q3} + 1.5 \times \text{IQR} \\
+\text{Q3} = \text{3rd quartile} \\
+\text{IQR} = \text{interquartile range}
+\end{align*}
+$$
+---
+measure of position
+
+- location of dataset
+- z score quantile and percentile
+---
+z score
+
+- number of standard deviations from mean
+---
+z score formula
+
+$$
+\begin{align*}
+z = \frac{x - \bar x}{s} \\
+x = \text{datum} \\
+\bar x = \text{mean} \\
+s = \text{standard deviation}
+\end{align*}
+$$
+---
+quantile
+
+- dataset division into quarters
+---
+percentile
+
+- dataset division into hundredths
+---

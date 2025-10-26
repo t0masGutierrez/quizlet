@@ -1,0 +1,165 @@
+random variable
+
+- variable whose values equal the outcomes of random process
+---
+random variable formula
+
+$$
+\begin{align*}
+X: \Omega \rightarrow \mathbb{R} \\
+X = \text{random variable} \\
+\Omega = \text{sample space} \\
+\mathbb{R} = \text{real number}
+\end{align*}
+$$
+---
+continuous random variable
+
+- infinite number of measurable values
+---
+continuous probability density function
+
+- probability as function of continuous random variable values
+---
+continuous PDF formula
+
+$$
+\begin{align*}
+\forall x f(x)\ge 0 \\
+\int_{-\infty}^{\infty}f(x)dx = 1
+\end{align*}
+$$
+---
+continuous PDF mean formula
+
+$$
+\begin{align*}
+\mu = \int xf(x)dx
+\end{align*}
+$$
+---
+continuous PDF standard deviation formula
+
+$$
+\begin{align*}
+\sigma = \sqrt{\int (x - \mu)^2f(x)dx}
+\end{align*}
+$$
+---
+cumulative probability density function
+
+- area under curve equal probability
+---
+cumulative PDF formula
+
+$$
+\begin{align*}
+\int_a^bf(x)dx = P(a \le X \le b)
+\end{align*}
+$$
+---
+uniform probability density function
+
+- probability as function of equally likely events
+---
+uniform PDF formula
+
+$$
+\begin{align*}
+f(x) = \frac{1}{b-a} \\
+a = \text{lower endpoint} \\
+b = \text{upper endpoint} 
+\end{align*}
+$$
+---
+uniform PDF mean formula
+
+$$
+\begin{align*}
+\mu = \frac{a+b}{2} \\
+a = \text{lower endpoint} \\
+b = \text{upper endpoint} 
+\end{align*}
+$$
+---
+uniform PDF standard deviation formula
+
+$$
+\begin{align*}
+\sigma = \sqrt {\frac{(b-a)^2}{12}} \\
+a = \text{lower endpoint} \\
+b = \text{upper endpoint} 
+\end{align*}
+$$
+---
+exponential probability density function
+
+- probability as function of time between poisson events 
+---
+exponential PDF formula
+
+$$
+\begin{align*}
+f(x) = \beta e^{-\beta x} \\
+\beta = \text{decay rate}
+\end{align*}
+$$
+---
+exponential PDF mean formula
+
+$$
+\begin{align*}
+\mu = \frac{1}{\beta} \\
+\beta = \text{decay rate}
+\end{align*}
+$$
+---
+exponential PDF standard deviation formula
+
+$$
+\begin{align*}
+\sigma = \frac{1}{\beta} \\
+\beta = \text{decay rate}
+\end{align*}
+$$
+---
+normal probability distribution function
+
+- bell shaped, unimodal, symmetric, and continuous curve
+---
+normal PDF formula
+
+$$
+\begin{align*}
+X \sim N(\mu, \sigma) \\
+\mu = \text{mean} \\
+\sigma = \text{standard deviation}
+\end{align*}
+$$
+---
+standard normal probability distribution function
+
+- probability as function of z score
+---
+standard normal PDF formula
+
+$$
+\begin{align*}
+Z \sim N(0, 1)
+\end{align*}
+$$
+---
+z score
+
+- number of standard deviations from the mean
+---
+z score formula
+
+$$
+\begin{align*}
+z = \frac{x - \mu}{\sigma} \\
+\mu = \text{mean} \\
+\sigma = \text{standard deviation}
+\end{align*}
+$$
+---

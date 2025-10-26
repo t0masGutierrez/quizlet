@@ -1,0 +1,109 @@
+basis
+
+- subset spans the vector space
+- subset linearly independent
+---
+basis formula
+
+$$
+\begin{align*}
+\text{Span}(B) = \mathcal V \\
+\text{Rank}(B) = n
+\end{align*}
+$$
+---
+finite basis property
+
+- all bases share the same number of elements
+---
+finite basis property formula
+
+$$
+\begin{align*}
+(\text{Span}(S) = \mathcal V) \land (|S| \ne \infty) \land(\text{Rank}(T) = n) \rightarrow (|T| \ne \infty) \land (|T| \le |S|) \\
+S = \text{subset} \\
+|S| = \text{number of elements} \\
+\mathcal V = \text{vector space} \\
+T = \text{subset} \\
+
+\end{align*}
+$$
+---
+dimension property
+
+- all bases share the same number of elements
+---
+dimension property formula
+
+$$
+\begin{align*}
+(\text{Span}(B_1, B_2) = \mathcal V) \land (\text{Rank}(B_1, B_2) = n) \land (|B_1| \ne \infty) \rightarrow |B_1| = |B_2| \\
+B = \text{basis} \\
+|B| = \text{number of elements} \\
+\mathcal V = \text{vector space} 
+\end{align*}
+$$
+---
+dimension
+
+- number of elements of basis
+---
+dimension formula
+
+$$
+\begin{align*}
+\dim(\mathcal V) = |B| \\
+\nexists |B| \ne \infty \rightarrow \dim(\mathcal V) = \infty \\
+B = \text{basis} \\
+|B| = \text{number of elements}
+\end{align*}
+$$
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
