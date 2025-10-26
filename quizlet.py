@@ -3,10 +3,6 @@ import os
 def md_to_txt():
     """
     Convert markdown files to text files
-
-    Parameters
-    ----------
-    None
     
     Returns
     -------
@@ -48,21 +44,15 @@ def md_to_txt():
                             for i in range(len(lines)-2):
                                 pattern = not lines[i].startswith("- ") and lines[i+1].startswith("- ")
                                 pattern1 = lines[i+1].startswith("$$") and not lines[i+2].startswith("---")
-                                pattern2 = lines[i+1].startswith("![[")
 
                                 # add newlines between term and definition
-                                # if pattern or pattern1:
-                                #     lines[i] += "\n"
-                                
-                                # delete embedded image link
-                                if pattern2:
-                                    lines[i+1] = ""
+                                if pattern or pattern1:
+                                    lines[i] += "\n"
                             
                             # write to .txt files
                             with open(output + folder_name + "/" + file_name + ".txt", "w") as txt:
                                 txt.writelines(lines)
     return dirs
-
 
 def clean_data(file_path):
     """
@@ -78,27 +68,25 @@ def clean_data(file_path):
     data : dict
         Dictionary whose keys are terms and values are definitions
     """
-    # initialize empty dictionary
-    # open file
-    # read file
-    # loop through lines inside .txt file
-    # pattern match into dictionary
-        # if next line equal "---" then add key into dictionary
-        # if previous line equal "---" then add value into dictionary while line not equal "---"
-    # return dictionary
-
     with open(file_path, "r") as f:
         lines = f.readlines()
         lines.extend(["\n"])
 
     data = {}
+    # loop through lines of inside .txt file
     for i in range(len(lines)-2):
         pattern = not lines[i].startswith("- ") and lines[i+1].startswith("- ")
         pattern1 = not lines[i].startswith("$$") and lines[i+1].startswith("$$") and not lines[i+2].startswith("---")
-        if pattern or pattern1:
-            data[lines[i]] = ""
-        elif lines[i].startswith("---"):
+
+        if lines[i].startswith("---"):
             continue
+        elif lines[i].startswith("![["):
+            continue
+        
+        # term
+        elif pattern or pattern1:
+            data[lines[i]] = ""
+        # definition
         else:
             if data:
                 key = list(data)[-1]
