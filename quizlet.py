@@ -107,7 +107,6 @@ def clean_data(file_path):
             data[key] += lines[i]
     return data
 
-
 def main():
     md_to_txt()
 
