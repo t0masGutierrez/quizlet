@@ -9,7 +9,8 @@ def md_to_txt():
     dirs : dict
         Nested dictionary where the 1st key is the folder_name, the 1st value is a dictionary of file_names, and the 2nd value is the file_path
     """
-    input = os.path.expanduser("~") + "/Obsidian/brainTwo/"
+    input = os.path.expanduser("~") + "/Github/quizlet/obsidian/"
+    # input = os.path.expanduser("~") + "/Obsidian/brainTwo/"
     output = os.path.expanduser("~") + "/Github/quizlet/obsidian/"
     dirs = {}
     # loop through folders inside obsidian
