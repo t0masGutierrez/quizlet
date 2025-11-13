@@ -149,7 +149,7 @@ $$
 ---
 zero vector 
 
-- zero vector is member of every row space
+- zero vector equal member of every row space
 ---
 zero vector formula
 
@@ -163,7 +163,7 @@ $$
 ---
 ith row vector
 
-- ith row vector is member of every row space
+- ith row vector equal member of every row space
 ---
 ith row vector formula
 
@@ -175,4 +175,11 @@ i = \text{row index} \\
 m = \text{number of rows} \\
 \end{align*}
 $$
+---
+row space test
+
+- generate augmented matrix whose rows equal the vectors of set and whose constant matrix equal the possible member of row space
+- form the reduced row echelon of the system
+- if consistent system then member of row space
+- if inconsistent system then not member of row space
 ---

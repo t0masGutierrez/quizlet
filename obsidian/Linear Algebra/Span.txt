@@ -54,6 +54,18 @@ $$
 \end{align*}
 $$
 ---
+empty span
+
+- span of empty set
+---
+empty span formula
+
+$$
+\begin{align*}
+\text{Span}(\emptyset) = \{\vec 0\}
+\end{align*}
+$$
+---
 span property
 
 - closure
@@ -66,7 +78,7 @@ span property formula
 $$
 \begin{align*}
 S \subseteq \text{Span}(S) \\
-S \le \mathcal V \\
+\text{Span}(S) \le \mathcal V \\
 (\mathcal W \le \mathcal V) \land (S \subseteq \mathcal W) \rightarrow \text{Span}(S) \subseteq \mathcal W \\
 \text{Span}(S) = \bigcap \{\mathcal W \le \mathcal V| S \subseteq \mathcal W \}
 \end{align*}
@@ -96,36 +108,18 @@ $$
 \end{align*}
 $$
 ---
+span test
+
+- generate augmented matrix whose columns equal the vectors of set and whose constant matrix equal the possible member of span
+- form the reduced row echelon of the system
+- if consistent system then member of span
+- if inconsistent system then not member of span
+---
 span simplification
 
-- simplify span by row reducing the matrix whose rows equal the vectors of subset
----
-row space membership
-
-- constant matrix equal vector
-- solve system of linear equations
----
-row space membership formula
-
-$$
-\begin{align*}
-\exists s \in \text{RREF}(A^T | \vec v) \rightarrow \vec v \in \text{Row}(A) \\
-s = \text{solution} \\
-A = \text{coefficient matrix} \\
-T = \text{transposition} \\
-\vec v = \text{vector}
-\end{align*}
-$$
----
-empty span
-
-- span of empty set
----
-empty span formula
-
-$$
-\begin{align*}
-\text{Span}(\emptyset) = \{\vec 0\}
-\end{align*}
-$$
+- generate matrix whose rows equal the vectors of subset of vector space
+- form the reduced row echelon of the system
+- if number of nonzero rows equal number of rows then spanning set
+- if number of nonzero rows not equal number of rows then nonspanning set
+- nonpivot columns of rref equal the redundant vectors of subset
 ---

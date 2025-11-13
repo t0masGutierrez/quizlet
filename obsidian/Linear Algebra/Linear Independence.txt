@@ -107,7 +107,7 @@ n = \text{number of columns} \\
 \end{align*}
 $$
 ---
-test independence
+independence test
 
 - generate matrix whose columns equal the vectors of subset of vector space
 - form the reduced row echelon of the system
@@ -137,7 +137,7 @@ $$
 ---
 redundant vector
 
-- vector expressible as linear combination of the other vectors of set
+- vector expressible as linear combination of the other vectors of subset of vector space
 ---
 redundant vector formula
 
@@ -174,7 +174,7 @@ infinite linear independence formula
 $$
 \begin{align*}
 \text{Rank}(S_1, \dots, S_k) = n \rightarrow \text{Rank}(S) = n \\
-S_1 \dots S_n \subseteq S \le \mathcal V \\
+S_1 \dots S_n \subseteq S \subseteq \mathcal V \\
 S = \text{infinite subset} \\
 \mathcal V = \text{vector space} 
 \end{align*}

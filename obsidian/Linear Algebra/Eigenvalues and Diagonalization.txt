@@ -72,7 +72,7 @@ homogeneous system of linear equations formula
 
 $$
 \begin{align*}
-(\lambda I - A)\vec x = 0 \\
+(A - \lambda I)\vec x = 0 \\
 \lambda = \text{eigenvalue} \\
 I = \text{identity matrix} \\
 A = \text{square matrix} 
@@ -81,7 +81,7 @@ $$
 ---
 singular eigenvalue property
 
-- eigenvalue if and only if determinant of coefficient matrix equal zero
+- nontrivial eigenvalue if and only if singular coefficient matrix
 ---
 singular eigenvalue property formula
 
@@ -96,8 +96,8 @@ $$
 ---
 homogeneous solution set
 
-- the eigenvectors for the corresponding eigenvalue are the nontrivial solutions of the homogeneous system of linear equations
-- the eigenspace for the corresponding eigenvectors is the complete solution set of homogeneous system of linear equations
+- eigenvectors for corresponding eigenvalue equal nontrivial solutions of the homogeneous system of linear equations
+- eigenspace for corresponding eigenvectors equal complete solution set of the homogeneous system of linear equations
 ---
 characteristic polynomial
 
@@ -107,8 +107,8 @@ characteristic polynomial formula
 
 $$
 \begin{align*}
-p_A(x) = |xI - A| = 0 \\
-x = \text{dummy variable} \\
+p_A(\lambda) = |A - \lambda I| = 0 \\
+\lambda = \text{eigenvalue} \\
 I = \text{identity matrix} \\
 A = \text{square matrix}
 \end{align*}
@@ -182,7 +182,7 @@ $$
 ---
 diagonalizability 
 
-- sum of geometric multiplicity equal size of square matrix if and only if diagonalizable
+- sum of geometric multiplicity equal number of columns if and only if diagonalizable
 ---
 diagonalizability formula
 
@@ -213,7 +213,7 @@ $$
 ---
 diagonalizability 
 
-- sum of algebraic multiplicity equal size of square matrix if and only if diagonalizable
+- sum of algebraic multiplicity equal number of columns if and only if diagonalizable
 ---
 diagonalizability formula
 

@@ -6,9 +6,9 @@ multiplicative inverse formula
 
 $$
 \begin{align*}
-AB = BA = I \\
+AA^{-1} = A^{-1}A = I \\
 A = \text{square matrix} \\
-B = \text{inverse matrix} \\
+A^{-1} = \text{inverse matrix} \\
 I = \text{identity matrix}
 \end{align*}
 $$
@@ -74,7 +74,7 @@ $$
 (A^T)^{-1} = (A^{-1})^{T} \\
 A^k = (A^{k-1})(A) \\  
 (A^s)^t = A^{st} = (A^t)^s \\  
-A^{s+t} = A^sA^t \\  
+ A^sA^t = A^{s+t} \\  
 A^1 = A \\  
 A^0 = I
 \end{align*}
@@ -96,25 +96,25 @@ $$
 ---
 nxn matrix inversion
 
-- form the $n\times 2n$ augmented matrix whose first $n$ columns equal itself and second $n$ columns equal the identity matrix
+- form the $n\times 2n$ augmented matrix whose left columns equal square matrix and right columns equal identity matrix
 - convert augmented matrix into reduced row echelon form
-- if the first $n$ columns do not equal identity matrix then singular matrix
-- else nonsingular matrix and the second $n$ columns equal the inverse matrix
+- if left columns equal identity matrix then nonsingular matrix and right columns equal inverse matrix
+- if left columns not equal identity matrix then singular matrix
 ---
 nxn matrix inversion formula
 
 $$
 \begin{align*}
-A^{-1} = \text{rref}(A|I) \\
+A|I \rightarrow I|A^{-1} \\
 A = \text{square matrix} \\
-A^{-1} = \text{inverse matrix} \\
-I = \text{identity matrix}
+I = \text{identity matrix} \\
+A^{-1} = \text{inverse matrix}
 \end{align*}
 $$
 ---
 nonsingular matrix property
 
-- nonsingular matrix if and only if rank equal number of rows
+- nonsingular matrix if and only if rank equal number of columns
 ---
 nonsingular matrix property formula
 
@@ -123,8 +123,7 @@ $$
 \exists A^{-1} \leftrightarrow \text{rank}(A)= n \\
 A^{-1} = \text{inverse matrix} \\
 A = \text{square matrix} \\
-I = \text{identity matrix} \\
-n = \text{number of rows}
+n = \text{number of columns}
 \end{align*}
 $$
 ---

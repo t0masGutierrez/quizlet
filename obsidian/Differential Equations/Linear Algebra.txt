@@ -28,86 +28,95 @@ x_n(t) = \frac{d^{n-1}y}{dt^{n-1}}
 \end{align*}
 $$
 ---
-vector space
+eigensolution 
 
-- set thats closed under vector addition and scalar multiplication
+- solution of system of differential equations
 ---
-vector space formula
+eigensolution formula
 
 $$
 \begin{align*}
-\vec x + \vec y \in \mathcal V \\
-c \vec x \in \mathcal V
-\end{align*}
-$$
----
-rank
-
-- number of nonzero rows of rref
-- number of pivot columns of rref
----
-linear dependence
-
-- there exists nontrivial solution of homogeneous system
----
-linear dependence formula
-
-$$
-\begin{align*}
-\text{Rank}(A) < n \rightarrow \vec x \ne \vec 0 \\
+\frac{d\vec x}{dt} = A\vec x \rightarrow \vec x = \exp(\lambda t) \vec v \\
+\vec x = \text{eigensolution} \\
+t = \text{independent variable} \\
 A = \text{square matrix} \\
-n = \text{number of rows} \\
-n = \text{number of columns} \\
-\vec x = \text{solution}
+\lambda = \text{eigenvalue} \\
+\vec v = \text{eigenvector}
 \end{align*}
 $$
 ---
-linear independence
+homogeneous system of linear equations
 
-- every solution of homogeneous system equal trivial solution
+- constant matrix equal zero matrix
 ---
-linear independence formula
+homogeneous system of linear equations formula
 
 $$
 \begin{align*}
-\text{Rank}(A) = n \rightarrow \vec x = \vec 0 \\
+(A - \lambda I)\vec x = \vec 0 \\
+\lambda = \text{eigenvalue} \\
+I = \text{identity matrix} \\
+A = \text{square matrix} 
+\end{align*}
+$$
+---
+characteristic polynomial
+
+- polynomial whose roots equal the eigenvalues of matrix
+---
+characteristic polynomial formula
+
+$$
+\begin{align*}
+p_A(\lambda) = |A - \lambda I| = \vec 0 \\
+\lambda = \text{eigenvalue} \\
+I = \text{identity matrix} \\
+A = \text{square matrix}
+\end{align*}
+$$
+---
+eigenvector
+
+- vector whose coordinates equal solutions for coefficient matrix associated with eigenvalue
+---
+eigenvector formula
+
+$$
+\begin{align*}
+\vec v = A - \lambda_i I = \vec 0 \\
 A = \text{square matrix} \\
-n = \text{number of rows} \\
-n = \text{number of columns} \\
-\vec x = \text{solution}
+\lambda = \text{eigenvalue} \\
+I = \text{identity matrix} 
 \end{align*}
 $$
 ---
-span
+complex eigenvalue 
 
-- set of all possible linear combinations of the vectors of subspace
+- complex root of characteristic polynomial
 ---
-span formula
+complex eigensolution formula
 
 $$
 \begin{align*}
-\text{Span}(A) = \{\sum_{i}^n c_i\vec a_i | c \in \mathbb R, \vec a \in \mathbb R^m\} \\
-m = \text{number of rows} \\
-n = \text{number of columns} \\
-c = \text{scalar} \\
-\vec a = \text{column vector} 
+\lambda = \alpha + \beta i \rightarrow \vec x(t) = e^\alpha t(\vec v_1 \cos\beta t - \vec v_2 \sin\beta t + i\vec v_1 \cos\beta t + i\vec v_2 \sin\beta t) \\
+\lambda = \text{eigenvalue} \\
+\alpha = \text{real part} \\
+\beta = \text{imaginary part} \\
+i = \sqrt {-1} \\
+t = \text{independent variable} \\
+\vec v = \text{eigenvector}
 \end{align*}
 $$
 ---
-basis
+repeated eigensolution 
 
-- set of linearly independent vectors that span the vector space
+- repeated root of characteristic polynomial
 ---
-basis property 
+repeated eigensolution formula
 
-- any $n$ linearly independent vectors of $n$ dimensional vector space are the basis
-- equal number of $n$ linearly independent vectors between every basis
----
-dimension
+$$
+\begin{align*}
 
-- number of linearly independent vectors necessary for describing every possible vector of vector space
----
-dimension property
-
-- number of elements of basis equal the dimension of vector space
+\end{align*}
+$$
 ---

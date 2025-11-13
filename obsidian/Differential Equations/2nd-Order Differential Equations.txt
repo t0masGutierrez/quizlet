@@ -120,7 +120,7 @@ $$
 ---
 function operator property
 
-- constant multiple
+- scalar multiplication
 - linearity
 ---
 function operator property formula

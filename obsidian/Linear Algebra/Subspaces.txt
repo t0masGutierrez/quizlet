@@ -1,22 +1,8 @@
-proper subspace
+subspace
 
 - subset of vector space whom itself equal vector space with the same operations
 ---
-proper subspace formula
-
-$$
-\begin{align*}
-\mathcal W < \mathcal V \leftrightarrow (\mathcal W \subset \mathcal V) \land (\mathcal W \ne \{\vec 0\}) \land (\mathcal W \in \mathcal V) \\
-\mathcal W = \text{subspace} \\
-\mathcal V = \text{vector space}
-\end{align*}
-$$
----
-improper subspace
-
-- subset of vector space whom itself equal vector space with the same operations and subset possibly equal vector space or equal zero vector
----
-improper subspace formula
+subspace formula
 
 $$
 \begin{align*}
@@ -49,8 +35,7 @@ subspace property formula
 
 $$
 \begin{align*}
-\mathcal W \le \mathcal V \leftrightarrow (c\vec w \in \mathcal V) \land (\vec w_1 + \vec w_2 \in \mathcal V) \land (\exists \vec 0)\\
-\mathcal W \ne \emptyset \\
+\mathcal W \le \mathcal V \leftrightarrow (c\vec w \in \mathcal V) \land (\vec w_1 + \vec w_2 \in \mathcal V) \land (\mathcal W \ne \emptyset) \\
 \mathcal W = \text{subspace} \\
 \mathcal V = \text{vector space} \\
 \vec 0 = \text{zero vector}

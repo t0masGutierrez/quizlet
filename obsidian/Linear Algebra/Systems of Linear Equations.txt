@@ -6,7 +6,7 @@ linear equation formula
 
 $$
 \begin{align*}
-a_1x_1 + a_2x_2 = b_1 \\
+a_1x_1 + a_1x_2 + \cdots + a_1x_n = b_1 \\
 a = \text{coefficient} \\
 b = \text{constant} \\
 x = \text{variable}
@@ -57,7 +57,7 @@ complete solution set of system of linear equations formula
 
 $$
 \begin{align*}
-\{(s_1, s_2, \dots, s_n)\} \\
+\{s_1, s_2, \dots, s_n\} \\
 s = \text{solution} \\
 n = \text{number of variables}
 \end{align*}

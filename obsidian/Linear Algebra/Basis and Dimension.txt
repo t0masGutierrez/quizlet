@@ -14,31 +14,34 @@ $$
 ---
 finite basis property
 
-- all bases share the same number of elements
+- all bases share the same finity
 ---
 finite basis property formula
 
 $$
 \begin{align*}
 (\text{Span}(S) = \mathcal V) \land (|S| \ne \infty) \land(\text{Rank}(T) = n) \rightarrow (|T| \ne \infty) \land (|T| \le |S|) \\
+S, T \subseteq \mathcal V \\
 S = \text{subset} \\
-|S| = \text{number of elements} \\
 \mathcal V = \text{vector space} \\
+|S| = \text{number of elements} \\
 T = \text{subset} \\
-
+n = \text{number of columns} \\
 \end{align*}
 $$
 ---
-dimension property
+basis equality property
 
 - all bases share the same number of elements
 ---
-dimension property formula
+basis equality property formula
 
 $$
 \begin{align*}
 (\text{Span}(B_1, B_2) = \mathcal V) \land (\text{Rank}(B_1, B_2) = n) \land (|B_1| \ne \infty) \rightarrow |B_1| = |B_2| \\
 B = \text{basis} \\
+\mathcal V = \text{vector space} \\
+n = \text{number of columns} \\
 |B| = \text{number of elements} \\
 \mathcal V = \text{vector space} 
 \end{align*}
@@ -54,56 +57,83 @@ $$
 \begin{align*}
 \dim(\mathcal V) = |B| \\
 \nexists |B| \ne \infty \rightarrow \dim(\mathcal V) = \infty \\
+\mathcal V = \text{vector space} \\
 B = \text{basis} \\
 |B| = \text{number of elements}
 \end{align*}
 $$
 ---
-term
+example dimension
 
-- definition
+- $\mathbb R^n$ 
+- $\mathcal P_n$ 
+- $\mathcal M_{mn}$ 
 ---
-term
+example dimension formula
 
-- definition
+$$
+\begin{align*}
+\dim(\mathbb R^n) = n \\
+\dim(\mathcal P_n) = n+1 \\
+\dim(\mathcal M_{mn}) = mn \\
+\end{align*}
+$$
 ---
-term
+trivial dimension
 
-- definition
+- empty set equal basis of vector space
 ---
-term
+trivial dimension formula
 
-- definition
+$$
+\begin{align*}
+\dim(\{\vec 0\}) = 0
+\end{align*}
+$$
 ---
-term
+size property
 
-- definition
+- size of spanning set
+- size of linearly independent set 
 ---
-term
+size property formula
 
-- definition
+$$
+\begin{align*}
+\text{Span}(S) = \mathcal V \rightarrow |S| \ge \dim(\mathcal V) \\
+\text{Rank}(T) = n \rightarrow |T| \le \dim(\mathcal V) \\
+(|S| = \dim\mathcal V) \lor (|T| = \dim\mathcal V) \leftrightarrow (S = B) \lor (T = B) \\
+S, T \subseteq \mathcal V
+\end{align*}
+$$
 ---
-term
+subspace dimension property
 
-- definition
+- subspace of finite dimensional vector space equal finite dimensional
 ---
-term
+subspace dimension property formula
 
-- definition
+$$
+\begin{align*}
+\mathcal W \le \mathcal V \rightarrow \dim(\mathcal W) \le \dim (\mathcal V) \\
+\dim(\mathcal W) = \dim (\mathcal V) \leftrightarrow \mathcal W = \mathcal V
+\end{align*}
+$$
 ---
-term
+diagonalization basis
 
-- definition
+- every set of fundamental eigenvectors via diagonalization equal basis of $\mathbb R^n$ 
 ---
-term
+diagonalization basis formula
 
-- definition
----
-term
-
-- definition
----
-term
-
-- definition
+$$
+\begin{align*}
+A = P^{-1}DP \rightarrow B = \{\vec x | A\vec x = \lambda \vec x \} \\
+P = \text{eigenmatrix} \\
+P^{-1} = \text{inverse eigenmatrix} \\
+D = \text{diagonal matrix} \\
+\vec x = \text{eigenvector} \\
+\lambda = \text{eigenvalue}
+\end{align*}
+$$
 ---
