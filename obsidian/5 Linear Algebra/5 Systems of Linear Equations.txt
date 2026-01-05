@@ -41,7 +41,7 @@ particular solution of system of linear equations formula
 
 $$
 \begin{align*}
-\forall j \sum_{i=1}^n a_{ji}s_i = b_j \\
+\forall j: \sum_{i=1}^n a_{ji}s_i = b_j \\
 a = \text{coefficient} \\
 b = \text{constant} \\
 s = \text{solution} \\

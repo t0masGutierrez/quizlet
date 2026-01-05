@@ -150,7 +150,7 @@ redundancy property formula
 $$
 \begin{align*}
 \nexists \vec v \in S \rightarrow \text{Rank}(S) = n \\
-\forall (2 \le k \le n), \vec v_k \not\in \text{Span}(\{\vec v_1 \dots \vec v_{k-1} \}) \\
+\forall (2 \le k \le n): \vec v_k \not\in \text{Span}(\{\vec v_1 \dots \vec v_{k-1} \}) \\
 \vec v = \text{redundant vector} \\
 S = \text{subset} \\
 n = \text{number of columns}

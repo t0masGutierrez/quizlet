@@ -24,7 +24,7 @@ isomorphism formula
 
 $$
 \begin{align*}
-(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow \forall \vec w\exists! \vec v, L(\vec v) = \vec w \\
+(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow \forall \vec w \in \mathcal W, \exists! \vec v \in \mathcal V: L(\vec v) = \vec w \\
 L = \text{isomorphism} \\
 \mathcal V = \text{domain vector space} \\
 \mathcal W = \text{codomain vector space} \\
@@ -41,7 +41,7 @@ inverse linear transformation formula
 
 $$
 \begin{align*}
-(\exists L^{-1}: \mathcal W \rightarrow \mathcal V) \leftrightarrow (L^{-1} \circ L)(\vec v) = \vec v, \forall \vec v \in \mathcal V \land (L \circ L^{-1})(\vec w) = \vec w, \forall \vec w \in \mathcal W \\
+(\exists L^{-1}: \mathcal W \rightarrow \mathcal V) \leftrightarrow \forall \vec v \in \mathcal V: (L^{-1} \circ L)(\vec v) = \vec v \land \forall \vec w \in \mathcal W: (L \circ L^{-1})(\vec w) = \vec w \\
 L: \mathcal V \rightarrow \mathcal W \\
 L = \text{linear transformation} \\
 L^{-1} = \text{inverse linear transformation} \\

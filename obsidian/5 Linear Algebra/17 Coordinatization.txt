@@ -111,7 +111,7 @@ transition matrix property formula
 
 $$
 \begin{align*}
-P_{BC} \leftrightarrow (B, C, \in \mathcal V) \land (\forall \vec v \in \mathcal V)([\vec v]_C = P_{BC}[\vec v]_B) \\
+P_{BC} \leftrightarrow (B, C, \in \mathcal V) \land (\forall \vec v \in \mathcal V): ([\vec v]_C = P_{BC}[\vec v]_B) \\
 B = \text{basis} \\
 \mathcal V = \text{vector space} \\
 \vec v = \text{vector} \\

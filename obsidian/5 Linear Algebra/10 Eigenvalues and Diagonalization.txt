@@ -10,7 +10,7 @@ eigenvalue formula
 
 $$
 \begin{align*}
-\lambda \leftrightarrow \exists\vec x, A\vec x = \lambda \vec x \\
+\lambda \leftrightarrow \exists\vec x: A\vec x = \lambda \vec x \\
 \vec x \ne 0 \\
 \lambda = \text{eigenvalue} \\
 \vec x = \text{eigenvector} \\
@@ -26,7 +26,7 @@ eigenvector formula
 
 $$
 \begin{align*}
-\vec x \leftrightarrow \exists\vec x, A\vec x = \lambda \vec x \\
+\vec x \leftrightarrow \exists\vec x: A\vec x = \lambda \vec x \\
 \vec x \ne 0 \\
 \lambda = \text{eigenvalue} \\
 \vec x = \text{eigenvector} \\
@@ -57,7 +57,7 @@ number of eigenvectors formula
 
 $$
 \begin{align*}
-c \in \mathbb R \rightarrow c\vec x \in E_{\lambda} \\
+c\vec x \in E_{\lambda} \\
 c = \text{scalar} \\
 \vec x = \text{eigenvector} \\
 E_{\lambda} = \text{eigenspace}
@@ -155,7 +155,7 @@ similarity formula
 
 $$
 \begin{align*}
-A \sim D \leftrightarrow \exists P, D = P^{-1}AP \\
+A \sim D \leftrightarrow \exists P: D = P^{-1}AP \\
 |P| \ne 0 \\
 A = \text{square matrix} \\
 D = \text{diagonal matrix} \\

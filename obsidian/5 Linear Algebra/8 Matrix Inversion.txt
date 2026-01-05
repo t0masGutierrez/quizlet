@@ -25,7 +25,7 @@ I = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1 
-\end{bmatrix} \leftrightarrow \forall (i \ne j)(a_{ij} = 0) \land \forall (i = j)(a_{ij} = 1) \\
+\end{bmatrix} \leftrightarrow \forall (i \ne j): (a_{ij} = 0) \land \forall (i = j): (a_{ij} = 1) \\
 |I| = n \times n \\
 n = \text{number of rows} \\
 n = \text{number of columns} \\

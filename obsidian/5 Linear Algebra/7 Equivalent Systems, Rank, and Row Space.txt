@@ -141,7 +141,7 @@ row space equivalence property formula
 
 $$
 \begin{align*}
-(a \in \text{Row}P) \land (\forall p \in P, p \in \text{Row}Q) \rightarrow a \in \text{Row}(Q) \\
+(a \in \text{Row}P) \land (\forall p \in P: p \in \text{Row}Q) \rightarrow a \in \text{Row}(Q) \\
 A \sim B \rightarrow \text{Row}(A) = \text{Row}(B)
 \end{align*}
 $$

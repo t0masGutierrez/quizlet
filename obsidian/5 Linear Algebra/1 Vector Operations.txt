@@ -130,7 +130,7 @@ parallel property formula
 
 $$
 \begin{align*}
-\vec x \parallel \vec y \leftrightarrow \exists c, \vec x = c\vec y \\
+\vec x \parallel \vec y \leftrightarrow \exists c: \vec x = c\vec y \\
 \vec x = \text{vector} \\
 c = \text{scalar}
 \end{align*}

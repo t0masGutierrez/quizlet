@@ -7,7 +7,7 @@ injective linear transformation formula
 
 $$
 \begin{align*}
-(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow \forall \vec v_1, \vec v_2, L(\vec v_1) = L(\vec v_2) \rightarrow \vec v_1 = \vec v_2 \\
+(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow \forall \vec v_1, \vec v_2 \in \mathcal V: L(\vec v_1) = L(\vec v_2) \rightarrow \vec v_1 = \vec v_2 \\
 L = \text{injective linear transformation} \\
 \mathcal V = \text{domain vector space} \\
 \mathcal W = \text{codomain vector space} \\
@@ -24,7 +24,7 @@ surjective linear transformation formula
 
 $$
 \begin{align*}
-(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow \forall \vec w\exists \vec v, L(\vec v) = \vec w \\
+(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow \forall \vec w \in \mathcal W, \exists \vec v \in \mathcal V: L(\vec v) = \vec w \\
 L = \text{surjective linear transformation} \\
 \mathcal V = \text{domain vector space} \\
 \mathcal W = \text{codomain vector space} \\
@@ -64,7 +64,7 @@ $$
 ---
 spanning independence property
 
-- linearly independent injective preimage equal linearly independent image
+- independent injective preimage equal independent image
 - spanning surjective preimage equal spanning image
 ---
 spanning independence property

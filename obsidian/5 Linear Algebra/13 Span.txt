@@ -119,6 +119,7 @@ span simplification
 
 - generate matrix whose rows equal the vectors of subset
 - form the reduced row echelon of the system
+- nonzero rows of rref equal the simple vectors of subset
 - zero rows of rref equal the redundant vectors of subset
 - if number of nonzero rows equal number of rows then spanning set
 - if number of nonzero rows not equal number of rows then nonspanning set
