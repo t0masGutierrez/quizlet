@@ -14,7 +14,7 @@ def md_to_txt():
     dirs = {}
     # loop through folders inside obsidian
     for dir in os.listdir(input):
-        ignore = ["Templates", "Linguistics"]
+        ignore = ["Templates", "Linguistics", "Brain"]
         if not dir.startswith(".") and dir not in ignore:
             folder_name = dir
             folder_path = input + folder_name
