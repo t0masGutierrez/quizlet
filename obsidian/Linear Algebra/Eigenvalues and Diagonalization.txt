@@ -20,7 +20,7 @@ $$
 ---
 eigenvector
 
-- n-vector with variable magnitude but constant direction
+- vector quantity with variable magnitude but constant direction
 ---
 eigenvector formula
 
@@ -79,15 +79,16 @@ A = \text{square matrix}
 \end{align*}
 $$
 ---
-singular eigenvalue property
+singular eigenvector property
 
-- nontrivial eigenvalue if and only if singular coefficient matrix
+- nontrivial eigenvector if and only if singular coefficient matrix
 ---
 singular eigenvalue property formula
 
 $$
 \begin{align*}
-\lambda \leftrightarrow |\lambda I - A| = 0 \\
+\vec x \leftrightarrow |A - \lambda I| = 0 \\
+\vec x = \text{eigenvector}
 \lambda = \text{eigenvalue} \\
 I = \text{identity matrix} \\
 A = \text{square matrix}
@@ -117,11 +118,10 @@ $$
 diagonalization
 
 - compute characteristic polynomial
-- test diagonalizability
-- substitute eigenvalues into homogeneous system of linear equations
+- substitute eigenvalues into coefficient matrix
 - form the reduced row echelon of the system
-- fundamental solutions of homogeneous system of linear equations equal fundamental eigenvectors
-- form eigenmatrix such that column vectors equal eigenvectors
+- fundamental solutions of homogeneous system equal fundamental eigenvectors
+- form eigenmatrix such that column vectors equal fundamental eigenvectors
 - test diagonalizability
 - compute inverse eigenmatrix
 - matrix multiplication equal diagonal matrix
@@ -164,39 +164,6 @@ P^{-1} = \text{inverse eigenmatrix}
 \end{align*}
 $$
 ---
-geometric multiplicity
-
-- dimension of eigenspace or number of independent variables
----
-geometric multiplicity formula
-
-$$
-\begin{align*}
-E_{\lambda} = \{\sum_i^k c_i \vec x_i | c \in \mathbb R\} \\
-i = \text{eigenvector index} \\
-k = \text{geometric multiplicity} \\
-c = \text{scalar} \\
-\vec x = \text{eigenvector}
-\end{align*}
-$$
----
-diagonalizability 
-
-- sum of geometric multiplicity equal number of columns if and only if diagonalizable
----
-diagonalizability formula
-
-$$
-\begin{align*}
-\sum k = n \leftrightarrow \exists P \\
-|P| \ne 0 \\
-k = \text{geometric multiplicity} \\
-n = \text{number of rows} \\
-n = \text{number of columns} \\
-P = \text{eigenmatrix}
-\end{align*}
-$$
----
 algebraic multiplicity
 
 - power of eigenvalue
@@ -211,17 +178,30 @@ k = \text{algebraic multiplicity}
 \end{align*}
 $$
 ---
+geometric multiplicity
+
+- number of fundamental eigenvectors
+---
+geometric multiplicity formula
+
+$$
+\begin{align*}
+k = \sum \dim (E_{\lambda}) \\
+E = \text{eigenspace}
+\end{align*}
+$$
+---
 diagonalizability 
 
-- sum of algebraic multiplicity equal number of columns if and only if diagonalizable
+- geometric multiplicity equal number of columns if and only if diagonalizable
 ---
 diagonalizability formula
 
 $$
 \begin{align*}
-\sum k = n \leftrightarrow \exists P \\
+k = n \leftrightarrow \exists P \\
 |P| \ne 0 \\
-k = \text{algebraic multiplicity} \\
+k = \text{geometric multiplicity} \\
 n = \text{number of rows} \\
 n = \text{number of columns} \\
 P = \text{eigenmatrix}

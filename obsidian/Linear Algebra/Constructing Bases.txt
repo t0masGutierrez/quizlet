@@ -39,7 +39,7 @@ independent basis property
 basis via enlargement
 
 - form spanning set with standard unit vectors aka identity matrix
-- augment spanning set with linearly independent set
+- augment linearly independent set with spanning set
 - independence test
 - vectors of subset corresponding with pivot columns of rref equal the basis vectors of subset
 ---
@@ -50,7 +50,6 @@ spanning versus independence
 ---
 basis test
 
-- generate matrix whose columns equal the vectors of subset of vector space
 - form the reduced row echelon of the system
 - if rank equal dimension of vector space then basis
 - if rank not equal dimension of vector space then not basis

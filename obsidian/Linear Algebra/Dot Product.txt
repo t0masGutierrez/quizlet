@@ -27,7 +27,7 @@ $$
 dot product property
 
 - commutative
-- identity magnitude 
+- identity magnitude
 - zero magnitude
 - scalar associative
 - distributive
@@ -38,7 +38,7 @@ $$
 \begin{align*}
 \vec x \cdot \vec y = \vec y \cdot \vec x \\
 \vec x \cdot \vec x = \| \vec x \|^2 \ge 0 \\ 
-\vec x \cdot \vec x = 0 \leftrightarrow \vec x = 0 \\ 
+\vec x \cdot \vec x = \vec 0 \leftrightarrow \vec x = \vec 0 \\ 
 c(\vec x \cdot \vec y) = (c\vec x) \cdot \vec y = \vec x \cdot (c\vec y) \\
 \vec x \cdot (\vec y + \vec z) = (\vec x \cdot \vec y) + (\vec x \cdot \vec z) \\
 (\vec x + \vec y) \cdot \vec z = (\vec x \cdot \vec z) + (\vec y \cdot \vec z)
@@ -61,7 +61,7 @@ $$
 ---
 cauchy schwarz inequality
 
-- product of magnitudes equal upper boundary for maximum similarity between two vectors
+- dot product of magnitudes equal upper boundary for absolute dot product
 ---
 cauchy schwarz inequality formula
 
@@ -131,7 +131,7 @@ mutually orthogonal formula
 
 $$
 \begin{align*}
-\forall i, j \in \{1, ..., k\}(i \ne j \rightarrow \vec x_i \cdot \vec x_j = 0) \\
+\forall i, j \in \{1, ..., k\}, i \ne j \rightarrow \vec x_i \cdot \vec x_j = 0 \\
 i = \text{row index} \\
 j = \text{column index} \\
 k = \text{number of vectors} \\

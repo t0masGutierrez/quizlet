@@ -1,12 +1,3 @@
-table of contents
-
-- 3.1 
-- 3.2
-- 3.3
-- 3.5
-- 3.6 Solutions of simultaneous linear equations
-- 3.7 Linear transformations
----
 simultaneity property
 
 - solution of nth order differential equation equal solutions of $n$ 1st order differential equations
@@ -36,57 +27,12 @@ eigensolution formula
 
 $$
 \begin{align*}
-\frac{d\vec x}{dt} = A\vec x \rightarrow \vec x = \exp(\lambda t) \vec v \\
+\frac{d\vec x}{dt} = A\vec x \rightarrow \vec x(t) = \exp(\lambda t) \vec v \\
 \vec x = \text{eigensolution} \\
 t = \text{independent variable} \\
 A = \text{square matrix} \\
 \lambda = \text{eigenvalue} \\
 \vec v = \text{eigenvector}
-\end{align*}
-$$
----
-homogeneous system of linear equations
-
-- constant matrix equal zero matrix
----
-homogeneous system of linear equations formula
-
-$$
-\begin{align*}
-(A - \lambda I)\vec x = \vec 0 \\
-\lambda = \text{eigenvalue} \\
-I = \text{identity matrix} \\
-A = \text{square matrix} 
-\end{align*}
-$$
----
-characteristic polynomial
-
-- polynomial whose roots equal the eigenvalues of matrix
----
-characteristic polynomial formula
-
-$$
-\begin{align*}
-p_A(\lambda) = |A - \lambda I| = \vec 0 \\
-\lambda = \text{eigenvalue} \\
-I = \text{identity matrix} \\
-A = \text{square matrix}
-\end{align*}
-$$
----
-eigenvector
-
-- vector whose coordinates equal solutions for coefficient matrix associated with eigenvalue
----
-eigenvector formula
-
-$$
-\begin{align*}
-\vec v = A - \lambda_i I = \vec 0 \\
-A = \text{square matrix} \\
-\lambda = \text{eigenvalue} \\
-I = \text{identity matrix} 
 \end{align*}
 $$
 ---
@@ -103,20 +49,45 @@ $$
 \alpha = \text{real part} \\
 \beta = \text{imaginary part} \\
 i = \sqrt {-1} \\
+\vec x = \text{eigensolution} \\
 t = \text{independent variable} \\
 \vec v = \text{eigenvector}
 \end{align*}
 $$
 ---
-repeated eigensolution 
+repeated eigenvalue
 
 - repeated root of characteristic polynomial
 ---
-repeated eigensolution formula
+repeated eigenvalue formula
 
 $$
 \begin{align*}
+(x - \lambda)^p \land (p > 1) \rightarrow \vec v = (A - \lambda I)^{p+k} \\
+k \le p \\
+x = \text{independent variable} \\
+\lambda = \text{eigenvalue} \\
+p = \text{power} \\
+\vec v = \text{generalized eigenvector} \\
+A = \text{square matrix} \\
+I = \text{identity matrix} 
+\end{align*}
+$$
+---
+fundamental matrix solution
 
+- generate matrix whose columns equal the linearly independent eigensolutions
+- every constant multiple with fundamental matrix solution equal solution
+---
+fundamental matrix solution formula
+
+$$
+\begin{align*}
+\phi(t) = \begin{bmatrix}
+\vec x_1 & \dots & \vec x_n \\
+\vdots & \vdots & \vdots 
+\end{bmatrix} \rightarrow e^{At} = \phi(t)\phi^{-1}(0) \\
+\phi(t) = \text{fundamental matrix solution}
 \end{align*}
 $$
 ---

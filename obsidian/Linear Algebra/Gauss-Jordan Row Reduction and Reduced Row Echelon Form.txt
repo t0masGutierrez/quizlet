@@ -25,7 +25,7 @@ X = \text{variable matrix} \\
 \end{align*}
 $$
 ---
-nonhomogeneous solution set
+heterogeneous solution set
 
 - if there exists pivot entry for every column then single solution
 - if there exists row with all zeros except final entry then zero solutions
@@ -33,8 +33,8 @@ nonhomogeneous solution set
 ---
 homogeneous solution set
 
-- for the rref if every column equal pivot column then every solution equal trivial solution
-- for the rref if there exists nonpivot column then there exists nontrivial solution
+- if every column equal pivot column then every solution equal trivial solution
+- if there exists nonpivot column then there exists nontrivial solution
 ---
 trivial solution
 

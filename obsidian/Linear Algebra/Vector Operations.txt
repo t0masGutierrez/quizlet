@@ -29,7 +29,7 @@ zero n-vector formula
 
 $$
 \begin{align*}
-0 = [0, ..., 0]
+\vec 0 = [0, ..., 0]
 \end{align*}
 $$
 ---
@@ -63,7 +63,7 @@ $$
 ---
 unit vector
 
-- vector magnitude equal 1
+- vector whose magnitude equal 1
 ---
 unit vector formula
 
@@ -77,7 +77,7 @@ $$
 ---
 standard unit vector
 
-- vector magnitude equal 1 along coordinate axes
+- vector along coordinate axes whose magnitude equal 1
 ---
 standard unit vector formula
 
@@ -130,7 +130,9 @@ parallel property formula
 
 $$
 \begin{align*}
-\vec x \parallel \vec y \leftrightarrow \exists c (\vec x = c\vec y) \\
+\vec x \parallel \vec y \leftrightarrow \exists c, \vec x = c\vec y \\
+\vec x = \text{vector} \\
+c = \text{scalar}
 \end{align*}
 $$
 ---
@@ -175,7 +177,6 @@ vector addition property
 - scalar distributive
 - scalar associative
 - scalar identity
-- scalar zero
 ---
 vector addition property formula
 
@@ -188,8 +189,7 @@ $$
 c(\vec x + \vec y) = c\vec x + c\vec y \\
 (c + d)\vec x = c\vec x + d\vec x \\
 cd(\vec x) = c(d\vec x) \\
-1(\vec x) = \vec x \\
-0(\vec x) = 0
+1(\vec x) = \vec x
 \end{align*}
 $$
 ---
@@ -202,9 +202,10 @@ linear combination formula
 
 $$
 \begin{align*}
-\vec x = c_1\vec x_1 + ... + c_k\vec x_k \\
+\vec x = c_1\vec e_1 + ... + c_k\vec e_k \\
 c = \text{scalar} \\
 \vec x = \text{vector} \\
+\vec e = \text{standard unit vector} \\
 k = \text{number of vectors}
 \end{align*}
 $$
@@ -230,10 +231,9 @@ vector component formula
 
 $$
 \begin{align*}
-\vec{x} = x_1\hat{i} + x_2\hat{j} \\
+\vec{x} = x_1\vec e_1 + x_2\vec e_1 \\
 x = \text{coordinate} \\
-\hat{i} = \text{$x_1$ direction} \\
-\hat{j} = \text{$x_2$ direction}
+\vec e = \text{standard unit vector} 
 \end{align*}
 $$
 ---

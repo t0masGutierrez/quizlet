@@ -241,11 +241,11 @@ t = \text{independent variable}
 \end{align*}
 $$
 ---
-judicious guessing
+undetermined coefficients
 
-- method of solving the general solution of nonhomogeneous linear constant coefficient differential equation
+- method of solving the general solution of heterogeneous linear constant coefficient differential equation
 ---
-judicious guessing formula
+undetermined coefficients formula
 
 $$
 \begin{align*}
@@ -257,7 +257,7 @@ $$
 ---
 calculate judicious guessing
 
-- solve the homogeneous solution of nonhomogeneous linear constant coefficient differential equation
+- solve the homogeneous solution of heterogeneous linear constant coefficient differential equation
 - judiciously guess the unknown function of particular solution
 - if guess equal homogeneous solution then guess multiplication with independent variable until guess not equal homogeneous solution
 - substitute guess and its derivatives into the differential equation
@@ -265,7 +265,7 @@ calculate judicious guessing
 ---
 variation of parameters
 
-- method of solving the general solution of nonhomogeneous linear constant coefficient differential equation
+- method of solving the general solution of heterogeneous linear constant coefficient differential equation
 ---
 variation of parameters formula
 
@@ -284,7 +284,7 @@ $$
 ---
 calculate variation of parameters
 
-- solve the homogeneous solution of 2nd order nonhomogeneous linear constant coefficient differential equation
+- solve the homogeneous solution of 2nd order heterogeneous linear constant coefficient differential equation
 - replace constant coefficients with variable coefficients
 - solve the variable coefficients
 - substitute variable coefficients into the particular solution
@@ -292,7 +292,7 @@ calculate variation of parameters
 ---
 series solutions
 
-- method of solving the general solution of nonhomogeneous linear variable coefficient differential equation
+- method of solving the general solution of heterogeneous linear variable coefficient differential equation
 ---
 series solutions formula
 

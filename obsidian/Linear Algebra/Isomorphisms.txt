@@ -1,0 +1,169 @@
+inverse linear transformation
+
+- composition of linear transformation and inverse linear transformation equal preimage vector
+---
+inverse linear transformation formula
+
+$$
+\begin{align*}
+(\exists L^{-1}: \mathcal W \rightarrow \mathcal V) \leftrightarrow (L^{-1} \circ L)(\vec v) = \vec v, \forall \vec v \in \mathcal V \land (L \circ L^{-1})(\vec w) = \vec w, \forall \vec w \in \mathcal W \\
+L: \mathcal V \rightarrow \mathcal W \\
+L = \text{linear transformation} \\
+L^{-1} = \text{inverse linear transformation} \\
+\mathcal V = \text{vector space} \\
+\vec v = \text{vector} 
+\end{align*}
+$$
+---
+bijective linear transformation
+
+- every element of codomain map to 1 element of domain
+- one to one and onto
+---
+bijective linear transformation formula
+
+$$
+\begin{align*}
+(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow (\forall \vec v_1, \vec v_2, L(\vec v_1) = L(\vec v_2) \rightarrow \vec v_1 = \vec v_2) \land (\forall \vec w\exists \vec v, L(\vec v) = \vec w) \\
+L = \text{bijective linear transformation} \\
+\mathcal V = \text{domain vector space} \\
+\mathcal W = \text{codomain vector space} \\
+\vec v = \text{preimage vector} \\
+\vec w = \text{image vector} 
+\end{align*}
+$$
+---
+isomorphism
+
+- invertible linear transformation
+- bijective linear transformation
+---
+isomorphism formula
+
+$$
+\begin{align*}
+(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow \forall \vec w\exists! \vec v, L(\vec v) = \vec w \\
+L = \text{isomorphism} \\
+\mathcal V = \text{domain vector space} \\
+\mathcal W = \text{codomain vector space} \\
+\vec v = \text{preimage vector} \\
+\vec w = \text{image vector} 
+\end{align*}
+$$
+---
+inverse isomorphism property
+
+- for every isomorphism there exists inverse linear transformation
+---
+inverse isomorphism property formula
+
+$$
+\begin{align*}
+L = \text{isomorphism} \leftrightarrow \exists L^{-1} \\
+L: \mathcal V \rightarrow \mathcal W \\
+L = \text{linear transformation} \\
+L^{-1} = \text{inverse linear transformation} \\
+\mathcal V = \text{vector space} 
+\end{align*}
+$$
+---
+inverse matrix isomorphism property
+
+- for every isomorphism there exists nonsingular square matrix transformation
+---
+inverse matrix isomorphism property formula
+
+$$
+\begin{align*}
+L = \text{isomorphism} \leftrightarrow \det (A_{BC}) \ne 0 \\
+L: \mathcal V \rightarrow \mathcal W \\
+|A| = n \times n \\
+L = \text{linear transformation} \\
+\mathcal V = \text{vector space} \\
+A = \text{matrix transformation} \\
+\end{align*}
+$$
+---
+spanning independence property
+
+- linearly independent bijective preimage equal linearly independent image
+- spanning bijective preimage equal spanning image
+---
+spanning independence property
+
+$$
+\begin{align*}
+(L = \text{bijection}) \land (\text{rank}(T \subseteq \mathcal V) = n) \rightarrow \text{rank}(L(T) \subseteq \mathcal W) = n \\
+(L = \text{bijection}) \land (\text{span}(S \subseteq \mathcal V) = \mathcal V) \rightarrow \text{span}(L(S) \subseteq \mathcal W) = \mathcal W \\
+\end{align*}
+$$
+---
+isomorphic vector space property
+
+- for every isomorphic vector space there exists isomorphism between domain and codomain
+---
+isomorphic vector space property formula
+
+$$
+\begin{align*}
+\mathcal V \cong \mathcal W \leftrightarrow \exists L: \mathcal V \rightarrow \mathcal W \\
+\mathcal V = \text{domain vector space} \\
+\mathcal W = \text{codomain vector space} \\
+L = \text{isomorphism} \\
+\end{align*}
+$$
+---
+isomorphism dimension property
+
+- isomorphic vector space equal dimension
+---
+isomorphism dimension property formula
+
+$$
+\begin{align*}
+\mathcal V \cong \mathcal W \leftrightarrow \dim(\mathcal V) = \dim(\mathcal W) \ne \infty \\
+\mathcal V = \text{domain vector space} \\
+\mathcal W = \text{codomain vector space} 
+\end{align*}
+$$
+---
+isomorphic n-dimensional vector space property
+
+- n-dimensional vector space isomorphic with n-dimensional real numbers
+---
+isomorphic n-dimensional vector space property formula
+
+$$
+\begin{align*}
+\dim(\mathcal V) = n \rightarrow \mathcal V \cong \mathbb R^n \\
+\mathcal V = \text{vector space} \\
+n = \text{dimension} \\
+\end{align*}
+$$
+---
+isomorphism preservation property
+
+- vectors of matrix transformation kernel equal vectors of linear transformation kernel
+- vectors of matrix transformation range equal vectors of linear transformation range
+- dimension of matrix transformation kernel equal dimension of linear transformation kernel 
+- dimension of matrix transformation range equal dimension of linear transformation range
+![[Linear Algebra/Images/isomorphism preservation property.png]]
+---
+isomorphism preservation property formula
+
+$$
+\begin{align*}
+(L: \mathcal V \rightarrow \mathbb W) \land (L_1: \mathcal V \rightarrow \mathbb R^n) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow L^{-1}_1(\ker(A_{BC}))= \ker(L) \subseteq \mathcal V \\
+(L: \mathcal V \rightarrow \mathbb W) \land (L_2: \mathcal W \rightarrow \mathbb R^m) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow L^{-1}_2(\text{range}(A_{BC}))= \text{range}(L) \subseteq \mathcal W \\
+(L: \mathcal V \rightarrow \mathbb W) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow \dim(\ker (A_{BC})) = \dim(\ker(L)) \\
+(L: \mathcal V \rightarrow \mathbb W) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow \dim(\text{range} (A_{BC})) = \dim(\text{range}(L)) \\
+\end{align*}
+$$
+---
+summary
+
+- one to one
+- onto
+- isomorphism
+![[Linear Algebra/Images/summary.png|300]]
+---

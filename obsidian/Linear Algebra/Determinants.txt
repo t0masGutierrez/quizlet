@@ -273,7 +273,7 @@ singularity summary
 - nonzero determinant
 - matrix row equivalent with identity matrix
 - every solution equal trivial solution for homogeneous system
-- there exists unique solution for nonhomogeneous system
+- there exists unique solution for heterogeneous system
 ![[Linear Algebra/Images/singularity summary.png]]
 ---
 scalar multiplication determinant

@@ -6,7 +6,7 @@ subspace formula
 
 $$
 \begin{align*}
-\mathcal W \le \mathcal V \leftrightarrow (\mathcal W \subseteq \mathcal V) \lor (\mathcal W = \{\vec 0\}) \land (\mathcal W \in \mathcal V) \\
+\mathcal W \le \mathcal V \leftrightarrow (\mathcal W  \subseteq \mathcal V) \land (\vec w_1 + \vec w_2 \in \mathcal W) \land (c\vec w \in \mathcal W) \\
 \mathcal W = \text{subspace} \\
 \mathcal V = \text{vector space}
 \end{align*}
@@ -35,10 +35,10 @@ subspace property formula
 
 $$
 \begin{align*}
-\mathcal W \le \mathcal V \leftrightarrow (c\vec w \in \mathcal V) \land (\vec w_1 + \vec w_2 \in \mathcal V) \land (\mathcal W \ne \emptyset) \\
+\mathcal W \le \mathcal V \leftrightarrow (\vec w_1 + \vec w_2 \in \mathcal V) \land (c\vec w \in \mathcal V) \land (\mathcal W \ne \emptyset) \\
 \mathcal W = \text{subspace} \\
 \mathcal V = \text{vector space} \\
-\vec 0 = \text{zero vector}
+\emptyset = \text{empty set}
 \end{align*}
 
 $$---
@@ -134,7 +134,7 @@ three element subspace
 ---
 eigenspace property
 
-- eigenspace equal subspace of $n$ dimensional real numbers
+- eigenspace equal subspace of n-dimensional real numbers
 ---
 eigenspace property formula
 

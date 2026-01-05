@@ -1,7 +1,7 @@
 basis
 
-- subset spans the vector space
-- subset linearly independent
+- spanning
+- linearly independent
 ---
 basis formula
 
@@ -81,7 +81,7 @@ $$
 ---
 trivial dimension
 
-- empty set equal basis of vector space
+- empty set equal basis of trivial vector space
 ---
 trivial dimension formula
 
@@ -109,7 +109,7 @@ $$
 ---
 subspace dimension property
 
-- subspace of finite dimensional vector space equal finite dimensional
+- dimension of subspace less or equal dimension of vector space
 ---
 subspace dimension property formula
 
@@ -128,7 +128,7 @@ diagonalization basis formula
 
 $$
 \begin{align*}
-A = P^{-1}DP \rightarrow B = \{\vec x | A\vec x = \lambda \vec x \} \\
+A = PDP^{-1} \rightarrow B = \{\vec x | A\vec x = \lambda \vec x \} \\
 P = \text{eigenmatrix} \\
 P^{-1} = \text{inverse eigenmatrix} \\
 D = \text{diagonal matrix} \\

@@ -241,7 +241,6 @@ matrix addition property
 - scalar distributive
 - scalar associative
 - scalar identity
-- scalar zero
 ---
 matrix property formula
 
@@ -254,8 +253,7 @@ A + (-A) = 0 \\
 c(A + B) = cA + cB \\
 (c + d)A = cA + dA \\
 (cd)A = c(dA) \\
-1(A) = A \\
-0(A) = 0
+1(A) = A
 \end{align*}
 $$
 ---
@@ -267,7 +265,9 @@ linear combination formula
 
 $$
 \begin{align*}
-A = c_1A_1 + \dots + c_kA_k
+A = c_1\psi_1 + \dots + c_k\psi_k \\
+c = \text{scalar} \\
+\psi = \text{standard unit matrix}
 \end{align*}
 $$
 ---
@@ -288,7 +288,9 @@ a_{11} & a_{21} & a_{31} \\
 a_{12} & a_{22} & a_{32} \\
 a_{13} & a_{23} & a_{33}
 \end{bmatrix} \\
+m \times n \rightarrow n \times m \\
 a_{ij} \rightarrow a_{ji} \\
+a = \text{entry} \\
 T = \text{transposition}
 \end{align*}
 $$

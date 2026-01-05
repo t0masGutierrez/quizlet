@@ -60,7 +60,7 @@ injective property
 
 - if monotone function then injective function
 ---
-monotone formula
+injective property formula
 
 $$
 \begin{align*}

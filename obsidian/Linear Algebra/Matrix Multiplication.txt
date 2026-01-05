@@ -60,20 +60,6 @@ p = \text{B number of columns} \\
 \end{align*}
 $$
 ---
-linear combination
-
-- sum of scalar multiplication with row vector or column vector
----
-linear combination formula
-
-$$
-\begin{align*}
-A = c_1\vec a_1 + \dots + c_k\vec a_k \\
-c = \text{scalar} \\
-\vec a = \text{vector}
-\end{align*}
-$$
----
 matrix multiplication property
 
 - associative
@@ -115,17 +101,17 @@ $$
 \begin{align*}
 A^k = (A^{k-1})(A) \\
 (A^s)^t =  A^{st} = (A^t)^s \\
-A^{s+t} = A^sA^t \\
+A^sA^t = A^{s+t} \\
 A^1 = A \\
 A^0 = I
 \end{align*}
 $$
 ---
-matrix multiplication transposition property
+matrix transposition property
 
 - switch row index with column index
 ---
-matrix multiplication transposition formula
+matrix transposition formula
 
 $$
 \begin{align*}

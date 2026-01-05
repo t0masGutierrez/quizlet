@@ -1,6 +1,6 @@
 vector space
 
-- set thats closed under vector addition and scalar multiplication
+- nonempty set thats closed under vector addition and scalar multiplication
 ---
 vector space formula
 

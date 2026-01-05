@@ -1,0 +1,248 @@
+position
+
+- location as function of time
+---
+position formula
+
+$$
+\begin{align*}
+x = x(t) \\
+t = \text{time}
+\end{align*}
+$$
+---
+displacement
+
+- vector change of position
+![[8 Physics/Images/displacement.png]]
+---
+displacement formula
+
+$$
+\begin{align*}
+\Delta x = x - x_0 \\
+x = \text{final position} \\
+x_0 = \text{initial position}
+\end{align*}
+$$
+---
+distance
+
+- scalar length of path
+![[8 Physics/Images/distance.png]]
+---
+distance formula
+
+$$
+\begin{align*}
+d = \sum_k |\Delta x_k| \\
+x = \text{position}
+\end{align*}
+$$
+---
+average velocity
+
+- position per time
+---
+average velocity formula
+
+$$
+\begin{align*}
+\overline v = \frac{\Delta x}{\Delta t} \\
+x = \text{position} \\
+t = \text{time}
+\end{align*}
+$$
+---
+instantaneous velocity
+
+- rate of change of position as $\Delta t$ approaches zero
+---
+instantaneous velocity formula
+
+$$
+\begin{align*}
+v = \frac{dx}{dt} \\
+x = \text{position} \\
+t = \text{time}
+\end{align*}
+$$
+---
+average speed
+
+- distance per time
+---
+average speed formula
+
+$$
+\begin{align*}
+\overline s = \frac{d}{\Delta t} \\
+d = \text{distance} \\
+t = \text{time}
+\end{align*}
+$$
+---
+instantaneous speed
+
+- rate of change of distance as $\Delta t$ approaches zero
+---
+instantaneous speed formula
+
+$$
+\begin{align*}
+s = |v| \\
+v = \text{velocity}
+\end{align*}
+$$
+---
+position from velocity
+
+- sum of velocity with respect to time
+![[8 Physics/Images/position from velocity.png|600]]
+---
+position from velocity formula
+
+$$
+\begin{align*}
+\Delta x = \int_{t_1}^{t_2} v \cdot dt \\
+v = \text{velocity} \\
+t = \text{time}
+\end{align*}
+$$
+---
+average acceleration
+
+- velocity per time
+---
+average acceleration formula
+
+$$
+\begin{align*}
+\overline a = \frac{\Delta v}{\Delta t} \\
+v = \text{velocity} \\
+t = \text{time}
+\end{align*}
+$$
+---
+instantaneous acceleration
+
+- rate of change of velocity as $\Delta t$ approaches zero
+---
+instantaneous acceleration formula
+
+$$
+\begin{align*}
+a = \frac{dv}{dt} = \frac{d^2x}{dt^2} \\
+v = \text{velocity} \\
+t = \text{time} \\
+x = \text{position}
+\end{align*}
+$$
+---
+velocity from acceleration
+
+- sum of acceleration with respect to time
+![[8 Physics/Images/velocity from acceleration.png]]
+---
+velocity from acceleration formula
+
+$$
+\begin{align*}
+\Delta v = \int_{t_1}^{t_2} a \cdot dt \\
+a = \text{acceleration} \\
+t = \text{time}
+\end{align*}
+$$
+---
+changing speed
+
+- same direction of velocity and acceleration equal increasing speed
+- opposite direction of velocity and acceleration equal decreasing speed
+![[8 Physics/Images/changing speed.png]]
+---
+kinematics
+
+- motion under constant acceleration
+---
+first law of motion
+
+- relate final velocity, initial velocity, acceleration, and time
+---
+1st formula of motion
+
+$$
+\begin{align*}
+v = v_0 + at \\
+v_0 = \text{initial velocity} \\
+a = \text{acceleration} \\
+t = \text{time}
+\end{align*}
+$$
+---
+second law of motion
+
+- relate final position, initial position, initial velocity, acceleration, and time
+---
+2nd formula of motion
+
+$$
+\begin{align*}
+x = x_0 + v_0t + \frac{1}{2} at^2 \\
+x_0 = \text{initial position} \\
+v_0 = \text{initial velocity} \\
+t = \text{time} \\
+a = \text{acceleration}
+\end{align*}
+$$
+---
+third law of motion
+
+- relate final position, initial position, final velocity, initial velocity, and time
+---
+3rd formula of motion
+
+$$
+\begin{align*}
+x - x_0 = \frac{1}{2} (v + v_0)t \\
+x = \text{final position} \\
+x_0 = \text{initial position} \\
+v = \text{final velocity} \\
+v_0 = \text{initial velocity} \\
+t = \text{time}
+\end{align*}
+$$
+---
+fourth law of motion
+
+- relate final velocity, initial velocity, acceleration, final position, and initial position
+---
+4th formula of motion
+
+$$
+\begin{align*}
+v^2 = v_0^2 + 2a(x - x_0) \\
+v = \text{final velocity} \\
+v_0 = \text{initial velocity} \\
+a = \text{acceleration} \\
+x = \text{final position} \\
+x_0 = \text{initial position} \\
+\end{align*}
+$$
+---
+free fall
+
+- object under no forces except gravity
+![[8 Physics/Images/freefall.png]]
+---
+free fall formulae
+
+$$
+\begin{align*}
+v = v_0 - gt \\
+y = y_0 + v_0t - \frac{1}{2}gt^2 \\
+y - y_0 = \frac{1}{2} (v + v_0)t \\
+v^2 = v_0^2 - 2g(y - y_0) \\
+g = 9.8
+\end{align*}
+$$
+---

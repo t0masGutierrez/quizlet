@@ -19,9 +19,9 @@ sample proportion
 ---
 two proportion confidence interval
 
-- find the critical value
-- calculate the test statistic
-- calculate the margin of error
+- find critical value
+- calculate test statistic
+- calculate margin of error
 - $(\hat p_1 - \hat p_2) - E < (\hat p_1 - \hat p_2) < (\hat p_1 - \hat p_2) + E$ 
 ---
 two proportion z interval formula
@@ -56,8 +56,8 @@ sample mean
 ---
 two mean confidence interval
 
-- find the critical value 
-- compute margin of error
+- find critical value 
+- calculate margin of error
 - $(\bar x_1 - \bar x_2) - E < (\mu_1 - \mu_2) < (\bar x_1 - \bar x_2) + E$ 
 ---
 two mean t interval formula
@@ -111,8 +111,8 @@ match pair
 ---
 match pair confidence interval
 
-- find the critical value  
-- compute margin of error
+- find critical value  
+- calculate margin of error
 - $\bar d - E < µ < \bar d + E$ 
 ---
 match pair t interval

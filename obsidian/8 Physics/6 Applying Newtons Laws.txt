@@ -1,0 +1,113 @@
+free body diagram
+
+- draw body as the origin of coordinate system
+- sketch all forces acting on the body as vectors
+- resolve all vectors into scalar components
+- formulate newtons 2nd law for all scalar components
+- equilibrium equal $\sum F = 0$ 
+- non equilibrium equal $\sum F = ma$ 
+![[8 Physics/Images/atwood machine.png|400]]
+---
+friction force
+
+- resistive force by surface on object
+![[8 Physics/Images/friction force.png|400]]
+---
+friction force formula
+
+$$
+\begin{align*}
+\overrightarrow F_f = \mu \overrightarrow F_N \\
+\mu = \text{friction coefficient} \\
+F_N = \text{normal force}
+\end{align*}
+$$
+---
+static friction
+
+- friction that acts on stationary objects
+---
+static friction force formula
+
+$$
+\begin{align*}
+\overrightarrow F_{fs} \le \mu_s \overrightarrow F_N \\
+\mu_s = \text{static friction coefficient} \\
+F_N = \text{normal force}
+\end{align*}
+$$
+---
+kinetic friction
+
+- friction that acts on sliding objects
+---
+kinetic friction force formula
+
+$$
+\begin{align*}
+\overrightarrow F_{fk} \le \mu_k \overrightarrow F_N \\
+\mu_k = \text{kinetic friction coefficient} \\
+F_N = \text{normal force}
+\end{align*}
+$$
+---
+centripetal force
+
+- center seeking force causing uniform circular motion
+---
+centripetal force formula
+
+$$
+\begin{align*}
+\overrightarrow F_c = m \overrightarrow a_{rad} = m\frac{\overrightarrow v_{tan}^2}{r} \\
+m = \text{mass} \\
+a_{rad} = \text{radial acceleration} \\
+v_{tan} = \text{tangential velocity} \\
+r = \text{radius}
+\end{align*}
+$$
+---
+ideal bank curve
+
+- centripetal force equal normal force
+![[8 Physics/Images/ideal bank curve.png]]
+---
+ideal bank curve velocity formula
+
+$$
+\begin{align*}
+v_{eq} = \sqrt{rg \tan(\theta)} \\
+r = \text{radius} \\
+g = 9.8 \\
+\theta = \text{angle between vectors}
+\end{align*}
+$$
+---
+non ideal bank curve
+
+- minimum velocity before sliding inward equal centripetal force subtraction with friction force
+- maximum velocity before sliding outward equal centripetal force addition with friction force
+---
+non ideal bank curve velocity formula
+
+$$
+\begin{align*}
+v_{min} = \sqrt{\frac{rg(\tan\theta - \mu)}{1 + \mu \tan \theta}} \\
+v_{max} = \sqrt{\frac{rg(\tan\theta + \mu)}{1 - \mu \tan \theta}} \\
+r = \text{radius} \\
+g = 9.8 \\
+\theta = \text{angle between vectors} \\
+\mu = \text{friction coefficient}
+\end{align*}
+$$
+---
+inertial force
+
+- fictitious force without physical origin
+---
+inertial force example
+
+- centrifugal force
+- coriolis force
+- acceleration force
+---

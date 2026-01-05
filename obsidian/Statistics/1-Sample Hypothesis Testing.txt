@@ -140,17 +140,17 @@ critical region
 right tail test
 
 - critical region under the right tail  
-- H₁ >
+- $H_1 >$ 
 ---
 left tail test
 
 - critical region under the left tail  
-- H₁ <
+- $H_1 <$ 
 ---
 two tail test
 
 - critical region under both tails
-- H₁ ≠
+- $H_1 \ne$ 
 ---
 critical value
 

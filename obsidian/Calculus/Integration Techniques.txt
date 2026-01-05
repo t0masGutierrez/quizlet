@@ -260,7 +260,7 @@ infinite limit of integration formula
 
 $$
 \begin{align*}
-\int_{\infty}^{\infty} f(x)dx = \int_{-\infty}^c f(x)dx + \int_c^{\infty} f(x)dx
+\int_{-\infty}^{\infty} f(x)dx = \int_{-\infty}^c f(x)dx + \int_c^{\infty} f(x)dx
 \end{align*}
 $$
 ---

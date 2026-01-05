@@ -13,11 +13,11 @@ $$
 ---
 domain
 
-- if $f$ equal function from A to B then A is domain of $f$ 
+- if $f$ equal function from A to B then A equal domain of $f$ 
 ---
 codomain
 
-- if $f$ equal function from A to B then B is codomain of $f$ 
+- if $f$ equal function from A to B then B equal codomain of $f$ 
 ---
 preimage
 
@@ -41,8 +41,8 @@ $$
 \begin{align*}
 L: \mathcal V \rightarrow \mathcal W \\
 L(\vec v) = \vec w \\
-f(\vec v_1 + \vec v_2) = f(\vec v_1) + f(\vec v_2) \\
-f(c\vec v) = cf(\vec v)
+L(\vec v_1 + \vec v_2) = L(\vec v_1) + L(\vec v_2) \\
+L(c\vec v) = cL(\vec v)
 \end{align*}
 $$
 ---
@@ -54,8 +54,8 @@ linear operator formula
 
 $$
 \begin{align*}
-f : \mathcal V \rightarrow \mathcal V \\
-f = \text{function} \\
+L : \mathcal V \rightarrow \mathcal V \\
+L = \text{linear transformation} \\
 \mathcal V = \text{vector space}
 \end{align*}
 $$
@@ -69,13 +69,13 @@ identity linear operator formula
 $$
 \begin{align*}
 i : \mathcal V \rightarrow \mathcal V \\
-f(\vec v) = \vec v
+L(\vec v) = \vec v
 \end{align*}
 $$
 ---
 translation
 
-- translate vector along subspace but not linear operator
+- translate vector along subspace
 ---
 translation formula
 
@@ -147,16 +147,16 @@ $$
 \end{align*}
 $$
 ---
-multiplication linear transformation
+matrix linear transformation
 
 - map every element from $\mathbb R^n$ to 1 element of $\mathbb R^m$ 
 ---
-multiplication linear transformation formula
+matrix linear transformation formula
 
 $$
 \begin{align*}
-f: \mathbb R^n \rightarrow \mathbb R^m \\
-f(\vec x) = A\vec x
+L : \mathbb R^n \rightarrow \mathbb R^m \\
+L(\vec x) = A\vec x
 \end{align*}
 $$
 ---
@@ -166,12 +166,12 @@ linear transformation property
 - negation
 - linear combination
 ---
-linear transformation property
+linear transformation property formula
 
 $$
 \begin{align*}
 L(\vec 0_{\mathcal V}) = \vec 0_{\mathcal W} \\
-L(-\vec v) = -\vec v \\
+L(-\vec v) = -L(\vec v) \\
 L(c_1\vec v_1 + \dots + c_n\vec v_n) = c_1L(\vec v_1) + \dots + c_nL(\vec v_n) \\
 \end{align*}
 $$
@@ -184,7 +184,7 @@ composite linear transformation formula
 
 $$
 \begin{align*}
-L_2 \circ L_1 : \mathcal V_1 \rightarrow \mathcal V_3 \\
+(L_1: \mathcal V_1 \rightarrow \mathcal V_2) \land (L_2: \mathcal V_2 \rightarrow \mathcal V_3) \rightarrow L_2 \circ L_1 : \mathcal V_1 \rightarrow \mathcal V_3 \\
 (L_2 \circ L_1)(\vec v) = L_2(L_1(\vec v))
 \end{align*}
 $$
@@ -192,14 +192,14 @@ $$
 subspace linear transformation
 
 - image of domain subspace equal subspace of codomain
-- preimage of codomain subspace equal subspace of domain
+- inverse image of codomain subspace equal subspace of domain
 ---
 subspace linear transformation formula
 
 $$
 \begin{align*}
-\mathcal V\prime \le \mathcal V \rightarrow L(\mathcal V\prime) = \{L(\vec v) | \vec v \in \mathcal V\prime\} \le \mathcal W \\
-\mathcal W\prime \le \mathcal W \rightarrow L^{-1}(\mathcal W\prime) = \{\vec v | L(\vec v) \in \mathcal W\prime\} \le \mathcal V
+(L : \mathcal V \rightarrow \mathcal W) \land (\mathcal V\prime \le \mathcal V) \rightarrow L(\mathcal V\prime) = \{L(\vec v) | \vec v \in \mathcal V\prime\} \le \mathcal W \\
+(L : \mathcal V \rightarrow \mathcal W) \land (\mathcal W\prime \le \mathcal W) \rightarrow L^{-1}(\mathcal W\prime) = \{\vec v | L(\vec v) \in \mathcal W\prime\} \le \mathcal V
 \end{align*}
 $$
 ---

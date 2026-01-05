@@ -21,6 +21,7 @@ $$
 \begin{align*}
 [\vec w ]_B = [c_1, \dots, c_n] \rightarrow \vec w = c_1 \vec v_1 + \dots + c_n \vec v_n \\
 \vec w = \text{vector} \\
+B = \text{basis} \\
 c = \text{coordinate} \\
 \vec v = \text{basis vector}
 \end{align*}
@@ -38,8 +39,8 @@ standard basis property formula
 
 $$
 \begin{align*}
-[\vec w]_S = \vec w \\
-\vec w = \text{vector} \\
+[\vec v]_S = \vec v \\
+\vec v = \text{vector} \\
 S = \text{standard basis}
 \end{align*}
 $$
@@ -73,15 +74,15 @@ coordinatization property formula
 
 $$
 \begin{align*}
-[\vec w_1 + \vec w_2]_B = [\vec w_1]_B + [\vec w_2]_B \\
-[c\vec w_1]_B = c[\vec w_1]_B \\
-[c_1\vec w_1 + \dots + c_k\vec w_k]_B = c_1[\vec w_1]_B + \dots + c_k[\vec w_k]_B
+[\vec v_1 + \vec v_2]_B = [\vec v_1]_B + [\vec v_2]_B \\
+[c\vec v]_B = c[\vec v]_B \\
+[c_1\vec v_1 + \dots + c_k\vec v_k]_B = c_1[\vec v_1]_B + \dots + c_k[\vec v_k]_B
 \end{align*}
 $$
 ---
 change of coordinates
 
-- convert coordinate from 1st ordered basis to 2nd ordered basis
+- convert coordinates from 1st ordered basis to 2nd ordered basis
 ---
 transition matrix
 
@@ -94,7 +95,7 @@ transition matrix formula
 
 $$
 \begin{align*}
-C|B \rightarrow I | P \\
+C|B \rightarrow I | P_{BC} \\
 C = \text{2nd basis} \\
 B = \text{1st basis} \\
 I = \text{identity matrix} \\
@@ -110,7 +111,7 @@ transition matrix property formula
 
 $$
 \begin{align*}
-P_{B\rightarrow C} \leftrightarrow (B, C, \in \mathcal V) \land (\forall \vec v \in \mathcal V)([\vec v]_C = P[\vec v]_B) \\
+P_{BC} \leftrightarrow (B, C, \in \mathcal V) \land (\forall \vec v \in \mathcal V)([\vec v]_C = P_{BC}[\vec v]_B) \\
 B = \text{basis} \\
 \mathcal V = \text{vector space} \\
 \vec v = \text{vector} \\
@@ -127,7 +128,7 @@ transitive transition matrix property formula
 
 $$
 \begin{align*}
-(B, C, D \in \mathcal V) \land ([\vec v]_C = P[\vec v]_B) \land ([\vec v]_D = Q[\vec v]_C) \rightarrow ([\vec v]_D = QP[\vec v]_B) \\
+(B, C, D \in \mathcal V) \land ([\vec v]_C = P_{BC}[\vec v]_B) \land ([\vec v]_D = Q_{CD}[\vec v]_C) \rightarrow ([\vec v]_D = Q_{CD}P_{BC}[\vec v]_B) \\
 B = \text{basis} \\
 \mathcal V = \text{vector space} \\
 \vec v = \text{vector} \\
@@ -143,7 +144,7 @@ inverse transition matrix property formula
 
 $$
 \begin{align*}
-(B, C \in \mathcal V) \land ([\vec v]_C = P[\vec v]_B) \rightarrow (|P| \ne 0) \land ([\vec v]_B = P^{-1}[\vec v]_C) \\
+(B, C \in \mathcal V) \land ([\vec v]_C = P_{BC}[\vec v]_B) \rightarrow (|P| \ne 0) \land ([\vec v]_B = P_{BC}^{-1}[\vec v]_C) \\
 B = \text{basis} \\
 \mathcal V = \text{vector space} \\
 [\vec v]_B = \text{coordinatization} \\

@@ -31,7 +31,7 @@ homogeneous
 
 - RHS equal zero
 ---
-nonhomogeneous 
+heterogeneous 
 
 - RHS equal nonzero
 ---
@@ -84,7 +84,7 @@ $$
 ---
 integrating factor
 
-- multiplication with 1st order nonhomogeneous linear differential equation such that the LHS equal the derivative of product therefore becoming integrable
+- multiplication with 1st order heterogeneous linear differential equation such that the LHS equal the derivative of product therefore becoming integrable
 ---
 integrating factor formula
 
@@ -99,7 +99,7 @@ $$
 \end{align*}
 $$
 ---
-1st order nonhomogeneous linear differential equation formula
+1st order heterogeneous linear differential equation formula
 
 $$
 \begin{align*}
@@ -111,7 +111,7 @@ b \ne 0
 \end{align*}
 $$
 ---
-general solution of 1st order nonhomogeneous linear differential equation formula
+general solution of 1st order heterogeneous linear differential equation formula
 
 $$
 \begin{align*}
@@ -124,7 +124,7 @@ a = \text{coefficient}
 \end{align*}
 $$
 ---
-particular solution of 1st order nonhomogeneous linear differential equation formula
+particular solution of 1st order heterogeneous linear differential equation formula
 
 $$
 \begin{align*}

@@ -1,13 +1,13 @@
 finite linear combination
 
-- vector of vector space expressible as linear combination of the vectors of subset
+- linear combination of finite number of vectors
 ---
 finite linear combination formula
 
 $$
 \begin{align*}
-S\prime \subset S \subset \mathcal V \leftrightarrow \vec v = c_1\vec v_1 + \dots + c_n\vec v_n \\
-S\prime = \{\vec v_1, \dots , \vec v_n\} \\
+\vec v = c_1\vec v_1 + \dots + c_k\vec v_k \leftrightarrow \exists S\prime \subset S \subset \mathcal V \\
+S\prime = \{\vec v_1, \dots , \vec v_k\} \\
 S\prime = \text{finite subset} \\
 S = \text{infinite subset} \\
 \mathcal V = \text{vector space} \\
@@ -25,11 +25,11 @@ span formula
 
 $$
 \begin{align*}
-\text{Span}(A) = \{\sum_{i}^n c_i\vec a_i | c \in \mathbb R, \vec a \in \mathbb R^m\} \\
-m = \text{number of rows} \\
-n = \text{number of columns} \\
+\text{Span}(S) = \{\sum_{i}^n c_i\vec v_i | c \in \mathbb R, \vec v \in S\} \\
+S = \text{subset} \\
+n = \text{dimension} \\
 c = \text{scalar} \\
-\vec a = \text{column vector} 
+\vec v = \text{vector} 
 \end{align*}
 $$
 ---
@@ -41,7 +41,7 @@ terminology
 example span
 
 - standard unit vector
-- polynomial
+- standard unit polynomial
 - standard unit matrix
 ---
 example span formula
@@ -68,10 +68,10 @@ $$
 ---
 span property
 
-- closure
+- subset
 - subspace
-- transitive closure
-- minimal
+- subspace subset
+- intersection
 ---
 span property formula
 
@@ -79,14 +79,14 @@ $$
 \begin{align*}
 S \subseteq \text{Span}(S) \\
 \text{Span}(S) \le \mathcal V \\
-(\mathcal W \le \mathcal V) \land (S \subseteq \mathcal W) \rightarrow \text{Span}(S) \subseteq \mathcal W \\
+(S \subseteq \mathcal W) \land (\mathcal W \le \mathcal V) \rightarrow \text{Span}(S) \subseteq \mathcal W \\
 \text{Span}(S) = \bigcap \{\mathcal W \le \mathcal V| S \subseteq \mathcal W \}
 \end{align*}
 $$
 ---
 span subset property
 
-- closure
+- span of subset equal subset of span
 ---
 span subset property formula
 
@@ -117,9 +117,9 @@ span test
 ---
 span simplification
 
-- generate matrix whose rows equal the vectors of subset of vector space
+- generate matrix whose rows equal the vectors of subset
 - form the reduced row echelon of the system
+- zero rows of rref equal the redundant vectors of subset
 - if number of nonzero rows equal number of rows then spanning set
 - if number of nonzero rows not equal number of rows then nonspanning set
-- nonpivot columns of rref equal the redundant vectors of subset
 ---
