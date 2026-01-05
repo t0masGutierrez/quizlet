@@ -1,0 +1,231 @@
+process
+
+- formulate question
+- collect data
+- summarize data with descriptive statistics
+- analyze data with inferential statistics
+- interpret results
+---
+descriptive statistics
+
+- to describe something about known data
+---
+inferential statistics
+
+- to infer something about unknown data
+---
+box plot
+
+- compare numerical data
+---
+scatter plot
+
+- compare numerical data
+---
+line graph
+
+- compare numerical data
+---
+bar graph
+
+- compare categorical data
+---
+pie chart
+
+- compare categorical data
+---
+frequency
+
+- count of category
+---
+relative frequency
+
+- count of category per total count
+---
+cumulative frequency
+
+- count of category including sum of all previous category
+---
+contingency table
+
+- count of category contingent upon two category
+![[4 Statistics/Images/contingency table.png]]
+---
+marginal frequency
+
+- total count of single category
+---
+conditional frequency
+
+- count of category given 2nd category
+---
+histogram
+
+- frequency distribution
+![[4 Statistics/Images/histogram.png|300]]
+---
+uniform distribution
+
+- flat curve
+![[4 Statistics/Images/uniform distribution.png|300]]
+---
+symmetrical distribution
+
+- bell shaped curve
+![[4 Statistics/Images/symmetrical distribution.png|400]]
+---
+negative skew distribution
+
+- long left tail
+![[4 Statistics/Images/negative skew distribution.png|200]]
+---
+positive skew distribution
+
+- long right tail
+![[4 Statistics/Images/positive skew distribution.png|200]]
+---
+measure of center
+
+- center of dataset
+- mean median and mode
+---
+mean
+
+- average frequency
+---
+mean formula
+
+$$
+\begin{align*}
+\bar x = \frac{1}{n}\sum x \\
+x = \text{data} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+mean frequency formula
+
+$$
+\begin{align*}
+\bar x = \frac{\sum fm}{\sum f} \\
+f = \text{frequency} \\
+m = \text{class midpoint}
+\end{align*}
+$$
+---
+weighted frequency formula
+
+$$
+\begin{align*}
+\bar x = \frac{\sum fw}{\sum w} \\
+f = \text{frequency} \\
+w = \text{weight}
+\end{align*}
+$$
+---
+median
+
+- middle frequency
+---
+calculate median
+
+- order data from least to greatest
+- select middle data
+---
+mode
+
+- highest frequency
+---
+calculate mode
+
+- count
+---
+measure of spread
+
+- variability of dataset
+- range IQR variance and standard deviation
+---
+5 number summary
+
+- min Q1 median Q3 max
+![[4 Statistics/Images/5 number summary.png|300]]
+---
+range
+
+- difference between maximum and minimum
+---
+interquartile range
+
+- difference between 3rd quartile and 1st quartile
+---
+variance
+
+- standard deviation squared
+---
+standard deviation
+
+- mean difference between data and mean
+---
+empirical rule
+
+- 68% of normal data within 1 standard deviation
+- 95% of normal data within 2 standard deviation
+- 99.7% of normal data within 3 standard deviation
+![[4 Statistics/Images/empirical rule.png|400]]
+---
+empirical rule of thumb
+
+- two standard deviations equal significantly deviant
+---
+outlier
+
+- significant deviation from the mean
+---
+lower outlier formula
+
+$$
+\begin{align*}
+x_L = \text{Q1} - 1.5 \times \text{IQR} \\
+\text{Q1} = \text{1st quartile} \\
+\text{IQR} = \text{interquartile range}
+\end{align*}
+$$
+---
+upper outlier formula
+
+$$
+\begin{align*}
+x_U = \text{Q3} + 1.5 \times \text{IQR} \\
+\text{Q3} = \text{3rd quartile} \\
+\text{IQR} = \text{interquartile range}
+\end{align*}
+$$
+---
+measure of position
+
+- location of dataset
+- z score quantile and percentile
+---
+z score
+
+- number of standard deviations from mean
+---
+z score formula
+
+$$
+\begin{align*}
+z = \frac{x - \bar x}{s} \\
+x = \text{datum} \\
+\bar x = \text{mean} \\
+s = \text{standard deviation}
+\end{align*}
+$$
+---
+quantile
+
+- dataset division into quarters
+---
+percentile
+
+- dataset division into hundredths
+---

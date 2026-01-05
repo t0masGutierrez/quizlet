@@ -1,0 +1,78 @@
+injective linear transformation
+
+- every element of domain map to 1 element of codomain
+- one to one
+---
+injective linear transformation formula
+
+$$
+\begin{align*}
+(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow \forall \vec v_1, \vec v_2, L(\vec v_1) = L(\vec v_2) \rightarrow \vec v_1 = \vec v_2 \\
+L = \text{injective linear transformation} \\
+\mathcal V = \text{domain vector space} \\
+\mathcal W = \text{codomain vector space} \\
+\vec v = \text{vector} 
+\end{align*}
+$$
+---
+surjective linear transformation
+
+- every element of codomain map to $\ge1$ element of domain
+- onto
+---
+surjective linear transformation formula
+
+$$
+\begin{align*}
+(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow \forall \vec w\exists \vec v, L(\vec v) = \vec w \\
+L = \text{surjective linear transformation} \\
+\mathcal V = \text{domain vector space} \\
+\mathcal W = \text{codomain vector space} \\
+\vec v = \text{preimage vector} \\
+\vec w = \text{image vector} 
+\end{align*}
+$$
+---
+dimension property
+
+- dimension of injective kernel must equal dimension of zero
+- dimension of surjective range must equal dimension of codomain
+---
+dimension property formula
+
+$$
+\begin{align*}
+L = \text{injection} \leftrightarrow (\text{ker}(L) = \{\vec 0_{\mathcal V}\}) \lor (\text{dim(ker}(L)) = 0) \\
+L = \text{surjection} \leftrightarrow (\text{range}(L) = \mathcal W) \lor (\text{dim(range}(L)) = \dim(\mathcal W) \ne \infty) \\
+\end{align*}
+$$
+---
+bijection property
+
+- equal dimension must satisfy bijection
+---
+bijection property formula
+
+$$
+\begin{align*}
+(L: \mathcal V \rightarrow \mathcal W) \land (\dim(\mathcal V) = \dim(\mathcal W) \ne \infty) \rightarrow L = \text{injection} \leftrightarrow L = \text{surjection} \\
+L = \text{linear transformation} \\
+\mathcal V = \text{domain vector space} \\
+\mathcal W = \text{codomain vector space}
+\end{align*}
+$$
+---
+spanning independence property
+
+- linearly independent injective preimage equal linearly independent image
+- spanning surjective preimage equal spanning image
+---
+spanning independence property
+
+$$
+\begin{align*}
+(L = \text{injection}) \land (\text{rank}(T \subseteq \mathcal V) = n) \rightarrow \text{rank}(L(T) \subseteq \mathcal W) = n \\
+(L = \text{surjection}) \land (\text{span}(S \subseteq \mathcal V) = \mathcal V) \rightarrow \text{span}(L(S) \subseteq \mathcal W) = \mathcal W \\
+\end{align*}
+$$
+---

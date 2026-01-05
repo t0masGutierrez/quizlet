@@ -1,0 +1,197 @@
+linear dependence
+
+- zero vector expressible as nontrivial linear combination of the vectors of subset
+---
+linear dependence formula
+
+$$
+\begin{align*}
+\vec x \ne \vec 0 \rightarrow \text{Rank}(S) < n \\
+S = \{\vec v_1, \dots, \vec v_n\} \subseteq \mathcal V \\
+S = \text{subset} \\
+n = \text{dimension} \\
+\vec x = \text{solution} \\
+\mathcal V = \text{vector space}
+\end{align*}
+$$
+---
+linear independence
+
+- zero vector not expressible as nontrivial linear combination of the vectors of subset
+---
+linear independence formula
+
+$$
+\begin{align*}
+\vec x = \vec 0 \rightarrow \text{Rank}(S) = n \\
+S = \{\vec v_1, \dots, \vec v_n\} \subseteq \mathcal V \\
+S = \text{subset} \\
+n = \text{dimension} \\
+\vec x = \text{solution} \\
+\mathcal V = \text{vector space}
+\end{align*}
+$$
+---
+empty set
+
+- linearly independent set with zero elements
+---
+empty set formula
+
+$$
+\begin{align*}
+\emptyset = \{\}
+\end{align*}
+$$
+---
+example linear independence
+
+- standard unit vector
+- standard unit polynomial
+- standard unit matrix
+---
+example linear independence formula
+
+$$
+\begin{align*}
+\vec e \\
+\vec p \\
+\psi_{ij}
+\end{align*}
+$$
+---
+single element linear independence
+
+- subset with single nonzero vector equal linearly independent subset
+---
+single element linear independence formula
+
+$$
+\begin{align*}
+(S = \{\vec v\}) \land (\vec v \ne 0) \rightarrow \text{Rank}(S) = n \\
+S = \text{subset} \\
+\vec v = \text{vector} \\
+c = \text{scalar} \\
+n = \text{dimension}
+\end{align*}
+$$
+---
+scalar multiplicity property
+
+- subset without scalar multiple of vector equal linearly independent subset
+---
+scalar multiplicity property formula
+
+$$
+\begin{align*}
+(\vec 0 = \sum_i^n c_i\vec v_i) \land (\not\exists \vec v_i = c\vec v_j) \rightarrow \text{Rank}(S) = n \\
+S = \text{subset} \\
+\vec v = \text{vector} \\
+c = \text{scalar} \\
+n = \text{dimension}
+\end{align*}
+$$
+---
+zero vector property
+
+- subset with at least 1 zero vector equal linearly dependent subset
+---
+zero vector property formula
+
+$$
+\begin{align*}
+\vec 0 \in S \rightarrow \text{Rank}(S) < n \\
+S = \text{subset} \\
+n = \text{dimension}
+\end{align*}
+$$
+---
+independence test
+
+- generate matrix whose columns equal the vectors of subset
+- form the reduced row echelon of the system
+- if number of pivot columns equal number of columns then linearly independent subset
+- if number of pivot columns not equal number of columns then linearly dependent subset
+---
+size property
+
+- for collection of $n$ vectors, each with linear combination of the same $m$ coordinates, if $n = m$ then linear independence
+- for collection of $n$ vectors, each with linear combination of the same $m$ coordinates, if $n > m$ then linear dependence
+---
+size property formula
+
+$$
+\begin{align*}
+(S = \{\vec v_1 \dots, \vec v_n\}) \land (\vec v \in \mathbb R^m) \land (n = m) \rightarrow \text{Rank}(S) = n \\
+(S = \{\vec v_1 \dots, \vec v_n\}) \land (\vec v \in \mathbb R^m) \land (n > m) \rightarrow \text{Rank}(S) \ne n
+\end{align*}
+$$
+---
+redundant vector
+
+- vector expressible as linear combination of other vectors of subset
+---
+redundant vector formula
+
+$$
+\begin{align*}
+\vec v \leftrightarrow \text{Span}(S) = \text{Span}(S - \{\vec v\})\\
+\vec v = \text{redundant vector} \\
+S = \text{subset}
+\end{align*}
+$$
+---
+redundancy property
+
+- subset without redundant vector equal linearly independent subset
+---
+redundancy property formula
+
+$$
+\begin{align*}
+\nexists \vec v \in S \rightarrow \text{Rank}(S) = n \\
+\forall (2 \le k \le n), \vec v_k \not\in \text{Span}(\{\vec v_1 \dots \vec v_{k-1} \}) \\
+\vec v = \text{redundant vector} \\
+S = \text{subset} \\
+n = \text{number of columns}
+\end{align*}
+$$
+---
+infinite linear independence
+
+- every finite subset of infinite subset equal linearly independent subset
+---
+infinite linear independence formula
+
+$$
+\begin{align*}
+\text{Rank}(S_1, \dots, S_k) = n \rightarrow \text{Rank}(S) = n \\
+S_1 \dots S_n \subseteq S \subseteq \mathcal V \\
+S = \text{infinite subset} \\
+\mathcal V = \text{vector space} 
+\end{align*}
+$$
+---
+existence and uniqueness
+
+- there exists unique linear combination of the vectors of subset for every member of the span of subset
+---
+existence and uniqueness formula
+
+$$
+\begin{align*}
+\forall \vec v \in \text{Span}(S)\exists !(c_1 \vec v_1 + \dots c_k \vec v_k) \rightarrow \text{Rank}(S) = n \\
+\vec v = \text{vector} \\
+S = \text{subset} \\
+c = \text{scalar} \\
+n = \text{dimension}
+\end{align*}
+$$
+---
+summary
+
+- zero coefficient
+- no redundant vector
+- finite subset linear independence
+![[5 Linear Algebra/Images/linear independence summary.png]]
+---

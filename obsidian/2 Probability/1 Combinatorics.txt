@@ -1,0 +1,159 @@
+independent multiplication rule
+
+- number of possible conjunctions equal product
+---
+independent multiplication rule formula
+
+$$
+\begin{align*}
+N = \prod_{i=1}^k n_i \\
+n = \text{number of possible outcomes} \\
+k = \text{number of experiments}
+\end{align*}
+$$
+---
+disjoint addition rule
+
+- number of possible disjunctions equal sum
+---
+disjoint addition rule formula
+
+$$
+\begin{align*}
+N = \sum_{i=1}^k n_i \\
+n = \text{number of possible outcomes} \\
+k = \text{number of experiments}
+\end{align*}
+$$
+---
+permutation
+
+- number of ways to arrange objects with order
+---
+permutation formula
+
+$$
+\begin{align*}
+P(n, k) = \frac{n!}{(n - k)!} = n(n - 1)(n - 2) ... (n - k + 1) \\ 
+n = \text{number of objects} \\
+k = \text{number of arrangements}
+\end{align*}
+$$
+---
+common permutation
+
+- number of ways to arrange common objects with order
+---
+common permutation formula
+
+$$
+\begin{align*}
+P'(n, k) = \frac{n!}{(n - k)!\prod_{i=1}^rm_i!} = \frac{n(n - 1)(n - 2) ... (n - k + 1)}{\prod_{i=1}^rm_i!} \\ 
+n = \text{number of objects} \\
+k = \text{number of arrangements} \\
+m = \text{number of common objects} \\
+r = \text{number of common arrangements} 
+\end{align*}
+$$
+---
+uncommon permutation
+
+- number of ways to arrange uncommon objects with order
+---
+uncommon permutation formula
+
+$$
+\begin{align*}
+P''(n, k) = P(n, k) - P'(n, k) \\
+n = \text{number of objects} \\
+k = \text{number of arrangements} \\
+P' = \text{common permutation}
+\end{align*}
+$$
+---
+combination
+
+- number of ways to choose objects without order
+---
+combination formula
+
+$$
+\begin{align*}
+C(n, k) = \frac{n!}{k!(n - k)!} = \frac{n(n - 1)(n - 2) ... (n - k + 1)}{k!} \\
+n = \text{number of objects} \\
+k = \text{number of choices}
+\end{align*}
+$$
+---
+common combination
+
+- number of ways to choose common objects without order
+---
+common combination formula
+
+$$
+\begin{align*}
+C''(n, k) = C(n, k) - C'(n, k) \\
+n = \text{number of objects} \\
+k = \text{number of choices} \\
+C' = \text{uncommon combination}
+\end{align*}
+$$
+---
+uncommon combination
+
+- number of ways to choose uncommon objects without order
+---
+uncommon combination formula
+
+$$
+\begin{align*}
+C'(n, k) = C(n, k) - \frac{(n - m)!}{(k - m)!(n - k - 2m)!} = C(n, k) - \frac{n(n - 1)(n - 2) ... (n - k - 2m + 1)}{(k - m)!} \\
+n = \text{number of objects} \\
+k = \text{number of choices} \\
+m = \text{number of uncommon objects} \\
+\end{align*}
+$$
+---
+binomial theorem
+
+- compute the nth power of binomial
+---
+binomial theorem formula
+
+$$
+\begin{align*}
+(x + y)^n = \sum_{k=0}^n C(n, k)x^ky^{n - k} \\
+n = \text{number of objects} \\
+k = \text{number of choices}
+\end{align*}
+$$
+---
+multinomial coefficient
+
+- number of divisions into distinct nonoverlapping subgroups
+---
+multinomial theorem formula
+
+$$
+\begin{align*}
+C(n, m_1, m_2, \dots, m_k) = \frac{n!}{m_1!m_2!\dots m_k!} \\
+n = \text{number of objects} \\
+m = \text{number of submembers} \\
+k = \text{number of subgroups}
+\end{align*}
+$$
+---
+power set
+
+- set of all subsets
+---
+power set formula
+
+$$
+\begin{align*}
+\mathcal{P}(A) = 2^n \\
+n = \text{number of elements}
+\end{align*}
+$$
+---
