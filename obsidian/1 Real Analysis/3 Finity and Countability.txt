@@ -1,0 +1,343 @@
+segment
+
+- region between two coordinates
+---
+segment formula
+
+$$
+\begin{align*}
+[\vec a, \vec b] = \{\lambda \vec a + (1 - \vec b)\lambda: \vec a, \vec b \in \mathbb R^k, \lambda \in [0, 1]\} \\
+a = \text{lower coordinate} \\
+b = \text{upper coordinate} 
+\end{align*}
+$$
+---
+open interval
+
+- region between two exclusive endpoints
+---
+open interval formula
+
+$$
+\begin{align*}
+(a, b) = \{x \in \mathbb R| a < x < b\} \\
+a = \text{lower endpoint} \\
+b = \text{upper endpoint} 
+\end{align*}
+$$
+---
+closed interval
+
+- region between two inclusive endpoints
+---
+closed interval formula
+
+$$
+\begin{align*}
+[a, b] = \{x \in \mathbb R| a \le x \le b\} \\
+a = \text{lower endpoint} \\
+b = \text{upper endpoint} 
+\end{align*}
+$$
+---
+half interval
+
+- region between inclusive endpoints or exclusive endpoints
+---
+half interval formula
+
+$$
+\begin{align*}
+(a, b] = \{x \in \mathbb R| a < x \le b\} \\
+[a, b) = \{x \in \mathbb R| a \le x < b\} \\
+a = \text{lower endpoint} \\
+b = \text{upper endpoint} 
+\end{align*}
+$$
+---
+infinite open interval
+
+- region between exclusive endpoint and infinity
+---
+infinite open interval formula
+
+$$
+\begin{align*}
+(a, \infty) = \{x \in \mathbb R| x > a\} \\
+(-\infty, b) = \{x \in \mathbb R| x < b\}
+\end{align*}
+$$
+---
+infinite closed interval
+
+- region between inclusive endpoint and infinity
+---
+infinite closed interval formula
+
+$$
+\begin{align*}
+[a, \infty) = \{x \in \mathbb R| x \ge a\} \\
+(-\infty, b] = \{x \in \mathbb R| x \le b\}
+\end{align*}
+$$
+---
+interval characterization property
+
+- interval equal connected region between endpoints
+---
+interval characterization property formula
+
+$$
+\begin{align*}
+\forall x, y \in I: x < y \rightarrow [x, y] = \{z \in \mathbb R| x \le z \le y\} \subseteq I \\
+I = \text{interval} 
+\end{align*}
+$$
+---
+nested interval
+
+- sequence of subintervals
+---
+nested interval
+
+$$
+\begin{align*}
+I_1 \subseteq I_2 \subseteq \dots \subseteq I_n \subseteq I_{n+1} \subseteq \dots \\
+I = \text{interval}
+\end{align*}
+$$
+---
+nested interval property
+
+- intersection of nested interval equal singleton set
+---
+nested interval property formula
+
+$$
+\begin{align*}
+(\forall n \in \mathbb N: I_n = [a_n, b_n]) \land (\lim_{n \rightarrow \infty}b_n - a_n = 0) \rightarrow \exists x \in \mathbb R, \forall n \in \mathbb N: \bigcap_{n=1}^\infty I_n = \{x\} \\
+I_n = \text{nested interval} \\
+\end{align*}
+$$
+---
+cartesian product
+
+- set of all n-tuples from *n* sets
+---
+cartesian product formula
+
+$$
+\begin{align*}
+X \times Y = \{(x, y) | x \in X, y \in Y\} \ne Y \times X
+\end{align*}
+$$
+---
+relation
+
+- subset of cartesian product represent relationship between n-tuples from *n* sets
+---
+relation formula
+
+$$
+\begin{align*}
+R \subseteq X \times Y
+\end{align*}
+$$
+---
+equivalence relation
+
+- reflexive
+- symmetric
+- transitive
+---
+equivalence relation formula
+
+$$
+\begin{align*}
+x R x \\
+x R y \rightarrow y R x \\
+x R y \land y R z \to x R z \\
+\therefore A \sim A
+\end{align*}
+$$
+---
+injection
+
+- every element of domain map to 1 element of codomain
+- into
+---
+injection formula
+
+$$
+\begin{align*}
+\forall a \in A, \forall b \in B: f(a) = f(b) \rightarrow a = b
+\end{align*}
+$$
+---
+surjection
+
+- every element of codomain map to $\ge1$ element of domain
+- onto
+---
+surjection formula
+
+$$
+\begin{align*}
+\forall b \in B, \exists a \in A: f(a) = b
+\end{align*}
+$$
+---
+cardinality
+
+- size of set
+---
+cardinality formula
+
+$$
+\begin{align*}
+|A| = |B| \leftrightarrow \forall b \in B, \exists !a \in A: f(a) = b
+\end{align*}
+$$
+---
+finite
+
+- equal cardinality between set and finite subset of natural numbers
+---
+finite formula
+
+$$
+\begin{align*}
+\exists n \in \mathbb N: |S| = |\{0, 1, 2, 3, \dots, n\}| \\
+S = \text{finite set}
+\end{align*}
+$$
+---
+infinite
+
+- unequal cardinality between set and finite subset of natural numbers
+---
+infinite formula
+
+$$
+\begin{align*}
+\not\exists n \in \mathbb N: |S| = |\{0, 1, 2, 3, \dots, n\}| \\
+S = \text{infinite set}
+\end{align*}
+$$
+---
+countable
+
+- less or equal cardinality between set and natural numbers
+---
+countable formula
+
+$$
+\begin{align*}
+|S| \le |\mathbb N| \\
+S = \text{countable set}
+\end{align*}
+$$
+---
+uncountable
+
+- greater cardinality between set and natural numbers
+---
+uncountable formula
+
+$$
+\begin{align*}
+|S| > |\mathbb N| \\
+S = \text{uncountable set}
+\end{align*}
+$$
+---
+countable example
+
+- natural numbers
+- integers
+- rational numbers
+---
+uncountable example
+
+- irrational numbers
+- real numbers
+---
+finite set property
+
+- less or equal cardinality between finite set and natural numbers
+---
+finite set property formula
+
+$$
+\begin{align*}
+\exists n \in \mathbb N: |S| = |\{0, 1, 2, 3, \dots, n\}| \rightarrow |S| \le |\mathbb N| \\
+S = \text{finite set}
+\end{align*}
+$$
+---
+countable subset property
+
+- less or equal cardinality between subset of countable set and natural numbers
+---
+countable subset property formula
+
+$$
+\begin{align*}
+(|S| \le |\mathbb N|) \land (S_1 \subseteq S) \rightarrow |S_1| \le |\mathbb N| \\
+S = \text{countable set}
+\end{align*}
+$$
+---
+countable union property
+
+- less or equal cardinality between countable union of countable set and natural numbers
+---
+countable union property formula
+
+$$
+\begin{align*}
+(|S| \le |\mathbb N|) \land (|S_1, S_2, S_3, \dots| \le |\mathbb N|) \rightarrow |\bigcup_{n=1}^\infty S_n| \le |\mathbb N| \\
+S = \text{countable set}
+\end{align*}
+$$
+---
+uncountable interval property
+
+- greater cardinality between interval of real numbers and natural numbers
+---
+uncountable interval property formula
+
+$$
+\begin{align*}
+[0, 1] = \{x \in \mathbb R| 0 \le x \le 1\} \rightarrow |[0, 1] | > |\mathbb N|
+\end{align*}
+$$
+---
+k-cell
+
+- subset of k-dimensional euclidean space equal the cartesian product of interval
+---
+k-cell formula
+
+$$
+\begin{align*}
+\forall (a < b) \in \mathbb R: \prod_{i=1}^k [a_i, b_i] = \{\vec q \in \mathbb R^k | a_i \le q_i \le b_i \} \\
+a = \text{lower endpoint} \\
+b = \text{upper endpoint} \\
+\vec q = \text{point}
+\end{align*}
+$$
+---
+convex
+
+- every coordinate along segment equal coordinate of convex set
+---
+convex formula
+
+$$
+\begin{align*}
+S \subseteq \mathbb R^k, \forall \vec p, \vec q \in S, \forall \lambda \in [0, 1]: \lambda \vec p + (1 - \vec q)\lambda \in S \\
+S = \text{convex set}
+\end{align*}
+$$
+---

@@ -17,7 +17,7 @@ $$
 ---
 ith row
 
-- $i^{th}$ row of $AB$ equal $i^{th}$ row of $A$ dot $B$ 
+- $i^{th}$ row of $AB$ equal $i^{th}$ row of $A$ multiplication with $B$ 
 ---
 ith row formula
 
@@ -31,7 +31,7 @@ $$
 ---
 jth column
 
-- $j^{th}$ column of $AB$ equal $j^{th}$ column of $B$ dot $A$ 
+- $j^{th}$ column of $AB$ equal $j^{th}$ column of $B$ multiplication with $A$ 
 ---
 jth column formula
 
@@ -109,9 +109,9 @@ $$
 ---
 matrix transposition property
 
-- switch row index with column index
+- transposition of matrix multiplication equal reverse transposed matrix multiplication
 ---
-matrix transposition formula
+matrix transposition property formula
 
 $$
 \begin{align*}

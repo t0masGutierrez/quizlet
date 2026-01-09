@@ -236,13 +236,13 @@ matrix addition property
 
 - commutative
 - associative
-- additive identity
-- additive inverse
-- scalar distributive
+- identity
+- inverse
+- distributive
 - scalar associative
-- scalar identity
+- multiplicative identity
 ---
-matrix property formula
+matrix addition property formula
 
 $$
 \begin{align*}

@@ -164,7 +164,7 @@ linear transformation property
 
 - zero
 - negation
-- linear combination
+- linearity
 ---
 linear transformation property formula
 

@@ -6,7 +6,7 @@ action formula
 
 $$
 \begin{align*}
-(L: \mathcal V \rightarrow \mathcal W) \land (B = \vec b_1, \dots, \vec b_n) \rightarrow L(c_1\vec b_1 + \dots c_n\vec b_n) = \vec w \\
+(L: \mathcal V \rightarrow \mathcal W) \land (B = \vec b_1, \dots, \vec b_n) \rightarrow L(c_1\vec b_1 + \dots c_k\vec b_k) = \vec w \\
 L = \text{linear transformation} \\
 \mathcal V = \text{domain vector space} \\
 \mathcal W = \text{codomain vector space} \\

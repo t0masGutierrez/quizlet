@@ -27,9 +27,9 @@ $$
 dot product property
 
 - commutative
-- identity magnitude
-- zero magnitude
-- scalar associative
+- identity
+- zero
+- associative
 - distributive
 ---
 dot product property formula

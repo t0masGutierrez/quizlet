@@ -1,0 +1,136 @@
+bounded above
+
+- there exist real number of set such that every member of set less or equal real number
+---
+bounded above formula
+
+$$
+\begin{align*}
+S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \\
+u = \text{upper bound} 
+\end{align*}
+$$
+---
+bounded below
+
+- there exist real number of set such that every member of set greater or equal real number
+---
+bounded below formula
+
+$$
+\begin{align*}
+S \subset \mathbb R, \forall x \in S, \exists w \in \mathbb R: w \le x \\
+w = \text{lower bound} 
+\end{align*}
+$$
+---
+ bounded
+
+- both bounded above and bounded below
+---
+bounded formula
+
+$$
+\begin{align*}
+S \subset \mathbb R, \exists u, w \in \mathbb R, \forall x \in S: w \le x \le u \\
+u = \text{upper bound} \\
+w = \text{lower bound} 
+\end{align*}
+$$
+---
+unbounded
+
+- either unbounded above or unbounded below
+---
+unbounded formula
+
+$$
+\begin{align*}
+S \subset \mathbb R, \not\exists u, w \in \mathbb R, \forall x \in S: w \le x \le u \\
+u = \text{upper bound} \\
+w = \text{lower bound}
+\end{align*}
+$$
+---
+supremum
+
+- least upper bound of bounded above set
+---
+supremum formula
+
+$$
+\begin{align*}
+S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \le U \rightarrow u = \sup S\\
+U = \{u, u+1, u+2, \dots, \infty\} \\
+u = \text{supremum} \\
+\end{align*}
+$$
+---
+infimum
+
+- greatest lower bound of bounded below set
+---
+infimum formula
+
+$$
+\begin{align*}
+S \subset \mathbb R, \exists w \in \mathbb R, \forall x \in S: W \le w \le x \rightarrow w = \inf S = -\sup (-S)\\
+W = \{w, w-1, w-2, \dots, -\infty\} \\
+w = \text{infimum} \\
+\end{align*}
+$$
+---
+completeness property
+
+- for every nonempty bounded above set there exists supremum
+- for every nonempty bounded below set there exists infimum
+---
+completeness property formula
+
+$$
+\begin{align*}
+S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \rightarrow \exists \sup S \\
+S \subset \mathbb R, \forall x \in S, \exists w \in \mathbb R: w \le x \rightarrow \exists \inf S \\
+u = \text{upper bound} \\
+w = \text{lower bound} 
+\end{align*}
+$$
+---
+archimedean property
+
+- natural numbers are unbounded above
+- there does not exist smallest positive real number
+---
+archimedean property formula
+
+$$
+\begin{align*}
+\forall (x > 0) \in \mathbb R, \forall y \in \mathbb R, \exists n \in \mathbb N: y < nx
+\end{align*}
+$$
+---
+density property
+
+- between every two real numbers there exists rational number
+---
+density property
+
+$$
+\begin{align*}
+(x, y \in \mathbb R) \land (x < y) \rightarrow \exists q \in \mathbb Q: x < q < y
+\end{align*}
+$$
+---
+positive nth root property
+
+- for every positive real number there exists unique positive real number root for every natural number power
+---
+positive nth root property formula
+
+$$
+\begin{align*}
+\forall (x > 0) \in \mathbb R, \forall n \in \mathbb N, \exists !(y > 0) \in \mathbb R: y^n = x \\
+y = \text{positive nth root}
+\end{align*}
+$$
+---

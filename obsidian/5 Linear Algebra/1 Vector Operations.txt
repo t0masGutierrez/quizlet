@@ -172,11 +172,11 @@ vector addition property
 
 - commutative
 - associative
-- additive identity
-- additive inverse
-- scalar distributive
+- identity
+- inverse
+- distributive
 - scalar associative
-- scalar identity
+- multiplicative identity
 ---
 vector addition property formula
 

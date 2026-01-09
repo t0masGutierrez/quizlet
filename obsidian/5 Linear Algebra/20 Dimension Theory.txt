@@ -65,7 +65,7 @@ $$
 ---
 linear transformation range
 
-- linear combination of matrix transformation columns with kernel
+- linear combination of matrix transformation columns with domain
 ---
 linear transformation range formula
 

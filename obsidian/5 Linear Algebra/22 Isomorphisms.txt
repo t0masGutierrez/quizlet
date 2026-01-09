@@ -7,7 +7,7 @@ bijective linear transformation formula
 
 $$
 \begin{align*}
-(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow (\forall \vec v_1, \vec v_2, L(\vec v_1) = L(\vec v_2) \rightarrow \vec v_1 = \vec v_2) \land (\forall \vec w\exists \vec v, L(\vec v) = \vec w) \\
+(L: \mathcal V \rightarrow \mathcal W) \leftrightarrow (\forall \vec v_1, \vec v_2 \in \mathcal V: L(\vec v_1) = L(\vec v_2) \rightarrow \vec v_1 = \vec v_2) \land (\forall \vec w \in \mathcal W, \exists \vec v \in \mathcal V: L(\vec v) = \vec w) \\
 L = \text{bijective linear transformation} \\
 \mathcal V = \text{domain vector space} \\
 \mathcal W = \text{codomain vector space} \\

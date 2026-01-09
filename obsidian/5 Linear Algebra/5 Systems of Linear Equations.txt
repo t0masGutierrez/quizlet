@@ -265,11 +265,11 @@ $$
 ---
 pivot entry
 
-- special entry such that its 1
+- special entry equal 1
 ---
 target entry
 
-- special entry such that its 0
+- special entry equal 0
 ---
 pivot column
 

@@ -9,7 +9,7 @@ why natural numbers formula
 $$
 \begin{align*}
 S = \emptyset \rightarrow |S| \not\in S \\ 
-S = \emptyset \rightarrow s_n \not \in s_{n+1} \\
+S = \emptyset \rightarrow x_n \not \in x_{n+1} \\
 S = \emptyset \rightarrow \infty \not \in S \\
 \end{align*}
 $$
@@ -139,7 +139,7 @@ rational numbers formula
 
 $$
 \begin{align*}
-\mathbb Q = \{\frac{p}{q}| p, q \in \mathbb Z \land q \ne 0\} \\
+\mathbb Q = \{\frac{p}{q}| p, q \in \mathbb Z, q \ne 0\} \\
 \end{align*}
 $$
 ---
@@ -231,8 +231,8 @@ field formula
 
 $$
 \begin{align*}
-(+) : S \times S \rightarrow S \\
-(\cdot ) : S \times S \rightarrow S
+(+) : F \times F \rightarrow F \\
+(\cdot ) : F \times F \rightarrow F
 \end{align*}
 $$
 ---
@@ -264,52 +264,95 @@ x \cdot 1 = x \\
 \end{align*}
 $$
 ---
-positivity property
+field addition property
 
-- addition
-- multiplication
-- trichotomy
+- equality
+- identity
+- single inverse
+- double inverse
 ---
-positivity property formula
+field addition property formula
 
 $$
 \begin{align*}
-(P \subset \mathbb R) \land (x, y \in P) \rightarrow x + y \in P \\
-(P \subset \mathbb R) \land (x, y \in P) \rightarrow x \cdot y \in P \\
-(P \subset \mathbb R) \land (x \in \mathbb R) \rightarrow (x \in P) \lor (x = 0) \lor (-x \in P)
+x + y = x + z \rightarrow y = z \\
+x + y = x \rightarrow y = 0 \\
+x + y = 0 \rightarrow y = -x \\
+-(-x) = x
 \end{align*}
 $$
 ---
-order property
+field multiplication property
 
-- comparison
-- inequality
-- trichotomy
+- zero
+- nonzero
+- single negative
+- double negative
+- equality
+- identity
+- single inverse
+- double inverse
 ---
-order property formula
+field multiplication property formula
 
 $$
 \begin{align*}
-(P \subset \mathbb R) \land (x - y \in P) \rightarrow (x > y) \lor (y < x) \\
-(P \subset \mathbb R) \land (x - y \in P \cup \{0\}) \rightarrow (x \ge y) \lor (y \le x) \\
-x, y \in \mathbb R \rightarrow (x > y) \lor (x = y) \lor (x < y)
+0x = 0 \\
+(x \ne 0) \land (y \ne 0) \rightarrow xy \ne 0 \\
+(-x)y = -(xy) = x(-y) \\
+(-x)(-y) = xy
+(x \ne 0) \land (xy = xz) \rightarrow y = z \\
+(x \ne 0) \land (xy = x) \rightarrow y = 1 \\
+(x \ne 0) \land (xy = 1) \rightarrow y = \frac{1}{x} \\
+x \ne 0 \rightarrow \frac{1}{1/x} = x \\
 \end{align*}
 $$
 ---
-operation property
+set ordinality
 
-- transitivity
-- addition
-- multiplication
+- trichotomy
+- transitive
 ---
-operation property formula
+set ordinality formula
 
 $$
 \begin{align*}
-(x, y, z \in \mathbb R) \land (x > y) \land (y > z) \rightarrow x > z \\
-(x, y, z \in \mathbb R) \land (x > y) \rightarrow x + z > y + z \\
-(x, y, z \in \mathbb R) \land (x > y) \land (z > 0) \rightarrow zx > zy \\
-(x, y, z \in \mathbb R) \land (x > y) \land (z < 0) \rightarrow zx < zy
+x, y \in S \rightarrow (x < y) \lor (x = y) \lor (x > y) \\
+(x, y, z \in S) \land (x < y) \land (y < z) \rightarrow x < z 
+\end{align*}
+$$
+---
+field ordinality
+
+- addition
+- multiplication
+---
+field ordinality formula
+
+$$
+\begin{align*}
+(x, y, z \in F) \land (y < z) \rightarrow x + y < x + z \\
+(x, y \in F) \land (x, y > 0) \rightarrow xy > 0
+\end{align*}
+$$
+---
+field ordinality property
+
+- negate
+- positive
+- negative
+- square
+- reciprocal
+---
+field ordinality property formula
+
+$$
+\begin{align*}
+x > 0 \leftrightarrow -x < 0 \\
+(x > 0) \land (y < z) \rightarrow xy < xz \\
+(x < 0) \land (y < z) \rightarrow xy > xz \\
+x \ne 0 \rightarrow x^2 > 0 \\
+0 < x < y \rightarrow 0 < \frac{1}{y} < \frac{1}{x}
 \end{align*}
 $$
 ---
@@ -330,6 +373,7 @@ absolute value property
 - zero
 - multiplication
 - addition
+- subtraction
 - inequality
 ---
 absolute value property formula
@@ -337,147 +381,9 @@ absolute value property formula
 $$
 \begin{align*}
 |x| = 0 \leftrightarrow x = 0 \\
-|xy| = (|x|)(|y|) \\
+|x \cdot y| = (|x|)(|y|) \\
 |x + y| \le |x| + |y| \\
--|x| \le x \le |x|
-\end{align*}
-$$
----
-bounded above
-
-- there exist real number within set such that every element of set less or equal real number
----
-bounded above formula
-
-$$
-\begin{align*}
-S \subset \mathbb R, \exists u \in \mathbb R, \forall s \in S: s \le u \\
-u = \text{upper bound} 
-\end{align*}
-$$
----
-bounded below
-
-- there exist real number within set such that every element of set greater or equal real number
----
-bounded below formula
-
-$$
-\begin{align*}
-S \subset \mathbb R, \forall s \in S, \exists w \in \mathbb R: w \le s \\
-w = \text{lower bound} 
-\end{align*}
-$$
----
- bounded
-
-- both bounded above and bounded below
----
-bounded formula
-
-$$
-\begin{align*}
-S \subset \mathbb R, \exists u, w \in \mathbb R, \forall s \in S: w \le s \le u \\
-u = \text{upper bound} \\
-w = \text{lower bound} 
-\end{align*}
-$$
----
-unbounded
-
-- either unbounded above or unbounded below
----
-unbounded formula
-
-$$
-\begin{align*}
-S \subset \mathbb R, \not\exists u, w \in \mathbb R, \forall s \in S: w \le s \le u \\
-u = \text{upper bound} \\
-w = \text{lower bound}
-\end{align*}
-$$
----
-supremum
-
-- least upper bound of bounded above set
----
-supremum formula
-
-$$
-\begin{align*}
-S \subset \mathbb R, \exists u \in \mathbb R, \forall s \in S: s \le u \le U \rightarrow u = \sup S\\
-U = \{u, u+1, u+2, \dots, \infty\} \\
-u = \text{supremum} \\
-\end{align*}
-$$
----
-infimum
-
-- greatest lower bound of bounded below set
----
-infimum formula
-
-$$
-\begin{align*}
-S \subset \mathbb R, \exists w \in \mathbb R, \forall s \in S: W \le w \le s \rightarrow w = \inf S = -\sup (-S)\\
-W = \{w, w-1, w-2, \dots, -\infty\} \\
-w = \text{infimum} \\
-\end{align*}
-$$
----
-completeness property
-
-- for every nonempty bounded above set there exists supremum
-- for every nonempty bounded below set there exists infimum
----
-completeness property formula
-
-$$
-\begin{align*}
-S \subset \mathbb R, \exists u \in \mathbb R, \forall s \in S: s \le u \rightarrow \exists \sup S \\
-S \subset \mathbb R, \forall s \in S, \exists w \in \mathbb R: w \le s \rightarrow \exists \inf S \\
-u = \text{upper bound} \\
-w = \text{lower bound} 
-\end{align*}
-$$
----
-archimedean property
-
-- natural numbers are unbounded above
-- there does not exist smallest positive real number
----
-archimedean property formula
-
-$$
-\begin{align*}
-\forall x \in \mathbb R,  \exists n \in \mathbb N: x < n \\
-\forall x > 0 \in \mathbb R, \forall y \in \mathbb R, \exists n \in \mathbb N: y < nx \\
-\forall x > 0 \in \mathbb R, \exists n \in \mathbb N: 0 < \frac{1}{n} < x
-\end{align*}
-$$
----
-positive nth root property
-
-- for every positive real number there exists unique positive real number root for every natural number power
----
-positive nth root property formula
-
-$$
-\begin{align*}
-\forall x > 0 \in \mathbb R, \forall n \in \mathbb N, \exists y > 0 \in \mathbb R: y^n = x \\
-y = \text{positive nth root}
-\end{align*}
-$$
----
-density property
-
-- between every two real numbers there exists rational number
----
-density property
-
-$$
-\begin{align*}
-(x, y \in \mathbb R) \land (x < y) \rightarrow \exists q \in \mathbb Q: x < q < y
+|x - z| \le |x - y| + |y - z| \\
 \end{align*}
 $$
 ---
