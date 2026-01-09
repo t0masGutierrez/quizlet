@@ -8,4 +8,4 @@ $$
 \forall \vec p, \vec q \in \mathbb R^k: \text{d}(\vec p, \vec q) = \sqrt{\sum_{i=1}^k (\vec p_i - \vec q_i)^2}
 \end{aligned}
 $$
----
+
