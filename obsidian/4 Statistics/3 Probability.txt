@@ -10,6 +10,16 @@ probability
 
 - likelihood event will occur
 ---
+probability formula
+
+$$
+\begin{align*}
+0 \le P(A) \le 1 \\
+A \cap B = \emptyset \rightarrow P(A \cup B) = P(A) + P(B) \\
+P(\Omega) = 1
+\end{align*}
+$$
+---
 frequentist probability
 
 - relative frequency
@@ -142,6 +152,14 @@ P(A \cup B) = P(A) + P(B) - P(A \cap B)
 \end{align*}
 $$
 ---
+multiplication rule
+
+- independent or dependent
+---
+addition rule
+
+- disjoint or joint
+---
 tree diagram
 
 - probability distribution of two or more dependent categorical variables
@@ -163,22 +181,6 @@ $$
 P(A | B) = \frac{P(B | A) P(A)}{P(B)}
 \end{align*}
 $$
----
-multiplication rule
-
-- independent or dependent
----
-addition rule
-
-- disjoint or joint
----
-simple probability
-
-- likelihood 1 independent event will occur
----
-compound probability
-
-- likelihood two or more independent events will occur
 ---
 permutation
 

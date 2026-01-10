@@ -86,42 +86,16 @@ positive skew distribution
 ---
 measure of center
 
-- center of dataset
+- center of data
 - mean median and mode
 ---
 mean
 
 - average frequency
 ---
-mean formula
+calculate mean
 
-$$
-\begin{align*}
-\bar x = \frac{1}{n}\sum x \\
-x = \text{data} \\
-n = \text{sample size}
-\end{align*}
-$$
----
-mean frequency formula
-
-$$
-\begin{align*}
-\bar x = \frac{\sum fm}{\sum f} \\
-f = \text{frequency} \\
-m = \text{class midpoint}
-\end{align*}
-$$
----
-weighted frequency formula
-
-$$
-\begin{align*}
-\bar x = \frac{\sum fw}{\sum w} \\
-f = \text{frequency} \\
-w = \text{weight}
-\end{align*}
-$$
+- sum of data division with sample size
 ---
 median
 
@@ -138,17 +112,12 @@ mode
 ---
 calculate mode
 
-- count
+- count data
 ---
 measure of spread
 
-- variability of dataset
-- range IQR variance and standard deviation
----
-5 number summary
-
-- min Q1 median Q3 max
-![[4 Statistics/Images/5 number summary.png|300]]
+- variability of data
+- range, IQR, variance, and standard deviation
 ---
 range
 
@@ -164,7 +133,13 @@ variance
 ---
 standard deviation
 
-- mean difference between data and mean
+- average difference between data and mean
+---
+chebyshev rule
+
+- $\ge$ 75% of data within 2 standard deviation
+- $\ge$ 89% of data within 3 standard deviation
+- $\ge$ 95% of data within 4.5 standard deviation
 ---
 empirical rule
 
@@ -175,7 +150,7 @@ empirical rule
 ---
 empirical rule of thumb
 
-- two standard deviations equal significantly deviant
+- two standard deviation equal significant deviation
 ---
 outlier
 
@@ -203,8 +178,8 @@ $$
 ---
 measure of position
 
-- location of dataset
-- z score quantile and percentile
+- location of data
+- z score, 5 number summary, and percentile
 ---
 z score
 
@@ -221,11 +196,101 @@ s = \text{standard deviation}
 \end{align*}
 $$
 ---
-quantile
+5 number summary
 
-- dataset division into quarters
+- min Q1 median Q3 max
+![[4 Statistics/Images/5 number summary.png|300]]
 ---
 percentile
 
-- dataset division into hundredths
+- convert percentile into data
+---
+percentile formula
+
+$$
+\begin{align*}
+\text{sort}(x) \rightarrow i = \frac{k}{100}(n+1) \\
+x = \text{data} \\
+i = \text{index} \\
+k = \text{percentile} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+inverse percentile
+
+- convert data into percentile
+---
+inverse percentile formula
+
+$$
+\begin{align*}
+\text{sort}(x) \rightarrow k = \frac{|x_j < x_i| + 0.5|x_j = x_i|}{n}(100) \\
+x = \text{data} \\
+k = \text{percentile} \\
+x_j = \text{nontarget data} \\
+x_i = \text{target data} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+class
+
+- divide continuous range of data into equal, consecutive, and distinct interval
+---
+class formula
+
+$$
+\begin{align*}
+k = 1 + \lceil \frac{\log n}{\log 2}\rceil \\
+w = \frac{\max(x) - \min(x)}{k} \\
+k = \text{number of classes} \\
+w = \text{class width} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+class midpoint
+
+- mean difference between upper class endpoint and lower class endpoint
+---
+class midpoint formula
+
+$$
+\begin{align*}
+m_i = \frac{E_i + E_{i+1}}{2} \\
+E = \text{class endpoint}
+\end{align*}
+$$
+---
+histogram mean
+
+- average histogram
+---
+mean frequency formula
+
+$$
+\begin{align*}
+\bar x = \frac{\sum_{i=1}^n f_im_i}{\sum_{i=1}^n f_i} \\
+n = \text{sample size} \\
+f = \text{frequency} \\
+m = \text{class midpoint} 
+\end{align*}
+$$
+---
+histogram standard deviation
+
+- average difference between histogram and mean
+---
+standard deviation frequency formula
+
+$$
+\begin{align*}
+s = \sqrt{\frac{\sum_{i=1}^nf_im_i^2}{n} - \bar x ^2} \\
+n = \text{sample size} \\
+f = \text{frequency} \\
+m = \text{class midpoint} \\
+\bar x = \text{mean}
+\end{align*}
+$$
 ---

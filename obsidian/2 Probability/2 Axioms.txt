@@ -1,47 +1,27 @@
-sample space
-
-- set of all possible outcomes
----
-sample space formula
-
-$$
-\begin{align*}
-\Omega = \{\}
-\end{align*}
-$$
----
-event
-
-- subset of sample space
----
-event formula
-
-$$
-\begin{align*}
-A \subseteq \Omega
-\end{align*}
-$$
----
 set identity
 
 - set expression that satisfy the requirements of tautology
 ![[7 Discrete Mathematics/Images/set identity.png]]
 ---
+sample space
+
+- set of all possible outcomes
+---
+event
+
+- subset of sample space
+---
 probability
 
 - likelihood event will occur
 ---
-probability axioms
-
-- definition
----
-probability axioms formula
+probability formula
 
 $$
 \begin{align*}
 0 \le P(A) \le 1 \\
-P(\Omega) = 1 \\
-\forall (i \ne j): A_i \cap A_j = \emptyset \rightarrow P(\bigcup_{i=1}^\infty A_i) = \sum_{i=1}^\infty P(A_i)
+A \cap B = \emptyset \rightarrow P(A \cup B) = P(A) + P(B) \\
+P(\Omega) = 1
 \end{align*}
 $$
 ---
@@ -177,6 +157,14 @@ P(A \cup B) = P(A) + P(B) - P(A \cap B)
 \end{align*}
 $$
 ---
+multiplication rule
+
+- independent or dependent
+---
+addition rule
+
+- disjoint or joint
+---
 tree diagram
 
 - probability distribution of two or more dependent categorical variables
@@ -198,20 +186,4 @@ $$
 P(A | B) = \frac{P(B | A) P(A)}{P(B)}
 \end{align*}
 $$
----
-multiplication rule
-
-- independent or dependent
----
-addition rule
-
-- disjoint or joint
----
-simple probability
-
-- likelihood 1 independent event will occur
----
-compound probability
-
-- likelihood two or more independent events will occur
 ---

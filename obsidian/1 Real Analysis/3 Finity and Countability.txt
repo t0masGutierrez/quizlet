@@ -323,8 +323,7 @@ $$
 \begin{align*}
 \forall (a < b) \in \mathbb R: \prod_{i=1}^k [a_i, b_i] = \{\vec q \in \mathbb R^k | a_i \le q_i \le b_i \} \\
 a = \text{lower endpoint} \\
-b = \text{upper endpoint} \\
-\vec q = \text{point}
+b = \text{upper endpoint}
 \end{align*}
 $$
 ---
