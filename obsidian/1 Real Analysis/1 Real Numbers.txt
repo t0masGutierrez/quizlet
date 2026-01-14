@@ -22,7 +22,7 @@ natural numbers formula
 
 $$
 \begin{align*}
-\mathbb N = \{0, 1, 2, 3, \dots, \infty\}
+\mathbb N = \{0, 1, 2, \dots, \infty\}
 \end{align*}
 $$
 ---
@@ -30,7 +30,7 @@ peano axioms
 
 - zero
 - success
-- initial
+- fail
 - distinct 
 - induct
 ---
@@ -85,7 +85,7 @@ integers formula
 
 $$
 \begin{align*}
-\mathbb Z = \{-\infty, \dots, \infty\}
+\mathbb Z = \{n - m| n, m \in \mathbb N \}
 \end{align*}
 $$
 ---
@@ -168,7 +168,7 @@ construct rational numbers formula
 $$
 \begin{align*}
 (p, q) \sim (p', q') \leftrightarrow \frac{p}{q} = \frac{p'}{q'} \\
-[(p, q)] = \{(p', q') \in \mathbb Z \times Z |(p, q) \sim (p', q')\} \\
+[(p, q)] = \{(p', q') \in \mathbb Z \times \mathbb Z |(p, q) \sim (p', q')\} \\
 \mathbb Q = \{[(p, q)] | (p, q) \in \mathbb Z \times \mathbb Z\}
 \end{align*}
 $$

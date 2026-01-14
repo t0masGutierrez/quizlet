@@ -1,14 +1,16 @@
 subspace
 
-- subset of vector space whom itself equal vector space with the same operations
+- nonempty subset of vector space whom itself equal vector space with the same operations
 ---
 subspace formula
 
 $$
 \begin{align*}
-\mathcal W \le \mathcal V \leftrightarrow (\mathcal W  \subseteq \mathcal V) \land (\vec w_1 + \vec w_2 \in \mathcal W) \land (c\vec w \in \mathcal W) \\
+\mathcal W \le \mathcal V \leftrightarrow (\mathcal W  \subseteq \mathcal V) \land (\vec w_1 + \vec w_2 \in \mathcal W) \land (c\vec w \in \mathcal W) \land (\mathcal W \ne \emptyset) \\
 \mathcal W = \text{subspace} \\
-\mathcal V = \text{vector space}
+\mathcal V = \text{vector space} \\
+\vec w = \text{vector} \\
+c = \text{scalar}
 \end{align*}
 $$
 ---
@@ -35,14 +37,14 @@ subspace property formula
 
 $$
 \begin{align*}
-\mathcal W \le \mathcal V \leftrightarrow (\vec w_1 + \vec w_2 \in \mathcal V) \land (c\vec w \in \mathcal V) \land (\mathcal W \ne \emptyset) \\
+\mathcal W \le \mathcal V \leftrightarrow (\vec w_1 + \vec w_2 \in \mathcal V) \land (c\vec w \in \mathcal V) \land (\exists \vec 0_{\mathcal V} \in \mathcal W) \\
 \mathcal W = \text{subspace} \\
 \mathcal V = \text{vector space} \\
 \emptyset = \text{empty set}
 \end{align*}
 
 $$---
-example subspace
+subspace example
 
 - lower triangular matrix
 - upper triangular matrix
@@ -50,36 +52,15 @@ example subspace
 - symmetric matrix
 - skew symmetric matrix
 ---
-example subspace formula
-
-$$
-\begin{align*}
-\mathcal L_n \le\mathcal M_n \\
-\mathcal U_n \le\mathcal M_n \\
-\mathcal D_n \le\mathcal M_n \\
-\mathcal A^T \le\mathcal M_n \\
-\end{align*}
-$$
----
-example nonsubspace
+nonsubspace example
 
 - nonsingular matrix
 - singular matrix
-- rref square matrix
----
-example nonsubspace formula
-
-$$
-\begin{align*}
-\{A| \det(A) \ne 0\} \not\le\mathcal M_n \\
-\{A| \det(A) = 0\} \not\le\mathcal M_n \\
-\{\text{rref}(A)\} \not\le\mathcal M_n
-\end{align*}
-$$
+- RREF square matrix
 ---
 intersection property
 
-- intersection of subspaces of vector space equal member of subspace
+- intersection of subspace(s) equal subspace
 ---
 intersection property formula
 
@@ -92,7 +73,7 @@ $$
 ---
 zero vector property
 
-- zero vector equal member of every subspace
+- zero vector equal element of every subspace
 ---
 zero vector property formula
 
@@ -107,7 +88,7 @@ $$
 ---
 linear combination property
 
-- linear combination of the vectors of subspace equal member of subspace
+- linear combination of the vectors of subspace equal element of subspace
 ---
 linear combination property formula
 

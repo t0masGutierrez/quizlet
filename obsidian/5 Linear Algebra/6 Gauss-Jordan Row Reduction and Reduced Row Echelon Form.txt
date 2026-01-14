@@ -25,16 +25,31 @@ X = \text{variable matrix} \\
 \end{align*}
 $$
 ---
+homogeneous solution set
+
+- if every column equal pivot column then every solution equal trivial solution
+- if there exists nonpivot column then there exists nontrivial solution
+---
+heterogeneous system of linear equations
+
+- constant matrix equal nonzero matrix
+---
+heterogeneous system of linear equations formula
+
+$$
+\begin{align*}
+AX \ne 0 \\
+A = \text{cofficient matrix} \\
+X = \text{variable matrix} \\
+0 = \text{constant matrix}
+\end{align*}
+$$
+---
 heterogeneous solution set
 
 - if there exists pivot entry for every column then single solution
 - if there exists row with all zeros except final entry then zero solutions
 - if there exists nonpivot column then infinite solutions
----
-homogeneous solution set
-
-- if every column equal pivot column then every solution equal trivial solution
-- if there exists nonpivot column then there exists nontrivial solution
 ---
 trivial solution
 
@@ -57,7 +72,7 @@ fundamental solution set formula
 
 $$
 \begin{align*}
-\{\sum_i^k c_i\vec x_i | c \in \mathbb R\} \\
+\{\sum_i^k c_i\vec x_i | c \in \mathbb R, \vec x \in \mathbb R^n\} \\
 i = \text{independent variable index} \\
 k = \text{number of independent variables} \\
 c = \text{scalar} \\

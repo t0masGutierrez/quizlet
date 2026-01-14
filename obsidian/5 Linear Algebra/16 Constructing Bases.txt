@@ -7,23 +7,23 @@ span simplification
 
 - generate matrix whose rows equal the vectors of subset of vector space
 - form the reduced row echelon of the system
-- zero rows of rref equal the redundant vectors of subset
+- zero rows of RREF equal the redundant vectors of subset
 ---
 basis via span simplification
 
 - span simplification
-- vectors of subset corresponding with nonzero rows of rref equal the basis vectors of subset
+- vectors of subset corresponding with nonzero rows of RREF equal the basis vectors of subset
 ---
 independence test
 
 - generate matrix whose columns equal the vectors of subset of vector space
 - form the reduced row echelon of the system
-- nonpivot columns of rref equal the redundant vectors of subset
+- nonpivot columns of RREF equal the redundant vectors of subset
 ---
 basis via independence test
 
 - independence test
-- vectors of subset corresponding with pivot columns of rref equal the basis vectors of subset
+- vectors of subset corresponding with pivot columns of RREF equal the basis vectors of subset
 ---
 span simplification versus independence test
 
@@ -41,7 +41,7 @@ basis via enlargement
 - form spanning set with standard unit vectors aka identity matrix
 - augment linearly independent set with spanning set
 - independence test
-- vectors of subset corresponding with pivot columns of rref equal the basis vectors of subset
+- vectors of subset corresponding with pivot columns of RREF equal the basis vectors of subset
 ---
 spanning versus independence
 

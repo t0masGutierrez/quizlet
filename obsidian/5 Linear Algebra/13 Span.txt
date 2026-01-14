@@ -38,13 +38,13 @@ terminology
 - if span of subset equal vector space then vector space spanned by subset
 - if span of subset equal vector space then subset spans vector space
 ---
-example span
+span example
 
 - standard unit vector
 - standard unit polynomial
 - standard unit matrix
 ---
-example span formula
+span example formula
 
 $$
 \begin{align*}
@@ -119,8 +119,8 @@ span simplification
 
 - generate matrix whose rows equal the vectors of subset
 - form the reduced row echelon of the system
-- nonzero rows of rref equal the simple vectors of subset
-- zero rows of rref equal the redundant vectors of subset
+- nonzero rows of RREF equal the simple vectors of subset
+- zero rows of RREF equal the redundant vectors of subset
 - if number of nonzero rows equal number of rows then spanning set
 - if number of nonzero rows not equal number of rows then nonspanning set
 ---

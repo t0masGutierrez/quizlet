@@ -48,14 +48,14 @@ $$
 \end{align*}
 $$
 ---
-example vector space
+vector space example
 
 - set of real numbers
 - set of $n$ dimensional real numbers
 - set of $m \times n$ matrices
 - set of $n$th degree polynomials
 ---
-example vector space formula
+vector space example formula
 
 $$
 \begin{align*}

@@ -44,13 +44,13 @@ $$
 \end{align*}
 $$
 ---
-example linear independence
+linear independence example
 
 - standard unit vector
 - standard unit polynomial
 - standard unit matrix
 ---
-example linear independence formula
+linear independence example formula
 
 $$
 \begin{align*}
@@ -174,7 +174,7 @@ $$
 ---
 existence and uniqueness
 
-- there exists unique linear combination of the vectors of subset for every member of the span of subset
+- there exists unique linear combination of the vectors of subset for every element of the span of subset
 ---
 existence and uniqueness formula
 

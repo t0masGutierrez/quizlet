@@ -96,14 +96,13 @@ x_0 = \text{limit point} \\
 S' = \text{derived set} \\
 K = \text{compact set} \\
 Y = \text{open set} \\
-\set{Y} = \text{open cover} \\
-X = \text{metric space} 
+\set{Y} = \text{open cover} 
 \end{align*}
 $$
 ---
 finite intersection property
 
-- if nonempty intersection for every finite collection of compact set then nonempty intersection of collection of compact set
+- if nonempty intersection for every finite collection of compact set then nonempty intersection for every collection of compact set
 ---
 finite intersection property formula
 
@@ -255,16 +254,16 @@ X = \text{metric space}
 \end{align*}
 $$
 ---
-connected
+disconnected
 
-- union of separated set
+- there exists union of separated set
 ---
-connected formula
+disconnected formula
 
 $$
 \begin{align*}
 S \subseteq X \rightarrow S = A \cup B \\
-S = \text{connected set} \\
+S = \text{disconnected set} \\
 X = \text{metric space} \\
 A, B = \text{separated set} 
 \end{align*}

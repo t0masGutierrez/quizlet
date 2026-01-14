@@ -1,38 +1,168 @@
-term
+mathematical model
 
-- definition
+- equation that express relationship between given quantity(s) of interest
 ---
-term
+unit
 
-- definition
+- scale of measurement
 ---
-term
+unit example
 
-- definition
+- meter
+- second
+- kilogram
+- kelvin
 ---
-term
+dimension
 
-- definition
+- type of measurement
 ---
-term
+dimension example
 
-- definition
+- length
+- time
+- mass
+- temperature
 ---
-term
+dimensional basis
 
-- definition
+- spanning
+- linearly independent
 ---
-term
+dimensional basis formula
 
-- definition
+$$
+\begin{align*}
+\text{Span}(D) = \mathcal V \\
+\text{Rank}(D) = n
+\end{align*}
+$$
 ---
-term
+dimensional combination
 
-- definition
+- express quantity as product of powers of the dimensional basis elements
 ---
-term
+dimensional combination formula
 
-- definition
+$$
+\begin{align*}
+q \in \mathbb R: [q] = \prod_{i=1}^m D_i^{\alpha_i} \rightarrow \Delta_q = (\alpha_1, \dots, \alpha_m) \in \mathbb R^m \\
+q = \text{quantity} \\
+D = \text{dimensional basis} \\
+\alpha = \text{dimensional exponent}
+\end{align*}
+$$
+---
+dimensional combination example
+
+- $q = 3 \frac{kg \cdot m^2}{s^2}$ 
+- $D = \set{L, T, M, \theta}$ 
+---
+dimensional combination example formula
+
+$$
+\begin{align*}
+[q] = ML^2T^{-2} \rightarrow \Delta_q = (2, -2, 1, 0) \\
+L = \text{length} \\
+T = \text{time} \\
+M = \text{mass} \\
+\theta = \text{temperature} \\
+\end{align*}
+$$
+---
+dimension property
+
+- addition
+- multiplication
+- division
+- exponentiation
+- integration
+- differentiation
+---
+dimension property formula
+
+$$
+\begin{align*}
+[p \pm q] \in D \leftrightarrow [p] = [q] \\
+[p \cdot q] = [p][q] \\
+[\frac{p}{q}] = \frac{[p]}{[q]} \\
+[q^k] = [q]^k \\
+[\int p dq] = [p][q] \\
+[\frac{dp}{dq}] = \frac{[p]}{[q]}
+\end{align*}
+$$
+---
+unit property
+
+- multiplication
+- division
+- exponentiation
+---
+unit property formula
+
+$$
+\begin{align*}
+\Delta_{pq} = \Delta_p + \Delta_q \\
+\Delta_{p/q} = \Delta_p - \Delta_q \\
+\Delta_{q^k} = k\Delta_q
+\end{align*}
+$$
+---
+dimensionless
+
+- dimensional combination equal 1
+- dimensional exponent equal 0
+---
+dimensionless formula
+
+$$
+\begin{align*}
+[q] = 1 \rightarrow \Delta_q = \vec 0 \\
+q = \text{pure number}
+\end{align*}
+$$
+---
+change of units
+
+- convert unit of quantity with respect to dimensional basis
+---
+change of units formula
+
+$$
+\begin{align*}
+q' = q\prod_{i=1}^m \lambda_i^{\alpha} \\
+q = \text{quantity} \\
+\lambda = \text{unit conversion factor} \\
+\alpha = \text{dimensional exponent}
+\end{align*}
+$$
+---
+change of units example
+
+- $q = 9.8 \frac{m}{s^2}$ 
+- $U = \set{m, s}$ 
+- $U' = \set{\text{km}, \text{min}}$ 
+---
+change of units example formula
+
+$$
+\begin{align*}
+q' = (9.8\frac{\text{m}}{\text{s}^2})(\frac{1}{1000}\frac{\text{km}}{\text{m}})(\frac{1}{60}\frac{\text{min}}{\text{s}^2})^{-2} = 35.28 \frac{\text{km}}{\text{min}^2}
+\end{align*}
+$$
+---
+unit-free equation
+
+- every quantity of equation equal dimensionless quantity
+---
+unit-free equation formula
+
+$$
+\begin{align*}
+q_1 = f(q_2, \dots, q_n) \rightarrow q_1' = f'(q_2', \dots, q_n') \\
+f: \mathbb R^{n-1} \rightarrow \mathbb R
+\end{align*}
+$$
 ---
 term
 

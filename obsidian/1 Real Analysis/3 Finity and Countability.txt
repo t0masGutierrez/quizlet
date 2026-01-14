@@ -81,9 +81,22 @@ $$
 \end{align*}
 $$
 ---
+convex
+
+- every coordinate along segment equal coordinate of convex set
+---
+convex formula
+
+$$
+\begin{align*}
+S \subseteq \mathbb R^k, \forall \vec p, \vec q \in S, \forall \lambda \in [0, 1]: \lambda \vec p + (1 - \vec q)\lambda \in S \\
+S = \text{convex set}
+\end{align*}
+$$
+---
 interval characterization property
 
-- interval equal connected region between endpoints
+- interval equal convex region between endpoints
 ---
 interval characterization property formula
 
@@ -157,7 +170,21 @@ $$
 x R x \\
 x R y \rightarrow y R x \\
 x R y \land y R z \to x R z \\
-\therefore A \sim A
+\therefore R \sim R
+\end{align*}
+$$
+---
+k-cell
+
+- subset of k-dimensional euclidean space equal the cartesian product of interval
+---
+k-cell formula
+
+$$
+\begin{align*}
+\forall (a < b) \in \mathbb R: \prod_{i=1}^k [a_i, b_i] = \{\vec q \in \mathbb R^k | a_i \le q_i \le b_i \} \\
+a = \text{lower endpoint} \\
+b = \text{upper endpoint}
 \end{align*}
 $$
 ---
@@ -264,20 +291,20 @@ uncountable example
 ---
 finite set property
 
-- less or equal cardinality between finite set and natural numbers
+- every finite set equal countable set
 ---
 finite set property formula
 
 $$
 \begin{align*}
 \exists n \in \mathbb N: |S| = |\{0, 1, 2, 3, \dots, n\}| \rightarrow |S| \le |\mathbb N| \\
-S = \text{finite set}
+S = \text{countable set}
 \end{align*}
 $$
 ---
 countable subset property
 
-- less or equal cardinality between subset of countable set and natural numbers
+- every subset of countable set equal countable set
 ---
 countable subset property formula
 
@@ -290,7 +317,7 @@ $$
 ---
 countable union property
 
-- less or equal cardinality between countable union of countable set and natural numbers
+- every countable union of countable set equal countable set
 ---
 countable union property formula
 
@@ -303,40 +330,13 @@ $$
 ---
 uncountable interval property
 
-- greater cardinality between interval of real numbers and natural numbers
+- every interval of real numbers equal uncountable set
 ---
 uncountable interval property formula
 
 $$
 \begin{align*}
 [0, 1] = \{x \in \mathbb R| 0 \le x \le 1\} \rightarrow |[0, 1] | > |\mathbb N|
-\end{align*}
-$$
----
-k-cell
-
-- subset of k-dimensional euclidean space equal the cartesian product of interval
----
-k-cell formula
-
-$$
-\begin{align*}
-\forall (a < b) \in \mathbb R: \prod_{i=1}^k [a_i, b_i] = \{\vec q \in \mathbb R^k | a_i \le q_i \le b_i \} \\
-a = \text{lower endpoint} \\
-b = \text{upper endpoint}
-\end{align*}
-$$
----
-convex
-
-- every coordinate along segment equal coordinate of convex set
----
-convex formula
-
-$$
-\begin{align*}
-S \subseteq \mathbb R^k, \forall \vec p, \vec q \in S, \forall \lambda \in [0, 1]: \lambda \vec p + (1 - \vec q)\lambda \in S \\
-S = \text{convex set}
 \end{align*}
 $$
 ---

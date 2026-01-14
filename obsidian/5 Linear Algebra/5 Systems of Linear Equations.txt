@@ -1,6 +1,6 @@
 linear equation
 
-- equation involving 1 or more variables operated on with real number multiplication or addition
+- equation involving 1 or more variables with degree 1
 ---
 linear equation formula
 
@@ -35,16 +35,16 @@ $$
 ---
 particular solution of system of linear equations
 
-- n tuple of solutions that satisfy every linear equation of the system
+- $n$ tuple of solutions that satisfy every linear equation of the system
 ---
 particular solution of system of linear equations formula
 
 $$
 \begin{align*}
-\forall j: \sum_{i=1}^n a_{ji}s_i = b_j \\
+\sum_{i=1}^n a_{ji}y_i = b_j \\
 a = \text{coefficient} \\
 b = \text{constant} \\
-s = \text{solution} \\
+y = \text{solution} \\
 n = \text{number of variables}
 \end{align*}
 $$
@@ -57,8 +57,8 @@ complete solution set of system of linear equations formula
 
 $$
 \begin{align*}
-\{s_1, s_2, \dots, s_n\} \\
-s = \text{solution} \\
+\{y_1, y_2, \dots, y_n\} \\
+y = \text{solution} \\
 n = \text{number of variables}
 \end{align*}
 $$
@@ -204,7 +204,7 @@ gaussian elimination
 
 - form the augmented matrix of the system
 - perform type I row operation on the 1st entry of 1st row such that its 1
-- perform type II row operation on all entries below the pivot such that its 0 
+- perform type II row operation on all entries below the pivot such that its 0
 - if zero pivot then perform type III row operation with lower row, if all zeros below zero pivot then skip column
 - back substitute for the particular solution of system of linear equations
 ---
@@ -281,17 +281,9 @@ nonpivot column
 ---
 independent variable
 
-- variable of nonpivot column
----
-calculate independent variable
-
-- let variable equal real number
+- variable of nonpivot column equal arbitrary real number
 ---
 dependent variable
 
-- variable of pivot column
----
-calculate dependent variable
-
-- solve system of linear equations
+- variable of pivot column equal solution of system of linear equations
 ---

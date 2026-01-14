@@ -272,7 +272,7 @@ $$
 ---
 closure
 
-- set union between set and derived set
+- union between set and derived set
 ---
 closure formula
 
@@ -295,7 +295,7 @@ $$
 \begin{align*}
 \bar S' \subseteq \bar S \subseteq X \\
 S' \subseteq S \subseteq X \leftrightarrow \bar S = S \\
-(S \subseteq F) \land (F' \subseteq F \subseteq X) \rightarrow \bar S \subseteq F
+(S \subseteq K) \land (K' \subseteq K \subseteq X) \rightarrow \bar S \subseteq K
 \end{align*}
 $$
 ---

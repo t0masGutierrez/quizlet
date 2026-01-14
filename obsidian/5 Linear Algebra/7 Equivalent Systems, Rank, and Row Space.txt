@@ -6,6 +6,11 @@ row equivalent
 
 - two augmented matrices row equivalent if and only if they're equal by finite number of row operations
 ---
+existence and uniqueness
+
+- there exists unique reduced row echelon form for every matrix
+- same reduced row echelon form no matter the order of row operations
+---
 inverse type I row operation
 
 - row scaling
@@ -15,7 +20,7 @@ inverse type I row operation formula
 $$
 \begin{align*}
 \langle i\rangle \rightarrow (\frac{1}{c})\langle i\rangle  \\
-m = \text{row index} \\
+i = \text{row index} \\
 c = \text{scalar}
 \end{align*}
 $$
@@ -29,7 +34,7 @@ inverse type II row operation formula
 $$
 \begin{align*}
 \langle i\rangle \rightarrow \langle i\rangle - c\langle j\rangle \\
-m = \text{row index} \\
+i = \text{row index} \\
 c = \text{scalar}
 \end{align*}
 $$
@@ -43,7 +48,7 @@ inverse type III row operation formula
 $$
 \begin{align*}
 \langle j \rangle \leftrightarrow \langle i \rangle \\
-m = \text{row index}
+i = \text{row index} \\
 \end{align*}
 $$
 ---
@@ -63,7 +68,7 @@ $$
 ---
 system equivalence property
 
-- row equivalence
+- row equivalent system equal system equivalent system
 ---
 system equivalence property formula
 
@@ -73,16 +78,11 @@ C|D \sim A|B \rightarrow CX = D \sim AX=B
 \end{align*}
 $$
 ---
-existence and uniqueness
+RREF equality property
 
-- there exists unique reduced row echelon form for every matrix
-- same reduced row echelon form no matter the order of row operations
+- row equivalent matrices share the same RREF
 ---
-rref equality property
-
-- two matrices equal rref if and only if they're row equivalent
----
-rref equality property formula
+RREF equality property formula
 
 $$
 \begin{align*}
@@ -92,13 +92,13 @@ $$
 ---
 rank
 
-- number of nonzero rows of rref
-- number of pivot columns of rref
+- number of nonzero rows of RREF
+- number of pivot columns of RREF
 ---
 rank property
 
-- for the rref if rank$(A)=n$ then every solution equal trivial solution
-- for the rref if rank$(A)<n$ then there exists nontrivial solution and therefore infinite solutions
+- for the RREF if rank$(A)=n$ then every solution equal trivial solution
+- for the RREF if rank$(A)<n$ then there exists nontrivial solution and therefore infinite solutions
 ---
 linear combination property
 
@@ -109,8 +109,8 @@ linear combination property formula
 
 $$
 \begin{align*}
-\exists s \in \text{RREF}(A | \vec x) \rightarrow \vec x \in \text{Row}(A) \\
-s = \text{solution} \\
+\exists y \in \text{RREF}(A | \vec x) \rightarrow \vec x \in \text{Row}(A) \\
+y = \text{solution} \\
 A = \text{coefficient matrix} \\
 \vec x = \text{vector}
 \end{align*}
@@ -124,7 +124,7 @@ row space formula
 
 $$
 \begin{align*}
-\text{Row}(A) = \{\sum_{i}^m c_i\vec a_i | c \in \mathbb R, \vec a \in \mathbb R^n\} \\
+\text{Row}(A) = \{\sum_{i=1}^m c_i\vec a_i | c \in \mathbb R, \vec a \in \mathbb R^n\} \\
 m = \text{number of rows} \\
 n = \text{number of columns} \\
 c = \text{scalar} \\
@@ -146,11 +146,11 @@ A \sim B \rightarrow \text{Row}(A) = \text{Row}(B)
 \end{align*}
 $$
 ---
-zero vector 
+zero vector property
 
-- zero vector equal member of every row space
+- zero vector equal element of every row space
 ---
-zero vector formula
+zero vector property formula
 
 $$
 \begin{align*}
@@ -160,11 +160,11 @@ m = \text{number of rows}
 \end{align*}
 $$
 ---
-ith row vector
+ith row vector property
 
-- ith row vector equal member of every row space
+- ith row vector equal element of every row space
 ---
-ith row vector formula
+ith row vector property formula
 
 $$
 \begin{align*}
@@ -177,8 +177,8 @@ $$
 ---
 row space test
 
-- generate augmented matrix whose columns equal the vectors of set and whose constant matrix equal the possible member of row space
+- generate augmented matrix whose columns equal the vectors of set and whose constant matrix equal the possible element of row space
 - form the reduced row echelon of the system
-- if consistent system then member of row space
-- if inconsistent system then not member of row space
+- if consistent system then element of row space
+- if inconsistent system then not element of row space
 ---

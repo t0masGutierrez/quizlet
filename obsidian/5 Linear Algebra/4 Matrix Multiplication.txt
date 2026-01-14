@@ -53,10 +53,10 @@ $$
 \begin{align*}
 (|A| = m \times n) \land (|B| = n \times p) \rightarrow |AB| = m \times p \\
 A = \text{matrix} \\
-m = \text{A number of rows} \\
-n = \text{A number of columns} \\
-n = \text{B number of rows} \\
-p = \text{B number of columns} \\
+m = \text{number of A rows} \\
+n = \text{number of A columns} \\
+n = \text{number of B rows} \\
+p = \text{number of B columns} \\
 \end{align*}
 $$
 ---
@@ -92,8 +92,11 @@ $$
 ---
 matrix exponentiation property
 
+- subtractive
+- multiplicative
 - additive
-- power
+- identity
+- zero
 ---
 matrix exponentiation property formula
 

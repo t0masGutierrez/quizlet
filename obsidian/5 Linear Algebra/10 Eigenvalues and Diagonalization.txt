@@ -20,13 +20,13 @@ $$
 ---
 eigenvector
 
-- vector quantity with variable magnitude but constant direction
+- vector quantity along the direction unchanged by the transformation
 ---
 eigenvector formula
 
 $$
 \begin{align*}
-\vec x \leftrightarrow \exists\vec x: A\vec x = \lambda \vec x \\
+\vec x \leftrightarrow A\vec x = \lambda \vec x \\
 \vec x \ne 0 \\
 \lambda = \text{eigenvalue} \\
 \vec x = \text{eigenvector} \\
@@ -51,7 +51,7 @@ $$
 ---
 number of eigenvectors
 
-- scalar multiplication with eigenvector equal eigenvector
+- infinite number of eigenvectors
 ---
 number of eigenvectors formula
 
@@ -79,26 +79,26 @@ A = \text{square matrix}
 \end{align*}
 $$
 ---
-singular eigenvector property
+homogeneous solution set
+
+- eigenvectors for corresponding eigenvalue equal nontrivial solutions of the homogeneous system of linear equations
+- eigenspace for corresponding eigenvectors equal complete solution set of the homogeneous system of linear equations
+---
+singular coefficient property
 
 - nontrivial eigenvector if and only if singular coefficient matrix
 ---
-singular eigenvalue property formula
+singular coefficient property formula
 
 $$
 \begin{align*}
 \vec x \leftrightarrow |A - \lambda I| = 0 \\
-\vec x = \text{eigenvector}
+\vec x = \text{eigenvector} \\
 \lambda = \text{eigenvalue} \\
 I = \text{identity matrix} \\
 A = \text{square matrix}
 \end{align*}
 $$
----
-homogeneous solution set
-
-- eigenvectors for corresponding eigenvalue equal nontrivial solutions of the homogeneous system of linear equations
-- eigenspace for corresponding eigenvectors equal complete solution set of the homogeneous system of linear equations
 ---
 characteristic polynomial
 
@@ -121,8 +121,8 @@ diagonalization
 - substitute eigenvalues into coefficient matrix
 - form the reduced row echelon of the system
 - fundamental solutions of homogeneous system equal fundamental eigenvectors
-- form eigenmatrix such that column vectors equal fundamental eigenvectors
 - test diagonalizability
+- form eigenmatrix such that column vectors equal fundamental eigenvectors
 - compute inverse eigenmatrix
 - matrix multiplication equal diagonal matrix
 - all entries along main diagonal of diagonal matrix equal eigenvalue 
@@ -160,6 +160,22 @@ A \sim D \leftrightarrow \exists P: D = P^{-1}AP \\
 A = \text{square matrix} \\
 D = \text{diagonal matrix} \\
 P = \text{eigenmatrix} \\
+P^{-1} = \text{inverse eigenmatrix}
+\end{align*}
+$$
+---
+matrix exponentiation property
+
+- square matrix exponentiation similar diagonal matrix exponentiation
+---
+matrix exponentiation property formula
+
+$$
+\begin{align*}
+A^k = PD^kP^{-1} \\
+P = \text{eigenmatrix} \\
+D = \text{diagonal matrix} \\
+k = \text{positive integer} \\
 P^{-1} = \text{inverse eigenmatrix}
 \end{align*}
 $$
@@ -205,22 +221,6 @@ k = \text{geometric multiplicity} \\
 n = \text{number of rows} \\
 n = \text{number of columns} \\
 P = \text{eigenmatrix}
-\end{align*}
-$$
----
-matrix exponentiation
-
-- square matrix exponentiation similar diagonal matrix exponentiation
----
-matrix exponentiation formula
-
-$$
-\begin{align*}
-A^k = PD^kP^{-1} \\
-P = \text{eigenmatrix} \\
-D = \text{diagonal matrix} \\
-k = \text{positive integer} \\
-P^{-1} = \text{inverse eigenmatrix}
 \end{align*}
 $$
 ---

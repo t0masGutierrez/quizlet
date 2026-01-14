@@ -26,9 +26,6 @@ I = \begin{bmatrix}
 0 & 1 & 0 \\
 0 & 0 & 1 
 \end{bmatrix} \leftrightarrow \forall (i \ne j): (a_{ij} = 0) \land \forall (i = j): (a_{ij} = 1) \\
-|I| = n \times n \\
-n = \text{number of rows} \\
-n = \text{number of columns} \\
 i = \text{row index} \\
 j = \text{column index}
 \end{align*}
@@ -52,7 +49,7 @@ $$
 \begin{align*}
 (AB=I) \land (AC=I) \rightarrow B=C \\
 A = \text{square matrix} \\
-B = C = \text{inverse matrix} \\
+B, C = \text{inverse matrix} \\
 I = \text{identity matrix}
 \end{align*}
 $$
@@ -60,9 +57,14 @@ $$
 nonsingular matrix exponentiation property
 
 - inverse
-- power
+- inverse power
 - multiplicative
 - transpositive
+- power
+- multiplicative power
+- additive power
+- identity
+- zero
 ---
 nonsingular matrix exponentiation property formula
 

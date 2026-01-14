@@ -47,7 +47,7 @@ $$
 ---
 unit vector property
 
-- dot product between $\pm 1$ 
+- dot product of unit vector equal $\pm 1$ 
 ---
 unit vector property formula
 

@@ -77,7 +77,7 @@ submatrix formula
 $$
 \begin{align*}
 A_{ij} = A - (a_{i*} + a_{*j}) \\
-|A_{ij}| = (n - 1) \times (n - 1), n \ge 2 \\
+\forall n \ge 2: |A_{ij}| = (n - 1) \times (n - 1) \\
 A = \text{square matrix} \\
 a_{i*} = \text{ith row} \\
 a_{*j} = \text{jth column} \\
@@ -113,7 +113,7 @@ $$
 ---
 cofactor
 
-- minor multiplication with $\pm 1$ depending on parity of exponent
+- minor multiplication with $\pm 1$ depending on the parity of exponent
 ---
 cofactor formula
 
@@ -149,13 +149,13 @@ $$
 ---
 upper triangular matrix determinant
 
-- product of entries along the main diagonal
+- determinant of upper triangular matrix equal product of entries along the main diagonal
 ---
 upper triangular matrix determinant formula
 
 $$
 \begin{align*}
-|A| = a_{11}a_{22} \dots a_{nn} \\
+A \in \mathcal U \rightarrow |A| = a_{11}a_{22} \dots a_{nn} \\
 a = \text{entry}
 \end{align*}
 $$
@@ -218,14 +218,14 @@ $$
 determinant via gaussian elimination
 
 - perform gaussian elimination until matrix equal upper triangular matrix
-- determinant equal product of entries along the main diagonal
+- determinant of upper triangular matrix equal product of entries along the main diagonal
 - determinant division with scalar
 ---
 determinant via gaussian elimination formula
 
 $$
 \begin{align*}
-B = R_k( \dots R_1(A)\dots ) \in \mathcal U_n \rightarrow |A| = \frac{1}{c}|B| \\
+B = R_k( \dots R_1(A)\dots ) \in \mathcal U \rightarrow |A| = \frac{1}{c}|B| \\
 R = \text{row operation} \\
 A = \text{square matrix} \\
 |A| = \text{determinant} \\

@@ -93,8 +93,7 @@ $$
 ---
 independent event
 
-- event B outcome not dependent upon event A outcome
-- with replacement
+- cannot influence the outcome
 ---
 independent multiplication rule
 
@@ -110,8 +109,7 @@ $$
 ---
 dependent event
 
-- event B outcome dependent upon event A outcome
-- without replacement
+- can influence the outcome
 ---
 dependent multiplication rule
 
@@ -127,7 +125,7 @@ $$
 ---
 disjoint event
 
-- two events cannot occur at same time
+- cannot occur at the same time
 ---
 disjoint addition rule
 
@@ -143,7 +141,7 @@ $$
 ---
 joint event
 
-- two events can occur at same time
+- can occur at the same time
 ---
 joint addition rule
 

@@ -1,25 +1,25 @@
 bounded above
 
-- there exist real number of set such that every member of set less or equal real number
+- there exist real number of set such that every element of set less or equal real number
 ---
 bounded above formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \\
+S \subseteq \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \\
 u = \text{upper bound} 
 \end{align*}
 $$
 ---
 bounded below
 
-- there exist real number of set such that every member of set greater or equal real number
+- there exist real number of set such that every element of set greater or equal real number
 ---
 bounded below formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \forall x \in S, \exists w \in \mathbb R: w \le x \\
+S \subseteq \mathbb R,  \exists w  \in \mathbb R, \forall x \in S: w \le x \\
 w = \text{lower bound} 
 \end{align*}
 $$
@@ -32,7 +32,7 @@ bounded formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \exists u, w \in \mathbb R, \forall x \in S: w \le x \le u \\
+S \subseteq \mathbb R, \exists u, w \in \mathbb R, \forall x \in S: w \le x \le u \\
 u = \text{upper bound} \\
 w = \text{lower bound} 
 \end{align*}
@@ -46,7 +46,7 @@ unbounded formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \not\exists u, w \in \mathbb R, \forall x \in S: w \le x \le u \\
+S \subseteq \mathbb R, \not\exists u, w \in \mathbb R, \forall x \in S: w \le x \le u \\
 u = \text{upper bound} \\
 w = \text{lower bound}
 \end{align*}
@@ -60,7 +60,7 @@ supremum formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \le U \rightarrow u = \sup S\\
+S \subseteq \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \le U \rightarrow u = \sup S\\
 U = \{u, u+1, u+2, \dots, \infty\} \\
 u = \text{supremum} \\
 \end{align*}
@@ -74,7 +74,7 @@ infimum formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \exists w \in \mathbb R, \forall x \in S: W \le w \le x \rightarrow w = \inf S = -\sup (-S)\\
+S \subseteq \mathbb R, \exists w \in \mathbb R, \forall x \in S: W \le w \le x \rightarrow w = \inf S = -\sup (-S)\\
 W = \{w, w-1, w-2, \dots, -\infty\} \\
 w = \text{infimum} \\
 \end{align*}
@@ -89,8 +89,8 @@ completeness property formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \rightarrow \exists \sup S \\
-S \subset \mathbb R, \forall x \in S, \exists w \in \mathbb R: w \le x \rightarrow \exists \inf S \\
+S \subseteq \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \rightarrow \exists \sup S \\
+S \subseteq \mathbb R, \exists w \in \mathbb R, \forall x \in S: w \le x \rightarrow \exists \inf S \\
 u = \text{upper bound} \\
 w = \text{lower bound} 
 \end{align*}
@@ -129,7 +129,7 @@ positive nth root property formula
 
 $$
 \begin{align*}
-\forall (x > 0) \in \mathbb R, \forall n \in \mathbb N, \exists !(y > 0) \in \mathbb R: y^n = x \\
+\forall (x > 0) \in \mathbb R, \exists !(y > 0) \in \mathbb R, \forall n \in \mathbb N: y^n = x \\
 y = \text{positive nth root}
 \end{align*}
 $$

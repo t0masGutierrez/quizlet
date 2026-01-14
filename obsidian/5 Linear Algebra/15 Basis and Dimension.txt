@@ -63,13 +63,13 @@ B = \text{basis} \\
 \end{align*}
 $$
 ---
-example dimension
+dimension example
 
 - $\mathbb R^n$ 
 - $\mathcal P_n$ 
 - $\mathcal M_{mn}$ 
 ---
-example dimension formula
+dimension example formula
 
 $$
 \begin{align*}
