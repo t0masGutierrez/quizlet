@@ -12,20 +12,19 @@ $$
 \end{align*}
 $$
 ---
-finite basis property
+spanning independence property
 
-- all bases share the same finity
+- size of linearly independent set less or equal size of spanning set
 ---
-finite basis property formula
+spanning independence property formula
 
 $$
 \begin{align*}
 (\text{Span}(S) = \mathcal V) \land (|S| \ne \infty) \land(\text{Rank}(T) = n) \rightarrow (|T| \ne \infty) \land (|T| \le |S|) \\
 S, T \subseteq \mathcal V \\
-S = \text{subset} \\
+S, T = \text{subset} \\
 \mathcal V = \text{vector space} \\
-|S| = \text{number of elements} \\
-T = \text{subset} \\
+|S|, |T| = \text{number of elements} \\
 n = \text{number of columns} \\
 \end{align*}
 $$
@@ -56,7 +55,6 @@ dimension formula
 $$
 \begin{align*}
 \dim(\mathcal V) = |B| \\
-\nexists |B| \ne \infty \rightarrow \dim(\mathcal V) = \infty \\
 \mathcal V = \text{vector space} \\
 B = \text{basis} \\
 |B| = \text{number of elements}
@@ -91,12 +89,13 @@ $$
 \end{align*}
 $$
 ---
-size property
+dimension property
 
-- size of spanning set
+- size of spanning set 
 - size of linearly independent set 
+- size of basis
 ---
-size property formula
+dimension property formula
 
 $$
 \begin{align*}
@@ -120,18 +119,20 @@ $$
 \end{align*}
 $$
 ---
-diagonalization basis
+diagonalization basis property
 
-- every set of fundamental eigenvectors via diagonalization equal basis of $\mathbb R^n$ 
+- every set of fundamental eigenvectors via diagonalization equal basis of $n$-dimensional real numbers
 ---
-diagonalization basis formula
+diagonalization basis property formula
 
 $$
 \begin{align*}
 A = PDP^{-1} \rightarrow B = \{\vec x | A\vec x = \lambda \vec x \} \\
+A = \text{matrix} \\
 P = \text{eigenmatrix} \\
 P^{-1} = \text{inverse eigenmatrix} \\
 D = \text{diagonal matrix} \\
+B = \text{basis} \\
 \vec x = \text{eigenvector} \\
 \lambda = \text{eigenvalue}
 \end{align*}

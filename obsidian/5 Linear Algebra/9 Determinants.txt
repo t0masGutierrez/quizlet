@@ -10,7 +10,7 @@ A = \begin{bmatrix}
 a_{11}
 \end{bmatrix} \rightarrow 
 |A| = a_{11} \\
-A = \text{square matrix} \\
+A = \text{matrix} \\
 a = \text{entry} \\
 |A| = \text{determinant} 
 \end{align*}
@@ -29,7 +29,7 @@ a_{11} & a_{12} \\
 a_{21} & a_{22}
 \end{bmatrix} \rightarrow 
 |A| = a_{11}a_{22} - a_{12}a_{21} \\
-A = \text{square matrix} \\
+A = \text{matrix} \\
 a = \text{entry} \\
 |A| = \text{determinant} 
 \end{align*}
@@ -49,7 +49,7 @@ a_{21} & a_{22} & a_{23} \\
 a_{31} & a_{32} & a_{33}
 \end{bmatrix} \rightarrow 
 |A| = a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} + a_{13}a_{21}a_{32} - a_{13}a_{22}a_{31} - a_{11}a_{23}a_{32} - a_{12}a_{21}a_{33} \\
-A = \text{square matrix} \\
+A = \text{matrix} \\
 a = \text{entry} \\
 |A| = \text{determinant} 
 \end{align*}
@@ -64,7 +64,7 @@ nxn determinant formula
 $$
 \begin{align*}
 |A| = \text{det}(A) \\
-A = \text{square matrix}
+A = \text{matrix} \\
 \end{align*}
 $$
 ---
@@ -78,7 +78,7 @@ $$
 \begin{align*}
 A_{ij} = A - (a_{i*} + a_{*j}) \\
 \forall n \ge 2: |A_{ij}| = (n - 1) \times (n - 1) \\
-A = \text{square matrix} \\
+A = \text{matrix} \\
 a_{i*} = \text{ith row} \\
 a_{*j} = \text{jth column} \\
 \end{align*}
@@ -128,7 +128,7 @@ $$
 ---
 nxn determinant
 
-- cofactor expansion along row or column of matrix
+- cofactor expansion along row or column of square matrix
 ---
 nxn determinant formula
 
@@ -138,37 +138,12 @@ $$
 |A| = a_{1j}\mathcal A_{1j} + a_{2j}\mathcal A_{2j} + \dots + a_{nj}\mathcal A_{nj} \\
 \forall (1 \le i \le n) \\
 \forall (1 \le j \le n) \\
-A = \text{square matrix} \\
+A = \text{matrix} \\
 a_{i*} = \text{ith row} \\
 a_{*j} = \text{jth column} \\
 \mathcal A = \text{cofactor} \\
 n = \text{number of rows} \\
 n = \text{number of columns}
-\end{align*}
-$$
----
-upper triangular matrix determinant
-
-- determinant of upper triangular matrix equal product of entries along the main diagonal
----
-upper triangular matrix determinant formula
-
-$$
-\begin{align*}
-A \in \mathcal U \rightarrow |A| = a_{11}a_{22} \dots a_{nn} \\
-a = \text{entry}
-\end{align*}
-$$
----
-identity matrix determinant
-
-- product of 1's along the main diagonal
----
-identity matrix determinant formula
-
-$$
-\begin{align*}
-|I| = 1
 \end{align*}
 $$
 ---
@@ -215,9 +190,22 @@ R_3 = \text{type III row operation} \\
 \end{align*}
 $$
 ---
+upper triangular matrix determinant
+
+- determinant of upper triangular matrix equal product of entries along the main diagonal
+---
+upper triangular matrix determinant formula
+
+$$
+\begin{align*}
+A \in \mathcal U \rightarrow |A| = a_{11}a_{22} \dots a_{nn} \\
+a = \text{entry}
+\end{align*}
+$$
+---
 determinant via gaussian elimination
 
-- perform gaussian elimination until matrix equal upper triangular matrix
+- perform gaussian elimination until square matrix equal upper triangular matrix
 - determinant of upper triangular matrix equal product of entries along the main diagonal
 - determinant division with scalar
 ---
@@ -227,7 +215,7 @@ $$
 \begin{align*}
 B = R_k( \dots R_1(A)\dots ) \in \mathcal U \rightarrow |A| = \frac{1}{c}|B| \\
 R = \text{row operation} \\
-A = \text{square matrix} \\
+A = \text{matrix} \\
 |A| = \text{determinant} \\
 c = \text{scalar}
 \end{align*}
@@ -247,7 +235,7 @@ singularity property formula
 $$
 \begin{align*}
 \text{det}(A) \ne 0 \leftrightarrow |A| \ne 0 \\
-A = \text{square matrix}
+A = \text{matrix} \\
 \end{align*}
 $$
 ---
@@ -260,7 +248,7 @@ rank property formula
 $$
 \begin{align*}
 \text{rank}(A) = n \leftrightarrow |A| \ne 0 \\
-A = \text{square matrix} \\
+A = \text{matrix} \\
 n = \text{number of rows} \\
 n = \text{number of columns}
 \end{align*}
@@ -276,16 +264,29 @@ singularity summary
 - there exists unique solution for heterogeneous system
 ![[5 Linear Algebra/Images/singularity summary.png]]
 ---
+identity matrix determinant
+
+- product of 1's along the main diagonal
+---
+identity matrix determinant formula
+
+$$
+\begin{align*}
+|I| = 1
+\end{align*}
+$$
+---
 scalar multiplication determinant
 
-- determinant of scalar quantity multiplication with matrix
+- determinant of scalar quantity multiplication with square matrix
 ---
 scalar multiplication determinant formula
 
 $$
 \begin{align}
 |cA| = c^n|A| \\
-A = \text{square matrix} \\
+A = \text{matrix} \\
+c = \text{scalar} \\
 n = \text{number of rows} \\
 n = \text{number of columns}
 \end{align}
@@ -300,7 +301,7 @@ matrix multiplication determinant formula
 $$
 \begin{align*}
 |AB| = (|A|)(|B|) \\
-A = \text{square matrix} \\
+A, B = \text{matrix} \\
 |A| = \text{determinant}
 \end{align*}
 $$
@@ -315,7 +316,7 @@ $$
 \begin{align*}
 |A^{-1}| = \frac{1}{|A|} \\
 |A| \ne 0 \\
-A = \text{square matrix} \\
+A = \text{matrix} \\
 |A| = \text{determinant}
 \end{align*}
 $$
@@ -338,14 +339,14 @@ $$
 ---
 symmetric determinant
 
-- determinant of matrix equal determinant of transposed matrix
+- determinant of square matrix equal determinant of transposed square matrix
 ---
 symmetric determinant formula
 
 $$
 \begin{align*}
 |A| = |A^T| \\
-A = \text{square matrix} \\
+A = \text{matrix} \\
 T = \text{transposition}
 \end{align*}
 $$

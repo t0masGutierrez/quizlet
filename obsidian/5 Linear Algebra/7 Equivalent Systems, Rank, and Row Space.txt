@@ -34,7 +34,7 @@ inverse type II row operation formula
 $$
 \begin{align*}
 \langle i\rangle \rightarrow \langle i\rangle - c\langle j\rangle \\
-i = \text{row index} \\
+i, j = \text{row index} \\
 c = \text{scalar}
 \end{align*}
 $$
@@ -48,7 +48,7 @@ inverse type III row operation formula
 $$
 \begin{align*}
 \langle j \rangle \leftrightarrow \langle i \rangle \\
-i = \text{row index} \\
+i, j = \text{row index} \\
 \end{align*}
 $$
 ---
@@ -74,7 +74,10 @@ system equivalence property formula
 
 $$
 \begin{align*}
-C|D \sim A|B \rightarrow CX = D \sim AX=B
+C|D \sim A|B \rightarrow CX = D \sim AX=B \\
+A, C = \text{coefficient matrix} \\
+D, B = \text{constant matrix} \\
+X = \text{variable matrix}
 \end{align*}
 $$
 ---
@@ -86,7 +89,9 @@ RREF equality property formula
 
 $$
 \begin{align*}
- A \sim B \leftrightarrow \text{RREF}(A) = \text{RREF}(B)
+ A \sim B \leftrightarrow \text{RREF}(A) = \text{RREF}(B) \\
+ A, B = \text{matrix} \\
+ \text{RREF} = \text{reduced row echelon form}
 \end{align*}
 $$
 ---
@@ -111,6 +116,7 @@ $$
 \begin{align*}
 \exists y \in \text{RREF}(A | \vec x) \rightarrow \vec x \in \text{Row}(A) \\
 y = \text{solution} \\
+ \text{RREF} = \text{reduced row echelon form} \\
 A = \text{coefficient matrix} \\
 \vec x = \text{vector}
 \end{align*}

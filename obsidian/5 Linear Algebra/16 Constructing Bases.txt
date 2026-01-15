@@ -12,7 +12,7 @@ span simplification
 basis via span simplification
 
 - span simplification
-- vectors of subset corresponding with nonzero rows of RREF equal the basis vectors of subset
+- nonzero rows of RREF equal the basis vectors of subset
 ---
 independence test
 

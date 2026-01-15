@@ -27,8 +27,8 @@ matrix equality formula
 $$
 \begin{align*}
 A = B \leftrightarrow \forall (1 \le i \le m)(1 \le j \le n): (a_{ij} = b_{ij}) \land (|A| = |B|) \\
-A = \text{matrix} \\
-a = \text{entry} \\
+A, B = \text{matrix} \\
+a, b = \text{entry} \\
 i = \text{row index} \\
 j = \text{column index} \\
 m = \text{number of rows} \\
@@ -217,6 +217,7 @@ a_{21}+b_{21} & a_{22}+b_{22} & a_{23}+b_{23} \\
 a_{31}+b_{31} & a_{32}+b_{32} & a_{33}+b_{33} 
 \end{bmatrix} \\
 |A + B| = m \times n \\
+a, b = \text{entry}
 m = \text{number of rows} \\
 n = \text{number of columns} \\
 \end{align*}
@@ -256,9 +257,10 @@ linear combination formula
 
 $$
 \begin{align*}
-A = c_1\psi_1 + \dots + c_k\psi_k \\
+B = \sum_{i = 1}^k c_iA_i \\
 c = \text{scalar} \\
-\psi = \text{standard unit matrix}
+A = \text{matrix} \\
+k = \text{number of matrices}
 \end{align*}
 $$
 ---

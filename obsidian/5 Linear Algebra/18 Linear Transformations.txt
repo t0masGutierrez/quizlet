@@ -46,6 +46,22 @@ L(c\vec v) = cL(\vec v)
 \end{align*}
 $$
 ---
+linear transformation property
+
+- zero
+- negation
+- linearity
+---
+linear transformation property formula
+
+$$
+\begin{align*}
+L(\vec 0_{\mathcal V}) = \vec 0_{\mathcal W} \\
+L(-\vec v) = -L(\vec v) \\
+L(c_1\vec v_1 + \dots + c_n\vec v_n) = c_1L(\vec v_1) + \dots + c_nL(\vec v_n) \\
+\end{align*}
+$$
+---
 linear operator
 
 - linear transformation whose domain equal codomain
@@ -147,11 +163,11 @@ $$
 \end{align*}
 $$
 ---
-matrix linear transformation
+matrix transformation
 
 - map every element from $\mathbb R^n$ to 1 element of $\mathbb R^m$ 
 ---
-matrix linear transformation formula
+matrix transformation formula
 
 $$
 \begin{align*}
@@ -160,27 +176,11 @@ L(\vec x) = A\vec x
 \end{align*}
 $$
 ---
-linear transformation property
-
-- zero
-- negation
-- linearity
----
-linear transformation property formula
-
-$$
-\begin{align*}
-L(\vec 0_{\mathcal V}) = \vec 0_{\mathcal W} \\
-L(-\vec v) = -L(\vec v) \\
-L(c_1\vec v_1 + \dots + c_n\vec v_n) = c_1L(\vec v_1) + \dots + c_nL(\vec v_n) \\
-\end{align*}
-$$
----
-composite linear transformation
+composite transformation property
 
 - composition of linear transformation equal linear transformation 
 ---
-composite linear transformation formula
+composite transformation property formula
 
 $$
 \begin{align*}
@@ -189,17 +189,17 @@ $$
 \end{align*}
 $$
 ---
-subspace linear transformation
+subspace transformation property
 
 - image of domain subspace equal subspace of codomain
 - inverse image of codomain subspace equal subspace of domain
 ---
-subspace linear transformation formula
+subspace transformation property formula
 
 $$
 \begin{align*}
-(L : \mathcal V \rightarrow \mathcal W) \land (\mathcal V\prime \le \mathcal V) \rightarrow L(\mathcal V\prime) = \{L(\vec v) | \vec v \in \mathcal V\prime\} \le \mathcal W \\
-(L : \mathcal V \rightarrow \mathcal W) \land (\mathcal W\prime \le \mathcal W) \rightarrow L^{-1}(\mathcal W\prime) = \{\vec v | L(\vec v) \in \mathcal W\prime\} \le \mathcal V
+(L : \mathcal V \rightarrow \mathcal W) \land (\mathcal V' \le \mathcal V) \rightarrow L(\mathcal V') = \{L(\vec v) | \vec v \in \mathcal V'\} \le \mathcal W \\
+(L : \mathcal V \rightarrow \mathcal W) \land (\mathcal W' \le \mathcal W) \rightarrow L^{-1}(\mathcal W') = \{\vec v | L(\vec v) \in \mathcal W'\} \le \mathcal V
 \end{align*}
 $$
 ---

@@ -42,8 +42,8 @@ vector equality formula
 $$
 \begin{align*}
 \vec x = \vec y \leftrightarrow [x_1, ..., x_n] = [y_1, ..., y_n] \\
-\vec x = \text{vector} \\
-x = \text{coordinate}
+\vec x, \vec y = \text{vector} \\
+x, y = \text{coordinate}
 \end{align*}
 $$
 ---
@@ -56,7 +56,7 @@ magnitude formula
 $$
 \begin{align*}
 \|\vec x \| = \sqrt {x_1^2 + ... + x_n^2} \\
-x = \text{coordinate} \\
+x, y = \text{coordinate} \\
 n = \text{number of coordinates}
 \end{align*}
 $$
@@ -131,7 +131,7 @@ parallel property formula
 $$
 \begin{align*}
 \vec x \parallel \vec y \leftrightarrow \exists c: \vec x = c\vec y \\
-\vec x = \text{vector} \\
+\vec x, \vec y = \text{vector} \\
 c = \text{scalar}
 \end{align*}
 $$
@@ -157,7 +157,7 @@ vector addition formula
 $$
 \begin{align*}
 \vec x + \vec y = [x_1+y_1, ..., x_n+y_n] \\
-x = \text{coordinate} \\
+x, y = \text{coordinate} \\
 n = \text{number of coordinates}
 \end{align*}
 $$

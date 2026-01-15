@@ -7,11 +7,11 @@ matrix multiplication formula
 $$
 \begin{align*}
 c_{ij} = \sum_{k}^n a_{ik}b_{kj} = \vec a_i \cdot \vec b_j \\
-a = \text{entry} \\
+a, b = \text{entry} \\
 i = \text{A row index} \\
-k = \text{A column index} \\ 
-k = \text{B row index} \\
-j = \text{B column index}
+k = \text{A column index} \\
+j = \text{B column index} \\
+k = \text{B row index} 
 \end{align*}
 $$
 ---
@@ -56,7 +56,7 @@ A = \text{matrix} \\
 m = \text{number of A rows} \\
 n = \text{number of A columns} \\
 n = \text{number of B rows} \\
-p = \text{number of B columns} \\
+p = \text{number of B columns} 
 \end{align*}
 $$
 ---
@@ -86,7 +86,7 @@ idempotent matrix formula
 $$
 \begin{align*}
 A^2 = A \\
-A = \text{square matrix}
+A = \text{matrix}
 \end{align*}
 $$
 ---

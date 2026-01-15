@@ -231,7 +231,7 @@ type II row operation formula
 $$
 \begin{align*}
 \langle i\rangle \rightarrow \langle i\rangle + c\langle j\rangle \\
-i = \text{row index} \\
+i, j = \text{row index} \\
 c = \text{scalar}
 \end{align*}
 $$
@@ -245,7 +245,7 @@ type III row operation formula
 $$
 \begin{align*}
 \langle i \rangle \leftrightarrow \langle j \rangle \\
-i = \text{row index}
+i, j = \text{row index}
 \end{align*}
 
 $$---

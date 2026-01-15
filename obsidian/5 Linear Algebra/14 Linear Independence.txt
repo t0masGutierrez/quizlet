@@ -8,10 +8,9 @@ $$
 \begin{align*}
 \vec x \ne \vec 0 \rightarrow \text{Rank}(S) < n \\
 S = \{\vec v_1, \dots, \vec v_n\} \subseteq \mathcal V \\
-S = \text{subset} \\
-n = \text{dimension} \\
 \vec x = \text{solution} \\
-\mathcal V = \text{vector space}
+S = \text{subset} \\
+n = \text{number of columns} 
 \end{align*}
 $$
 ---
@@ -25,10 +24,9 @@ $$
 \begin{align*}
 \vec x = \vec 0 \rightarrow \text{Rank}(S) = n \\
 S = \{\vec v_1, \dots, \vec v_n\} \subseteq \mathcal V \\
-S = \text{subset} \\
-n = \text{dimension} \\
 \vec x = \text{solution} \\
-\mathcal V = \text{vector space}
+S = \text{subset} \\
+n = \text{number of columns} 
 \end{align*}
 $$
 ---
@@ -56,15 +54,15 @@ $$
 \begin{align*}
 \vec e \\
 \vec p \\
-\psi_{ij}
+\psi
 \end{align*}
 $$
 ---
-single element linear independence
+single linear independence property
 
 - subset with single nonzero vector equal linearly independent subset
 ---
-single element linear independence formula
+single linear independence property formula
 
 $$
 \begin{align*}
@@ -72,7 +70,7 @@ $$
 S = \text{subset} \\
 \vec v = \text{vector} \\
 c = \text{scalar} \\
-n = \text{dimension}
+n = \text{number of columns}
 \end{align*}
 $$
 ---
@@ -84,17 +82,17 @@ scalar multiplicity property formula
 
 $$
 \begin{align*}
-(\vec 0 = \sum_i^n c_i\vec v_i) \land (\not\exists \vec v_i = c\vec v_j) \rightarrow \text{Rank}(S) = n \\
+(\vec 0 = \sum_{i=1}^n c_i\vec v_i) \land (\not\exists \vec v_i = c\vec v_j) \rightarrow \text{Rank}(S) = n \\
 S = \text{subset} \\
 \vec v = \text{vector} \\
 c = \text{scalar} \\
-n = \text{dimension}
+n = \text{number of columns}
 \end{align*}
 $$
 ---
 zero vector property
 
-- subset with at least 1 zero vector equal linearly dependent subset
+- subset with zero vector equal linearly dependent subset
 ---
 zero vector property formula
 
@@ -102,7 +100,7 @@ $$
 \begin{align*}
 \vec 0 \in S \rightarrow \text{Rank}(S) < n \\
 S = \text{subset} \\
-n = \text{dimension}
+n = \text{number of columns}
 \end{align*}
 $$
 ---
@@ -157,26 +155,26 @@ n = \text{number of columns}
 \end{align*}
 $$
 ---
-infinite linear independence
+infinite linear independence property
 
 - every finite subset of infinite subset equal linearly independent subset
 ---
-infinite linear independence formula
+infinite linear independence property formula
 
 $$
 \begin{align*}
 \text{Rank}(S_1, \dots, S_k) = n \rightarrow \text{Rank}(S) = n \\
-S_1 \dots S_n \subseteq S \subseteq \mathcal V \\
+S_1 \dots S_k \subseteq S \subseteq \mathcal V \\
 S = \text{infinite subset} \\
 \mathcal V = \text{vector space} 
 \end{align*}
 $$
 ---
-existence and uniqueness
+unique linear independence property
 
-- there exists unique linear combination of the vectors of subset for every element of the span of subset
+- for every element of the span of linearly independent subset there exists unique linear combination of the vectors of linearly independent subset
 ---
-existence and uniqueness formula
+unique linear independence property formula
 
 $$
 \begin{align*}
@@ -184,7 +182,7 @@ $$
 \vec v = \text{vector} \\
 S = \text{subset} \\
 c = \text{scalar} \\
-n = \text{dimension}
+n = \text{number of columns}
 \end{align*}
 $$
 ---

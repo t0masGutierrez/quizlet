@@ -41,12 +41,12 @@ inverse linear transformation formula
 
 $$
 \begin{align*}
-(\exists L^{-1}: \mathcal W \rightarrow \mathcal V) \leftrightarrow \forall \vec v \in \mathcal V: (L^{-1} \circ L)(\vec v) = \vec v \land \forall \vec w \in \mathcal W: (L \circ L^{-1})(\vec w) = \vec w \\
+(\exists L^{-1}: \mathcal W \rightarrow \mathcal V) \leftrightarrow (\forall \vec v \in \mathcal V: (L^{-1} \circ L)(\vec v) = \vec v) \land (\forall \vec w \in \mathcal W: (L \circ L^{-1})(\vec w) = \vec w) \\
 L: \mathcal V \rightarrow \mathcal W \\
 L = \text{linear transformation} \\
 L^{-1} = \text{inverse linear transformation} \\
-\mathcal V = \text{vector space} \\
-\vec v = \text{vector} 
+\mathcal V, \mathcal W = \text{vector space} \\
+\vec v, \vec w = \text{vector} 
 \end{align*}
 $$
 ---
@@ -62,7 +62,7 @@ L = \text{isomorphism} \leftrightarrow \exists L^{-1} \\
 L: \mathcal V \rightarrow \mathcal W \\
 L = \text{linear transformation} \\
 L^{-1} = \text{inverse linear transformation} \\
-\mathcal V = \text{vector space} 
+\mathcal V, \mathcal W = \text{vector space} 
 \end{align*}
 $$
 ---
@@ -84,7 +84,7 @@ $$
 ---
 spanning independence property
 
-- linearly independent bijective preimage equal linearly independent image
+- independent bijective preimage equal linearly independent image
 - spanning bijective preimage equal spanning image
 ---
 spanning independence property
@@ -113,7 +113,7 @@ $$
 ---
 isomorphism dimension property
 
-- isomorphic vector space equal dimension
+- equal dimension between isomorphic vector space
 ---
 isomorphism dimension property formula
 
@@ -125,11 +125,11 @@ $$
 \end{align*}
 $$
 ---
-isomorphic n-dimensional vector space property
+isomorphic n-dimensional property
 
 - n-dimensional vector space isomorphic with n-dimensional real numbers
 ---
-isomorphic n-dimensional vector space property formula
+isomorphic n-dimensional property formula
 
 $$
 \begin{align*}
@@ -151,10 +151,10 @@ isomorphism preservation property formula
 
 $$
 \begin{align*}
-(L: \mathcal V \rightarrow \mathbb W) \land (L_1: \mathcal V \rightarrow \mathbb R^n) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow L^{-1}_1(\ker(A_{BC}))= \ker(L) \subseteq \mathcal V \\
-(L: \mathcal V \rightarrow \mathbb W) \land (L_2: \mathcal W \rightarrow \mathbb R^m) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow L^{-1}_2(\text{range}(A_{BC}))= \text{range}(L) \subseteq \mathcal W \\
-(L: \mathcal V \rightarrow \mathbb W) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow \dim(\ker (A_{BC})) = \dim(\ker(L)) \\
-(L: \mathcal V \rightarrow \mathbb W) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow \dim(\text{range} (A_{BC})) = \dim(\text{range}(L)) \\
+(L: \mathcal V \rightarrow \mathcal W) \land (L_1: \mathcal V \rightarrow \mathbb R^n) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow L^{-1}_1(\ker \ A_{BC})= \ker(L) \subseteq \mathcal V \\
+(L: \mathcal V \rightarrow \mathcal W) \land (L_2: \mathcal W \rightarrow \mathbb R^m) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow L^{-1}_2(\text{range} \ A_{BC})= \text{range}(L) \subseteq \mathcal W \\
+(L: \mathcal V \rightarrow \mathcal W) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow \dim(\ker \ A_{BC}) = \dim(\ker  \ L) \\
+(L: \mathcal V \rightarrow \mathcal W) \land ([\vec w]_C = A_{BC}[\vec v]_B)\rightarrow \dim(\text{range} \ A_{BC}) = \dim(\text{range} \ L) \\
 \end{align*}
 $$
 ---

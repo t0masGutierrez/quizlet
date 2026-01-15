@@ -35,21 +35,21 @@ $$
 ---
 dimension property
 
-- dimension of injective kernel must equal dimension of zero
-- dimension of surjective range must equal dimension of codomain
+- dimension of injective kernel equal dimension of zero
+- dimension of surjective range equal dimension of codomain
 ---
 dimension property formula
 
 $$
 \begin{align*}
-L = \text{injection} \leftrightarrow (\text{ker}(L) = \{\vec 0_{\mathcal V}\}) \lor (\text{dim(ker}(L)) = 0) \\
-L = \text{surjection} \leftrightarrow (\text{range}(L) = \mathcal W) \lor (\text{dim(range}(L)) = \dim(\mathcal W) \ne \infty) \\
+L = \text{injection} \leftrightarrow (\text{ker}(L) = \{\vec 0_{\mathcal V}\}) \lor (\text{dim(ker} \ L) = 0) \\
+L = \text{surjection} \leftrightarrow (\text{range}(L) = \mathcal W) \lor (\text{dim(range} \ L) = \dim(\mathcal W) \ne \infty) \\
 \end{align*}
 $$
 ---
 bijection property
 
-- equal dimension must satisfy bijection
+- vector space with equal dimension must satisfy bijection
 ---
 bijection property formula
 

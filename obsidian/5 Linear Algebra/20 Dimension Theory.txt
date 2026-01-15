@@ -39,8 +39,7 @@ subspace property formula
 
 $$
 \begin{align*}
-(L: \mathcal V \rightarrow \mathcal W) \rightarrow \text{ker}(L) \le \mathcal V \\
-(L: \mathcal V \rightarrow \mathcal W) \rightarrow \text{range}(L) \le \mathcal W \\
+(L: \mathcal V \rightarrow \mathcal W) \rightarrow (\text{ker}(L) \le \mathcal V) \land (\text{range}(L) \le \mathcal W) \\
 L = \text{linear transformation} \\
 \mathcal V = \text{domain vector space} \\
 \mathcal W = \text{codomain vector space} 
@@ -92,15 +91,13 @@ dimension property
 
 - range dimension
 - kernel dimension
-- domain dimension
 ---
 dimension property formula
 
 $$
 \begin{align*}
-(L: \mathcal V \rightarrow \mathcal W) \land ([\vec w]_C = A_{BC} [\vec v]_B ) \rightarrow \dim(\text{range}(L)) = \text{Rank}(A) \\
-(L: \mathcal V \rightarrow \mathcal W) \land ([\vec w]_C = A_{BC} [\vec v]_B ) \rightarrow \dim(\text{ker}(L)) = n - \text{Rank}(A) \\
-(L: \mathcal V \rightarrow \mathcal W) \land ([\vec w]_C = A_{BC} [\vec v]_B ) \rightarrow \dim(\text{ker}(L)) + \dim(\text{range}(L)) = n
+(L: \mathcal V \rightarrow \mathcal W) \land ([\vec w]_C = A_{BC} [\vec v]_B ) \rightarrow \dim(\text{range} \ L) = \text{Rank}(A) \\
+(L: \mathcal V \rightarrow \mathcal W) \land ([\vec w]_C = A_{BC} [\vec v]_B ) \rightarrow \dim(\text{ker} \ L) = n - \text{Rank}(A) 
 \end{align*}
 $$
 ---
@@ -112,7 +109,7 @@ dimension theorem formula
 
 $$
 \begin{align*}
-(L: \mathcal V \rightarrow \mathcal W) \land (\dim(\mathcal V) \ne \infty) \rightarrow (\dim(\mathcal W) \ne \infty) \land (\dim(\text{ker}(L)) + \dim(\text{range}(L)) = \dim(\mathcal V))
+(L: \mathcal V \rightarrow \mathcal W) \land (\dim(\mathcal V) \ne \infty)\rightarrow  (\dim(\mathcal W) \ne \infty) \land (\dim(\text{ker} \ L) + \dim(\text{range} \ L) = n)
 \end{align*}
 $$
 ---
@@ -126,8 +123,8 @@ rank property formula
 $$
 \begin{align*}
 \text{Rank}(A) = \text{Rank}(A^T) \\
-A = \text{matrix transformation} \\
-T = \text{transposition}
+\dim(\text{Row} \ A) = \dim(\text{Col} \ A) \\
+A = \text{matrix transformation} 
 \end{align*}
 $$
 ---

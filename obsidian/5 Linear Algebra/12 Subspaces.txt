@@ -23,9 +23,6 @@ trivial subspace formula
 $$
 \begin{align*}
 \mathcal W = \{\vec 0\} \\
-\mathcal W = \text{subspace} \\
-\mathcal V = \text{vector space} \\
-\vec 0 = \text{zero vector}
 \end{align*}
 $$
 ---
@@ -40,10 +37,11 @@ $$
 \mathcal W \le \mathcal V \leftrightarrow (\vec w_1 + \vec w_2 \in \mathcal V) \land (c\vec w \in \mathcal V) \land (\exists \vec 0_{\mathcal V} \in \mathcal W) \\
 \mathcal W = \text{subspace} \\
 \mathcal V = \text{vector space} \\
-\emptyset = \text{empty set}
+\vec w = \text{vector} \\
+c = \text{scalar} 
 \end{align*}
-
-$$---
+$$
+---
 subspace example
 
 - lower triangular matrix
@@ -81,8 +79,7 @@ $$
 \begin{align*}
 \mathcal W \le\mathcal V \leftrightarrow \vec 0 \in \mathcal W \\
 \mathcal W = \text{subspace} \\
-\mathcal V = \text{vector space} \\
-\vec 0 = \text{zero vector}
+\mathcal V = \text{vector space} 
 \end{align*}
 $$
 ---
@@ -94,7 +91,7 @@ linear combination property formula
 
 $$
 \begin{align*}
-\vec w_1, \dots , \vec w_n \in \mathcal W \rightarrow c_1\vec w_1 + \dots + c_n\vec w_n \in \mathcal W \\
+\vec w_1, \dots , \vec w_n \in \mathcal W \rightarrow \sum_{i=1}^k c_i \vec w_i \in \mathcal W \\
 \vec w = \text{vector} \\
 \mathcal W = \text{subspace} \\
 c = \text{scalar}
@@ -115,15 +112,14 @@ three element subspace
 ---
 eigenspace property
 
-- eigenspace equal subspace of n-dimensional real numbers
+- eigenspace equal subspace of $n$-dimensional real numbers
 ---
 eigenspace property formula
 
 $$
 \begin{align*}
-E_{\lambda} \le \mathbb R^n \\
-A \in \mathcal M_n \\
-A = \text{square matrix} \\
+A \in \mathcal M_n \rightarrow E_{\lambda} \le \mathbb R^n \\
+A = \text{matrix} \\
 \lambda = \text{eigenvalue} \\
 E_{\lambda} = \text{eigenspace} 
 \end{align*}
