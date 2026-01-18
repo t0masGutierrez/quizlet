@@ -49,7 +49,7 @@ neighborhood formula
 
 $$
 \begin{align*}
-S \subseteq X, \exists (r > 0) \in \mathbb R: V(x_0) = \{x \in X|B_r(x_0) \subseteq S\} \\
+S \subset X, \exists (r > 0) \in \mathbb R: V(x_0) = \{x \in X|B_r(x_0) \subset S\} \\
 X = \text{metric space} \\
 r = \text{radius} \\
 x = \text{point} \\
@@ -66,7 +66,7 @@ limit point formula
 
 $$
 \begin{align*}
-S \subseteq X, \forall (r > 0) \in \mathbb R, \exists x \in V(x_0): (x \ne x_0) \land (x \in S) \\
+S \subset X, \forall (r > 0) \in \mathbb R, \exists x \in V(x_0): (x \ne x_0) \land (x \in S) \\
 X = \text{metric space} \\
 r = \text{radius} \\
 V = \text{neighborhood} \\
@@ -82,7 +82,7 @@ interior point formula
 
 $$
 \begin{align*}
-S \subseteq X, \exists (r > 0) \in \mathbb R: V(x_0) \subseteq S \\
+S \subset X, \exists (r > 0) \in \mathbb R: V(x_0) \subset S \\
 X = \text{metric space} \\
 r = \text{radius} \\
 V = \text{neighborhood} \\
@@ -98,7 +98,7 @@ closed formula
 
 $$
 \begin{align*}
-S \subseteq X, \forall x_0 \in S': x_0 \in S \\
+S \subset X, \forall x_0 \in S': x_0 \in S \\
 S = \text{closed set} \\
 X = \text{metric space} \\
 x_0 = \text{limit point} \\
@@ -114,7 +114,7 @@ open formula
 
 $$
 \begin{align*}
-S \subseteq X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subseteq S \\
+S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subset S \\
 S = \text{open set} \\
 X = \text{metric space} \\
 x = \text{interior point} \\
@@ -131,7 +131,7 @@ perfect formula
 
 $$
 \begin{align*}
-S \subseteq X, \forall x_0 \in S', \forall x \in S: (x_0 \in S) \land (x \in S') \\
+S \subset X, \forall x_0 \in S', \forall x \in S: (x_0 \in S) \land (x \in S') \\
 S = \text{perfect set} \\
 X = \text{metric space} \\
 x_0 = \text{limit point} \\
@@ -147,7 +147,7 @@ bounded formula
 
 $$
 \begin{align*}
-S \subseteq X, \exists (r > 0) \in \mathbb R, \exists x_0 \in X, \forall x \in S: \text{d}(x, x_0) < r \\
+S \subset X, \exists (r > 0) \in \mathbb R, \exists x_0 \in X, \forall x \in S: \text{d}(x, x_0) < r \\
 S = \text{bounded set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
@@ -164,7 +164,7 @@ dense formula
 
 $$
 \begin{align*}
-S \subseteq X, \forall x \in X: x \in (S \cup S') \\
+S \subset X, \forall x \in X: x \in (S \cup S') \\
 S = \text{dense set} \\
 X = \text{metric space} \\
 S' = \text{derived set}
@@ -179,7 +179,7 @@ open neighborhood property formula
 
 $$
 \begin{align*}
-\forall (r > 0) \in \mathbb R: x_0 \in B_r(x_0) \subseteq V(x_0) \\
+\forall (r > 0) \in \mathbb R: x_0 \in B_r(x_0) \subset V(x_0) \\
 r = \text{radius} \\
 B = \text{open ball} \\
 x_0 = \text{center} \\
@@ -195,7 +195,7 @@ infinite limit point property formula
 
 $$
 \begin{align*}
-S \subseteq X, \forall (r > 0) \in \mathbb R: |V(x_0) \cap (S \setminus \{x_0\})| = \infty \\
+S \subset X, \forall (r > 0) \in \mathbb R: |V(x_0) \cap (S \setminus \{x_0\})| = \infty \\
 X = \text{metric space} \\
 r = \text{radius} \\
 V = \text{neighborhood} \\
@@ -211,7 +211,7 @@ finite limit point property formula
 
 $$
 \begin{align*}
-\exists n \in \mathbb N: |S| = |\{0, 1, 2, 3, \dots, n\}| \rightarrow S \subseteq X, \forall (r > 0) \in \mathbb R, \forall x \in V(x_0): (x = x_0) \lor (x \not\in S) \\
+\exists n \in \mathbb N: |S| = |\{0, 1, 2, 3, \dots, n\}| \rightarrow S \subset X, \forall (r > 0) \in \mathbb R, \forall x \in V(x_0): (x = x_0) \lor (x \not\in S) \\
 S = \text{finite set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
@@ -241,8 +241,8 @@ boundary complement property
 
 $$
 \begin{align*}
-S \subseteq X, \forall x_0 \in S': x_0 \in S \leftrightarrow \forall x \in S^c, \exists (r > 0) \in \mathbb R: V(x) \subseteq S^c \\
-S \subseteq X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subseteq S \leftrightarrow \forall x_0 \in (S')^c: x_0 \in S^c \\
+S \subset X, \forall x_0 \in S': x_0 \in S \leftrightarrow \forall x \in S^c, \exists (r > 0) \in \mathbb R: V(x) \subset S^c \\
+S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subset S \leftrightarrow \forall x_0 \in (S')^c: x_0 \in S^c \\
 x_0 = \text{limit point} \\
 S' = \text{derived set} \\
 c = \text{complement} \\
@@ -263,10 +263,10 @@ join boundary property formula
 
 $$
 \begin{align*}
-S \subseteq X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subseteq S \rightarrow V(x) \subseteq \bigcup_{i} S_i \\
-S \subseteq X, \forall x_0 \in S': x_0 \in S \rightarrow x_0 \in \bigcap_{i} S_i \\
-S \subseteq X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subseteq S \rightarrow V(x) \subseteq \bigcap_{i=1}^n S_i \\
-S \subseteq X, \forall x_0 \in S': x_0 \in S \rightarrow x_0 \in \bigcup_{i=1}^n S_i \\
+S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subset S \rightarrow V(x) \subset \bigcup_{i} S_i \\
+S \subset X, \forall x_0 \in S': x_0 \in S \rightarrow x_0 \in \bigcap_{i} S_i \\
+S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subset S \rightarrow V(x) \subset \bigcap_{i=1}^n S_i \\
+S \subset X, \forall x_0 \in S': x_0 \in S \rightarrow x_0 \in \bigcup_{i=1}^n S_i \\
 \end{align*}
 $$
 ---
@@ -293,9 +293,9 @@ closure property formula
 
 $$
 \begin{align*}
-\bar S' \subseteq \bar S \subseteq X \\
-S' \subseteq S \subseteq X \leftrightarrow \bar S = S \\
-(S \subseteq K) \land (K' \subseteq K \subseteq X) \rightarrow \bar S \subseteq K
+\bar S' \subset \bar S \subset X \\
+S' \subset S \subset X \leftrightarrow \bar S = S \\
+(S \subset K) \land (K' \subset K \subset X) \rightarrow \bar S \subset K
 \end{align*}
 $$
 ---
@@ -307,7 +307,7 @@ supremum closure property formula
 
 $$
 \begin{align*}
-(S \subseteq \mathbb R) \land (u = \sup S) \rightarrow u \in \bar S \\
+(S \subset \mathbb R) \land (u = \sup S) \rightarrow u \in \bar S \\
 u = \text{supremum} \\
 \bar S = \text{closure}
 \end{align*}
@@ -321,7 +321,7 @@ relatively open formula
 
 $$
 \begin{align*}
-S \subseteq Y \subseteq X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \cap Y \subseteq S \\
+S \subset Y \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \cap Y \subset S \\
 S = \text{relatively open subset} \\
 X = \text{metric space} \\
 r = \text{radius} \\

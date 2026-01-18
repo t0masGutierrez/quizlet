@@ -96,11 +96,11 @@ $$
 \end{align*}
 $$
 ---
-isomorphic vector space property
+isomorphic vector space
 
-- for every isomorphic vector space there exists isomorphism between domain and codomain
+- there exists isomorphism between both vector space
 ---
-isomorphic vector space property formula
+isomorphic vector space formula
 
 $$
 \begin{align*}
@@ -111,11 +111,11 @@ L = \text{isomorphism} \\
 \end{align*}
 $$
 ---
-isomorphism dimension property
+isomorphic dimension property
 
 - equal dimension between isomorphic vector space
 ---
-isomorphism dimension property formula
+isomorphic dimension property formula
 
 $$
 \begin{align*}
@@ -139,7 +139,7 @@ n = \text{dimension} \\
 \end{align*}
 $$
 ---
-isomorphism preservation property
+isomorphic preservation property
 
 - vectors of matrix transformation kernel equal vectors of linear transformation kernel
 - vectors of matrix transformation range equal vectors of linear transformation range
@@ -147,7 +147,7 @@ isomorphism preservation property
 - dimension of matrix transformation range equal dimension of linear transformation range
 ![[5 Linear Algebra/Images/isomorphism preservation property.png]]
 ---
-isomorphism preservation property formula
+isomorphic preservation property formula
 
 $$
 \begin{align*}

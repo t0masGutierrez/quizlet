@@ -40,21 +40,6 @@ b = \text{upper endpoint}
 \end{align*}
 $$
 ---
-half interval
-
-- region between inclusive endpoints or exclusive endpoints
----
-half interval formula
-
-$$
-\begin{align*}
-(a, b] = \{x \in \mathbb R| a < x \le b\} \\
-[a, b) = \{x \in \mathbb R| a \le x < b\} \\
-a = \text{lower endpoint} \\
-b = \text{upper endpoint} 
-\end{align*}
-$$
----
 infinite open interval
 
 - region between exclusive endpoint and infinity
@@ -89,7 +74,7 @@ convex formula
 
 $$
 \begin{align*}
-S \subseteq \mathbb R^k, \forall \vec p, \vec q \in S, \forall \lambda \in [0, 1]: \lambda \vec p + (1 - \vec q)\lambda \in S \\
+S \subset \mathbb R^k, \forall \vec p, \vec q \in S, \forall \lambda \in [0, 1]: \lambda \vec p + (1 - \vec q)\lambda \in S \\
 S = \text{convex set}
 \end{align*}
 $$
@@ -102,7 +87,7 @@ interval characterization property formula
 
 $$
 \begin{align*}
-\forall x, y \in I: x < y \rightarrow [x, y] = \{z \in \mathbb R| x \le z \le y\} \subseteq I \\
+\forall x, y \in I: x < y \rightarrow [x, y] = \{z \in \mathbb R| x \le z \le y\} \subset I \\
 I = \text{interval} 
 \end{align*}
 $$
@@ -115,7 +100,7 @@ nested interval
 
 $$
 \begin{align*}
-I_1 \subseteq I_2 \subseteq \dots \subseteq I_n \subseteq I_{n+1} \subseteq \dots \\
+I_1 \subset I_2 \subset \dots \subset I_n \subset I_{n+1} \subset \dots \\
 I = \text{interval}
 \end{align*}
 $$
@@ -133,47 +118,6 @@ I_n = \text{nested interval} \\
 \end{align*}
 $$
 ---
-cartesian product
-
-- set of all n-tuples from *n* sets
----
-cartesian product formula
-
-$$
-\begin{align*}
-X \times Y = \{(x, y) | x \in X, y \in Y\} \ne Y \times X
-\end{align*}
-$$
----
-relation
-
-- subset of cartesian product represent relationship between n-tuples from *n* sets
----
-relation formula
-
-$$
-\begin{align*}
-R \subseteq X \times Y
-\end{align*}
-$$
----
-equivalence relation
-
-- reflexive
-- symmetric
-- transitive
----
-equivalence relation formula
-
-$$
-\begin{align*}
-x R x \\
-x R y \rightarrow y R x \\
-x R y \land y R z \to x R z \\
-\therefore R \sim R
-\end{align*}
-$$
----
 k-cell
 
 - subset of k-dimensional euclidean space equal the cartesian product of interval
@@ -185,32 +129,6 @@ $$
 \forall (a < b) \in \mathbb R: \prod_{i=1}^k [a_i, b_i] = \{\vec q \in \mathbb R^k | a_i \le q_i \le b_i \} \\
 a = \text{lower endpoint} \\
 b = \text{upper endpoint}
-\end{align*}
-$$
----
-injection
-
-- every element of domain map to 1 element of codomain
-- into
----
-injection formula
-
-$$
-\begin{align*}
-\forall a \in A, \forall b \in B: f(a) = f(b) \rightarrow a = b
-\end{align*}
-$$
----
-surjection
-
-- every element of codomain map to $\ge1$ element of domain
-- onto
----
-surjection formula
-
-$$
-\begin{align*}
-\forall b \in B, \exists a \in A: f(a) = b
 \end{align*}
 $$
 ---
@@ -310,7 +228,7 @@ countable subset property formula
 
 $$
 \begin{align*}
-(|S| \le |\mathbb N|) \land (S_1 \subseteq S) \rightarrow |S_1| \le |\mathbb N| \\
+(|S| \le |\mathbb N|) \land (S_1 \subset S) \rightarrow |S_1| \le |\mathbb N| \\
 S = \text{countable set}
 \end{align*}
 $$

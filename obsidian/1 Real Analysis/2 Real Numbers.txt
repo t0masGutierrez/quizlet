@@ -29,8 +29,8 @@ $$
 peano axioms
 
 - zero
+- initial
 - success
-- fail
 - distinct 
 - induct
 ---
@@ -39,10 +39,10 @@ peano axioms
 $$
 \begin{align*}
 0 \in \mathbb N \\
+S(n) = n + 1 \rightarrow \not \exists n \in \mathbb N: S(n) =0 \\
 S(n) = n + 1 \rightarrow \forall n \in \mathbb N: S(n) \in \mathbb N \\
-S(n) = n + 1 \rightarrow \forall n \not\in \mathbb N: S(n) \not\in \mathbb N \\
 S(n) = S(m) \rightarrow n = m \\
-(K \subseteq \mathbb N) \land (0 \in K) \land (\forall n \in K: S(n) \in K) \rightarrow K = \mathbb N
+(K \subset \mathbb N) \land (0 \in K) \land (\forall n \in K: S(n) \in K) \rightarrow K = \mathbb N
 \end{align*}
 $$
 ---
@@ -105,7 +105,7 @@ $$
 ---
 construct integers
 
-- equivalence relation equal the tuple of natural pairs with equal difference
+- equivalence relation equal tuple of natural pairs with equal difference
 - equivalence class equal the set of equivalence relations with equal difference
 - integers equal the set of equivalence classes
 ---
@@ -159,7 +159,7 @@ $$
 ---
 construct rational numbers
 
-- equivalence relation equal the tuple of integer pairs with equal quotient
+- equivalence relation equal tuple of integer pairs with equal quotient
 - equivalence class equal the set of equivalence relations with equal quotient
 - rational numbers equal the set of equivalence classes
 ---
@@ -199,27 +199,29 @@ $$
 ---
 dedekind cut
 
-- construct real numbers by collecting the set of rationals less than the irrational
+- construct real numbers by collecting the set of rational numbers less the irrational
 ---
 dedekind cut formula
 
 $$
 \begin{align*}
-x = \{q \in \mathbb Q| q < x\} \\
-q = \text{rational number}
+y = \{q \in \mathbb Q| q < x\} \\
+q = \text{rational number} \\
+x = \text{irrational number}
 \end{align*}
 $$
 ---
 cauchy sequence
 
-- construct real numbers by converging the sequence of rationals at the irrational
+- construct real numbers by converging the sequence of rational numbers at the irrational
 ---
 cauchy sequence formula
 
 $$
 \begin{align*}
-x = \lim_{n\rightarrow \infty}q_n \\
-q = \text{rational number}
+y = \lim_{n\rightarrow x}q_n \\
+q = \text{rational number} \\
+x = \text{irrational number}
 \end{align*}
 $$
 ---
@@ -256,7 +258,7 @@ x + y = y + x \\
 x + (y + z) = (x + y) + z \\
 x + (-x) = 0 \\
 x + 0 = x \\
-x\cdot (y + z) = xy + xz \\
+x\cdot (y + z) = x \cdot y + x \cdot z \\
 x \cdot y = y \cdot x \\
 x \cdot (y \cdot z) = (x \cdot y) \cdot z \\
 x \cdot (\frac{1}{x}) = 1 \\
@@ -297,13 +299,13 @@ field multiplication property formula
 
 $$
 \begin{align*}
-0x = 0 \\
-(x \ne 0) \land (y \ne 0) \rightarrow xy \ne 0 \\
-(-x)y = -(xy) = x(-y) \\
-(-x)(-y) = xy
-(x \ne 0) \land (xy = xz) \rightarrow y = z \\
-(x \ne 0) \land (xy = x) \rightarrow y = 1 \\
-(x \ne 0) \land (xy = 1) \rightarrow y = \frac{1}{x} \\
+0 \cdot x = 0 \\
+(x \ne 0) \land (y \ne 0) \rightarrow x \cdot y \ne 0 \\
+(-x) \cdot y = -(x \cdot y) = x \cdot (-y) \\
+(-x) \cdot (-y) = x \cdot y \\
+(x \ne 0) \land (x \cdot y = x \cdot z) \rightarrow y = z \\
+(x \ne 0) \land (x \cdot y = x) \rightarrow y = 1 \\
+(x \ne 0) \land (x \cdot y = 1) \rightarrow y = \frac{1}{x} \\
 x \ne 0 \rightarrow \frac{1}{1/x} = x \\
 \end{align*}
 $$
@@ -331,16 +333,14 @@ field ordinality formula
 
 $$
 \begin{align*}
-(x, y, z \in F) \land (y < z) \rightarrow x + y < x + z \\
-(x, y \in F) \land (x, y > 0) \rightarrow xy > 0
+(x, y, z \in F) \land (x < y) \rightarrow x + z < y + z \\
+(x, y \in F) \land (x < y) \land (z > 0) \rightarrow x \cdot z < y \cdot z
 \end{align*}
 $$
 ---
 field ordinality property
 
 - negate
-- positive
-- negative
 - square
 - reciprocal
 ---
@@ -349,8 +349,6 @@ field ordinality property formula
 $$
 \begin{align*}
 x > 0 \leftrightarrow -x < 0 \\
-(x > 0) \land (y < z) \rightarrow xy < xz \\
-(x < 0) \land (y < z) \rightarrow xy > xz \\
 x \ne 0 \rightarrow x^2 > 0 \\
 0 < x < y \rightarrow 0 < \frac{1}{y} < \frac{1}{x}
 \end{align*}
@@ -374,7 +372,6 @@ absolute value property
 - multiplication
 - addition
 - subtraction
-- inequality
 ---
 absolute value property formula
 

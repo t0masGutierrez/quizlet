@@ -102,11 +102,11 @@ P = \text{transition matrix}
 \end{align*}
 $$
 ---
-transition matrix property
+multiplicative transition matrix property
 
 - transition matrix multiplication with vector of 1st basis equal vector of 2nd basis
 ---
-transition matrix property formula
+multiplicative transition matrix property formula
 
 $$
 \begin{align*}

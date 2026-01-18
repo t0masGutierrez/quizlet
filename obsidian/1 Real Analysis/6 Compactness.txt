@@ -6,7 +6,7 @@ open cover formula
 
 $$
 \begin{align*}
-S \subseteq \bigcup_i Y_i \subseteq X \\
+S \subset \bigcup_i Y_i \subset X \\
 S = \text{covered set} \\
 Y = \text{open set} \\
 \set{Y} = \text{open cover} \\
@@ -22,7 +22,7 @@ compact formula
 
 $$
 \begin{align*}
-\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subseteq \{Y_i\}: S \subseteq \bigcup_{k=1}^n Y_{i_k} \subseteq X \\
+\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
 S = \text{compact set} \\
 Y = \text{open set} \\
 \set{Y} = \text{open cover} \\
@@ -38,7 +38,7 @@ relative compactness property formula
 
 $$
 \begin{align*}
-\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subseteq \{Y_i\}: \bar S \subseteq \bigcup_{k=1}^n Y_{i_k} \subseteq X \\
+\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: \bar S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
 S = \text{compact set} \\
 \bar S = \text{closure} \\
 Y = \text{open set} \\
@@ -55,7 +55,7 @@ compact closedness property
 
 $$
 \begin{align*}
-\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subseteq \{Y_i\}: S \subseteq \bigcup_{k=1}^n Y_{i_k} \subseteq X \rightarrow \forall x_0 \in S': x_0 \in S \\
+\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \rightarrow \forall x_0 \in S': x_0 \in S \\
 S = \text{closed set} \\
 Y = \text{open set} \\
 \set{Y} = \text{open cover} \\
@@ -71,7 +71,7 @@ closed compactness property formula
 
 $$
 \begin{align*}
-S \subseteq K, \forall x_0 \in S': x_0 \in S \rightarrow \forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subseteq \{Y_i\}: S \subseteq \bigcup_{k=1}^n Y_{i_k} \subseteq K \\
+S \subset K, \forall x_0 \in S': x_0 \in S \rightarrow \forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset K \\
 S = \text{compact set} \\
 K = \text{compact set} \\
 x_0 = \text{limit point} \\
@@ -89,7 +89,7 @@ closed intersection property formula
 
 $$
 \begin{align*}
-(S \subseteq X, \forall x_0 \in S': x_0 \in S) \land (\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subseteq \{Y_i\}: K \subseteq \bigcup_{k=1}^n Y_{i_k} \subseteq X) \rightarrow S \cap K \subseteq \bigcup_{k=1}^n Y_{i_k} \\
+(S \subset X, \forall x_0 \in S': x_0 \in S) \land (\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: K \subset \bigcup_{k=1}^n Y_{i_k} \subset X) \rightarrow S \cap K \subset \bigcup_{k=1}^n Y_{i_k} \\
 S = \text{closed set} \\
 X = \text{metric space} \\
 x_0 = \text{limit point} \\
@@ -121,7 +121,7 @@ infinite limit point property formula
 
 $$
 \begin{align*}
-(S \subseteq K) \land (|S| = \infty) \rightarrow S \subseteq X, \forall (r > 0) \in \mathbb R, \exists x \in V(x_0): (x \ne x_0) \land (x \in S) \land (x_0 \in K) \\
+(S \subset K) \land (|S| = \infty) \rightarrow S \subset X, \forall (r > 0) \in \mathbb R, \exists x \in V(x_0): (x \ne x_0) \land (x \in S) \land (x_0 \in K) \\
 K = \text{compact set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
@@ -138,7 +138,7 @@ interval intersection property formula
 
 $$
 \begin{align*}
-(\{I_n\} \in \mathbb R) \land (\forall n \in \mathbb N: I_n \subseteq I_{n+1}) \rightarrow \bigcap_{n=1}^\infty I_n \ne \emptyset \\
+(\{I_n\} \in \mathbb R) \land (\forall n \in \mathbb N: I_n \subset I_{n+1}) \rightarrow \bigcap_{n=1}^\infty I_n \ne \emptyset \\
 I = \text{compact interval}
 \end{align*}
 $$
@@ -151,7 +151,7 @@ k-cell intersection property formula
 
 $$
 \begin{align*}
-(\{I_n\} \in \mathbb R) \land (\forall n \in \mathbb N: I_n \subseteq I_{n+1}) \rightarrow \bigcap_{n=1}^\infty I_n \ne \emptyset \\
+(\{I_n\} \in \mathbb R) \land (\forall n \in \mathbb N: I_n \subset I_{n+1}) \rightarrow \bigcap_{n=1}^\infty I_n \ne \emptyset \\
 I = \text{k-cell}
 \end{align*}
 $$
@@ -164,7 +164,7 @@ k-cell compactness property formula
 
 $$
 \begin{align*}
-\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subseteq \{Y_i\}: \prod_{i=1}^k [a_i, b_i] \subseteq \bigcup_{k=1}^n Y_{i_k} \subseteq X \\
+\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: \prod_{i=1}^k [a_i, b_i] \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
 Y = \text{open set} \\
 \set{Y} = \text{open cover} \\
 \prod_{i=1}^k [a_i, b_i] = \text{k-cell} \\
@@ -180,9 +180,9 @@ heine-borel property formula
 
 $$
 \begin{align*}
-(S \subseteq X, \forall x_0 \in S': x_0 \in S) \\
-\land (S \subseteq X, \exists (r > 0) \in \mathbb R, \exists x_0 \in X, \forall x \in S: \text{d}(x, x_0) < r) \\
-\leftrightarrow \forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subseteq \{Y_i\}: S \subseteq \bigcup_{k=1}^n Y_{i_k} \subseteq X \\
+(S \subset X, \forall x_0 \in S': x_0 \in S) \\
+\land (S \subset X, \exists (r > 0) \in \mathbb R, \exists x_0 \in X, \forall x \in S: \text{d}(x, x_0) < r) \\
+\leftrightarrow \forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
 S = \text{compact set} \\
 X = \text{metric space} \\
 x_0 = \text{limit point} \\
@@ -203,7 +203,7 @@ bolzano-weierstrass property formula
 
 $$
 \begin{align*}
-S \subseteq \mathbb R^k \rightarrow S \subseteq X, \forall (r > 0) \in \mathbb R, \exists x \in V(x_0): (x \ne x_0) \land (x \in S) \land (x_0 \in \mathbb R^k) \\
+S \subset \mathbb R^k \rightarrow S \subset X, \forall (r > 0) \in \mathbb R, \exists x \in V(x_0): (x \ne x_0) \land (x \in S) \land (x_0 \in \mathbb R^k) \\
 S = \text{bounded set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
@@ -220,7 +220,7 @@ uncountable perfection property formula
 
 $$
 \begin{align*}
-S \subseteq \mathbb R^k, \forall x_0 \in S', \forall x \in S: (x_0 \in S) \land (x \in S') \rightarrow |S| > |\mathbb N| \\
+S \subset \mathbb R^k, \forall x_0 \in S', \forall x \in S: (x_0 \in S) \land (x \in S') \rightarrow |S| > |\mathbb N| \\
 S = \text{perfect set} \\
 x_0 = \text{limit point} \\
 S' = \text{derived set} 
@@ -230,7 +230,7 @@ $$
 cantor set
 
 - subset of the unit interval
-- uncountable
+- uncountable set
 - compact set
 - perfect set
 ---
@@ -248,7 +248,7 @@ separated formula
 
 $$
 \begin{align*}
-A, B \subseteq X \rightarrow \bar A \cap B = A \cap \bar B = \emptyset \\
+A, B \subset X \rightarrow \bar A \cap B = A \cap \bar B = \emptyset \\
 A, B = \text{separated set} \\
 X = \text{metric space}
 \end{align*}
@@ -262,7 +262,7 @@ disconnected formula
 
 $$
 \begin{align*}
-S \subseteq X \rightarrow S = A \cup B \\
+S \subset X \rightarrow S = A \cup B \\
 S = \text{disconnected set} \\
 X = \text{metric space} \\
 A, B = \text{separated set} 
@@ -277,7 +277,7 @@ real connected property formula
 
 $$
 \begin{align*}
-(S \subseteq \mathbb R) \land (x, y \in \mathbb R) \land (x < z < y) \rightarrow z \in \mathbb R \\
+(S \subset \mathbb R) \land (x, y \in \mathbb R) \land (x < z < y) \rightarrow z \in \mathbb R \\
 S = \text{connected set}
 \end{align*}
 $$

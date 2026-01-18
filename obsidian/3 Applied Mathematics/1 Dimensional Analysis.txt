@@ -1,10 +1,19 @@
-mathematical model
+ mathematical model
 
 - equation that express relationship between given quantity(s) of interest
 ---
 unit
 
 - scale of measurement
+---
+unit formula
+
+$$
+\begin{align*}
+\Delta_q = (a_1, \dots, a_m) \in \mathbb R^m \\
+a = \text{dimensional exponent} 
+\end{align*}
+$$
 ---
 unit example
 
@@ -16,6 +25,16 @@ unit example
 dimension
 
 - type of measurement
+---
+dimension formula
+
+$$
+\begin{align*}
+[q] = \prod_{i=1}^m D_i^{a_i} \\
+q = \text{quantity} \\ 
+a = \text{dimensional exponent}
+\end{align*}
+$$
 ---
 dimension example
 
@@ -34,41 +53,20 @@ dimensional basis formula
 $$
 \begin{align*}
 \text{Span}(D) = \mathcal V \\
-\text{Rank}(D) = n
+\text{Rank}(D) = m
 \end{align*}
 $$
 ---
 dimensional combination
 
-- express quantity as product of powers of the dimensional basis elements
+- express quantity as product of powers of the dimensional bases
 ---
 dimensional combination formula
 
-$$
-\begin{align*}
-q \in \mathbb R: [q] = \prod_{i=1}^m D_i^{\alpha_i} \rightarrow \Delta_q = (\alpha_1, \dots, \alpha_m) \in \mathbb R^m \\
-q = \text{quantity} \\
-D = \text{dimensional basis} \\
-\alpha = \text{dimensional exponent}
-\end{align*}
-$$
----
-dimensional combination example
-
 - $q = 3 \frac{kg \cdot m^2}{s^2}$ 
 - $D = \set{L, T, M, \theta}$ 
----
-dimensional combination example formula
-
-$$
-\begin{align*}
-[q] = ML^2T^{-2} \rightarrow \Delta_q = (2, -2, 1, 0) \\
-L = \text{length} \\
-T = \text{time} \\
-M = \text{mass} \\
-\theta = \text{temperature} \\
-\end{align*}
-$$
+- $[q] = ML^2T^{-2}$ 
+- $\Delta_q = (2, -2, 1, 0)$ 
 ---
 dimension property
 
@@ -110,7 +108,7 @@ $$
 ---
 dimensionless
 
-- dimensional combination equal 1
+- power product equal 1
 - dimensional exponent equal 0
 ---
 dimensionless formula
@@ -130,24 +128,24 @@ change of units formula
 
 $$
 \begin{align*}
-q' = q\prod_{i=1}^m \lambda_i^{\alpha} \\
+q' = q\prod_{i=1}^m \lambda_i^{a} \\
 q = \text{quantity} \\
 \lambda = \text{unit conversion factor} \\
-\alpha = \text{dimensional exponent}
+a = \text{dimensional exponent}
 \end{align*}
 $$
 ---
 change of units example
 
 - $q = 9.8 \frac{m}{s^2}$ 
-- $U = \set{m, s}$ 
+- $U = \set{\text{m}, \text{s}}$ 
 - $U' = \set{\text{km}, \text{min}}$ 
 ---
 change of units example formula
 
 $$
 \begin{align*}
-q' = (9.8\frac{\text{m}}{\text{s}^2})(\frac{1}{1000}\frac{\text{km}}{\text{m}})(\frac{1}{60}\frac{\text{min}}{\text{s}^2})^{-2} = 35.28 \frac{\text{km}}{\text{min}^2}
+q' = (9.8\frac{\text{m}}{\text{s}^2})(\frac{1}{1000}\frac{\text{km}}{\text{m}})(\frac{60}{1}\frac{\text{s}}{\text{min}})^{2} = 35.28 \frac{\text{km}}{\text{min}^2}
 \end{align*}
 $$
 ---
@@ -159,12 +157,86 @@ unit-free equation formula
 
 $$
 \begin{align*}
-q_1 = f(q_2, \dots, q_n) \rightarrow q_1' = f'(q_2', \dots, q_n') \\
-f: \mathbb R^{n-1} \rightarrow \mathbb R
+q_1 = f(q_2, \dots, q_n) \rightarrow q_1' = f'(q_2', \dots, q_n')
 \end{align*}
 $$
 ---
-term
+unit-free test
 
-- definition
+- for every dimension assign arbitrary unit conversion factor
+- change of units in terms of arbitrary unit conversion factor
+- if all unit conversion factors cancel then unit-free success
+- if all unit conversion factors do not cancel then unit-free failure
+---
+unit-free example
+
+- $x = \frac{1}{2}gt^2$ 
+- $D = \set{L, T}$ 
+- $[x] = L, [t] = T, [g] = LT^{-2}$ 
+- $x' = x\lambda_1, t' = t\lambda_2, g' = g\lambda_1\lambda_2^{-2}, c' = c\lambda_2$ 
+- $(x'\lambda_1^{-1}) = \frac{1}{2}(g'\lambda_1^{-1}\lambda_2^2)(t'\lambda_2^{-1})^2$ 
+- $x'\lambda_1^{-1}\lambda_1^{1} = \frac{1}{2}g't'^2\lambda_2^2\lambda_2^{-2}$ 
+- $\lambda \not\in x'$ 
+---
+power product
+
+- product of power of quantity with respect to quantitative exponent
+---
+power product formula
+
+$$
+\begin{align*}
+\pi = \prod_{i=1}^n q_i^{b_i} > 0 \\
+q = \text{quantity} \\
+b = \text{quantitative exponent}
+\end{align*}
+$$
+---
+full
+
+- number of dimensionless power products equal the number of linearly independent solutions
+---
+full formula
+
+$$
+\begin{align*}
+\dim(\ker A) = n - \text{Rank}(A) = k \\
+k = \text{number of nonpivot columns}
+\end{align*}
+$$
+---
+normal
+
+- explicit equation in terms of first quantity where 1st solution of 1st quantitative exponent equal 1 and remaining solution of 1st quantitative exponent equal zero
+---
+normal formula
+
+$$
+\begin{align*}
+q_1 = f(q_2, \dots, q_n) \sim \pi_1 = \phi (\pi_2, \dots, \pi_k) \\
+q = \text{quantity} \\
+\pi = \text{dimensionless power product} 
+\end{align*}
+$$
+---
+buckingham pi property
+
+- calculate unit
+- form matrix whose columns equal units
+- convert matrix into reduced row echelon form
+- back substitute for the particular solution of system of linear equations
+- full, normal, dimensionless power product equal the fundamental solution set
+- every unit-free equation expressible as full, normal, dimensionless power product
+---
+buckingham pi property formula
+
+$$
+\begin{align*}
+[\pi] = 1 \leftrightarrow \Delta_\pi = A\vec v = \vec 0 \\
+A = [\Delta q_1, \dots, \Delta q_n] \in \mathcal M_{mn} \\
+\vec v = [b_1, \dots, b_n] \in \mathbb R^n \\
+\pi = \text{dimensionless power product} \\
+b = \text{quantitative exponent}
+\end{align*}
+$$
 ---

@@ -1,0 +1,122 @@
+cartesian product
+
+- set of all 2-tuples from 2 sets
+---
+cartesian product formula
+
+$$
+\begin{align*}
+X \times Y = \{(x, y) | x \in X, y \in Y\} \ne Y \times X
+\end{align*}
+$$
+---
+binary relation
+
+- subset of cartesian product represent relationship between 2-tuples from two sets
+---
+binary relation formula
+
+$$
+\begin{align*}
+(x, y) \in R \subset X \times Y \rightarrow xRy
+\end{align*}
+$$
+---
+equivalence relation
+
+- reflexive
+- symmetric
+- transitive
+---
+equivalence relation formula
+
+$$
+\begin{align*}
+(R \subset S \times S) \land (x \in S) \rightarrow x R x \\
+(R \subset S \times S) \land (x, y \in S) \land (x R y) \rightarrow y R x \\
+(R \subset S \times S) \land (x, y, z \in S) \land (x R y) \land (y R z) \rightarrow x R z 
+\end{align*}
+$$
+---
+equivalence class
+
+- nonempty, disjoint subset consisting of all elements equivalent with representative under the equivalence relation
+---
+equivalence class formula
+
+$$
+\begin{align*}
+[x] = \set{y \in S| yRx} \\
+x = \text{representative} \\
+R = \text{equivalence relation}
+\end{align*}
+$$
+---
+equivalence class property
+
+- self
+- equal
+- disjoint
+---
+equivalence class property formula
+
+$$
+\begin{align*}
+x \in [x] \\
+xRy \rightarrow [x] = [y] \\
+x\not R y \rightarrow [x] \cap [y] = \emptyset
+\end{align*}
+$$
+---
+function
+
+- relation on cartesian product
+---
+function formula
+
+$$
+\begin{align*}
+(aFb) \land (aFc) \rightarrow b = c \\
+a \in A \rightarrow \exists b \in B: aFb 
+\end{align*}
+$$
+---
+injection
+
+- every element of domain map to 1 element of codomain
+- into
+---
+injection formula
+
+$$
+\begin{align*}
+\forall a \in A, \forall b \in B: f(a) = f(b) \rightarrow a = b
+\end{align*}
+$$
+---
+surjection
+
+- every element of codomain map to $\ge1$ element of domain
+- onto
+---
+surjection formula
+
+$$
+\begin{align*}
+\forall b \in B, \exists a \in A: f(a) = b
+\end{align*}
+$$
+---
+bijection
+
+- every element of codomain map to 1 element of domain
+- into and onto
+---
+bijection formula
+
+$$
+\begin{align*}
+\forall b \in B, \exists !a \in A: f(a) = b
+\end{align*}
+$$
+---

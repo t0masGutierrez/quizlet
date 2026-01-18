@@ -11,7 +11,7 @@ c \vec x \in \mathcal V
 \end{align*}
 $$
 ---
-vector space property
+vector space addition property
 
 - commutative
 - associative
@@ -21,7 +21,7 @@ vector space property
 - scalar associative
 - multiplicative identity
 ---
-vector space property formula
+vector space addition property formula
 
 $$
 \begin{align*}
@@ -33,6 +33,23 @@ c(\vec x + \vec y) = c\vec x + c\vec y \\
 (c + d)\vec x = c\vec x + d\vec x \\
 (cd)\vec x = c(d\vec x) \\
 1\vec x = \vec x \\
+\end{align*}
+$$
+---
+vector space property
+
+- zero vector
+- scalar zero
+- scalar zero vector
+---
+vector space property formula
+
+$$
+\begin{align*}
+c\vec 0 = \vec 0 \\
+0\vec x = \vec 0 \\
+(-1)\vec x = -\vec x \\
+c\vec x = 0 \rightarrow (c = 0) \lor (\vec x = \vec 0)
 \end{align*}
 $$
 ---
@@ -76,24 +93,6 @@ $$
 \begin{align*}
 \vec x \oplus \vec y \in \mathcal V \\
 c \odot \vec x \in \mathcal V
-\end{align*}
-$$
----
-vector space property
-
-- zero vector
-- scalar zero
-- additive inverse
-- scalar zero vector
----
-vector space property formula
-
-$$
-\begin{align*}
-c\vec 0 = \vec 0 \\
-0\vec x = \vec 0 \\
-(-1)\vec x = -\vec x \\
-c\vec x = 0 \rightarrow (c = 0) \lor (\vec x = \vec 0)
 \end{align*}
 $$
 ---

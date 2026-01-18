@@ -1,25 +1,27 @@
 bounded above
 
-- there exist real number of set such that every element of set less or equal real number
+- there exist upper bound such that every element of set less or equal upper bound
 ---
 bounded above formula
 
 $$
 \begin{align*}
-S \subseteq \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \\
+S \subset \mathbb R, \forall x \in S: x \le u \\
+S = \text{ordered set} \\
 u = \text{upper bound} 
 \end{align*}
 $$
 ---
 bounded below
 
-- there exist real number of set such that every element of set greater or equal real number
+- there exist lower bound such that every element of set greater or equal lower bound
 ---
 bounded below formula
 
 $$
 \begin{align*}
-S \subseteq \mathbb R,  \exists w  \in \mathbb R, \forall x \in S: w \le x \\
+S \subset \mathbb R, \forall x \in S: w \le x \\
+S = \text{ordered set} \\
 w = \text{lower bound} 
 \end{align*}
 $$
@@ -32,7 +34,8 @@ bounded formula
 
 $$
 \begin{align*}
-S \subseteq \mathbb R, \exists u, w \in \mathbb R, \forall x \in S: w \le x \le u \\
+S \subset \mathbb R, \forall x \in S: w \le x \le u \\
+S = \text{ordered set} \\
 u = \text{upper bound} \\
 w = \text{lower bound} 
 \end{align*}
@@ -40,13 +43,14 @@ $$
 ---
 unbounded
 
-- either unbounded above or unbounded below
+- either unbounded below or unbounded above
 ---
 unbounded formula
 
 $$
 \begin{align*}
-S \subseteq \mathbb R, \not\exists u, w \in \mathbb R, \forall x \in S: w \le x \le u \\
+S \subset \mathbb R, \exists x \in S: (x \le w) \lor (x \ge u) \\
+S = \text{ordered set} \\
 u = \text{upper bound} \\
 w = \text{lower bound}
 \end{align*}
@@ -60,8 +64,9 @@ supremum formula
 
 $$
 \begin{align*}
-S \subseteq \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \le U \rightarrow u = \sup S\\
-U = \{u, u+1, u+2, \dots, \infty\} \\
+S \subset \mathbb R, \forall x \in S: x \le u \le U \rightarrow u = \sup S\\
+U = \{u, u+1, u+2, \dots\} \\
+S = \text{ordered set} \\
 u = \text{supremum} \\
 \end{align*}
 $$
@@ -74,8 +79,9 @@ infimum formula
 
 $$
 \begin{align*}
-S \subseteq \mathbb R, \exists w \in \mathbb R, \forall x \in S: W \le w \le x \rightarrow w = \inf S = -\sup (-S)\\
-W = \{w, w-1, w-2, \dots, -\infty\} \\
+S \subset \mathbb R, \forall x \in S: W \le w \le x \rightarrow w = \inf S = -\sup (-S)\\
+W = \{w, w-1, w-2, \dots\} \\
+S = \text{ordered set} \\
 w = \text{infimum} \\
 \end{align*}
 $$
@@ -89,8 +95,9 @@ completeness property formula
 
 $$
 \begin{align*}
-S \subseteq \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \rightarrow \exists \sup S \\
-S \subseteq \mathbb R, \exists w \in \mathbb R, \forall x \in S: w \le x \rightarrow \exists \inf S \\
+S \subset \mathbb R, \forall x \in S: x \le u \rightarrow \exists \sup S \\
+S \subset \mathbb R, \forall x \in S: w \le x \rightarrow \exists \inf S \\
+S = \text{ordered set} \\
 u = \text{upper bound} \\
 w = \text{lower bound} 
 \end{align*}
@@ -99,7 +106,6 @@ $$
 archimedean property
 
 - natural numbers are unbounded above
-- there does not exist smallest positive real number
 ---
 archimedean property formula
 

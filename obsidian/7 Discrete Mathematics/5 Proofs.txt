@@ -28,11 +28,11 @@ direct proof
 ---
 proof by contraposition
 
-- prove conditional by assuming conclusion false and proving hypothesis false
+- prove conditional by assuming contrapositive true and proving conditional
 ---
 proof by contradiction
 
-- prove conditional by assuming conclusion false and hypothesis true and proving contradiction
+- prove conditional by assuming negation true and proving contradiction
 ---
 proof by cases
 
