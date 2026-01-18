@@ -119,7 +119,7 @@ density property
 
 - between every two real numbers there exists rational number
 ---
-density property
+density property formula
 
 $$
 \begin{align*}

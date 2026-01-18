@@ -1,3 +1,33 @@
+absolute value
+
+- nonnegativity operation on real number equal distance between real numbers
+---
+absolute value formula
+
+$$
+\begin{align*}
+x \in \mathbb R \rightarrow |x| \ge 0
+\end{align*}
+$$
+---
+absolute value property
+
+- zero
+- multiplication
+- addition
+- subtraction
+---
+absolute value property formula
+
+$$
+\begin{align*}
+|x| = 0 \leftrightarrow x = 0 \\
+|x \cdot y| = (|x|)(|y|) \\
+|x + y| \le |x| + |y| \\
+|x - z| \le |x - y| + |y - z| \\
+\end{align*}
+$$
+---
 metric
 
 - distance between coordinates of set
