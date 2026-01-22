@@ -1,19 +1,10 @@
- mathematical model
+mathematical model
 
 - equation that express relationship between given quantity(s) of interest
 ---
 unit
 
 - scale of measurement
----
-unit formula
-
-$$
-\begin{align*}
-\Delta_q = (a_1, \dots, a_m) \in \mathbb R^m \\
-a = \text{dimensional exponent} 
-\end{align*}
-$$
 ---
 unit example
 
@@ -30,7 +21,7 @@ dimension formula
 
 $$
 \begin{align*}
-[q] = \prod_{i=1}^m D_i^{a_i} \\
+[q] = \prod_{i=1}^m D_i^{a_i} \rightarrow \Delta_q = [a_1, \dots, a_m] \in \mathbb R^m \\
 q = \text{quantity} \\ 
 a = \text{dimensional exponent}
 \end{align*}
@@ -42,6 +33,13 @@ dimension example
 - time
 - mass
 - temperature
+---
+dimension example formula
+
+- $q = 3 \frac{kg \cdot m^2}{s^2}$ 
+- $D = \set{L, T, M, \theta}$ 
+- $[q] = ML^2T^{-2}$ 
+- $\Delta_q = [2, -2, 1, 0]$ 
 ---
 dimensional basis
 
@@ -57,17 +55,6 @@ $$
 \end{align*}
 $$
 ---
-dimensional combination
-
-- express quantity as product of powers of the dimensional bases
----
-dimensional combination formula
-
-- $q = 3 \frac{kg \cdot m^2}{s^2}$ 
-- $D = \set{L, T, M, \theta}$ 
-- $[q] = ML^2T^{-2}$ 
-- $\Delta_q = (2, -2, 1, 0)$ 
----
 dimension property
 
 - addition
@@ -82,21 +69,21 @@ dimension property formula
 $$
 \begin{align*}
 [p \pm q] \in D \leftrightarrow [p] = [q] \\
-[p \cdot q] = [p][q] \\
+[p \cdot q] = [p] \cdot [q] \\
 [\frac{p}{q}] = \frac{[p]}{[q]} \\
 [q^k] = [q]^k \\
-[\int p dq] = [p][q] \\
+[\int p \cdot dq] = [p] \cdot [q] \\
 [\frac{dp}{dq}] = \frac{[p]}{[q]}
 \end{align*}
 $$
 ---
-unit property
+exponent property
 
 - multiplication
 - division
 - exponentiation
 ---
-unit property formula
+exponent property formula
 
 $$
 \begin{align*}
@@ -108,14 +95,14 @@ $$
 ---
 dimensionless
 
-- power product equal 1
+- dimension equal 1
 - dimensional exponent equal 0
 ---
 dimensionless formula
 
 $$
 \begin{align*}
-[q] = 1 \rightarrow \Delta_q = \vec 0 \\
+[q] = 1 \rightarrow \Delta_q = 0 \\
 q = \text{pure number}
 \end{align*}
 $$
@@ -128,7 +115,7 @@ change of units formula
 
 $$
 \begin{align*}
-q' = q\prod_{i=1}^m \lambda_i^{a} \\
+q' = q\prod_{i=1}^m \lambda_i^{a_i} \\
 q = \text{quantity} \\
 \lambda = \text{unit conversion factor} \\
 a = \text{dimensional exponent}
@@ -145,7 +132,7 @@ change of units example formula
 
 $$
 \begin{align*}
-q' = (9.8\frac{\text{m}}{\text{s}^2})(\frac{1}{1000}\frac{\text{km}}{\text{m}})(\frac{60}{1}\frac{\text{s}}{\text{min}})^{2} = 35.28 \frac{\text{km}}{\text{min}^2}
+q' = q\lambda_1^{a_1} \lambda_2^{a_2} = (9.8\frac{\text{m}}{\text{s}^2})(\frac{1}{1000}\frac{\text{km}}{\text{m}})(\frac{60}{1}\frac{\text{s}}{\text{min}})^{2} = 35.28 \frac{\text{km}}{\text{min}^2}
 \end{align*}
 $$
 ---
@@ -173,7 +160,7 @@ unit-free example
 - $x = \frac{1}{2}gt^2$ 
 - $D = \set{L, T}$ 
 - $[x] = L, [t] = T, [g] = LT^{-2}$ 
-- $x' = x\lambda_1, t' = t\lambda_2, g' = g\lambda_1\lambda_2^{-2}, c' = c\lambda_2$ 
+- $x' = x\lambda_1, t' = t\lambda_2, g' = g\lambda_1\lambda_2^{-2}$ 
 - $(x'\lambda_1^{-1}) = \frac{1}{2}(g'\lambda_1^{-1}\lambda_2^2)(t'\lambda_2^{-1})^2$ 
 - $x'\lambda_1^{-1}\lambda_1^{1} = \frac{1}{2}g't'^2\lambda_2^2\lambda_2^{-2}$ 
 - $\lambda \not\in x'$ 
@@ -200,8 +187,9 @@ full formula
 
 $$
 \begin{align*}
-\dim(\ker A) = n - \text{Rank}(A) = k \\
-k = \text{number of nonpivot columns}
+k = n - \text{Rank}(A) = \dim(\ker A) \\
+n = \text{number of quantities} \\
+A = \text{dimensional matrix} \\
 \end{align*}
 $$
 ---
@@ -232,7 +220,7 @@ buckingham pi property formula
 
 $$
 \begin{align*}
-[\pi] = 1 \leftrightarrow \Delta_\pi = A\vec v = \vec 0 \\
+[\pi] = 1 \leftrightarrow \Delta_\pi = \sum_{i=1}^n b_i\Delta_{q_i} = A\vec v = 0 \\
 A = [\Delta q_1, \dots, \Delta q_n] \in \mathcal M_{mn} \\
 \vec v = [b_1, \dots, b_n] \in \mathbb R^n \\
 \pi = \text{dimensionless power product} \\

@@ -6,8 +6,7 @@ bounded above formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \forall x \in S: x \le u \\
-S = \text{ordered set} \\
+S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \\
 u = \text{upper bound} 
 \end{align*}
 $$
@@ -20,22 +19,20 @@ bounded below formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \forall x \in S: w \le x \\
-S = \text{ordered set} \\
+S \subset \mathbb R, \exists w \in \mathbb R, \forall x \in S: w \le x \\
 w = \text{lower bound} 
 \end{align*}
 $$
 ---
  bounded
 
-- both bounded above and bounded below
+- both bounded below and bounded above
 ---
 bounded formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \forall x \in S: w \le x \le u \\
-S = \text{ordered set} \\
+S \subset \mathbb R, \exists u, w \in \mathbb R, \forall x \in S: w \le x \le u \\
 u = \text{upper bound} \\
 w = \text{lower bound} 
 \end{align*}
@@ -49,8 +46,7 @@ unbounded formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \exists x \in S: (x \le w) \lor (x \ge u) \\
-S = \text{ordered set} \\
+S \subset \mathbb R, \exists u, w \in \mathbb R, \exists x \in S: (x \le w) \lor (x \ge u) \\
 u = \text{upper bound} \\
 w = \text{lower bound}
 \end{align*}
@@ -64,9 +60,7 @@ supremum formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \forall x \in S: x \le u \le U \rightarrow u = \sup S\\
-U = \{u, u+1, u+2, \dots\} \\
-S = \text{ordered set} \\
+(S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u) \land (\exists u' \in \mathbb R: u' < u \rightarrow \exists x \in S: x > u') \rightarrow u = \sup S \\
 u = \text{supremum} \\
 \end{align*}
 $$
@@ -79,9 +73,7 @@ infimum formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \forall x \in S: W \le w \le x \rightarrow w = \inf S = -\sup (-S)\\
-W = \{w, w-1, w-2, \dots\} \\
-S = \text{ordered set} \\
+(S \subset \mathbb R, \exists w \in \mathbb R, \forall x \in S: w \le x) \land (\exists w' \in \mathbb R: w' > w \rightarrow \exists x \in S: x < w') \rightarrow w = \inf S \\
 w = \text{infimum} \\
 \end{align*}
 $$
@@ -95,9 +87,8 @@ completeness property formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \forall x \in S: x \le u \rightarrow \exists \sup S \\
-S \subset \mathbb R, \forall x \in S: w \le x \rightarrow \exists \inf S \\
-S = \text{ordered set} \\
+S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \rightarrow \exists \sup S \in \mathbb R \\
+S \subset \mathbb R, \exists w \in \mathbb R, \forall x \in S: w \le x \rightarrow \exists \inf S \in \mathbb R \\
 u = \text{upper bound} \\
 w = \text{lower bound} 
 \end{align*}
@@ -127,11 +118,11 @@ $$
 \end{align*}
 $$
 ---
-positive nth root property
+nth root property
 
 - for every positive real number there exists unique positive real number root for every natural number power
 ---
-positive nth root property formula
+nth root property formula
 
 $$
 \begin{align*}

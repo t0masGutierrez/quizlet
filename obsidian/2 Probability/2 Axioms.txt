@@ -34,8 +34,8 @@ frequentist probability formula
 $$
 \begin{align*}
 P(A) = \lim_{n \to \infty} \frac{m}{n} \\
-m = \text{number of events} \\
-n = \text{number of trials}
+m = \text{number of successes} \\
+n = \text{total number of trials}
 \end{align*}
 $$
 ---
@@ -61,7 +61,7 @@ classical probability formula
 
 $$
 \begin{align*}
-P(A) = \frac{\text{m}}{\text{n}} \\
+P(A) = \frac{m}{n} \\
 m = \text{number of favorable outcomes} \\
 n = \text{total number of outcomes}
 \end{align*}
@@ -173,15 +173,27 @@ venn diagram
 - frequency distribution of two or more dependent categorical variables
 ![[4 Statistics/Images/venn diagram.png|350]]
 ---
-bayes theorem
+subset property
 
-- method of updating probability of hypothesis based on evidence
+- probability of subset less or equal probability of set
 ---
-bayes formula
+subset property formula
 
 $$
 \begin{align*}
-P(A | B) = \frac{P(B | A) P(A)}{P(B)}
+B \subset A \rightarrow P(B) \le P(A)
+\end{align*}
+$$
+---
+inclusion exclusion property
+
+- likelihood at least 1 event will occur without double counting
+---
+inclusion exclusion property formula
+
+$$
+\begin{align*}
+P(\bigcup_{i=1}^n A_i) = \sum_{k=1}^n (-1)^{k+1} P(\bigcap_{i_1<\dots <i_k}^nA_{i_k})
 \end{align*}
 $$
 ---

@@ -227,7 +227,7 @@ $$
 ---
 field
 
-- set with two binary operations that satisfy the 9 field axioms
+- set with two binary operations that satisfy the 11 field axioms
 ---
 field formula
 
@@ -269,13 +269,13 @@ $$
 set ordinality
 
 - trichotomy
-- transitive
+- transitivity
 ---
 set ordinality formula
 
 $$
 \begin{align*}
-x, y \in S \rightarrow (x < y) \lor (x = y) \lor (x > y) \\
+x, y \in S \rightarrow (x < y) \lor (x = y) \lor (y < x) \\
 (x, y, z \in S) \land (x < y) \land (y < z) \rightarrow x < z 
 \end{align*}
 $$

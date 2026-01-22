@@ -56,21 +56,6 @@ r = \text{number of common arrangements}
 \end{align*}
 $$
 ---
-uncommon permutation
-
-- number of ways to arrange uncommon objects with order
----
-uncommon permutation formula
-
-$$
-\begin{align*}
-P''(n, k) = P(n, k) - P'(n, k) \\
-n = \text{number of objects} \\
-k = \text{number of arrangements} \\
-P' = \text{common permutation}
-\end{align*}
-$$
----
 combination
 
 - number of ways to choose objects without order
@@ -82,36 +67,6 @@ $$
 C(n, k) = \frac{n!}{k!(n - k)!} = \frac{n(n - 1)(n - 2) ... (n - k + 1)}{k!} \\
 n = \text{number of objects} \\
 k = \text{number of choices}
-\end{align*}
-$$
----
-common combination
-
-- number of ways to choose common objects without order
----
-common combination formula
-
-$$
-\begin{align*}
-C''(n, k) = C(n, k) - C'(n, k) \\
-n = \text{number of objects} \\
-k = \text{number of choices} \\
-C' = \text{uncommon combination}
-\end{align*}
-$$
----
-uncommon combination
-
-- number of ways to choose uncommon objects without order
----
-uncommon combination formula
-
-$$
-\begin{align*}
-C'(n, k) = C(n, k) - \frac{(n - m)!}{(k - m)!(n - k - 2m)!} = C(n, k) - \frac{n(n - 1)(n - 2) ... (n - k - 2m + 1)}{(k - m)!} \\
-n = \text{number of objects} \\
-k = \text{number of choices} \\
-m = \text{number of uncommon objects} \\
 \end{align*}
 $$
 ---
@@ -137,18 +92,18 @@ multinomial theorem formula
 
 $$
 \begin{align*}
-C(n, m_1, m_2, \dots, m_k) = \frac{n!}{m_1!m_2!\dots m_k!} \\
+C(n, m_1, m_2, \dots, m_k) = \frac{n!}{\sum_{i=1}^k m_i!} \\
 n = \text{number of objects} \\
 m = \text{number of submembers} \\
 k = \text{number of subgroups}
 \end{align*}
 $$
 ---
-power set
+power number
 
-- set of all subsets
+- number of all subsets
 ---
-power set formula
+power number formula
 
 $$
 \begin{align*}

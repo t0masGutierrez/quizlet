@@ -6,7 +6,7 @@ segment formula
 
 $$
 \begin{align*}
-[\vec a, \vec b] = \{\lambda \vec a + (1 - \vec b)\lambda: \vec a, \vec b \in \mathbb R^k, \lambda \in [0, 1]\} \\
+[\vec a, \vec b] = \{\lambda \vec a + (1 - \vec b)\lambda| \vec a, \vec b \in \mathbb R^k, \lambda \in [0, 1]\} \\
 a = \text{lower coordinate} \\
 b = \text{upper coordinate} 
 \end{align*}

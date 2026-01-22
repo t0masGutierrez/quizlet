@@ -79,12 +79,12 @@ neighborhood formula
 
 $$
 \begin{align*}
-S \subset X, \exists (r > 0) \in \mathbb R: V(x_0) = \{x \in X|B_r(x_0) \subset S\} \\
+V \subset X, \exists (r > 0) \in \mathbb R: x_0 \in B_r(x_0) \subset V(x_0) \\
 X = \text{metric space} \\
 r = \text{radius} \\
-x = \text{point} \\
 B = \text{open ball} \\
-x_0 = \text{center}
+x_0 = \text{center} \\
+V = \text{neighborhood} 
 \end{align*}
 $$
 ---
@@ -188,7 +188,7 @@ $$
 ---
 dense
 
-- every point of metric space equal limit point of closure
+- every point of metric space equal point of closure
 ---
 dense formula
 
@@ -198,22 +198,6 @@ S \subset X, \forall x \in X: x \in (S \cup S') \\
 S = \text{dense set} \\
 X = \text{metric space} \\
 S' = \text{derived set}
-\end{align*}
-$$
----
-open neighborhood property
-
-- every neighborhood around center contain open set including the center
----
-open neighborhood property formula
-
-$$
-\begin{align*}
-\forall (r > 0) \in \mathbb R: x_0 \in B_r(x_0) \subset V(x_0) \\
-r = \text{radius} \\
-B = \text{open ball} \\
-x_0 = \text{center} \\
-V = \text{neighborhood}
 \end{align*}
 $$
 ---
@@ -337,8 +321,7 @@ supremum closure property formula
 
 $$
 \begin{align*}
-(S \subset \mathbb R) \land (u = \sup S) \rightarrow u \in \bar S \\
-u = \text{supremum} \\
+S \subset X \rightarrow \exists \sup \bar S \\
 \bar S = \text{closure}
 \end{align*}
 $$
@@ -352,7 +335,7 @@ relatively open formula
 $$
 \begin{align*}
 S \subset Y \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \cap Y \subset S \\
-S = \text{relatively open subset} \\
+S = \text{relatively open set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
 V = \text{neighborhood} \\
