@@ -29,7 +29,6 @@ $$
 peano axioms
 
 - zero
-- initial
 - success
 - distinct 
 - induct
@@ -39,7 +38,6 @@ peano axioms
 $$
 \begin{align*}
 0 \in \mathbb N \\
-S(n) = n + 1 \rightarrow \not \exists n \in \mathbb N: S(n) =0 \\
 S(n) = n + 1 \rightarrow \forall n \in \mathbb N: S(n) \in \mathbb N \\
 S(n) = S(m) \rightarrow n = m \\
 (K \subset \mathbb N) \land (0 \in K) \land (\forall n \in K: S(n) \in K) \rightarrow K = \mathbb N
@@ -105,15 +103,15 @@ $$
 ---
 construct integers
 
-- equivalence relation equal tuple of natural pairs with equal difference
-- equivalence class equal the set of equivalence relations with equal difference
+- equivalence relation equal natural pairs with equal difference
+- equivalence class equal the set of natural pairs with equal difference
 - integers equal the set of equivalence classes
 ---
 construct integers formula
 
 $$
 \begin{align*}
-(m, n) \sim (m', n') \leftrightarrow m - n = m' - n' \\
+(m, n) \sim (m', n') \leftrightarrow m + n' = m' + n \\
 [(m, n)] = \{(m', n') \in \mathbb N \times \mathbb N |(m, n) \sim (m', n')\} \\
 \mathbb Z = \{[(m, n)] | (m, n) \in \mathbb N \times \mathbb N\}
 \end{align*}
@@ -159,15 +157,15 @@ $$
 ---
 construct rational numbers
 
-- equivalence relation equal tuple of integer pairs with equal quotient
-- equivalence class equal the set of equivalence relations with equal quotient
+- equivalence relation equal integer pairs with equal quotient
+- equivalence class equal the set of integer pairs with equal quotient
 - rational numbers equal the set of equivalence classes
 ---
 construct rational numbers formula
 
 $$
 \begin{align*}
-(p, q) \sim (p', q') \leftrightarrow \frac{p}{q} = \frac{p'}{q'} \\
+(p, q) \sim (p', q') \leftrightarrow pq' = qp' \\
 [(p, q)] = \{(p', q') \in \mathbb Z \times \mathbb Z |(p, q) \sim (p', q')\} \\
 \mathbb Q = \{[(p, q)] | (p, q) \in \mathbb Z \times \mathbb Z\}
 \end{align*}
@@ -298,8 +296,8 @@ field addition property
 
 - equality
 - identity
-- single inverse
-- double inverse
+- inverse
+- negative
 ---
 field addition property formula
 
@@ -340,16 +338,16 @@ $$
 ---
 field ordinality property
 
-- negate
 - square
+- negative
 - reciprocal
 ---
 field ordinality property formula
 
 $$
 \begin{align*}
-x > 0 \leftrightarrow -x < 0 \\
 x \ne 0 \rightarrow x^2 > 0 \\
+x > 0 \leftrightarrow -x < 0 \\
 0 < x < y \rightarrow 0 < \frac{1}{y} < \frac{1}{x}
 \end{align*}
 $$

@@ -40,32 +40,6 @@ b = \text{upper endpoint}
 \end{align*}
 $$
 ---
-infinite open interval
-
-- region between exclusive endpoint and infinity
----
-infinite open interval formula
-
-$$
-\begin{align*}
-(a, \infty) = \{x \in \mathbb R| x > a\} \\
-(-\infty, b) = \{x \in \mathbb R| x < b\}
-\end{align*}
-$$
----
-infinite closed interval
-
-- region between inclusive endpoint and infinity
----
-infinite closed interval formula
-
-$$
-\begin{align*}
-[a, \infty) = \{x \in \mathbb R| x \ge a\} \\
-(-\infty, b] = \{x \in \mathbb R| x \le b\}
-\end{align*}
-$$
----
 convex
 
 - every coordinate along segment equal coordinate of convex set
@@ -113,7 +87,7 @@ nested interval property formula
 
 $$
 \begin{align*}
-(\forall n \in \mathbb N: I_n = [a_n, b_n]) \land (\lim_{n \rightarrow \infty}b_n - a_n = 0) \rightarrow \exists x \in \mathbb R, \forall n \in \mathbb N: \bigcap_{n=1}^\infty I_n = \{x\} \\
+(\forall n \in \mathbb N: I_n = [a_n, b_n] \subset \mathbb R) \land (\lim_{n \rightarrow \infty}b_n - a_n = 0) \rightarrow \exists x \in \mathbb R, \forall n \in \mathbb N: \bigcap_{n=1}^\infty I_n = \{x\} \\
 I_n = \text{nested interval} \\
 \end{align*}
 $$
@@ -198,14 +172,14 @@ $$
 ---
 countable example
 
-- natural numbers
+- naturals
 - integers
-- rational numbers
+- rationals
 ---
 uncountable example
 
-- irrational numbers
-- real numbers
+- irrationals
+- reals
 ---
 finite set property
 

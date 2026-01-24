@@ -76,8 +76,8 @@ function formula
 
 $$
 \begin{align*}
-(aFb) \land (aFc) \rightarrow b = c \\
-a \in A \rightarrow \exists b \in B: aFb 
+(F \subset A \times B) \land (aFb) \land (aFc) \rightarrow b = c \\
+(F \subset A \times B) \land (a \in A) \rightarrow \exists b \in B: aFb 
 \end{align*}
 $$
 ---
@@ -90,7 +90,7 @@ injection formula
 
 $$
 \begin{align*}
-\forall a \in A, \forall b \in B: f(a) = f(b) \rightarrow a = b
+\forall a \in A, \forall b \in B: F(a) = F(b) \rightarrow a = b
 \end{align*}
 $$
 ---
@@ -103,7 +103,7 @@ surjection formula
 
 $$
 \begin{align*}
-\forall b \in B, \exists a \in A: f(a) = b
+\forall b \in B, \exists a \in A: F(a) = b
 \end{align*}
 $$
 ---
@@ -116,7 +116,7 @@ bijection formula
 
 $$
 \begin{align*}
-\forall b \in B, \exists !a \in A: f(a) = b
+\forall b \in B, \exists !a \in A: F(a) = b
 \end{align*}
 $$
 ---

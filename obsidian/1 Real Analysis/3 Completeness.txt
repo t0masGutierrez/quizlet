@@ -94,6 +94,54 @@ w = \text{lower bound}
 \end{align*}
 $$
 ---
+boundedness property
+
+- greater upper bound
+- least upper bound
+- non upper bound
+- sub upper bound
+- lesser upper bound
+- epsilon upper bound
+---
+boundedness property
+
+$$
+\begin{align*}
+(S \subset \mathbb R) \land (u = \sup S) \land (u' > u) \rightarrow \forall x \in \mathbb R: x \le u' \\
+S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \leftrightarrow \sup S \le u \\
+S \subset \mathbb R, \forall u \in \mathbb R, \exists x \in S: x > u \leftrightarrow \sup S > u \\
+S_2 \subset S_1 \subset \mathbb R, \exists u \in \mathbb R,\forall x \in S_1: x \le u \rightarrow \forall y \in S_2: y \le u \\
+S_2 \subset S_1 \subset \mathbb R \rightarrow \sup S_2 \le \sup S_1 \\
+(S \subset \mathbb R) \land (\forall \epsilon > 0, \exists x \in S: u - \epsilon < x) \rightarrow u = \sup S
+\end{align*}
+$$
+---
+supremum addition property
+
+- supremum of non-empty sum equal sum of supremum
+---
+supremum addition property formula
+
+$$
+\begin{align*}
+\sup(S_1 + S_2) = \sup S_1 + \sup S_2 \\
+S = \text{bounded above set}
+\end{align*}
+$$
+---
+supremum union property
+
+- supremum of non-empty union equal maximum of supremum
+---
+supremum union property formula
+
+$$
+\begin{align*}
+\sup(S_1 \cup S_2) = \max \set{\sup S_1, \sup S_2} \\
+S = \text{bounded above set}
+\end{align*}
+$$
+---
 archimedean property
 
 - natural numbers are unbounded above
@@ -127,7 +175,7 @@ nth root property formula
 $$
 \begin{align*}
 \forall (x > 0) \in \mathbb R, \exists !(y > 0) \in \mathbb R, \forall n \in \mathbb N: y^n = x \\
-y = \text{positive nth root}
+y = \text{nth root}
 \end{align*}
 $$
 ---
