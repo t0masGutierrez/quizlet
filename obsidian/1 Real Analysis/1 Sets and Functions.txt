@@ -51,32 +51,15 @@ x = \text{representative}
 \end{align*}
 $$
 ---
-equivalence class property
-
-- self
-- equal
-- disjoint
----
-equivalence class property formula
-
-$$
-\begin{align*}
-x \in [x] \\
-xRy \rightarrow [x] = [y] \\
-x\not R y \rightarrow [x] \cap [y] = \emptyset
-\end{align*}
-$$
----
 function
 
-- relation on cartesian product
+- mapping between set such that for every preimage there exists unique image
 ---
 function formula
 
 $$
 \begin{align*}
-(F \subset A \times B) \land (aFb) \land (aFc) \rightarrow b = c \\
-(F \subset A \times B) \land (a \in A) \rightarrow \exists b \in B: aFb 
+f: A \rightarrow B, \forall a \in A, !\exists b \in B: f(a) = b
 \end{align*}
 $$
 ---
@@ -89,7 +72,7 @@ injection formula
 
 $$
 \begin{align*}
-F \subset A \times B \rightarrow F(A) \subseteq B
+f: A \rightarrow B, \forall a \in A, \forall b \in B: f(a_1) = f(a_2) \rightarrow a_1 = a_2
 \end{align*}
 $$
 ---
@@ -102,7 +85,7 @@ surjection formula
 
 $$
 \begin{align*}
-F \subset A \times B \rightarrow F(A) = B
+f: A \rightarrow B, \forall b \in B, \exists a \in A: f(a) = b
 \end{align*}
 $$
 ---
@@ -115,21 +98,7 @@ bijection formula
 
 $$
 \begin{align*}
-\forall b \in B, \exists !a \in A: F(a) = b
-\end{align*}
-$$
----
-bijection property
-
-- every bijection satisfy equivalence relation
----
-bijection property formula
-
-$$
-\begin{align*}
-(F \subset A \times B) \land (A \sim B) \rightarrow A \sim A \\
-(F \subset A \times B) \land (A \sim B) \rightarrow B \sim A \\
-(F \subset A \times B) \land (A \sim B) \land (B \sim C) \rightarrow A \sim C 
+f: A \rightarrow B, \forall b \in B, !\exists a \in A: f(a) = b
 \end{align*}
 $$
 ---

@@ -195,34 +195,6 @@ $$
 \end{align*}
 $$
 ---
-dedekind cut
-
-- construct real numbers by collecting the set of rational numbers less the irrational
----
-dedekind cut formula
-
-$$
-\begin{align*}
-y = \{q \in \mathbb Q| q < x\} \\
-q = \text{rational number} \\
-x = \text{irrational number}
-\end{align*}
-$$
----
-cauchy sequence
-
-- construct real numbers by converging the sequence of rational numbers at the irrational
----
-cauchy sequence formula
-
-$$
-\begin{align*}
-y = \lim_{n\rightarrow x}q_n \\
-q = \text{rational number} \\
-x = \text{irrational number}
-\end{align*}
-$$
----
 field
 
 - set with two binary operations that satisfy the 11 field axioms
@@ -292,6 +264,22 @@ $$
 \end{align*}
 $$
 ---
+reverse field ordinality
+
+- square
+- negative
+- reciprocal
+---
+reverse field ordinality formula
+
+$$
+\begin{align*}
+x \ne 0 \rightarrow x^2 > 0 \\
+x > 0 \leftrightarrow -x < 0 \\
+0 < x < y \rightarrow 0 < \frac{1}{y} < \frac{1}{x}
+\end{align*}
+$$
+---
 field addition property
 
 - equality
@@ -336,22 +324,6 @@ x \ne 0 \rightarrow \frac{1}{1/x} = x \\
 \end{align*}
 $$
 ---
-field ordinality property
-
-- square
-- negative
-- reciprocal
----
-field ordinality property formula
-
-$$
-\begin{align*}
-x \ne 0 \rightarrow x^2 > 0 \\
-x > 0 \leftrightarrow -x < 0 \\
-0 < x < y \rightarrow 0 < \frac{1}{y} < \frac{1}{x}
-\end{align*}
-$$
----
 complex number
 
 - ordered pair of real numbers
@@ -372,8 +344,8 @@ complex number property
 - zero
 - conjugate
 - multiplication
-- real
 - addition
+- real
 ---
 complex number property formula
 
@@ -382,8 +354,8 @@ $$
 |z| > 0 \leftrightarrow z \ne 0 \\
 |\overline z| = |z| \\
 |zw| = (|z|)(|w|) \\
-|\text{Re}(z)| \le |z| \\
-|z + w| \le |z| + |w|
+|z + w| \le |z| + |w| \\
+|\text{Re}(z)| \le |z| 
 \end{align*}
 $$
 ---
