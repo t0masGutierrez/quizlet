@@ -1,0 +1,76 @@
+dynamical system
+
+- rule that describes the change of state over time
+---
+dynamical system formula
+
+$$
+\begin{align*}
+\frac{du}{dt} = f(u, c_1, \dots, c_N), u(t=0) = u_0, t \ge 0
+u, t = \text{variable} \\
+c = \text{parameter}
+\end{align*}
+$$
+---
+time view
+
+- view solution as graph in the $(t, u)$-plane
+![[3 Mathematical Modeling/Images/time view.png]]
+---
+time view formula
+
+$$
+\begin{align*}
+\frac{du}{dt} = f(u) \\
+f(u) = \text{slope} 
+\end{align*}
+$$
+---
+phase view
+
+- view solution as moving point along $u$-axis
+![[3 Mathematical Modeling/Images/phase view.png]]
+---
+phase view formula
+
+$$
+\begin{align*}
+\frac{du}{dt} = f(u) \\
+f(u) = \text{velocity}
+\end{align*}
+$$
+---
+solvability property
+
+- for every initial condition there exists unique solution of dynamical system
+---
+solvability property formula
+
+$$
+\begin{align*}
+\exists t \in (T_0, T_1): u(t) \in D = \{u \in \mathbb R|\exists \frac{du}{dt}\} \\
+(T_0 \ne \infty) \lor (T_1 \ne \infty) \rightarrow u(T_0 \lor T_1) \not\in D = \{u \in \mathbb R|\exists \frac{du}{dt}\} \\
+u_0 \ne u_0' \rightarrow (u \ne u') \land (u, u' \in D = \{u \in \mathbb R|\exists \frac{du}{dt}\})
+\end{align*}
+$$
+---
+equilibrium solution
+
+- steady state solution of dynamical system equal zero
+---
+equilibrium solution formula
+
+$$
+\begin{align*}
+\exists u_* \in D, \forall t \in (T_0, T_1): u(t) = u_* \leftrightarrow f(u_*) = 0
+\end{align*}
+$$
+---
+term
+
+- definition
+---
+term
+
+- definition
+---

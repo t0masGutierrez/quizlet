@@ -12,19 +12,20 @@ $$
 ---
 absolute value property
 
-- zero
+- negative
 - multiplication
-- addition
+- absolute addition
 - subtraction
 ---
 absolute value property formula
 
 $$
 \begin{align*}
-|x| = 0 \leftrightarrow x = 0 \\
+|-x| = |x| \\
 |x \cdot y| = (|x|)(|y|) \\
 |x + y| \le |x| + |y| \\
-|x - z| \le |x - y| + |y - z| \\
+||x| + |y|| \le |x - y| \\
+|x - y| \le |x| + |y| \\
 \end{align*}
 $$
 ---
@@ -57,7 +58,7 @@ $$
 ---
 open ball
 
-- sphere with finite radius from the center
+- sphere with finite radius from center
 ---
 open ball formula
 

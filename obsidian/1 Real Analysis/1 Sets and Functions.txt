@@ -1,8 +1,8 @@
-cartesian product
+cartesian biproduct
 
 - set of all 2-tuples from 2 sets
 ---
-cartesian product formula
+cartesian biproduct formula
 
 $$
 \begin{align*}
@@ -32,9 +32,9 @@ equivalence relation formula
 
 $$
 \begin{align*}
-(R \subset S \times S) \land (x \in S) \rightarrow x R x \\
-(R \subset S \times S) \land (x, y \in S) \land (x R y) \rightarrow y R x \\
-(R \subset S \times S) \land (x, y, z \in S) \land (x R y) \land (y R z) \rightarrow x R z 
+(R \subset S \times S) \land (x \in S) \rightarrow x \sim x \\
+(R \subset S \times S) \land (x, y \in S) \land (x \sim y) \rightarrow y \sim x \\
+(R \subset S \times S) \land (x, y, z \in S) \land (x \sim y) \land (y \sim z) \rightarrow x \sim z 
 \end{align*}
 $$
 ---
@@ -46,9 +46,8 @@ equivalence class formula
 
 $$
 \begin{align*}
-[x] = \set{y \in S| yRx} \\
-x = \text{representative} \\
-R = \text{equivalence relation}
+[x] = \set{y \in S| y \sim x} \\
+x = \text{representative} 
 \end{align*}
 $$
 ---
@@ -90,7 +89,7 @@ injection formula
 
 $$
 \begin{align*}
-\forall a \in A, \forall b \in B: F(a) = F(b) \rightarrow a = b
+F \subset A \times B \rightarrow F(A) \subseteq B
 \end{align*}
 $$
 ---
@@ -103,7 +102,7 @@ surjection formula
 
 $$
 \begin{align*}
-\forall b \in B, \exists a \in A: F(a) = b
+F \subset A \times B \rightarrow F(A) = B
 \end{align*}
 $$
 ---
@@ -117,6 +116,20 @@ bijection formula
 $$
 \begin{align*}
 \forall b \in B, \exists !a \in A: F(a) = b
+\end{align*}
+$$
+---
+bijection property
+
+- every bijection satisfy equivalence relation
+---
+bijection property formula
+
+$$
+\begin{align*}
+(F \subset A \times B) \land (A \sim B) \rightarrow A \sim A \\
+(F \subset A \times B) \land (A \sim B) \rightarrow B \sim A \\
+(F \subset A \times B) \land (A \sim B) \land (B \sim C) \rightarrow A \sim C 
 \end{align*}
 $$
 ---

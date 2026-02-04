@@ -352,3 +352,73 @@ x > 0 \leftrightarrow -x < 0 \\
 \end{align*}
 $$
 ---
+complex number
+
+- ordered pair of real numbers
+---
+complex number formula
+
+$$
+\begin{align*}
+z = a + bi \\
+a = \text{real part} \\
+b = \text{imaginary part} \\
+i = \sqrt {-1}
+\end{align*}
+$$
+---
+complex number property
+
+- zero
+- conjugate
+- multiplication
+- real
+- addition
+---
+complex number property formula
+
+$$
+\begin{align*}
+|z| > 0 \leftrightarrow z \ne 0 \\
+|\overline z| = |z| \\
+|zw| = (|z|)(|w|) \\
+|\text{Re}(z)| \le |z| \\
+|z + w| \le |z| + |w|
+\end{align*}
+$$
+---
+complex conjugate
+
+- ordered pair of subtractive real numbers
+---
+complex conjugate formula
+
+$$
+\begin{align*}
+\overline z = a - bi \\
+a = \text{Re}(z) \\
+b = \text{Im}(z) \\
+i^2 = 1
+\end{align*}
+$$
+---
+complex conjugate property
+
+- conjugate addition
+- conjugate multiplication
+- real sum
+- imaginary difference
+- real product
+---
+complex conjugate property formula
+
+$$
+\begin{align*}
+\overline {z + w} = \overline z + \overline w \\
+\overline {z \cdot w} = \overline z \cdot \overline w \\ 
+z + \overline z = \text{Re}(z) \\
+z - \overline z = \text{Im}(z) \\
+z \cdot \overline z \in \mathbb R^+ \leftrightarrow z \ne 0
+\end{align*}
+$$
+---

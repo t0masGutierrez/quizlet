@@ -1,36 +1,133 @@
-term
+scale
 
-- definition
+- size of scaling factor influence the graph of unit-free equation
+![[3 Mathematical Modeling/Images/scale.png]]
 ---
-term
+scale formula
 
-- definition
+$$
+\begin{align*}
+D = \{(t, y) \in [-a, a] \times [-b, b]| m_1a \le t \le m_2b, n_1a \le y \le n_2b\} \\
+y = f(t, c_1, \dots, c_N) \\
+m_1, m_2, n_1, n_2 \in \mathbb Z \\
+[a] = [t] \\
+[b] = [y] \\
+D = \text{domain} \\
+t, y = \text{variable} \\
+a, b = \text{scaling factor} \\
+c = \text{parameter} 
+\end{align*}
+$$
 ---
-term
+scale example
 
-- definition
+- $y = c_1t^2 + c_2\sin(\frac{2\pi t}{c_3})$ 
+- $c_1 = 2\frac{\text{m}}{\text{s}^2}$ 
+- $c_2 = 0.01 \text{m}$ 
+- $c_3 = 0.01\text{s}$ 
+![[3 Mathematical Modeling/Images/scale example.png|300]]
 ---
-term
+scale example formula
 
-- definition
+$$
+\begin{align*}
+\{a, b\} = \{0.001 \text{s}, 0.005\text{m}\}, \{0.02\text{s}, 0.02\text{m}\}, \{0.15 \text{s}, 0.10 \text{m}\}, \{10 \text{s}, 200 \text{m}\}
+\end{align*}
+$$
 ---
-term
+scale transformation
 
-- definition
+- change of variables from domain to scaled, normalized domain
+![[3 Mathematical Modeling/Images/scale transformation.png]]
 ---
-term
+scale transformation formula
 
-- definition
+$$
+\begin{align*}
+(\bar t = \frac{t}{a}) \land (\bar y = \frac{y}{b}) \rightarrow \bar D = \{(\bar t, \bar y) \in [-1, 1] \times [-1, 1]| m_1 \le \bar t \le m_2, n_1 \le \bar y \le n_2\} \\
+\bar y = \frac{1}{b}f(a \bar t, c_1, \dots, c_N) = \bar f(\bar t, a, b, c_1, \dots, c_N) \\
+m_1, m_2, n_1, n_2 \in \mathbb Z \\
+[a] = [\bar t] \\
+[b] = [\bar y] \\
+\bar D = \text{domain} \\
+\bar t, \bar y = \text{variable} \\
+a, b = \text{scaling factor} \\
+c = \text{parameter} 
+\end{align*}
+$$
 ---
-term
+scale transformation example
 
-- definition
+- $y = c_1t^2 + c_2\sin(\frac{2\pi t}{c_3})$ 
+- $c_1 = 2\frac{\text{m}}{\text{s}^2}$ 
+- $c_2 = 0.01 \text{m}$ 
+- $c_3 = 0.01\text{s}$ 
+![[3 Mathematical Modeling/Images/scale transformation example.png]]
 ---
-term
+scale transformation example formula
 
-- definition
+$$
+\begin{align*}
+\{a, b\} = \{-1, 1\}
+\end{align*}
+$$
 ---
-term
+scaling derivative property
 
-- definition
+- kth derivative of function equal kth power of scaled derivative
+---
+scaling derivative property formula
+
+$$
+\begin{align*}
+\frac{d^k y}{d t^k} = (\frac{b}{a^k})(\frac{d^k \bar y}{d \bar t^k}) \\
+a, b = \text{scaling factor} 
+\end{align*}
+$$
+---
+characteristic scale
+
+- reasonable size of scale for nondimensionalization
+---
+characteristic scale formula
+
+$$
+\begin{align*}
+b = \max_{t \in I}|y| \\
+a = \frac{b}{\max_{t \in I}|\frac{dy}{dt}|}
+\end{align*}
+$$
+---
+associative scale
+
+- reasonable size of scale for nondimensionalization
+---
+associative scale formula
+
+$$
+\begin{align*}
+A\alpha = \Delta_t \rightarrow a = c_1^{\alpha_1} \dots c_1^{\alpha_N} > 0\\
+A\beta = \Delta_y \rightarrow b = c_1^{\beta_1} \dots c_1^{\beta_N} > 0\\
+D = \set{D_1, \dots, D_m} \in \mathbb R^M \\
+A = [\Delta_{c_1}, \dots, \Delta_{c_N}] \in \mathcal M^{MN} \\
+M \le N \\
+\alpha, \beta = \text{parameter exponent} \\
+c = \text{parameter}
+\end{align*}
+$$
+---
+scaling property
+
+- scale transformation under natural scale equal equivalent function with smaller dimensionless argument
+---
+scaling property formula
+
+$$
+\begin{align*}
+[t] = [y] = [a] = [b] = 1 \rightarrow \bar y = \phi(\bar t, \mu_1, \dots, \mu_M) \\
+t, y, = \text{variable} \\
+a, b = \text{scaling factor} \\
+\mu = \text{parameter} \\
+\end{align*}
+$$
 ---

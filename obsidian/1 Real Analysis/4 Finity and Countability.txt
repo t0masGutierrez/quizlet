@@ -6,7 +6,7 @@ segment formula
 
 $$
 \begin{align*}
-[\vec a, \vec b] = \{\lambda \vec a + (1 - \vec b)\lambda| \vec a, \vec b \in \mathbb R^k, \lambda \in [0, 1]\} \\
+[a, b] = \{\lambda a + (1 - b)\lambda| a, b \in \mathbb R, \lambda \in [0, 1]\} \\
 a = \text{lower coordinate} \\
 b = \text{upper coordinate} 
 \end{align*}
@@ -48,7 +48,7 @@ convex formula
 
 $$
 \begin{align*}
-S \subset \mathbb R^k, \forall \vec p, \vec q \in S, \forall \lambda \in [0, 1]: \lambda \vec p + (1 - \vec q)\lambda \in S \\
+S \subset \mathbb R, \forall p, q \in S, \forall \lambda \in [0, 1]: \lambda p + (1 - q)\lambda \in S \\
 S = \text{convex set}
 \end{align*}
 $$
@@ -70,7 +70,7 @@ nested interval
 
 - sequence of subintervals
 ---
-nested interval
+nested interval formula
 
 $$
 \begin{align*}
@@ -114,58 +114,112 @@ cardinality formula
 
 $$
 \begin{align*}
-|A| = |B| \leftrightarrow \forall b \in B, \exists !a \in A: f(a) = b
+\# A = \# B \leftrightarrow \forall b \in B, \exists !a \in A: f(a) = b \\
+\# = \text{cardinality}
+\end{align*}
+$$
+---
+natural cardinality
+
+- cardinality of the natural numbers equal the smallest possible size of infinite set
+---
+natural cardinality formula
+
+$$
+\begin{align*}
+\aleph_0 = \# \mathbb N \\
+\# = \text{cardinality}
+\end{align*}
+$$
+---
+real cardinality
+
+- cardinality of the real numbers equal smallest possible size of uncountable set
+---
+real cardinality formula
+
+$$
+\begin{align*}
+2^{\aleph_0} = \# \mathbb R \\
+\# = \text{cardinality}
+\end{align*}
+$$
+---
+union cardinality property
+
+- joint
+- disjoint
+---
+union cardinality property formula
+
+$$
+\begin{align*}
+(\{0, 1,\dots, n\} \sim S_1) \land (\{0, 1, \dots, m\} \sim S_2) \rightarrow \#(S_1 \cup S_2) \le \# S_1 + \# S_2 \\
+(\{0, 1, \dots, n\} \sim S_1) \land (\{0, 1, \dots, m\} \sim S_1) \land (S_1 \cap S_2 \ne \emptyset) \leftrightarrow \#(S_1 \cup S_2) = \# S_1 + \# S_2 \\
 \end{align*}
 $$
 ---
 finite
 
-- equal cardinality between set and finite subset of natural numbers
+- there exists bijection between set and finite subset of natural numbers
 ---
 finite formula
 
 $$
 \begin{align*}
-\exists n \in \mathbb N: |S| = |\{0, 1, 2, 3, \dots, n\}| \\
-S = \text{finite set}
+\{0, 1, 2, 3, \dots, n\} \sim S\\
+S = \text{finite set} 
 \end{align*}
 $$
 ---
 infinite
 
-- unequal cardinality between set and finite subset of natural numbers
+- there exists no bijection between set and finite subset of natural numbers
 ---
 infinite formula
 
 $$
 \begin{align*}
-\not\exists n \in \mathbb N: |S| = |\{0, 1, 2, 3, \dots, n\}| \\
-S = \text{infinite set}
+\{0, 1, 2, 3, \dots, n\} \not \sim S \\
+S = \text{finite set} 
 \end{align*}
 $$
 ---
 countable
 
-- less or equal cardinality between set and natural numbers
+- there exists bijection between set and set of natural numbers
 ---
 countable formula
 
 $$
 \begin{align*}
-|S| \le |\mathbb N| \\
-S = \text{countable set}
+\mathbb N \sim S\\
+S = \text{countable set} 
+\end{align*}
+$$
+---
+max countable
+
+- finite or countable
+---
+max countable formula
+
+$$
+\begin{align*}
+(\{0, 1, 2, 3, \dots, n\} \sim S) \lor (\mathbb N \sim S) \\
+S = \text{max countable set}
 \end{align*}
 $$
 ---
 uncountable
 
-- greater cardinality between set and natural numbers
+- infinite and uncountable
 ---
 uncountable formula
 
 $$
 \begin{align*}
-|S| > |\mathbb N| \\
+(\{0, 1, 2, 3, \dots, n\} \not \sim S) \land (\mathbb N \not\sim S) \\
 S = \text{uncountable set}
 \end{align*}
 $$
@@ -181,16 +235,16 @@ uncountable example
 - irrationals
 - reals
 ---
-finite set property
+countable set property
 
-- every finite set equal countable set
+- every countable set equal infinite set
 ---
-finite set property formula
+countable set property formula
 
 $$
 \begin{align*}
-\exists n \in \mathbb N: |S| = |\{0, 1, 2, 3, \dots, n\}| \rightarrow |S| \le |\mathbb N| \\
-S = \text{countable set}
+\mathbb N \sim S \rightarrow \{0, 1, 2, 3, \dots, n\} \not\sim S \\
+S = \text{countable set} 
 \end{align*}
 $$
 ---
@@ -202,8 +256,7 @@ countable subset property formula
 
 $$
 \begin{align*}
-(|S| \le |\mathbb N|) \land (S_1 \subset S) \rightarrow |S_1| \le |\mathbb N| \\
-S = \text{countable set}
+(\mathbb N \sim S) \land (S_1 \subset S) \rightarrow \mathbb N \sim S_1 \\
 \end{align*}
 $$
 ---
@@ -215,8 +268,20 @@ countable union property formula
 
 $$
 \begin{align*}
-(|S| \le |\mathbb N|) \land (|S_1, S_2, S_3, \dots| \le |\mathbb N|) \rightarrow |\bigcup_{n=1}^\infty S_n| \le |\mathbb N| \\
+(\mathbb N \sim S) \land (S_1, S_2, S_3, \dots = \aleph_0) \rightarrow \mathbb N \sim \bigcup_{n=1}^\infty S_n\\
 S = \text{countable set}
+\end{align*}
+$$
+---
+countable product property
+
+- every cartesian product of countable set equal countable set
+---
+countable product property formula
+
+$$
+\begin{align*}
+(\mathbb N \sim S) \land (S_1, S_2, S_3, \dots = n) \rightarrow \mathbb N \sim S^n
 \end{align*}
 $$
 ---
@@ -228,7 +293,46 @@ uncountable interval property formula
 
 $$
 \begin{align*}
-[0, 1] = \{x \in \mathbb R| 0 \le x \le 1\} \rightarrow |[0, 1] | > |\mathbb N|
+[0, 1] = \{x \in \mathbb R| 0 \le x \le 1\} \rightarrow \mathbb N \not\sim [0, 1]
+\end{align*}
+$$
+---
+countable domain property
+
+- if domain countable then range countable
+---
+countable domain property formula
+
+$$
+\begin{align*}
+(f: A \rightarrow B) \land (\mathbb N \sim A) \rightarrow \mathbb N \sim f(A) \\
+f = \text{function}
+\end{align*}
+$$
+---
+uncountable injection property
+
+- if domain uncountable then codomain uncountable
+---
+uncountable injection property formula
+
+$$
+\begin{align*}
+(f: A \rightarrow B) \land (\mathbb N \not\sim A) \rightarrow \mathbb N \not\sim B \\
+f = \text{injection}
+\end{align*}
+$$
+---
+surjective countability property
+
+- if codomain uncountable then domain uncountable
+---
+surjective countability property
+
+$$
+\begin{align*}
+(f: A \rightarrow B) \land (\mathbb N \not\sim B) \rightarrow \mathbb N \not\sim A \\
+f = \text{surjection}
 \end{align*}
 $$
 ---

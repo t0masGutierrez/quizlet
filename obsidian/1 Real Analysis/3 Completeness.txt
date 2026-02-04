@@ -46,7 +46,7 @@ unbounded formula
 
 $$
 \begin{align*}
-S \subset \mathbb R, \exists u, w \in \mathbb R, \exists x \in S: (x \le w) \lor (x \ge u) \\
+S \subset \mathbb R, \exists u, w \in \mathbb R, \exists x \in S: (x < w) \lor (x > u) \\
 u = \text{upper bound} \\
 w = \text{lower bound}
 \end{align*}
@@ -94,22 +94,20 @@ w = \text{lower bound}
 \end{align*}
 $$
 ---
-boundedness property
+upper bound property
 
 - greater upper bound
 - least upper bound
-- non upper bound
 - sub upper bound
-- lesser upper bound
+- super upper bound
 - epsilon upper bound
 ---
-boundedness property
+upper bound property
 
 $$
 \begin{align*}
-(S \subset \mathbb R) \land (u = \sup S) \land (u' > u) \rightarrow \forall x \in \mathbb R: x \le u' \\
+(S \subset \mathbb R) \land (u = \sup S) \land (u' > u) \rightarrow \forall x \in S: x \le u' \\
 S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \leftrightarrow \sup S \le u \\
-S \subset \mathbb R, \forall u \in \mathbb R, \exists x \in S: x > u \leftrightarrow \sup S > u \\
 S_2 \subset S_1 \subset \mathbb R, \exists u \in \mathbb R,\forall x \in S_1: x \le u \rightarrow \forall y \in S_2: y \le u \\
 S_2 \subset S_1 \subset \mathbb R \rightarrow \sup S_2 \le \sup S_1 \\
 (S \subset \mathbb R) \land (\forall \epsilon > 0, \exists x \in S: u - \epsilon < x) \rightarrow u = \sup S

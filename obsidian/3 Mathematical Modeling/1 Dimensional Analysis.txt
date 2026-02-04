@@ -73,7 +73,7 @@ $$
 [\frac{p}{q}] = \frac{[p]}{[q]} \\
 [q^k] = [q]^k \\
 [\int p \cdot dq] = [p] \cdot [q] \\
-[\frac{dp}{dq}] = \frac{[p]}{[q]}
+[\frac{d^kp}{dq^k}] = \frac{[p]}{[q]^k}
 \end{align*}
 $$
 ---
@@ -132,7 +132,7 @@ change of units example formula
 
 $$
 \begin{align*}
-q' = q\lambda_1^{a_1} \lambda_2^{a_2} = (9.8\frac{\text{m}}{\text{s}^2})(\frac{1}{1000}\frac{\text{km}}{\text{m}})(\frac{60}{1}\frac{\text{s}}{\text{min}})^{2} = 35.28 \frac{\text{km}}{\text{min}^2}
+q' = (9.8\frac{\text{m}}{\text{s}^2})(\frac{1}{1000}\frac{\text{km}}{\text{m}})(\frac{60}{1}\frac{\text{s}}{\text{min}})^{2} = 35.28 \frac{\text{km}}{\text{min}^2}
 \end{align*}
 $$
 ---
@@ -148,14 +148,13 @@ q_1 = f(q_2, \dots, q_n) \rightarrow q_1' = f'(q_2', \dots, q_n')
 \end{align*}
 $$
 ---
-unit-free test
+unit-free example
 
 - for every dimension assign arbitrary unit conversion factor
 - change of units in terms of arbitrary unit conversion factor
-- if all unit conversion factors cancel then unit-free success
-- if all unit conversion factors do not cancel then unit-free failure
+- cancel all unit conversion factors such that sum of dimensional exponent equal zero
 ---
-unit-free example
+unit-free example formula
 
 - $x = \frac{1}{2}gt^2$ 
 - $D = \set{L, T}$ 
