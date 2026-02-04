@@ -323,11 +323,11 @@ f = \text{injection}
 \end{align*}
 $$
 ---
-surjective countability property
+uncountable surjection property
 
 - if codomain uncountable then domain uncountable
 ---
-surjective countability property
+uncountable surjection property formula
 
 $$
 \begin{align*}
