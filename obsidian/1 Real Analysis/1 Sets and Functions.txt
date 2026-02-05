@@ -59,7 +59,7 @@ function formula
 
 $$
 \begin{align*}
-f: A \rightarrow B, \forall a \in A, !\exists b \in B: f(a) = b
+f: A \rightarrow B, \forall a \in A, \exists !b \in B: f(a) = b
 \end{align*}
 $$
 ---
@@ -98,7 +98,7 @@ bijection formula
 
 $$
 \begin{align*}
-f: A \rightarrow B, \forall b \in B, !\exists a \in A: f(a) = b
+f: A \rightarrow B, \forall b \in B, \exists !a \in A: f(a) = b
 \end{align*}
 $$
 ---

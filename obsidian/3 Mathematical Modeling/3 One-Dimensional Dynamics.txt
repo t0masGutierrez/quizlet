@@ -6,7 +6,7 @@ dynamical system formula
 
 $$
 \begin{align*}
-\frac{du}{dt} = f(u, c_1, \dots, c_N), u(t=0) = u_0, t \ge 0
+\frac{du}{dt} = f(u, c_1, \dots, c_N), u(t=0) = u_0, t \ge 0 \\
 u, t = \text{variable} \\
 c = \text{parameter}
 \end{align*}
@@ -49,7 +49,7 @@ solvability property formula
 $$
 \begin{align*}
 \exists t \in (T_0, T_1): u(t) \in D = \{u \in \mathbb R|\exists \frac{du}{dt}\} \\
-(T_0 \ne \infty) \lor (T_1 \ne \infty) \rightarrow u(T_0 \lor T_1) \not\in D = \{u \in \mathbb R|\exists \frac{du}{dt}\} \\
+(t \le T_0) \lor (t \ge T_1) \rightarrow u(t) \not\in D = \{u \in \mathbb R|\exists \frac{du}{dt}\} \\
 u_0 \ne u_0' \rightarrow (u \ne u') \land (u, u' \in D = \{u \in \mathbb R|\exists \frac{du}{dt}\})
 \end{align*}
 $$
@@ -62,9 +62,98 @@ equilibrium solution formula
 
 $$
 \begin{align*}
-\exists u_* \in D, \forall t \in (T_0, T_1): u(t) = u_* \leftrightarrow f(u_*) = 0
+\forall u_* \in D, \forall t \in (T_0, T_1): u(t) = u_* \leftrightarrow f(u_*) = 0 \\
+u_* = \text{equilibrium solution} \\
+D = \text{domain} \\
+u, t = \text{variable} 
 \end{align*}
 $$
+---
+monotonicity property
+
+- sign of initial slope equal monotonicity of solution
+---
+monotonicity property formula
+
+$$
+\begin{align*}
+f(u_0) > 0 \rightarrow \forall t: \frac{du}{dt} > 0 \\
+f(u_0) = 0 \rightarrow \forall t: \frac{du}{dt} = 0 \\
+f(u_0) < 0 \rightarrow \forall t: \frac{du}{dt} < 0 \\
+\end{align*}
+$$
+---
+equilibrium stability
+
+- behavior of solution near equilibrium solution
+---
+equilibrium stability formula
+
+$$
+\begin{align*}
+I(\rho) = (u_* - \rho, u_* + \rho) 
+\end{align*}
+$$
+---
+asymptotic stability
+
+- if nearby initial condition then nearby solution converge on equilibrium solution
+![[3 Mathematical Modeling/Images/asymptotic stability.png]]
+---
+asymptotic stability formula
+
+$$
+\begin{align*}
+\exists \delta > 0: |u_0 - u_*| < \delta \rightarrow (\forall \epsilon > 0, \forall t \ge 0: |u(t) - u_* | < \epsilon) \land (\lim_{t \rightarrow \infty} u(t) = u_*)
+\end{align*}
+$$
+---
+neutral stability
+
+- if nearby initial condition then nearby solution sometimes converge on equilibrium solution
+![[3 Mathematical Modeling/Images/neutral stability.png]]
+---
+neutral stability formula
+
+$$
+\begin{align*}
+\exists \delta > 0: |u_0 - u_*| < \delta \rightarrow (\forall \epsilon > 0, \forall t \ge 0: |u(t) - u_* | < \epsilon) \land (\exists u_0 \in D: \lim_{t \rightarrow \infty} u(t) \ne u_*)
+\end{align*}
+$$
+---
+instability
+
+- if far initial condition then far solution diverge off equilibrium solution
+![[3 Mathematical Modeling/Images/instability.png]]
+---
+instability formula
+
+$$
+\begin{align*}
+(\forall \delta > 0: |u_0 - u_*| < \delta) \land (\exists \epsilon > 0, \exists t \ge 0: |u(t) - u_* | \ge \epsilon) \land (\lim_{t \rightarrow \infty} u(t) \ne u_*)
+\end{align*}
+$$
+---
+stability derivative test
+
+- sign of derivative at equilibrium solution equal stability of solution
+---
+stability derivative test formula
+
+$$
+\begin{align*}
+f'(u_*) < 0 \rightarrow \lim_{t \rightarrow \infty} u(t) = u_* \\
+f'(u_*) > 0 \rightarrow \lim_{t \rightarrow \infty} u(t) \ne u_* \\
+\end{align*}
+$$
+---
+term
+
+- definition
+---
+term
+
+- definition
 ---
 term
 

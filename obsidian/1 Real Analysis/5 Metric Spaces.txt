@@ -14,7 +14,7 @@ absolute value property
 
 - negative
 - multiplication
-- absolute addition
+- addition
 - subtraction
 ---
 absolute value property formula
@@ -172,7 +172,7 @@ $$
 ---
 bounded
 
-- every point of bounded set within finite radius from the center
+- every point of bounded set within finite radius from center
 ---
 bounded formula
 
@@ -210,7 +210,8 @@ infinite limit point property formula
 
 $$
 \begin{align*}
-S \subset X, \forall (r > 0) \in \mathbb R: |V(x_0) \cap (S \setminus \{x_0\})| = \infty \\
+\{0, 1, \dots, n\} \not\sim S \subset X \rightarrow \forall (r > 0) \in \mathbb R: |V(x_0) \cap (S \setminus \{x_0\})| = \infty \\
+S = \text{infinite set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
 V = \text{neighborhood} \\
@@ -226,10 +227,11 @@ finite limit point property formula
 
 $$
 \begin{align*}
-\exists n \in \mathbb N: |S| = |\{0, 1, 2, 3, \dots, n\}| \rightarrow S \subset X, \forall (r > 0) \in \mathbb R, \forall x \in V(x_0): (x = x_0) \lor (x \not\in S) \\
+\{0, 1, \dots, n\} \sim S \subset X \rightarrow \forall x \in S: V(x_0) \cap (S \setminus \{x_0\}) = \emptyset \\
 S = \text{finite set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
+V = \text{neighborhood} \\
 x_0 = \text{isolated point}
 \end{align*}
 $$

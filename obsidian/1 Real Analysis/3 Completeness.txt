@@ -96,21 +96,17 @@ $$
 ---
 upper bound property
 
-- least upper bound
-- greater upper bound
+- epsilon upper bound
 - sub upper bound
 - super upper bound
-- epsilon upper bound
 ---
 upper bound property
 
 $$
 \begin{align*}
-S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \leftrightarrow \sup S \le u \\
-(S \subset \mathbb R) \land (u = \sup S) \land (u' > u) \rightarrow \forall x \in S: x \le u' \\
+S \subset \mathbb R, \forall \epsilon > 0, \exists x \in S: u - \epsilon < x \rightarrow u = \sup S \\
 S_2 \subset S_1 \subset \mathbb R, \exists u \in \mathbb R,\forall x \in S_1: x \le u \rightarrow \forall y \in S_2: y \le u \\
 S_2 \subset S_1 \subset \mathbb R \rightarrow \sup S_2 \le \sup S_1 \\
-S \subset \mathbb R, \forall \epsilon > 0, \exists x \in S: u - \epsilon < x \rightarrow u = \sup S
 \end{align*}
 $$
 ---
