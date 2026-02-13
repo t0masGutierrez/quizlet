@@ -173,18 +173,6 @@ venn diagram
 - frequency distribution of two or more dependent categorical variables
 ![[4 Statistics/Images/venn diagram.png|350]]
 ---
-subset property
-
-- probability of subset less or equal probability of set
----
-subset property formula
-
-$$
-\begin{align*}
-B \subset A \rightarrow P(B) \le P(A)
-\end{align*}
-$$
----
 inclusion exclusion property
 
 - likelihood at least 1 event will occur without double counting
@@ -194,6 +182,18 @@ inclusion exclusion property formula
 $$
 \begin{align*}
 P(\bigcup_{i=1}^n A_i) = \sum_{k=1}^n (-1)^{k+1} P(\bigcap_{i_1<\dots <i_k}^nA_{i_k})
+\end{align*}
+$$
+---
+law of total probability
+
+- definition
+---
+law of total probability formula
+
+$$
+\begin{align*}
+
 \end{align*}
 $$
 ---

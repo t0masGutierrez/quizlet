@@ -1,0 +1,275 @@
+dynamical system
+
+- rule that describes the change of state over time
+---
+dynamical system formula
+
+$$
+\begin{align*}
+\frac{dx}{dt} = f(x, y, c_1, \dots, c_N), x(t=0) = x_0, t \ge 0 \\
+\frac{dy}{dt} = g(x, y, c_1, \dots, c_N), x(t=0) = x_0, t \ge 0 \\
+x, y, t = \text{variable} \\
+x_0, y_0 = \text{initial condition} \\
+c = \text{parameter}
+\end{align*}
+$$
+---
+time view
+
+- view solution as curve in the $(t, x)$-plane or $(t, y)$-plane
+![[3 Mathematical Modeling/Images/2d time view.png]]
+---
+time view formula
+
+$$
+\begin{align*}
+\frac{dx}{dt} = f(x, y) \\
+\frac{dy}{dt} = g(x, y) \\
+f, g = \text{slope} 
+\end{align*}
+$$
+---
+phase view
+
+- view solution as moving point in the $(x, y)$-plane
+![[3 Mathematical Modeling/Images/2d phase view.png]]
+---
+phase view formula
+
+$$
+\begin{align*}
+\vec v = (f, g) \\
+f, g = \text{velocity}
+\end{align*}
+$$
+---
+solvability property
+
+- for every initial condition there exists unique solution of dynamical system
+![[3 Mathematical Modeling/Images/solvability property.png]]
+---
+solvability property formula
+
+$$
+\begin{align*}
+\forall (x_0, y_0) \in \mathbb R, \exists t \in (T_0, T_1): (x, y)(t) \in D = \{(x, y) \in \mathbb R| \exists (\frac{dx}{dt}, \frac{dy}{dt})\} \\
+(t \le T_0) \lor (t \ge T_1) \rightarrow (x, y)(t) \not\in D = \{(x, y) \in \mathbb R| \exists (\frac{dx}{dt}, \frac{dy}{dt})\} \\
+(x_0, y_0) \ne (\hat x_0, \hat y_0) \rightarrow \forall t \in (T_0, T_1): (x, y)(t) \ne (\hat x, \hat y)(t)
+\end{align*}
+$$
+---
+vector field
+
+- collection of vectors for all points
+![[3 Mathematical Modeling/Images/vector field.png]]
+---
+vector field formula
+
+$$
+\begin{align*}
+\vec v(x, y) = \{(\frac{dx}{dt}, \frac{dy}{dt})| x, y \in D\}
+\end{align*}
+$$
+---
+direction field
+
+- collection of signs for all points
+![[3 Mathematical Modeling/Images/direction field.png]]
+---
+direction field formula
+
+$$
+\begin{align*}
+(f, g)(x, y) = \{(\hat x, \hat y)| x, y \in D\} \\
+\hat x, \hat y = \text{unit vector}
+\end{align*}
+$$
+---
+nullcline region
+
+- region of curve where derivative zero
+- equilibrium solution equal intersection of nullcline region
+---
+nullcline region formula
+
+$$
+\begin{align*}
+f(x, y) = \{(x, y)| \frac{dx}{dt} = 0\} \\
+g(x, y) = \{(x, y) | \frac{dy}{dt} = 0\} 
+\end{align*}
+$$
+---
+path equation
+
+- system of ODEs that determine the path of moving point in the $(x, y)$-plane
+---
+path equation formula
+
+$$
+\begin{align*}
+\frac{dy}{dx} = \frac{g(x, y)}{f(x, y)} \\
+x=x_0 \rightarrow y=y_0
+\end{align*}
+$$
+---
+first integral
+
+- general solution of path equation equal arbitrary constant
+- level set of first integral contain every solution of dynamical system
+---
+first integral formula
+
+$$
+\begin{align*}
+\frac{\partial}{\partial x}(\phi f) = \frac{\partial}{\partial y}(-\phi g) \rightarrow (\frac{\partial E}{\partial x} = -\phi g) \land (\frac{\partial E}{\partial y} = \phi f) \\
+\forall (x, y) \in D: \frac{dE}{dt}(x, y)(t) = 0 \rightarrow E(x, y)(t) = C \\
+\phi = \text{integrating factor} \\
+E = \text{first integral}
+\end{align*}
+$$
+---
+equilibrium solution
+
+- steady state solution of dynamical system equal zero
+---
+equilibrium solution formula
+
+$$
+\begin{align*}
+\forall t \ge 0: (x, y)(t) = (x_*, y_*) \leftrightarrow f(x_*, y_*) = g(x_*, y_*) = 0 \\
+x_*, y_* = \text{equilibrium solution} \\
+D = \text{domain} \\
+x, y, t = \text{variable} 
+\end{align*}
+$$
+---
+equilibrium stability
+
+- behavior of solution near equilibrium solution
+---
+equilibrium stability formula
+
+$$
+\begin{align*}
+I_2(\rho) = (x_* - \rho, x_* + \rho) \times (y_* - \rho, y_* + \rho) \\
+u_* = \text{equilibrium solution}
+\end{align*}
+$$
+---
+asymptotic stability
+
+- if nearby initial condition then nearby solution converge on equilibrium solution
+![[3 Mathematical Modeling/Images/asymptotic stability1.png]]
+---
+asymptotic stability formula
+
+$$
+\begin{align*}
+\exists \delta > 0: (x_0, y_0) \in I_2(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I_2(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) = (x_*, y_*)) \\
+x_0, y_0 = \text{initial condition} \\
+x_*, y_* = \text{equilibrium solution} \\
+x, y, t = \text{variable}
+\end{align*}
+$$
+---
+neutral stability
+
+- if nearby initial condition then nearby solution sometimes converge on equilibrium solution
+![[3 Mathematical Modeling/Images/neutral stability1.png]]
+---
+neutral stability formula
+
+$$
+\begin{align*}
+\exists \delta > 0: (x_0, y_0) \in I_2(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I_2(\epsilon)) \land (\exists x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
+x_0, y_0 = \text{initial condition} \\
+x_*, y_* = \text{equilibrium solution} \\
+x, y, t = \text{variable}
+\end{align*}
+$$
+---
+instability
+
+- if far initial condition then far solution diverge off equilibrium solution
+![[3 Mathematical Modeling/Images/instability1.png]]
+---
+instability formula
+
+$$
+\begin{align*}
+(\forall \delta > 0: (x_0, y_0) \in I_2(\delta)) \land (\exists \epsilon > 0, \exists t \ge 0: (x, y) \not \in I_2(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R\lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
+x_0, y_0 = \text{initial condition} \\
+x_*, y_* = \text{equilibrium solution} \\
+x, y, t = \text{variable}
+\end{align*}
+$$
+---
+periodic solution
+
+- nonconstant, repeating solution with closed orbit
+![[3 Mathematical Modeling/Images/periodic solution.png]]
+---
+periodic solution formula
+
+$$
+\begin{align*}
+\forall t \ge 0: (x, y)(t + P) = (x, y)(t)
+\end{align*}
+$$
+---
+asymptotic periodic stability
+
+- if nearby initial condition then nearby solution spirally converge on periodic solution
+![[3 Mathematical Modeling/Images/asymptotic periodic stability.png]]
+---
+asymptotic periodic stability formula
+
+$$
+\begin{align*}
+\exists \delta > 0: (x_0, y_0) \in I_2(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I_2(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) = (x_*, y_*)) \\
+x_0, y_0 = \text{initial condition} \\
+x_*, y_* = \text{periodic solution} \\
+x, y, t = \text{variable}
+\end{align*}
+$$
+---
+neutral periodic stability
+
+- if nearby initial condition then nearby solution sometimes spirally converge on periodic solution
+![[3 Mathematical Modeling/Images/neutral periodic stability.png]]
+---
+neutral periodic stability formula
+
+$$
+\begin{align*}
+\exists \delta > 0: (x_0, y_0) \in I_2(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I_2(\epsilon)) \land (\exists x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
+x_0, y_0 = \text{initial condition} \\
+x_*, y_* = \text{periodic solution} \\
+x, y, t = \text{variable}
+\end{align*}
+$$
+---
+periodic instability
+
+- if far initial condition then far solution diverge off spirally periodic solution
+![[3 Mathematical Modeling/Images/periodic instability.png]]
+---
+periodic instability formula
+
+$$
+\begin{align*}
+(\forall \delta > 0: (x_0, y_0) \in I_2(\delta)) \land (\exists \epsilon > 0, \exists t \ge 0: (x, y) \not \in I_2(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R\lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
+x_0, y_0 = \text{initial condition} \\
+x_*, y_* = \text{periodic solution} \\
+x, y, t = \text{variable}
+\end{align*}
+$$
+---
+term
+
+- definition
+---
+term
+
+- definition
+---

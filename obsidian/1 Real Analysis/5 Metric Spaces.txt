@@ -37,7 +37,7 @@ metric formula
 
 $$
 \begin{align*}
-\forall \vec p, \vec q \in \mathbb R^k: \text{d}(\vec p, \vec q) = \sqrt{\sum_{i=1}^k (\vec p_i - \vec q_i)^2}
+d: X \times X \rightarrow \mathbb R = [0, \infty)
 \end{align*}
 $$
 ---
@@ -49,10 +49,10 @@ metric space formula
 
 $$
 \begin{align*}
-\vec p = \vec q \leftrightarrow \text{d}(\vec p, \vec q) = 0 \\
-\vec p \ne \vec q \rightarrow \text{d}(\vec p, \vec q) > 0 \\
-\text{d}(\vec p, \vec q) = \text{d}(\vec q, \vec p) \\
-\text{d}(\vec p, \vec q) \le \text{d}(\vec p, \vec b) + \text{d}(\vec b, \vec q) 
+x = y \leftrightarrow \text{d}(x, y) = 0 \\
+x \ne y \rightarrow \text{d}(x, y) > 0 \\
+\text{d}(x, y) = \text{d}(y, x) \\
+\text{d}(x, y) \le \text{d}(x, z) + \text{d}(z, y) 
 \end{align*}
 $$
 ---
@@ -64,10 +64,10 @@ open ball formula
 
 $$
 \begin{align*}
-B_r(\vec p) = \{\vec q \in \mathbb R^k |\text{d}(\vec p, \vec q) < r\} \\
-\vec q = \text{point} \\
+B_r(x_0) = \{x \in X |\text{d}(x, x_0) < r\} \\
+x = \text{point} \\
 \text{d} = \text{metric} \\
-\vec p = \text{center} \\
+x_0 = \text{center} \\
 r = \text{radius}
 \end{align*}
 $$
@@ -80,27 +80,27 @@ neighborhood formula
 
 $$
 \begin{align*}
-V \subset X, \exists (r > 0) \in \mathbb R: x_0 \in B_r(x_0) \subset V(x_0) \\
+N \subset X, \exists (r > 0) \in \mathbb R: x_0 \in B_r(x_0) \subset N_r(x_0) \\
+N = \text{neighborhood} \\
 X = \text{metric space} \\
 r = \text{radius} \\
-B = \text{open ball} \\
 x_0 = \text{center} \\
-V = \text{neighborhood} 
+B = \text{open ball}
 \end{align*}
 $$
 ---
 limit point
 
-- every neighborhood around limit point contain point from set
+- every neighborhood around limit point contain point of set
 ---
 limit point formula
 
 $$
 \begin{align*}
-S \subset X, \forall (r > 0) \in \mathbb R, \exists x \in V(x_0): (x \ne x_0) \land (x \in S) \\
+S \subset X, \forall (r > 0) \in \mathbb R: (N_r(x_0) \setminus \{x_0\}) \cap S \ne \emptyset \\
 X = \text{metric space} \\
 r = \text{radius} \\
-V = \text{neighborhood} \\
+N = \text{neighborhood} \\
 x_0 = \text{limit point}
 \end{align*}
 $$
@@ -113,27 +113,11 @@ interior point formula
 
 $$
 \begin{align*}
-S \subset X, \exists (r > 0) \in \mathbb R: V(x_0) \subset S \\
+S \subset X, \exists (r > 0) \in \mathbb R: N_r(x_0) \subset S \\
 X = \text{metric space} \\
 r = \text{radius} \\
-V = \text{neighborhood} \\
+N = \text{neighborhood} \\
 x_0 = \text{interior point}
-\end{align*}
-$$
----
-closed
-
-- every limit point of closed set equal point of closed set
----
-closed formula
-
-$$
-\begin{align*}
-S \subset X, \forall x_0 \in S': x_0 \in S \\
-S = \text{closed set} \\
-X = \text{metric space} \\
-x_0 = \text{limit point} \\
-S' = \text{derived set} 
 \end{align*}
 $$
 ---
@@ -145,12 +129,44 @@ open formula
 
 $$
 \begin{align*}
-S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subset S \\
+S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: N_r(x) \subset S \\
 S = \text{open set} \\
 X = \text{metric space} \\
 x = \text{interior point} \\
 r = \text{radius} \\
-V = \text{neighborhood}
+N = \text{neighborhood}
+\end{align*}
+$$
+---
+relatively open
+
+- every point of relatively open set equal interior point of relatively open set
+---
+relatively open formula
+
+$$
+\begin{align*}
+S \subset Y \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: N_r(x) \cap Y \subset S \\
+S = \text{relatively open set} \\
+X = \text{metric space} \\
+r = \text{radius} \\
+N = \text{neighborhood} \\
+x = \text{interior point}
+\end{align*}
+$$
+---
+closed
+
+- every limit point of closed set equal point of closed set
+---
+closed formula
+
+$$
+\begin{align*}
+S' \subset S \subset X \\
+S' = \text{derived set} \\
+S = \text{closed set} \\
+X = \text{metric space}
 \end{align*}
 $$
 ---
@@ -162,128 +178,10 @@ perfect formula
 
 $$
 \begin{align*}
-S \subset X, \forall x_0 \in S', \forall x \in S: (x_0 \in S) \land (x \in S') \\
-S = \text{perfect set} \\
-X = \text{metric space} \\
-x_0 = \text{limit point} \\
-S' = \text{derived set} 
-\end{align*}
-$$
----
-bounded
-
-- every point of bounded set within finite radius from center
----
-bounded formula
-
-$$
-\begin{align*}
-S \subset X, \exists (r > 0) \in \mathbb R, \exists x_0 \in X, \forall x \in S: \text{d}(x, x_0) < r \\
-S = \text{bounded set} \\
-X = \text{metric space} \\
-r = \text{radius} \\
-x_0 = \text{center} \\
-\text{d} = \text{metric}
-\end{align*}
-$$
----
-dense
-
-- every point of metric space equal point of closure
----
-dense formula
-
-$$
-\begin{align*}
-S \subset X, \forall x \in X: x \in (S \cup S') \\
-S = \text{dense set} \\
-X = \text{metric space} \\
-S' = \text{derived set}
-\end{align*}
-$$
----
-infinite limit point property
-
-- every neighborhood around limit point contain infinite point of set
----
-infinite limit point property formula
-
-$$
-\begin{align*}
-\{0, 1, \dots, n\} \not\sim S \subset X \rightarrow \forall (r > 0) \in \mathbb R: |V(x_0) \cap (S \setminus \{x_0\})| = \infty \\
-S = \text{infinite set} \\
-X = \text{metric space} \\
-r = \text{radius} \\
-V = \text{neighborhood} \\
-x_0 = \text{limit point}
-\end{align*}
-$$
----
-finite limit point property
-
-- every point of finite set equal isolated point of finite set
----
-finite limit point property formula
-
-$$
-\begin{align*}
-\{0, 1, \dots, n\} \sim S \subset X \rightarrow \forall x \in S: V(x_0) \cap (S \setminus \{x_0\}) = \emptyset \\
-S = \text{finite set} \\
-X = \text{metric space} \\
-r = \text{radius} \\
-V = \text{neighborhood} \\
-x_0 = \text{isolated point}
-\end{align*}
-$$
----
-join complement property
-
-- complement of set union equal intersection of set complement
----
-join complement property formula
-
-$$
-\begin{align*}
-(\bigcup_{i} S_i)^c = \bigcap_{i} (S_i^c) \\
-c = \text{complement}
-\end{align*}
-$$
----
-boundary complement property
-
-- closed set equal complement of open set
-- open set equal complement of closed set
----
-boundary complement property
-
-$$
-\begin{align*}
-S \subset X, \forall x_0 \in S': x_0 \in S \leftrightarrow \forall x \in S^c, \exists (r > 0) \in \mathbb R: V(x) \subset S^c \\
-S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subset S \leftrightarrow \forall x_0 \in (S')^c: x_0 \in S^c \\
-x_0 = \text{limit point} \\
+S' = S \subset X \\
 S' = \text{derived set} \\
-c = \text{complement} \\
-r = \text{radius} \\
-V = \text{neighborhood} \\
-x = \text{interior point}
-\end{align*}
-$$
----
-join boundary property
-
-- union of open set equal open set
-- intersection of closed set equal closed set
-- finite intersection of open set equal open set
-- finite union of closed set equal closed set
----
-join boundary property formula
-
-$$
-\begin{align*}
-S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subset S \rightarrow V(x) \subset \bigcup_{i} S_i \\
-S \subset X, \forall x_0 \in S': x_0 \in S \rightarrow x_0 \in \bigcap_{i} S_i \\
-S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \subset S \rightarrow V(x) \subset \bigcap_{i=1}^n S_i \\
-S \subset X, \forall x_0 \in S': x_0 \in S \rightarrow x_0 \in \bigcup_{i=1}^n S_i \\
+S = \text{perfect set} \\
+X = \text{metric space}
 \end{align*}
 $$
 ---
@@ -302,9 +200,9 @@ $$
 ---
 closure property
 
-- closed
-- equal
-- subset
+- derived closure
+- equal closure
+- sub closure
 ---
 closure property formula
 
@@ -312,7 +210,7 @@ $$
 \begin{align*}
 \bar S' \subset \bar S \subset X \\
 S' \subset S \subset X \leftrightarrow \bar S = S \\
-(S \subset K) \land (K' \subset K \subset X) \rightarrow \bar S \subset K
+(=S \subset K) \land (K' \subset K \subset X) \rightarrow \bar S \subset K
 \end{align*}
 $$
 ---
@@ -329,20 +227,144 @@ S \subset X \rightarrow \exists \sup \bar S \\
 \end{align*}
 $$
 ---
-relatively open
+dense
 
-- every point of relatively open set equal interior point of relatively open set
+- every point of metric space equal point of closure
 ---
-relatively open formula
+dense formula
 
 $$
 \begin{align*}
-S \subset Y \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: V(x) \cap Y \subset S \\
-S = \text{relatively open set} \\
+S \subset X, \forall x \in X: x \in (S \cup S') \\
+S = \text{dense set} \\
+X = \text{metric space} \\
+S' = \text{derived set}
+\end{align*}
+$$
+---
+bounded
+
+- every point of bounded set within finite radius from center
+---
+bounded formula
+
+$$
+\begin{align*}
+S \subset X, \exists x_0 \in X, \exists (r > 0) \in \mathbb R: S \subset B_r(x_0) \\
+S = \text{bounded set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
-V = \text{neighborhood} \\
-x = \text{interior point}
+x_0 = \text{center} \\
+\text{d} = \text{metric}
+\end{align*}
+$$
+---
+cover property
+
+- empty set equal both open set and closed set
+- metric space equal both open set and closed set
+---
+cover property formula
+
+$$
+\begin{align*}
+\emptyset \subset X, \forall x \in \emptyset , \exists r > 0 \in \mathbb R: N_r(x_0) \subset \emptyset, X \\
+\emptyset \subset X, \forall r > 0 \in \mathbb R: N_r(x_0) \setminus \{x_0\} \cap \emptyset, X \ne \emptyset
+\end{align*}
+$$
+---
+interval limit point property
+
+- every point of interval equal limit point including endpoint
+---
+interval limit point property
+
+$$
+\begin{align*}
+(a, b) = S \subset X \rightarrow S' = [a, b] 
+\end{align*}
+$$
+---
+infinite limit point property
+
+- every neighborhood around limit point contain infinite point of set
+---
+infinite limit point property formula
+
+$$
+\begin{align*}
+\{0, 1, \dots, n\} \not\sim S \subset X \rightarrow \forall (r > 0) \in \mathbb R, \forall x_0 \in S': |N_r(x_0) \setminus \{x_0\} \cap S| = \infty \\
+S = \text{infinite set} \\
+X = \text{metric space} \\
+r = \text{radius} \\
+N = \text{neighborhood} \\
+x_0 = \text{limit point}
+\end{align*}
+$$
+---
+finite limit point property
+
+- every point of finite set equal isolated point of finite set
+---
+finite limit point property formula
+
+$$
+\begin{align*}
+\{0, 1, \dots, n\} \sim S \subset X \rightarrow \forall (r > 0) \in \mathbb R, \forall x \in S: N_r(x) \setminus \{x_0\} \cap S = \{x_0\} \\
+S = \text{finite set} \\
+X = \text{metric space} \\
+r = \text{radius} \\
+N = \text{neighborhood} \\
+x = \text{isolated point}
+\end{align*}
+$$
+---
+join complement property
+
+- complement of set union equal intersection of set complement
+---
+join complement property formula
+
+$$
+\begin{align*}
+(\bigcup_{i} S_i)^c = \bigcap_{i} (S_i^c) \\
+c = \text{complement}
+\end{align*}
+$$
+---
+cover complement property
+
+- closed set equal complement of open set
+- open set equal complement of closed set
+---
+cover complement property formula
+
+$$
+\begin{align*}
+S' \subset S \subset X \leftrightarrow \forall x \in S^c, \exists (r > 0) \in \mathbb R: N_r(x) \subset S^c \\
+S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: N_r(x) \subset S \leftrightarrow (S')^c \subset S^c \subset X \\
+S' = \text{derived set} \\
+c = \text{complement} \\
+r = \text{radius} \\
+N = \text{neighborhood} 
+\end{align*}
+$$
+---
+join cover property
+
+- union of open set equal open set
+- intersection of closed set equal closed set
+- finite intersection of open set equal open set
+- finite union of closed set equal closed set
+---
+join cover property formula
+
+$$
+\begin{align*}
+S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: N_r(x) \subset S \rightarrow N_r(x) \subset \bigcup_{i} S_i \\
+S' \subset S \subset X  \rightarrow S' \subset \bigcap_{i} S_i   \\
+S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: N_r(x) \subset S \rightarrow N_r(x) \subset \bigcap_{i=1}^n S_i \\
+S' \subset S \subset X  \rightarrow S' \subset \bigcup_{i}^n S_i  \\
 \end{align*}
 $$
 ---

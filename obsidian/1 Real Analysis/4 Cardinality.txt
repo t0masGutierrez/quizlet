@@ -139,7 +139,7 @@ union cardinality property formula
 
 $$
 \begin{align*}
-(\{0, 1,\dots, n\} \sim S) \land (S_1, \dots, S_n) \rightarrow \# \bigcup_{i=1}^n S_i = \sum_{i=1}^n \# S_i - \# \bigcup_{i=1}^n S_i \\
+(\{0, 1,\dots, n\} \sim S) \land (S_1, \dots, S_n) \rightarrow \# \bigcup_{i=1}^n S_i = \sum_{i=1}^n \# S_i - \# \bigcap_{i=1}^n S_i \\
 \end{align*}
 $$
 ---

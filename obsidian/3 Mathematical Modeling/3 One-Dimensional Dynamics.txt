@@ -6,8 +6,9 @@ dynamical system formula
 
 $$
 \begin{align*}
-\frac{du}{dt} = f(u, c_1, \dots, c_N), u(t=0) = u_0, t \ge 0 \\
+\frac{du}{dt} = f(u, c_1, \dots, c_n), u(t=0) = u_0, t \ge 0 \\
 u, t = \text{variable} \\
+u_0 = \text{initial condition} \\
 c = \text{parameter}
 \end{align*}
 $$
@@ -22,7 +23,7 @@ time view formula
 $$
 \begin{align*}
 \frac{du}{dt} = f(u) \\
-f(u) = \text{slope} 
+f = \text{slope} 
 \end{align*}
 $$
 ---
@@ -36,7 +37,7 @@ phase view formula
 $$
 \begin{align*}
 \frac{du}{dt} = f(u) \\
-f(u) = \text{velocity}
+f = \text{velocity}
 \end{align*}
 $$
 ---
@@ -48,9 +49,9 @@ solvability property formula
 
 $$
 \begin{align*}
-\exists t \in (T_0, T_1): u(t) \in D = \{u \in \mathbb R|\exists \frac{du}{dt}\} \\
+\forall u_0 \in \mathbb R, \exists t \in (T_0, T_1): u(t) \in D = \{u \in \mathbb R| \exists \frac{du}{dt}\} \\
 (t \le T_0) \lor (t \ge T_1) \rightarrow u(t) \not\in D = \{u \in \mathbb R|\exists \frac{du}{dt}\} \\
-u_0 \ne u_0' \rightarrow (u \ne u') \land (u, u' \in D = \{u \in \mathbb R|\exists \frac{du}{dt}\})
+u_0 \ne \hat u_0 \rightarrow \forall t \in (T_0, T_1): u(t) \ne \hat u(t)
 \end{align*}
 $$
 ---
@@ -62,7 +63,7 @@ equilibrium solution formula
 
 $$
 \begin{align*}
-\forall u_* \in D, \forall t \in (T_0, T_1): u(t) = u_* \leftrightarrow f(u_*) = 0 \\
+\forall t \ge 0: u(t) = u_* \leftrightarrow f(u_*) = 0 \\
 u_* = \text{equilibrium solution} \\
 D = \text{domain} \\
 u, t = \text{variable} 
@@ -91,7 +92,8 @@ equilibrium stability formula
 
 $$
 \begin{align*}
-I(\rho) = (u_* - \rho, u_* + \rho) 
+I(\rho) = (u_* - \rho, u_* + \rho) \\
+u_* = \text{equilibrium solution}
 \end{align*}
 $$
 ---
@@ -104,7 +106,10 @@ asymptotic stability formula
 
 $$
 \begin{align*}
-\exists \delta > 0: |u_0 - u_*| < \delta \rightarrow (\forall \epsilon > 0, \forall t \ge 0: |u(t) - u_* | < \epsilon) \land (\lim_{t \rightarrow \infty} u(t) = u_*)
+\exists \delta > 0: |u_0 - u_*| < \delta \rightarrow (\forall \epsilon > 0, \forall t \ge 0: |u(t) - u_* | < \epsilon) \land (\forall u_0 \in \mathbb R: \lim_{t \rightarrow \infty} u(t) = u_*) \\
+u_0 = \text{initial condition} \\
+u_* = \text{equilibrium solution} \\
+u, t = \text{variable}
 \end{align*}
 $$
 ---
@@ -117,7 +122,10 @@ neutral stability formula
 
 $$
 \begin{align*}
-\exists \delta > 0: |u_0 - u_*| < \delta \rightarrow (\forall \epsilon > 0, \forall t \ge 0: |u(t) - u_* | < \epsilon) \land (\exists u_0 \in D: \lim_{t \rightarrow \infty} u(t) \ne u_*)
+\exists \delta > 0: |u_0 - u_*| < \delta \rightarrow (\forall \epsilon > 0, \forall t \ge 0: |u(t) - u_* | < \epsilon) \land (\exists u_0 \in \mathbb R: \lim_{t \rightarrow \infty} u(t) \ne u_*) \\
+u_0 = \text{initial condition} \\
+u_* = \text{equilibrium solution} \\
+u, t = \text{variable}
 \end{align*}
 $$
 ---
@@ -130,7 +138,10 @@ instability formula
 
 $$
 \begin{align*}
-(\forall \delta > 0: |u_0 - u_*| < \delta) \land (\exists \epsilon > 0, \exists t \ge 0: |u(t) - u_* | \ge \epsilon) \land (\lim_{t \rightarrow \infty} u(t) \ne u_*)
+(\forall \delta > 0: |u_0 - u_*| < \delta) \land (\exists \epsilon > 0, \exists t \ge 0: |u(t) - u_* | \ge \epsilon) \land (\forall u_0 \in \mathbb R: \lim_{t \rightarrow \infty} u(t) \ne u_*) \\
+u_0 = \text{initial condition} \\
+u_* = \text{equilibrium solution} \\
+u, t = \text{variable}
 \end{align*}
 $$
 ---
@@ -147,19 +158,31 @@ f'(u_*) > 0 \rightarrow \lim_{t \rightarrow \infty} u(t) \ne u_* \\
 \end{align*}
 $$
 ---
-term
+bifurcation diagram
 
-- definition
+- graphical illustration of the dependence of the number, location, and stability of equilibrium solution(s) on the parameter(s) of interest
 ---
-term
+bifurcation diagram formula
 
-- definition
+$$
+\begin{align*}
+\{x \in \mathbb R^k| f(u_*, h_1, \dots, h_{k-1}) = 0\}
+\end{align*}
+$$
 ---
-term
+bifurcation diagram example
 
-- definition
+- $u_* = 0, \pm \sqrt h$ 
+![[3 Mathematical Modeling/Images/bifurcation diagram example.png]]
 ---
-term
+bifurcation diagram example formula
 
-- definition
+$$
+\begin{align*}
+h \le 0 \rightarrow f'(0) > 0 \\
+h > 0 \rightarrow f'(0) < 0 \\
+h > 0 \rightarrow f'(\sqrt h) > 0 \\
+h > 0 \rightarrow f'(-\sqrt h) > 0 \\
+\end{align*}
+$$
 ---

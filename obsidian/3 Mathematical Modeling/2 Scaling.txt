@@ -7,9 +7,9 @@ scale formula
 
 $$
 \begin{align*}
-D = \{(t, y) \in [-a, a] \times [-b, b]| m_1a \le t \le m_2b, n_1a \le y \le n_2b\} \\
-y = f(t, c_1, \dots, c_N) \\
-m_1, m_2, n_1, n_2 \in \mathbb Z \\
+D = \{(t, y) \in [-a, a] \times [-b, b]| p_1a \le t \le p_2b, q_1a \le y \le q_2b\} \\
+y = f(t, c_1, \dots, c_n) \\
+p_1, p_2, q_1, q_2 \in \mathbb Z \\
 [a] = [t] \\
 [b] = [y] \\
 D = \text{domain} \\
@@ -44,9 +44,9 @@ scale transformation formula
 
 $$
 \begin{align*}
-(\bar t = \frac{t}{a}) \land (\bar y = \frac{y}{b}) \rightarrow \bar D = \{(\bar t, \bar y) \in [-1, 1] \times [-1, 1]| m_1 \le \bar t \le m_2, n_1 \le \bar y \le n_2\} \\
-\bar y = \frac{1}{b}f(a \bar t, c_1, \dots, c_N) = \bar f(\bar t, a, b, c_1, \dots, c_N) \\
-m_1, m_2, n_1, n_2 \in \mathbb Z \\
+(\bar t = \frac{t}{a}) \land (\bar y = \frac{y}{b}) \rightarrow \bar D = \{(\bar t, \bar y) \in [-1, 1] \times [-1, 1]| p_1 \le \bar t \le p_2, q_1 \le \bar y \le q_2\} \\
+\bar y = \frac{1}{b}f(a \bar t, c_1, \dots, c_N) = \bar f(\bar t, a, b, c_1, \dots, c_n) \\
+p_1, p_2, q_1, q_2 \in \mathbb Z \\
 [a] = [\bar t] \\
 [b] = [\bar y] \\
 \bar D = \text{domain} \\
@@ -80,7 +80,8 @@ scaling derivative property formula
 
 $$
 \begin{align*}
-\frac{d^k y}{d t^k} = (\frac{b}{a^k})(\frac{d^k \bar y}{d \bar t^k}) \\
+(\bar t = \frac{t}{a}) \land (\bar y = \frac{y}{b}) \rightarrow\frac{d^k \bar y}{d \bar t^k} = (\frac{a^k}{b})(\frac{d^k y}{d t^k}) \\
+\bar t, \bar y = \text{variable} \\
 a, b = \text{scaling factor} 
 \end{align*}
 $$
@@ -106,11 +107,11 @@ associative scale formula
 
 $$
 \begin{align*}
-A\alpha = \Delta_t \rightarrow a = c_1^{\alpha_1} \dots c_1^{\alpha_N} > 0\\
-A\beta = \Delta_y \rightarrow b = c_1^{\beta_1} \dots c_1^{\beta_N} > 0\\
-D = \set{D_1, \dots, D_m} \in \mathbb R^M \\
-A = [\Delta_{c_1}, \dots, \Delta_{c_N}] \in \mathcal M^{MN} \\
-M \le N \\
+A\alpha = \Delta_t \rightarrow a = c_1^{\alpha_1} \dots c_1^{\alpha_n} > 0\\
+A\beta = \Delta_y \rightarrow b = c_1^{\beta_1} \dots c_1^{\beta_n} > 0\\
+D = \set{D_1, \dots, D_m} \in \mathbb R^m \\
+A = [\Delta_{c_1}, \dots, \Delta_{c_n}] \in \mathcal M^{mn} \\
+m \le n \\
 \alpha, \beta = \text{parameter exponent} \\
 c = \text{parameter}
 \end{align*}
@@ -124,7 +125,7 @@ scaling property formula
 
 $$
 \begin{align*}
-[t] = [y] = [a] = [b] = 1 \rightarrow \bar y = \phi(\bar t, \mu_1, \dots, \mu_M) \\
+[t] = [y] = [a] = [b] = 1 \rightarrow \bar y = \phi(\bar t, \mu_1, \dots, \mu_m) \\
 t, y, = \text{variable} \\
 a, b = \text{scaling factor} \\
 \mu = \text{parameter} \\

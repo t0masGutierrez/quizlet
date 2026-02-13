@@ -40,6 +40,20 @@ k = \text{number of arrangements}
 \end{align*}
 $$
 ---
+replaceable permutation
+
+- number of ways to arrange replaceable objects with order
+---
+replaceable permutation formula
+
+$$
+\begin{align*}
+P(n, k) = n^k \\ 
+n = \text{number of objects} \\
+k = \text{number of arrangements}
+\end{align*}
+$$
+---
 common permutation
 
 - number of ways to arrange common objects with order
@@ -48,7 +62,7 @@ common permutation formula
 
 $$
 \begin{align*}
-P'(n, k) = \frac{n!}{(n - k)!\prod_{i=1}^rm_i!} = \frac{n(n - 1)(n - 2) ... (n - k + 1)}{\prod_{i=1}^rm_i!} \\ 
+P(n, k) = \frac{n!}{\prod_{i=1}^rm_i!} \\
 n = \text{number of objects} \\
 k = \text{number of arrangements} \\
 m = \text{number of common objects} \\
@@ -70,6 +84,35 @@ k = \text{number of choices}
 \end{align*}
 $$
 ---
+replaceable combination
+
+- number of ways to choose replaceable objects without order
+---
+replaceable combination formula
+
+$$
+\begin{align*}
+C(n+k-1, k) = \frac{(n + k - 1)!}{k!(n - 1)!} = \frac{n(n + 1)(n + 2) ... (n + k - 1)}{k!} \\
+n = \text{number of objects} \\
+k = \text{number of choices}
+\end{align*}
+$$
+---
+multinomial combination
+
+- number of divisions into distinct nonoverlapping subgroups
+---
+multinomial combination formula
+
+$$
+\begin{align*}
+C(n, m_1, m_2, \dots, m_k) = \frac{n!}{\prod_{i=1}^k m_i!} \\
+n = \text{number of objects} \\
+m = \text{number of submembers} \\
+k = \text{number of subgroups}
+\end{align*}
+$$
+---
 binomial theorem
 
 - compute the nth power of binomial
@@ -84,24 +127,9 @@ k = \text{number of choices}
 \end{align*}
 $$
 ---
-multinomial coefficient
-
-- number of divisions into distinct nonoverlapping subgroups
----
-multinomial theorem formula
-
-$$
-\begin{align*}
-C(n, m_1, m_2, \dots, m_k) = \frac{n!}{\sum_{i=1}^k m_i!} \\
-n = \text{number of objects} \\
-m = \text{number of submembers} \\
-k = \text{number of subgroups}
-\end{align*}
-$$
----
 power number
 
-- number of all subsets
+- number of subsets
 ---
 power number formula
 
