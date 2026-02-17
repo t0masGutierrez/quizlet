@@ -6,8 +6,8 @@ dynamical system formula
 
 $$
 \begin{align*}
-\frac{dx}{dt} = f(x, y, c_1, \dots, c_N), x(t=0) = x_0, t \ge 0 \\
-\frac{dy}{dt} = g(x, y, c_1, \dots, c_N), x(t=0) = x_0, t \ge 0 \\
+\frac{dx}{dt} = f(x, y, c_1, \dots, c_n), x(t=0) = x_0, t \ge 0 \\
+\frac{dy}{dt} = g(x, y, c_1, \dots, c_n), x(t=0) = x_0, t \ge 0 \\
 x, y, t = \text{variable} \\
 x_0, y_0 = \text{initial condition} \\
 c = \text{parameter}
@@ -85,12 +85,12 @@ $$
 \end{align*}
 $$
 ---
-nullcline region
+nullcline curve
 
-- region of curve where derivative zero
-- equilibrium solution equal intersection of nullcline region
+- set of points such that derivative equal zero
+- equilibrium solution equal intersection of nullcline curve
 ---
-nullcline region formula
+nullcline curve formula
 
 $$
 \begin{align*}
@@ -151,53 +151,53 @@ equilibrium stability formula
 
 $$
 \begin{align*}
-I_2(\rho) = (x_* - \rho, x_* + \rho) \times (y_* - \rho, y_* + \rho) \\
+I(\rho) = (x_* - \rho, x_* + \rho) \times (y_* - \rho, y_* + \rho) \\
 u_* = \text{equilibrium solution}
 \end{align*}
 $$
 ---
-asymptotic stability
+asymptotic equilibrium stability
 
 - if nearby initial condition then nearby solution converge on equilibrium solution
 ![[3 Mathematical Modeling/Images/asymptotic stability1.png]]
 ---
-asymptotic stability formula
+asymptotic equilibrium stability formula
 
 $$
 \begin{align*}
-\exists \delta > 0: (x_0, y_0) \in I_2(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I_2(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) = (x_*, y_*)) \\
+\exists \delta > 0: (x_0, y_0) \in I(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) = (x_*, y_*)) \\
 x_0, y_0 = \text{initial condition} \\
 x_*, y_* = \text{equilibrium solution} \\
 x, y, t = \text{variable}
 \end{align*}
 $$
 ---
-neutral stability
+neutral equilibrium stability
 
 - if nearby initial condition then nearby solution sometimes converge on equilibrium solution
 ![[3 Mathematical Modeling/Images/neutral stability1.png]]
 ---
-neutral stability formula
+neutral equilibrium stability formula
 
 $$
 \begin{align*}
-\exists \delta > 0: (x_0, y_0) \in I_2(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I_2(\epsilon)) \land (\exists x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
+\exists \delta > 0: (x_0, y_0) \in I(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I(\epsilon)) \land (\exists x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
 x_0, y_0 = \text{initial condition} \\
 x_*, y_* = \text{equilibrium solution} \\
 x, y, t = \text{variable}
 \end{align*}
 $$
 ---
-instability
+equilibrium instability
 
 - if far initial condition then far solution diverge off equilibrium solution
 ![[3 Mathematical Modeling/Images/instability1.png]]
 ---
-instability formula
+equilibrium instability formula
 
 $$
 \begin{align*}
-(\forall \delta > 0: (x_0, y_0) \in I_2(\delta)) \land (\exists \epsilon > 0, \exists t \ge 0: (x, y) \not \in I_2(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R\lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
+(\forall \delta > 0: (x_0, y_0) \in I(\delta)) \land (\exists \epsilon > 0, \exists t \ge 0: (x, y) \not \in I(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R\lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
 x_0, y_0 = \text{initial condition} \\
 x_*, y_* = \text{equilibrium solution} \\
 x, y, t = \text{variable}
@@ -226,7 +226,7 @@ asymptotic periodic stability formula
 
 $$
 \begin{align*}
-\exists \delta > 0: (x_0, y_0) \in I_2(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I_2(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) = (x_*, y_*)) \\
+\exists \delta > 0: (x_0, y_0) \in I(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) = (x_*, y_*)) \\
 x_0, y_0 = \text{initial condition} \\
 x_*, y_* = \text{periodic solution} \\
 x, y, t = \text{variable}
@@ -242,7 +242,7 @@ neutral periodic stability formula
 
 $$
 \begin{align*}
-\exists \delta > 0: (x_0, y_0) \in I_2(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I_2(\epsilon)) \land (\exists x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
+\exists \delta > 0: (x_0, y_0) \in I(\delta) \rightarrow (\forall \epsilon > 0, \forall t \ge 0: (x, y) \in I(\epsilon)) \land (\exists x_0, y_0 \in \mathbb R: \lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
 x_0, y_0 = \text{initial condition} \\
 x_*, y_* = \text{periodic solution} \\
 x, y, t = \text{variable}
@@ -258,10 +258,180 @@ periodic instability formula
 
 $$
 \begin{align*}
-(\forall \delta > 0: (x_0, y_0) \in I_2(\delta)) \land (\exists \epsilon > 0, \exists t \ge 0: (x, y) \not \in I_2(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R\lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
+(\forall \delta > 0: (x_0, y_0) \in I(\delta)) \land (\exists \epsilon > 0, \exists t \ge 0: (x, y) \not \in I(\epsilon)) \land (\forall x_0, y_0 \in \mathbb R\lim_{t \rightarrow \infty} (x, y)(t) \ne (x_*, y_*)) \\
 x_0, y_0 = \text{initial condition} \\
 x_*, y_* = \text{periodic solution} \\
 x, y, t = \text{variable}
+\end{align*}
+$$
+---
+linear system
+
+- dynamical system with constant coefficient equal the eigenvectors of the coefficient matrix
+---
+linear system formula
+
+$$
+\begin{align*}
+(\frac{dx}{dt} = ax + by) \land (\frac{dy}{dt} = cx + dy) \rightarrow \frac{dv}{dt} = Av \\
+v = [x, y] \\
+A = \begin{bmatrix} 
+a & b \\
+c & d \\
+\end{bmatrix} \\
+x, y, v, t = \text{variable} \\
+a, b, c, d = \text{constant} 
+\end{align*}
+$$
+---
+nondegenerate system
+
+- nonzero determinant of matrix equal single equilibrium solution 
+---
+nondegenerate system formula
+
+$$
+\begin{align*}
+\det(A) \ne 0
+\end{align*}
+$$
+---
+degenerate system
+
+- zero determinant of matrix equal infinite equilibrium solution
+---
+degenerate system formula
+
+$$
+\begin{align*}
+\det(A) = 0
+\end{align*}
+$$
+---
+nullcline curve
+
+- set of nondegenerate points through the origin such that derivative equal zero
+- equilibrium solution equal intersection of nullcline curve
+---
+nullcline curve formula
+
+$$
+\begin{align*}
+f(x, y) = \{(x, y)| \frac{dx}{dt} = 0\} \\
+g(x, y) = \{(x, y) | \frac{dy}{dt} = 0\} 
+\end{align*}
+$$
+---
+distinct real eigenvalues
+
+- general solution of linear system equal eigenvectors of constant coefficient matrix with distinct real eigenvalues
+---
+distinct real eigenvalues formula
+
+$$
+\begin{align*}
+v(t) = C_1e^{\lambda_1 t}\hat u_1 + C_2e^{\lambda_2 t}\hat u_2 \\
+v = [x, y] \\
+A = \begin{bmatrix} 
+a & b \\
+c & d \\
+\end{bmatrix} \\
+x, y, v, t = \text{variable} \\
+a, b, c, d = \text{constant} \\
+\lambda = \text{eigenvalue} \\
+\hat u = \text{eigenvector}
+\end{align*}
+$$
+---
+distinct real eigenvalues property
+
+- two negative eigenvalues equal node with asymptotic stability
+- opposite polarity eigenvalues equal saddle with instability
+- two positive eigenvalues equal node with instability
+![[3 Mathematical Modeling/Images/distinct real eigenvalues property.png]]
+---
+distinct real eigenvalues property formula
+
+$$
+\begin{align*}
+\lambda_1, \lambda_2 < 0 \rightarrow \forall v_0 \in \mathbb R: \lim_{t \rightarrow \infty} v(t) = v_* \\
+(\lambda_1 > 0) \land (\lambda_2 < 0) \rightarrow \forall v_0 \in \mathbb R: \lim_{t \rightarrow \infty} v(t) \ne v_* \\
+\lambda_1, \lambda_2 > 0 \rightarrow \forall v_0 \in \mathbb R: \lim_{t \rightarrow \infty} v(t) \ne v_* 
+\end{align*}
+$$
+---
+repeated real eigenvalues
+
+- general solution of linear system equal eigenvectors of constant coefficient matrix with repeated real eigenvalues
+![[3 Mathematical Modeling/Images/repeated real eigenvalues.png]]
+---
+repeated real eigenvalues formula
+
+$$
+\begin{align*}
+\hat u_1 \ne \hat u_2 \rightarrow v(t) = e^{\lambda t}(C_1\hat u_1 + C_2\hat u_2) \\
+\hat u_1 = \hat u_2 \rightarrow v(t) = C_1 e^{\lambda t}\hat u + C_2e^{\lambda t}(\hat ut + \hat w) \\
+(A - \lambda I)\hat w = \hat u \\
+v = [x, y] \\
+A = \begin{bmatrix} 
+a & b \\
+c & d \\
+\end{bmatrix} \\
+x, y, v, t = \text{variable} \\
+a, b, c, d = \text{constant} \\
+\lambda = \text{eigenvalue} \\
+\hat u = \text{eigenvector} \\
+\hat w = \text{generalized eigenvector}
+\end{align*}
+$$
+---
+repeated real eigenvalues property
+
+- single negative eigenvalue equal node with asymptotic stability
+- single positive eigenvalue equal node with instability
+- two eigenvalues equal improper node
+---
+repeated real eigenvalues property formula
+
+$$
+\begin{align*}
+\lambda < 0 \rightarrow \forall v_0 \in \mathbb R: \lim_{t \rightarrow \infty} v(t) = v_* \\
+\lambda > 0 \rightarrow \forall v_0 \in \mathbb R: \lim_{t \rightarrow \infty} v(t) \ne v_* \\
+\end{align*}
+$$
+---
+complex eigenvalues
+
+- general solution of linear system equal eigenvectors of constant coefficient matrix with complex eigenvalues
+![[3 Mathematical Modeling/Images/complex eigenvalues.png]]
+---
+complex eigenvalues formula
+
+$$
+\begin{align*}
+v(t) = C_1e^{\alpha t}(\gamma \cos\beta t - \eta f \sin\beta t) + C_2e^{\alpha t}(\gamma \cos\beta t + \eta \sin\beta t) \\
+\alpha = 0 \rightarrow v(t) = v_0 \cos\beta t + \beta^{-1} Av_0 \sin \beta t \\
+\alpha = \text{real eigenvalue part} \\
+\beta = \text{imaginary eigenvalue part} \\
+t = \text{variable} \\
+\gamma = \text{real eigenvector part} \\
+\eta = \text{imaginary eigenvector part} 
+\end{align*}
+$$
+---
+complex eigenvalues property
+
+- negative real eigenvalue part equal spiral with asymptotic stability
+- positive real eigenvalue part equal spiral with instability
+- zero real eigenvalue part equal spiral with neutral stability
+---
+complex eigenvalues property formula
+
+$$
+\begin{align*}
+\alpha < 0 \rightarrow \forall v_0 \in \mathbb R: \lim_{t \rightarrow \infty} v(t) = v_* \\
+\alpha > 0 \rightarrow \forall v_0 \in \mathbb R: \lim_{t \rightarrow \infty} v(t) \ne v_* \\
+\alpha = 0 \rightarrow \exists v_0 \in \mathbb R: \lim_{t \rightarrow \infty} v(t) \ne v_* 
 \end{align*}
 $$
 ---

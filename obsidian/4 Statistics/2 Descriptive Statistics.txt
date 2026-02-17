@@ -8,11 +8,11 @@ process
 ---
 descriptive statistics
 
-- to describe something about known data
+- describe something about known data
 ---
 inferential statistics
 
-- to infer something about unknown data
+- infer something about unknown data
 ---
 box plot
 
@@ -63,6 +63,66 @@ histogram
 
 - frequency distribution
 ![[4 Statistics/Images/histogram.png|300]]
+---
+class
+
+- divide continuous range of data into equal, consecutive, and distinct interval
+---
+class formula
+
+$$
+\begin{align*}
+k = 1 + \lceil \frac{\log n}{\log 2}\rceil \\
+w = \frac{\max(x) - \min(x)}{k} \\
+k = \text{number of classes} \\
+w = \text{class width} \\
+n = \text{sample size}
+\end{align*}
+$$
+---
+class midpoint
+
+- mean difference between upper class endpoint and lower class endpoint
+---
+class midpoint formula
+
+$$
+\begin{align*}
+m_i = \frac{E_i + E_{i+1}}{2} \\
+E = \text{class endpoint}
+\end{align*}
+$$
+---
+histogram mean
+
+- average histogram
+---
+histogram mean formula
+
+$$
+\begin{align*}
+\mu = \frac{\sum_{i=1}^n f_im_i}{\sum_{i=1}^n f_i} \\
+n = \text{sample size} \\
+f = \text{frequency} \\
+m = \text{class midpoint} 
+\end{align*}
+$$
+---
+histogram standard deviation
+
+- average difference between histogram and mean
+---
+histogram standard deviation formula
+
+$$
+\begin{align*}
+s = \sqrt{\frac{\sum_{i=1}^nf_im_i^2}{n} - \mu ^2} \\
+n = \text{sample size} \\
+f = \text{frequency} \\
+m = \text{class midpoint} \\
+\bar x = \text{mean}
+\end{align*}
+$$
 ---
 uniform distribution
 
@@ -160,7 +220,7 @@ lower outlier formula
 
 $$
 \begin{align*}
-x_L = \text{Q1} - 1.5 \times \text{IQR} \\
+x = \text{Q1} - 1.5 \times \text{IQR} \\
 \text{Q1} = \text{1st quartile} \\
 \text{IQR} = \text{interquartile range}
 \end{align*}
@@ -170,7 +230,7 @@ upper outlier formula
 
 $$
 \begin{align*}
-x_U = \text{Q3} + 1.5 \times \text{IQR} \\
+x = \text{Q3} + 1.5 \times \text{IQR} \\
 \text{Q3} = \text{3rd quartile} \\
 \text{IQR} = \text{interquartile range}
 \end{align*}
@@ -189,7 +249,7 @@ z score formula
 
 $$
 \begin{align*}
-z = \frac{x - \bar x}{s} \\
+z = \frac{x - \mu}{\sigma} \\
 x = \text{datum} \\
 \bar x = \text{mean} \\
 s = \text{standard deviation}
@@ -225,72 +285,12 @@ inverse percentile formula
 
 $$
 \begin{align*}
-\text{sort}(x) \rightarrow k = \frac{|x_j < x_i| + 0.5|x_j = x_i|}{n}(100) \\
+\text{sort}(x) \rightarrow k = 100(\frac{|x_j < x_i| + 0.5|x_j = x_i|}{n}) \\
 x = \text{data} \\
 k = \text{percentile} \\
 x_j = \text{nontarget data} \\
 x_i = \text{target data} \\
 n = \text{sample size}
-\end{align*}
-$$
----
-class
-
-- divide continuous range of data into equal, consecutive, and distinct interval
----
-class formula
-
-$$
-\begin{align*}
-k = 1 + \lceil \frac{\log n}{\log 2}\rceil \\
-w = \frac{\max(x) - \min(x)}{k} \\
-k = \text{number of classes} \\
-w = \text{class width} \\
-n = \text{sample size}
-\end{align*}
-$$
----
-class midpoint
-
-- mean difference between upper class endpoint and lower class endpoint
----
-class midpoint formula
-
-$$
-\begin{align*}
-m_i = \frac{E_i + E_{i+1}}{2} \\
-E = \text{class endpoint}
-\end{align*}
-$$
----
-histogram mean
-
-- average histogram
----
-mean frequency formula
-
-$$
-\begin{align*}
-\bar x = \frac{\sum_{i=1}^n f_im_i}{\sum_{i=1}^n f_i} \\
-n = \text{sample size} \\
-f = \text{frequency} \\
-m = \text{class midpoint} 
-\end{align*}
-$$
----
-histogram standard deviation
-
-- average difference between histogram and mean
----
-standard deviation frequency formula
-
-$$
-\begin{align*}
-s = \sqrt{\frac{\sum_{i=1}^nf_im_i^2}{n} - \bar x ^2} \\
-n = \text{sample size} \\
-f = \text{frequency} \\
-m = \text{class midpoint} \\
-\bar x = \text{mean}
 \end{align*}
 $$
 ---

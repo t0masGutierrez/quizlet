@@ -8,14 +8,21 @@ $$
 \begin{align*}
 X: \Omega \rightarrow \mathbb{R} \\
 X = \text{random variable} \\
-\Omega = \text{sample space} \\
-\mathbb{R} = \text{real number}
+\Omega = \text{sample space} 
 \end{align*}
 $$
 ---
 discrete random variable
 
 - finite number of countable values
+---
+discrete random variable formula
+
+$$
+\begin{align*}
+(\{0, 1, 2, 3, \dots, n\} \sim X) \land (\mathbb N \sim X) \\
+\end{align*}
+$$
 ---
 discrete probability distribution function
 
@@ -25,8 +32,9 @@ discrete PDF probability formula
 
 $$
 \begin{align*}
-0 \le P(x) \le 1 \\
-\sum P(x) = 1
+0 \le P(X = x) \le 1 \\
+P(X) = \sum_i P(X = x_i) = 1 \\
+P(a \le X \le b) = \sum_{i=a}^b P(X = x_i)
 \end{align*}
 $$
 ---
@@ -34,7 +42,7 @@ discrete PDF mean formula
 
 $$
 \begin{align*}
-\mu = \sum P(x)x
+\mu = \sum_i P(X=x_i)x_i
 \end{align*}
 $$
 ---
@@ -42,19 +50,47 @@ discrete PDF standard deviation formula
 
 $$
 \begin{align*}
-\sigma = \sqrt{\sum(x - \mu)^2P(x)}
+\sigma = \sqrt{\sum_i(x_i - \mu)^2P(x_i)}
 \end{align*}
 $$
 ---
-expected value
+bernoulli probability distribution
 
-- average value of random variable or the mean of PDF  
+- probability as function of the number of successes from single trial
 ---
-expected value formula
+bernoulli PDF assumptions
+
+- single trial
+- two outcomes
+---
+bernoulli PDF probability formula
 
 $$
 \begin{align*}
-E(X) = \sum P(x)x
+P(X = k) = pq^{1-k} \\
+n = \text{number of trials} \\
+k = \text{number of successes} \\
+p = \text{probability of success} \\
+q = \text{probability of failure} 
+\end{align*}
+$$
+---
+bernoulli PDF mean formula
+
+$$
+\begin{align*}
+\mu = p \\
+p = \text{probability of success}
+\end{align*}
+$$
+---
+bernoulli PDF standard deviation formula
+
+$$
+\begin{align*}
+\sigma = \sqrt {pq} \\
+p = \text{probability of success} \\
+q = \text{probability of failure}
 \end{align*}
 $$
 ---
@@ -64,19 +100,20 @@ binomial probability distribution
 ---
 binomial PDF assumptions
 
-- binary random variable
-- definite number of trials 
-- sampling with replacement
+- two outcomes
+- fixed number of trials
+- constant probability of success
+- independent trials
 ---
 binomial PDF probability formula
 
 $$
 \begin{align*}
-P(x) = C^n_xp^xq^{n-x} \\
+P(X = k) = C(n, k)p^kq^{n-k} \\
 n = \text{number of trials} \\
-x = \text{number of successes across n trials} \\
+k = \text{number of successes} \\
 p = \text{probability of success} \\
-q = \text{probability of failure}
+q = \text{probability of failure} 
 \end{align*}
 $$
 ---
@@ -101,38 +138,25 @@ q = \text{probability of failure}
 \end{align*}
 $$
 ---
-memoryless property
-
-- likelihood event will occur independent prior occurrences
----
-memoryless formula
-
-$$
-\begin{align*}
-P(X > x + k | X > x) = P(X > k)
-\end{align*}
-$$
----
 geometric probability distribution
 
-- probability as function of 1st success
+- probability as function of the number of trials until 1st success
 ---
 geometric PDF assumptions
 
-- binary random variable
-- memoryless probability
-- indefinite number of trials
-- sampling with replacement
-- 1st random variable equal number of trials until 1st success
-- 2nd random variable equal number of failures before 1st success
+- two outcomes
+- random number of trials
+- constant probability of success
+- independent trials
 ---
 geometric PDF probability formula
 
 $$
 \begin{align*}
-P(x) = (1-p)^{x-1}p \\
+P(X = k) = pq^{k-1} \\
 p = \text{probability of success} \\
-x = \text{number of failures before 1st success}
+q = \text{probability of failure} \\
+k = \text{number of trials until 1st success}
 \end{align*}
 $$
 ---
@@ -145,20 +169,11 @@ p = \text{probability of success}
 \end{align*}
 $$
 ---
-1st geometric PDF standard deviation formula
+geometric PDF standard deviation formula
 
 $$
 \begin{align*}
-\sigma = \sqrt{(\frac{1}{p})(\frac{1}{p}-1)} \\
-p = \text{probability of success}
-\end{align*}
-$$
----
-2nd geometric PDF standard deviation formula
-
-$$
-\begin{align*}
-\sigma = \sqrt{(\frac{1}{p}-1)} \\
+\sigma = \frac{\sqrt {1 - p}}{p} \\
 p = \text{probability of success}
 \end{align*}
 $$
@@ -169,16 +184,18 @@ hypergeometric probability distribution function
 ---
 hypergeometric PDF assumptions
 
-- definite number of trials 
-- sampling without replacement
+- two outcomes
+- fixed number of trials
+- variable probability of success
+- dependent trials
 ---
 hypergeometric PDF probability formula
 
 $$
 \begin{align*}
-P(x) = \frac{C^K_x C^{N-K}_{n-x}}{C^N_n} \\
+P(X = k) = \frac{C(K, k)C(N-K, n-k)}{C(N,n)} \\
 K = \text{interest group size} \\
-x = \text{number of interest items drawn} \\
+k = \text{number of interest items drawn} \\
 N = \text{population size} \\
 n = \text{number of items drawn}
 \end{align*}
@@ -189,9 +206,9 @@ hypergeometric PDF mean formula
 $$
 \begin{align*}
 \mu = \frac{nK}{N} \\
-N = \text{population size} \\
+n = \text{number of items drawn} \\
 K = \text{interest group size} \\
-n = \text{number of items drawn}
+N = \text{population size} 
 \end{align*}
 $$
 ---
@@ -209,19 +226,22 @@ $$
 poisson probability distribution function
 
 - probability as function of events within interval
+- approximate binomial PDF with small probability of success and large number of trials
 ---
 poisson PDF assumptions
 
-- approximate binomial PDF for small probability of success and large number of trials
-- constant average number of events
+- fixed interval
+- constant average number of events per interval
 - independent events 
+- disjoint events
 ---
 poisson PDF probability formula
 
 $$
 \begin{align*}
-P(x) = \frac{e^{-\mu}\mu^x}{x!} \\
-\mu = \text{average number of events}
+P(X = k) = \frac{e^{-\lambda}\lambda^k}{k!} \\
+\lambda = \text{average number of events per interval} \\
+k = \text{number of events}
 \end{align*}
 $$
 ---
@@ -229,8 +249,8 @@ poisson PDF mean formula
 
 $$
 \begin{align*}
-\mu = \mu \\
-\mu = \text{average number of events}
+\mu = \lambda \\
+\lambda = \text{average number of events per interval}
 \end{align*}
 $$
 ---
@@ -238,8 +258,8 @@ poisson PDF standard deviation formula
 
 $$
 \begin{align*}
-\sigma = \sqrt \mu \\
-\mu = \text{average number of events}
+\sigma = \sqrt \lambda \\
+\mu = \text{average number of events per interval}
 \end{align*}
 $$
 ---

@@ -92,7 +92,7 @@ singular coefficient property formula
 
 $$
 \begin{align*}
-\vec x \leftrightarrow |A - \lambda I| = 0 \\
+\vec x \ne 0 \leftrightarrow |A - \lambda I| = 0 \\
 \vec x = \text{eigenvector} \\
 \lambda = \text{eigenvalue} \\
 I = \text{identity matrix} \\

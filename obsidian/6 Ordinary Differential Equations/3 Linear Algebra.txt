@@ -44,7 +44,7 @@ complex eigensolution formula
 
 $$
 \begin{align*}
-\lambda = \alpha + \beta i \rightarrow \vec x(t) = e^\alpha t(\vec v_1 \cos\beta t - \vec v_2 \sin\beta t + i\vec v_1 \cos\beta t + i\vec v_2 \sin\beta t) \\
+\lambda = \alpha + \beta i \rightarrow \vec x(t) = e^{\alpha t}(\vec v_1 \cos\beta t - \vec v_2 \sin\beta t + i\vec v_1 \cos\beta t + i\vec v_2 \sin\beta t) \\
 \lambda = \text{eigenvalue} \\
 \alpha = \text{real part} \\
 \beta = \text{imaginary part} \\

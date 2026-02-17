@@ -34,20 +34,6 @@ n = \text{number of trials}
 \end{align*}
 $$
 ---
-bayesian probability
-
-- subjective belief
----
-bayesian probability formula
-
-$$
-\begin{align*}
-P(A|B) = \frac{P(B|A)P(A)}{P(B)} \\
-A = \text{hypothesis} \\
-B = \text{evidence}
-\end{align*}
-$$
----
 classical probability
 
 - equally likely outcomes
@@ -178,7 +164,9 @@ bayes formula
 
 $$
 \begin{align*}
-P(A | B) = \frac{P(B | A) P(A)}{P(B)}
+P(A|B) = \frac{P(A)P(B|A)}{P(B)} \\
+A = \text{hypothesis} \\
+B = \text{evidence}
 \end{align*}
 $$
 ---
@@ -190,7 +178,7 @@ permutation formula
 
 $$
 \begin{align*}
-P^n_k = \frac{n!}{(n-k)!} \\
+P(n, k) = \frac{n!}{(n-k)!} \\
 n = \text{number of objects} \\
 k = \text{number of arrangements}
 \end{align*}
@@ -204,7 +192,7 @@ combination formula
 
 $$
 \begin{align*}
-C^n_k = \frac{n!}{k!(n-k)!} \\
+C(n, k) = \frac{n!}{k!(n-k)!} \\
 n = \text{number of objects} \\
 k = \text{number of choices}
 \end{align*}

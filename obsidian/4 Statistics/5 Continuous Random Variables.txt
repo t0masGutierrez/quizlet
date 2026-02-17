@@ -8,14 +8,21 @@ $$
 \begin{align*}
 X: \Omega \rightarrow \mathbb{R} \\
 X = \text{random variable} \\
-\Omega = \text{sample space} \\
-\mathbb{R} = \text{real number}
+\Omega = \text{sample space} 
 \end{align*}
 $$
 ---
 continuous random variable
 
 - infinite number of measurable values
+---
+discrete random variable formula
+
+$$
+\begin{align*}
+(\{0, 1, 2, 3, \dots, n\} \not\sim X) \land (\mathbb N \not\sim X) \\
+\end{align*}
+$$
 ---
 continuous probability density function
 
@@ -25,8 +32,9 @@ continuous PDF formula
 
 $$
 \begin{align*}
-\forall x f(x)\ge 0 \\
-\int_{-\infty}^{\infty}f(x)dx = 1
+\forall x \in X: f(x) \ge 0 \\
+\int_{-\infty}^{\infty}f(x)dx = 1 \\
+P(a \le X \le b) = \int_a^b f(x)dx = 1
 \end{align*}
 $$
 ---
@@ -34,7 +42,7 @@ continuous PDF mean formula
 
 $$
 \begin{align*}
-\mu = \int xf(x)dx
+\mu = \int_{-\infty}^{\infty} xf(x)dx
 \end{align*}
 $$
 ---
@@ -42,19 +50,7 @@ continuous PDF standard deviation formula
 
 $$
 \begin{align*}
-\sigma = \sqrt{\int (x - \mu)^2f(x)dx}
-\end{align*}
-$$
----
-cumulative probability density function
-
-- area under curve equal probability
----
-cumulative PDF formula
-
-$$
-\begin{align*}
-\int_a^bf(x)dx = P(a \le X \le b)
+\sigma = \sqrt{\int_{-\infty}^{\infty} (x - \mu)^2f(x)dx}
 \end{align*}
 $$
 ---
@@ -86,7 +82,7 @@ uniform PDF standard deviation formula
 
 $$
 \begin{align*}
-\sigma = \sqrt {\frac{(b-a)^2}{12}} \\
+\sigma = \frac{b-a}{\sqrt {12}} \\
 a = \text{lower endpoint} \\
 b = \text{upper endpoint} 
 \end{align*}
@@ -94,14 +90,14 @@ $$
 ---
 exponential probability density function
 
-- probability as function of time between poisson events 
+- probability as function of time between events 
 ---
 exponential PDF formula
 
 $$
 \begin{align*}
-f(x) = \beta e^{-\beta x} \\
-\beta = \text{decay rate}
+f(x) = \lambda e^{-\lambda x} \\
+\lambda = \text{average number of events per time}
 \end{align*}
 $$
 ---
@@ -109,8 +105,8 @@ exponential PDF mean formula
 
 $$
 \begin{align*}
-\mu = \frac{1}{\beta} \\
-\beta = \text{decay rate}
+\mu = \frac{1}{\lambda} \\
+\lambda = \text{average number of events per time}
 \end{align*}
 $$
 ---
@@ -118,26 +114,26 @@ exponential PDF standard deviation formula
 
 $$
 \begin{align*}
-\sigma = \frac{1}{\beta} \\
-\beta = \text{decay rate}
+\sigma = \frac{1}{\lambda} \\
+\lambda = \text{average number of events per time}
 \end{align*}
 $$
 ---
-normal probability distribution function
+normal probability density function
 
-- bell shaped, unimodal, symmetric, and continuous curve
+- probability as function of mean and standard deviation
 ---
 normal PDF formula
 
 $$
 \begin{align*}
-X \sim N(\mu, \sigma) \\
+X \sim N(\mu, \sigma) \rightarrow f(x) = \frac{\exp(\frac{-(x - \mu)^2}{2\sigma^2})}{\sigma\sqrt {2\pi}} \\
 \mu = \text{mean} \\
 \sigma = \text{standard deviation}
 \end{align*}
 $$
 ---
-standard normal probability distribution function
+standard normal probability density function
 
 - probability as function of z score
 ---
@@ -145,21 +141,7 @@ standard normal PDF formula
 
 $$
 \begin{align*}
-Z \sim N(0, 1)
-\end{align*}
-$$
----
-z score
-
-- number of standard deviations from the mean
----
-z score formula
-
-$$
-\begin{align*}
-z = \frac{x - \mu}{\sigma} \\
-\mu = \text{mean} \\
-\sigma = \text{standard deviation}
+Z \sim N(0, 1) \rightarrow f(z) = \frac{e^{-z^2/2}}{\sqrt {2\pi}}
 \end{align*}
 $$
 ---

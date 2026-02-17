@@ -32,9 +32,7 @@ correct sample
 ---
 incorrect sample
 
-- selection bias
-- incorrect data
-- non response
+- nonrepresentative of population
 ---
 parameter
 
@@ -65,7 +63,7 @@ cluster sampling
 systemic sampling
 
 - define random starting point  
-- select every kth datum from population
+- proportionately select random sample from each stratum
 ---
 treatment
 
