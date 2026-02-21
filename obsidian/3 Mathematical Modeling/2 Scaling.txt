@@ -72,11 +72,11 @@ $$
 \end{align*}
 $$
 ---
-scaling derivative property
+scale derivative property
 
-- kth derivative of function equal kth power of scaled derivative
+- kth derivative of scaled function equal kth power of scaling denominator
 ---
-scaling derivative property formula
+scale derivative property formula
 
 $$
 \begin{align*}
@@ -88,7 +88,7 @@ $$
 ---
 characteristic scale
 
-- reasonable size of scale for nondimensionalization
+- typical size of scale equal input
 ---
 characteristic scale formula
 
@@ -101,17 +101,19 @@ $$
 ---
 associative scale
 
-- reasonable size of scale for nondimensionalization
+- output equal true size of scale
 ---
 associative scale formula
 
 $$
 \begin{align*}
-A\alpha = \Delta_t \rightarrow a = c_1^{\alpha_1} \dots c_1^{\alpha_n} > 0\\
-A\beta = \Delta_y \rightarrow b = c_1^{\beta_1} \dots c_1^{\beta_n} > 0\\
-D = \set{D_1, \dots, D_m} \in \mathbb R^m \\
-A = [\Delta_{c_1}, \dots, \Delta_{c_n}] \in \mathcal M^{mn} \\
-m \le n \\
+(a = \prod_{i=1}^n c_i^{\alpha_i}) \land ([a] = [t]) \leftrightarrow \Delta_a = A \alpha = \Delta_t \\
+(b = \prod_{i=1}^n c_i^{\beta_i}) \land ([b] = [y]) \leftrightarrow \Delta_b = A \beta = \Delta_y \\
+A = [\Delta_{c_1}, \dots, \Delta_{c_n}] \in \mathcal M_{m\le n} \\
+\vec \alpha = [\alpha_1, \dots, \alpha_n] \\
+\vec \beta = [\beta_1, \dots, \beta_n] \\
+t, y = \text{variable} \\
+a, b = \text{scaling factor} \\
 \alpha, \beta = \text{parameter exponent} \\
 c = \text{parameter}
 \end{align*}
@@ -125,7 +127,8 @@ scaling property formula
 
 $$
 \begin{align*}
-[t] = [y] = [a] = [b] = 1 \rightarrow \bar y = \phi(\bar t, \mu_1, \dots, \mu_m) \\
+(\bar t = \frac{t}{a}) \land (\bar y = \frac{y}{b}) \rightarrow \bar y = \phi(\bar t, \mu_1, \dots, \mu_m) \\
+[\mu] = 1 \\
 t, y, = \text{variable} \\
 a, b = \text{scaling factor} \\
 \mu = \text{parameter} \\

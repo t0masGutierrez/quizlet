@@ -16,7 +16,7 @@ continuous random variable
 
 - infinite number of measurable values
 ---
-discrete random variable formula
+continuous random variable formula
 
 $$
 \begin{align*}
@@ -26,13 +26,12 @@ $$
 ---
 continuous probability density function
 
-- probability as function of continuous random variable values
+- probability as function of continuous random variable
 ---
 continuous PDF formula
 
 $$
 \begin{align*}
-\forall x \in X: f(x) \ge 0 \\
 \int_{-\infty}^{\infty}f(x)dx = 1 \\
 P(a \le X \le b) = \int_a^b f(x)dx = 1
 \end{align*}
@@ -82,7 +81,7 @@ uniform PDF standard deviation formula
 
 $$
 \begin{align*}
-\sigma = \frac{b-a}{\sqrt {12}} \\
+\sigma = \sqrt{\frac{(b-a)^2}{12}} \\
 a = \text{lower endpoint} \\
 b = \text{upper endpoint} 
 \end{align*}
@@ -90,13 +89,14 @@ $$
 ---
 exponential probability density function
 
-- probability as function of time between events 
+- probability as function of the amount of time between events
 ---
 exponential PDF formula
 
 $$
 \begin{align*}
 f(x) = \lambda e^{-\lambda x} \\
+x = \text{amount of time between events} \\
 \lambda = \text{average number of events per time}
 \end{align*}
 $$
@@ -127,7 +127,7 @@ normal PDF formula
 
 $$
 \begin{align*}
-X \sim N(\mu, \sigma) \rightarrow f(x) = \frac{\exp(\frac{-(x - \mu)^2}{2\sigma^2})}{\sigma\sqrt {2\pi}} \\
+f(x) = \frac{\exp(\frac{-(x - \mu)^2}{2\sigma^2})}{\sigma\sqrt {2\pi}} \\
 \mu = \text{mean} \\
 \sigma = \text{standard deviation}
 \end{align*}
@@ -135,13 +135,70 @@ $$
 ---
 standard normal probability density function
 
-- probability as function of z score
+- probability as function of z-score
 ---
 standard normal PDF formula
 
 $$
 \begin{align*}
-Z \sim N(0, 1) \rightarrow f(z) = \frac{e^{-z^2/2}}{\sqrt {2\pi}}
+f(z) = \frac{e^{-z^2/2}}{\sqrt {2\pi}} \\
+z = \text{z-score}
+\end{align*}
+$$
+---
+student probability density function
+
+- probability as function of t-statistic
+---
+student PDF formula
+
+$$
+\begin{align*}
+f(t) = \frac{\Gamma(\frac{\nu+1}{2})}{ \Gamma(\frac{s^2}{2})\sqrt{\nu\pi}}(1+\frac{t^2}{\nu})^{-(\nu+1)/2} \\
+\nu = n-1 \\
+\Gamma = \text{gamma} \\
+\nu = \text{degrees of freedom} \\
+t = \text{t-statistic}
+\end{align*}
+$$
+---
+chi-squared probability density function
+
+- probability as function of $\chi^2$-statistic
+---
+chi-squared PDF formula
+
+$$
+\begin{align*}
+f(x) = \frac{x^{\nu/2 - 1}e^{-x/2}}{2^{\nu/2}\Gamma(\frac{\nu}{2})} \\
+\nu = n - 1 \\
+x = \text{$\chi^2$-statistic} \\
+\Gamma = \text{gamma} \\
+\nu = \text{degrees of freedom} \\
+\end{align*}
+$$
+---
+F probability density function
+
+$$
+\begin{align*}
+f(x) = \frac{\Gamma(\frac{d_1+d_2}{2})}
+{\Gamma(\frac{d_1}{2})\Gamma(\frac{d_2}{2})}  
+(\frac{d_1}{d_2})^{d_1/2}x^{d_1/2 - 1}  
+(1 + \frac{d_1}{d_2}x)^{-\frac{d_1+d_2}{2}}
+\end{align*}
+$$
+---
+F PDF formula
+
+$$
+\begin{align*}
+f(x) = \frac{x^{0.5d_1 - 1}\Gamma(\frac{d_1+d_2}{2})(\frac{d_1}{d_2})^{0.5d_1}  
+(1 + \frac{d_1}{d_2}x)^{\frac{-d_1-d_2}{2}}}
+{\Gamma(\frac{d_1}{2})\Gamma(\frac{d_2}{2})} \\
+x = \text{F-statistic} \\
+\Gamma = \text{gamma} \\
+d = \text{degrees of freedom}
 \end{align*}
 $$
 ---

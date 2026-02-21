@@ -24,21 +24,20 @@ $$
 \end{align*}
 $$
 ---
-discrete probability distribution function
+discrete probability mass function
 
-- probability as function of discrete random variable values
+- probability as function of discrete random variable
 ---
-discrete PDF probability formula
+discrete PMF probability formula
 
 $$
 \begin{align*}
-0 \le P(X = x) \le 1 \\
-P(X) = \sum_i P(X = x_i) = 1 \\
+\sum_i P(X = x_i) = 1 \\
 P(a \le X \le b) = \sum_{i=a}^b P(X = x_i)
 \end{align*}
 $$
 ---
-discrete PDF mean formula
+discrete PMF mean formula
 
 $$
 \begin{align*}
@@ -46,7 +45,7 @@ $$
 \end{align*}
 $$
 ---
-discrete PDF standard deviation formula
+discrete PMF standard deviation formula
 
 $$
 \begin{align*}
@@ -54,16 +53,16 @@ $$
 \end{align*}
 $$
 ---
-bernoulli probability distribution
+bernoulli probability mass function
 
-- probability as function of the number of successes from single trial
+- probability as function of single success
 ---
-bernoulli PDF assumptions
+bernoulli PMF assumptions
 
 - single trial
 - two outcomes
 ---
-bernoulli PDF probability formula
+bernoulli PMF probability formula
 
 $$
 \begin{align*}
@@ -75,7 +74,7 @@ q = \text{probability of failure}
 \end{align*}
 $$
 ---
-bernoulli PDF mean formula
+bernoulli PMF mean formula
 
 $$
 \begin{align*}
@@ -84,7 +83,7 @@ p = \text{probability of success}
 \end{align*}
 $$
 ---
-bernoulli PDF standard deviation formula
+bernoulli PMF standard deviation formula
 
 $$
 \begin{align*}
@@ -94,18 +93,18 @@ q = \text{probability of failure}
 \end{align*}
 $$
 ---
-binomial probability distribution
+binomial probability mass function
 
 - probability as function of the number of successes
 ---
-binomial PDF assumptions
+binomial PMF assumptions
 
 - two outcomes
 - fixed number of trials
 - constant probability of success
 - independent trials
 ---
-binomial PDF probability formula
+binomial PMF probability formula
 
 $$
 \begin{align*}
@@ -117,7 +116,7 @@ q = \text{probability of failure}
 \end{align*}
 $$
 ---
-binomial PDF mean formula
+binomial PMF mean formula
 
 $$
 \begin{align*}
@@ -127,7 +126,7 @@ p = \text{probability of success}
 \end{align*}
 $$
 ---
-binomial PDF standard deviation formula
+binomial PMF standard deviation formula
 
 $$
 \begin{align*}
@@ -138,18 +137,18 @@ q = \text{probability of failure}
 \end{align*}
 $$
 ---
-geometric probability distribution
+geometric probability mass function
 
 - probability as function of the number of trials until 1st success
 ---
-geometric PDF assumptions
+geometric PMF assumptions
 
 - two outcomes
 - random number of trials
 - constant probability of success
 - independent trials
 ---
-geometric PDF probability formula
+geometric PMF probability formula
 
 $$
 \begin{align*}
@@ -160,7 +159,7 @@ k = \text{number of trials until 1st success}
 \end{align*}
 $$
 ---
-geometric PDF mean formula 
+geometric PMF mean formula 
 
 $$
 \begin{align*}
@@ -169,7 +168,7 @@ p = \text{probability of success}
 \end{align*}
 $$
 ---
-geometric PDF standard deviation formula
+geometric PMF standard deviation formula
 
 $$
 \begin{align*}
@@ -178,18 +177,18 @@ p = \text{probability of success}
 \end{align*}
 $$
 ---
-hypergeometric probability distribution function
+hypergeometric probability mass function
 
 - probability as function of the number of items drawn from the group of interest
 ---
-hypergeometric PDF assumptions
+hypergeometric PMF assumptions
 
 - two outcomes
 - fixed number of trials
 - variable probability of success
 - dependent trials
 ---
-hypergeometric PDF probability formula
+hypergeometric PMF probability formula
 
 $$
 \begin{align*}
@@ -201,7 +200,7 @@ n = \text{number of items drawn}
 \end{align*}
 $$
 ---
-hypergeometric PDF mean formula 
+hypergeometric PMF mean formula 
 
 $$
 \begin{align*}
@@ -212,7 +211,7 @@ N = \text{population size}
 \end{align*}
 $$
 ---
-hypergeometric PDF standard deviation formula
+hypergeometric PMF standard deviation formula
 
 $$
 \begin{align*}
@@ -223,29 +222,29 @@ N = \text{population size}
 \end{align*}
 $$
 ---
-poisson probability distribution function
+poisson probability mass function
 
-- probability as function of events within interval
-- approximate binomial PDF with small probability of success and large number of trials
+- probability as function of the number of events within interval
+- approximate binomial PMF with small probability of success and large number of trials
 ---
-poisson PDF assumptions
+poisson PMF assumptions
 
 - fixed interval
 - constant average number of events per interval
 - independent events 
 - disjoint events
 ---
-poisson PDF probability formula
+poisson PMF probability formula
 
 $$
 \begin{align*}
 P(X = k) = \frac{e^{-\lambda}\lambda^k}{k!} \\
-\lambda = \text{average number of events per interval} \\
-k = \text{number of events}
+k = \text{number of events within interval} \\
+\lambda = \text{average number of events per interval} 
 \end{align*}
 $$
 ---
-poisson PDF mean formula
+poisson PMF mean formula
 
 $$
 \begin{align*}
@@ -254,7 +253,7 @@ $$
 \end{align*}
 $$
 ---
-poisson PDF standard deviation formula
+poisson PMF standard deviation formula
 
 $$
 \begin{align*}

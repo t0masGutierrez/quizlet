@@ -1,0 +1,68 @@
+sequence
+
+- list of ordered numbers
+---
+sequence formula
+
+$$
+\begin{align*}
+\{a_n\}_{n=1}^{\infty} = a: \mathbb N \rightarrow S
+\end{align*}
+$$
+---
+convergent
+
+- there exists limit of sequence
+---
+convergent formula
+
+$$
+\begin{align*}
+\lim_{n \rightarrow \infty}a_n = L \leftrightarrow \forall \epsilon > 0, \exists n_{\epsilon} \in \mathbb N: n \ge n_{\epsilon} \rightarrow d(a_n, L) < \epsilon
+\end{align*}
+$$
+---
+divergent
+
+- there exists no limit of sequence
+---
+divergent formula
+
+$$
+\begin{align*}
+\lim_{n \rightarrow \infty}a_n \ne L \leftrightarrow (\exists \epsilon > 0, \forall n_{\epsilon} \in \mathbb N: n < n_{\epsilon}) \land (d(a_n, L) \ge \epsilon)
+\end{align*}
+$$
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---

@@ -125,6 +125,18 @@ P(A \cup B) = P(A) + P(B)
 \end{align*}
 $$
 ---
+inclusion exclusion property
+
+- likelihood at least 1 event will occur without double counting
+---
+inclusion exclusion property formula
+
+$$
+\begin{align*}
+P(\bigcup_{i=1}^n A_i) = \sum_{k=1}^n (-1)^{k+1} P(\bigcap_{i_1<\dots <i_k}^nA_{i_k})
+\end{align*}
+$$
+---
 joint event
 
 - can occur at the same time
@@ -173,27 +185,39 @@ B = \text{evidence}
 \end{align*}
 $$
 ---
-inclusion exclusion property
-
-- likelihood at least 1 event will occur without double counting
----
-inclusion exclusion property formula
-
-$$
-\begin{align*}
-P(\bigcup_{i=1}^n A_i) = \sum_{k=1}^n (-1)^{k+1} P(\bigcap_{i_1<\dots <i_k}^nA_{i_k})
-\end{align*}
-$$
----
 law of total probability
 
-- definition
+- partition event into sum of itself and it's complement
 ---
 law of total probability formula
 
 $$
 \begin{align*}
+P(A) = P(B)P(A|B) + P(B^c)P(A|B^c)
+\end{align*}
+$$
+---
+independence
 
+- two events cannot influence each other
+---
+independence formula
+
+$$
+\begin{align*}
+P(A \cap B) = P(A)P(B) 
+\end{align*}
+$$
+---
+exclusivity
+
+- two events cannot occur at the same time
+---
+exclusivity formula
+
+$$
+\begin{align*}
+P(A \cup B) = P(A) + P(B)
 \end{align*}
 $$
 ---

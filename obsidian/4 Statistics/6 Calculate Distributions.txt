@@ -1,0 +1,213 @@
+probability distribution function
+
+- height of curve equal probability density
+---
+PDF formula
+
+$$
+\begin{align*}
+P(X=x)
+\end{align*}
+$$
+---
+cumulative distribution function
+
+- area of curve equal probability 
+---
+CDF formula
+
+$$
+\begin{align*}
+P(X \le x)
+\end{align*}
+$$
+---
+normal
+
+- probability as function of mean and standard deviation
+---
+normal formula
+
+$$
+\begin{align*}
+X \sim N(x, \mu, \sigma) = P(X = x) \\
+X \sim N(a, b, \mu, \sigma) = P(a \le X \le b) \\
+x = \text{number of successes} \\
+a = \text{lower number of successes} \\
+b = \text{upper number of successes} \\
+\mu = \text{mean} \\
+\sigma = \text{standard deviation}
+\end{align*}
+$$
+---
+inverse normal
+
+- value of random variable as function of cumulative distribution function
+---
+inverse normal formula
+
+$$
+\begin{align*}
+x= N^{-1}(c, \mu, \sigma, \text{tail}) \\
+c = \text{cumulative probability of success} \\
+\mu = \text{mean} \\
+\sigma = \text{standard deviation} \\
+\text{tail} = \text{direction of accumulation}
+\end{align*}
+$$
+---
+standard normal
+
+- probability as function of z-score
+---
+standard normal formula
+
+$$
+\begin{align*}
+Z \sim N(x, 0, 1) = P(Z = z) \\
+Z \sim N(a, b, 0, 1) = P(a \le Z \le b) \\
+z = \text{z-score} \\
+a = \text{lower z-score} \\
+b = \text{upper z-score}
+\end{align*}
+$$
+---
+inverse standard normal
+
+- z-score as function of cumulative distribution function
+---
+inverse standard normal formula
+
+$$
+\begin{align*}
+z = N^{-1}(c, 0, 1, \text{tail}) \\
+c = \text{cumulative probability of success} \\
+\text{tail} = \text{direction of accumulation}
+\end{align*}
+$$
+---
+binomial
+
+- probability as function of the number of successes
+---
+binomial formula
+
+$$
+\begin{align*}
+X \sim B(n, p, x) = P(X = x) \\
+X \sim B(n, p, x) = P(X \le x) \\
+n = \text{number of trials} \\
+p = \text{probability of success} \\
+x = \text{number of successes}
+\end{align*}
+$$
+---
+inverse binomial
+
+- value of random variable as function of the cumulative distribution function
+---
+inverse binomial formula
+
+$$
+\begin{align*}
+x = B^{-1}(c, n, p) \\
+x \ge B^{-1}(c, n, p) \\
+c = \text{cumulative probability of success} \\
+n = \text{number of trials} \\
+p = \text{probability of success} \\
+x = \text{number of successes}
+\end{align*}
+$$
+---
+geometric
+
+- probability as function of the number of trials until 1st success
+---
+geometric formula
+
+$$
+\begin{align*}
+X \sim G(p, x) = P(X = x) \\
+X \sim G(p, x) = P(X \le x) \\
+p = \text{probability of success} \\
+x = \text{number of successes}
+\end{align*}
+$$
+---
+poisson
+
+- probability as function of the number of events within interval
+---
+poisson formula
+
+$$
+\begin{align*}
+X \sim P(\lambda, x) = P(X = x) \\
+X \sim P(\lambda, x) = P(X \le x) \\
+\lambda = \text{average number of events per interval} \\
+x = \text{number of events within interval} 
+\end{align*}
+$$
+---
+student
+
+- probability as function of t-statistic
+---
+student formula
+
+$$
+\begin{align*}
+T \sim S(t, \text{df}) = P(T = t) \\
+T \sim S(a, b, \text{df}) = P(a \le T \le b) \\
+t = \text{t-statistic} \\
+\text{df} = \text{degrees of freedom} \\
+a = \text{lower t-statistic} \\
+b = \text{upper t-statistic} 
+\end{align*}
+$$
+---
+inverse student
+
+- t-statistic as function of cumulative distribution function
+---
+inverse student formula
+
+$$
+\begin{align*}
+t = S^{-1}(c, \text{df}) \\
+c = \text{cumulative probability of success} \\
+\text{df} = \text{degrees of freedom}
+\end{align*}
+$$
+---
+chi-squared
+
+- probability as function of $\chi^2$-statistic
+---
+chi-squared formula
+
+$$
+\begin{align*}
+X \sim \chi^2(x, \text{df}) = P(X = x) \\
+X \sim \chi^2(x, \text{df}) = P(X \le x) \\
+x = \text{$\chi^2$-statistic} \\
+\text{df} = \text{degrees of freedom} 
+\end{align*}
+$$
+---
+F
+
+- probability as function of F-statistic
+---
+F formula
+
+$$
+\begin{align*}
+F \sim \chi^2(f, \text{df}_1, \text{df}_2) = P(U = u) \\
+V \sim \chi^2(v, \text{df}_1, \text{df}_2) = P(V = v) \\
+F = \frac{U/\text{df}_1}{V/\text{df}_2} \\
+u, v = \text{F-statistic} \\
+df = \text{degrees of freedom} 
+\end{align*}
+$$
+---

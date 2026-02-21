@@ -21,8 +21,9 @@ dimension formula
 
 $$
 \begin{align*}
-[q] = \prod_{i=1}^m D_i^{a_i} \rightarrow \Delta_q = [a_1, \dots, a_m] \in \mathbb R^m \\
+[q] = \prod_{i=1}^m D_i^{a_i} \leftrightarrow \Delta_q = [a_1, \dots, a_m] \in \mathbb R^m \\
 q = \text{quantity} \\ 
+D = \text{dimension} \\
 a = \text{dimensional exponent}
 \end{align*}
 $$
@@ -102,7 +103,7 @@ dimensionless formula
 
 $$
 \begin{align*}
-[q] = 1 \rightarrow \Delta_q = 0 \\
+[q] = 1 \leftrightarrow \Delta_q = 0 \\
 q = \text{pure number}
 \end{align*}
 $$
@@ -132,7 +133,7 @@ change of units example formula
 
 $$
 \begin{align*}
-q' = (9.8\frac{\text{m}}{\text{s}^2})(\frac{1}{1000}\frac{\text{km}}{\text{m}})(\frac{60}{1}\frac{\text{s}}{\text{min}})^{2} = 35.28 \frac{\text{km}}{\text{min}^2}
+q' = (9.8\frac{\text{m}}{\text{s}^2})(\frac{1\text{ km}}{1000\text{ m}})(\frac{60\text{ s}}{1\text{ min}})^{2} = 35.28 \frac{\text{km}}{\text{min}^2}
 \end{align*}
 $$
 ---
@@ -150,9 +151,10 @@ $$
 ---
 unit-free example
 
-- for every dimension assign arbitrary unit conversion factor
-- change of units in terms of arbitrary unit conversion factor
-- cancel all unit conversion factors such that sum of dimensional exponent equal zero
+- define the dimensions
+- define the change of units
+- substitute the change of units into equation
+- dimensional exponent of unit conversion factor equal negative dimensional exponent of quantity such that sum of corresponding dimensional exponent equal zero
 ---
 unit-free example formula
 
@@ -164,11 +166,11 @@ unit-free example formula
 - $x'\lambda_1^{-1}\lambda_1^{1} = \frac{1}{2}g't'^2\lambda_2^2\lambda_2^{-2}$ 
 - $\lambda \not\in x'$ 
 ---
-power product
+dimensionless power product
 
 - product of power of quantity with respect to quantitative exponent
 ---
-power product formula
+dimensionless power product formula
 
 $$
 \begin{align*}
@@ -178,50 +180,24 @@ b = \text{quantitative exponent}
 \end{align*}
 $$
 ---
-full
-
-- number of dimensionless power products equal the number of linearly independent solutions
----
-full formula
-
-$$
-\begin{align*}
-k = n - \text{Rank}(A) = \dim(\ker A) \\
-n = \text{number of quantities} \\
-A = \text{dimensional matrix} \\
-\end{align*}
-$$
----
-normal
-
-- explicit equation in terms of first quantity where 1st solution of 1st quantitative exponent equal 1 and remaining solution of 1st quantitative exponent equal zero
----
-normal formula
-
-$$
-\begin{align*}
-q_1 = f(q_2, \dots, q_n) \sim \pi_1 = \phi (\pi_2, \dots, \pi_k) \\
-q = \text{quantity} \\
-\pi = \text{dimensionless power product} 
-\end{align*}
-$$
----
 buckingham pi property
 
-- calculate unit
+- calculate units
 - form matrix whose columns equal units
 - convert matrix into reduced row echelon form
-- back substitute for the particular solution of system of linear equations
-- full, normal, dimensionless power product equal the fundamental solution set
-- every unit-free equation expressible as full, normal, dimensionless power product
+- back substitute for the fundamental solution set
+- dimensional exponent of first target dimensionless power product equal 1 and dimensional exponent of additional target dimensionless power product equal 0
+- every physically meaningful equation expressible as relationship between $m-n$ dimensionless power product
 ---
 buckingham pi property formula
 
 $$
 \begin{align*}
-[\pi] = 1 \leftrightarrow \Delta_\pi = \sum_{i=1}^n b_i\Delta_{q_i} = A\vec v = 0 \\
+q_1 = f(q_2, \dots, q_n) \sim \pi_1 = \phi (\pi_2, \dots, \pi_{n-m}) \\
+[\pi] = 1 \leftrightarrow \Delta_\pi = \sum_{i=1}^n b_i\Delta_{q_i} = A\vec b = 0 \\
 A = [\Delta q_1, \dots, \Delta q_n] \in \mathcal M_{mn} \\
-\vec v = [b_1, \dots, b_n] \in \mathbb R^n \\
+\vec b = [b_1, \dots, b_n] \in \mathbb R^n \\
+q = \text{quantity} \\
 \pi = \text{dimensionless power product} \\
 b = \text{quantitative exponent}
 \end{align*}

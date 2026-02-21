@@ -107,8 +107,7 @@ path equation formula
 
 $$
 \begin{align*}
-\frac{dy}{dx} = \frac{g(x, y)}{f(x, y)} \\
-x=x_0 \rightarrow y=y_0
+\frac{dy}{dx} = \frac{g(x, y)}{f(x, y)} 
 \end{align*}
 $$
 ---
@@ -121,10 +120,11 @@ first integral formula
 
 $$
 \begin{align*}
-\frac{\partial}{\partial x}(\phi f) = \frac{\partial}{\partial y}(-\phi g) \rightarrow (\frac{\partial E}{\partial x} = -\phi g) \land (\frac{\partial E}{\partial y} = \phi f) \\
 \forall (x, y) \in D: \frac{dE}{dt}(x, y)(t) = 0 \rightarrow E(x, y)(t) = C \\
-\phi = \text{integrating factor} \\
-E = \text{first integral}
+\frac{\partial}{\partial x}(\phi f) = \frac{\partial}{\partial y}(-\phi g) \rightarrow (\frac{\partial E}{\partial x} = -\phi g) \land (\frac{\partial E}{\partial y} = \phi f) \\
+E = \text{first integral} \\
+C = \text{constant} \\
+\phi = \text{integrating factor}
 \end{align*}
 $$
 ---
@@ -152,7 +152,7 @@ equilibrium stability formula
 $$
 \begin{align*}
 I(\rho) = (x_* - \rho, x_* + \rho) \times (y_* - \rho, y_* + \rho) \\
-u_* = \text{equilibrium solution}
+x_*, y_* = \text{equilibrium solution} \\
 \end{align*}
 $$
 ---
@@ -409,7 +409,7 @@ complex eigenvalues formula
 
 $$
 \begin{align*}
-v(t) = C_1e^{\alpha t}(\gamma \cos\beta t - \eta f \sin\beta t) + C_2e^{\alpha t}(\gamma \cos\beta t + \eta \sin\beta t) \\
+v(t) = C_1e^{\alpha t}(\gamma \cos\beta t - \eta \sin\beta t) + C_2e^{\alpha t}(\gamma \cos\beta t + \eta \sin\beta t) \\
 \alpha = 0 \rightarrow v(t) = v_0 \cos\beta t + \beta^{-1} Av_0 \sin \beta t \\
 \alpha = \text{real eigenvalue part} \\
 \beta = \text{imaginary eigenvalue part} \\

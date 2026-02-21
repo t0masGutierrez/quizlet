@@ -6,8 +6,9 @@ open cover formula
 
 $$
 \begin{align*}
-S \subset \bigcup_i Y_i \subset X \\
+S \subset \bigcup_{i \in I} Y_i \subset X \\
 S = \text{covered set} \\
+I = \text{index set} \\
 Y = \text{open set} \\
 \set{Y} = \text{open cover} \\
 X = \text{metric space} 
@@ -30,11 +31,11 @@ X = \text{metric space}
 \end{align*}
 $$
 ---
-relative compactness property
+closure compactness property
 
 - for every open cover of closure there exists finite subcover
 ---
-relative compactness property formula
+closure compactness property formula
 
 $$
 \begin{align*}
@@ -102,7 +103,7 @@ $$
 ---
 finite intersection property
 
-- if nonempty intersection for every finite collection of compact set then nonempty intersection for every collection of compact set
+- if for every finite collection of compact set there exists nonempty intersection then for every collection of compact set there exists nonempty intersection
 ---
 finite intersection property formula
 
@@ -121,11 +122,11 @@ infinite limit point property formula
 
 $$
 \begin{align*}
-(S \subset K) \land (|S| = \infty) \rightarrow S \subset X, \forall (r > 0) \in \mathbb R, \exists x \in V(x_0): (x \ne x_0) \land (x \in S) \land (x_0 \in K) \\
+(S \subset K) \land (|S| = \infty) \rightarrow S \subset X, \forall (r > 0) \in \mathbb R: (N_r(x_0) \setminus \{x_0\}) \cap S \ne \emptyset \\
 K = \text{compact set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
-V = \text{neighborhood} \\
+N = \text{neighborhood} \\
 x_0 = \text{limit point}
 \end{align*}
 $$
@@ -180,16 +181,15 @@ heine-borel property formula
 
 $$
 \begin{align*}
-(S \subset X, \forall x_0 \in S': x_0 \in S) \\
-\land (S \subset X, \exists (r > 0) \in \mathbb R, \exists x_0 \in X, \forall x \in S: \text{d}(x, x_0) < r) \\
+(S' \subset S \subset X ) \\
+\land (S \subset X, \exists x_0 \in X, \exists (r > 0) \in \mathbb R: S \subset B_r(x_0) ) \\
 \leftrightarrow \forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
 S = \text{compact set} \\
+S' = \text{derived set} \\
 X = \text{metric space} \\
 x_0 = \text{limit point} \\
-S' = \text{derived set} \\
 r = \text{radius} \\
-x_0 = \text{center} \\
-\text{d} = \text{metric} \\
+B = \text{open ball} \\
 Y = \text{open set} \\
 \set{Y} = \text{open cover} 
 \end{align*}
@@ -203,26 +203,25 @@ bolzano-weierstrass property formula
 
 $$
 \begin{align*}
-S \subset \mathbb R^k \rightarrow S \subset X, \forall (r > 0) \in \mathbb R, \exists x \in V(x_0): (x \ne x_0) \land (x \in S) \land (x_0 \in \mathbb R^k) \\
+S \subset \mathbb R^k \rightarrow S \subset X, \forall (r > 0) \in \mathbb R: (N_r(x_0) \setminus \{x_0\}) \cap \mathbb R^k \ne \emptyset \\
 S = \text{bounded set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
-V = \text{neighborhood} \\
+N = \text{neighborhood} \\
 x_0 = \text{limit point}
 \end{align*}
 $$
 ---
 uncountable perfection property
 
-- nonempty perfect set of k-dimensional real numbers equal uncountable cardinality
+- nonempty perfect set of k-dimensional real numbers equal uncountable set
 ---
 uncountable perfection property formula
 
 $$
 \begin{align*}
-S \subset \mathbb R^k, \forall x_0 \in S', \forall x \in S: (x_0 \in S) \land (x \in S') \rightarrow |S| > |\mathbb N| \\
+S' = S \subset \mathbb R^k \rightarrow (\{0, 1, 2, 3, \dots, n\} \not \sim S) \land (\mathbb N \not\sim S) \\
 S = \text{perfect set} \\
-x_0 = \text{limit point} \\
 S' = \text{derived set} 
 \end{align*}
 $$

@@ -64,9 +64,8 @@ equilibrium solution formula
 $$
 \begin{align*}
 \forall t \ge 0: u(t) = u_* \leftrightarrow f(u_*) = 0 \\
-u_* = \text{equilibrium solution} \\
-D = \text{domain} \\
-u, t = \text{variable} 
+u, t = \text{variable} \\
+u_* = \text{equilibrium solution}
 \end{align*}
 $$
 ---
@@ -78,9 +77,9 @@ monotonicity property formula
 
 $$
 \begin{align*}
-f(u_0) > 0 \rightarrow \forall t: \frac{du}{dt} > 0 \\
-f(u_0) = 0 \rightarrow \forall t: \frac{du}{dt} = 0 \\
-f(u_0) < 0 \rightarrow \forall t: \frac{du}{dt} < 0 \\
+f(u_0) > 0 \rightarrow \forall t: f(u) > 0 \\
+f(u_0) = 0 \rightarrow \forall t: f(u) = 0 \\
+f(u_0) < 0 \rightarrow \forall t: f(u) < 0 \\
 \end{align*}
 $$
 ---
@@ -147,7 +146,7 @@ $$
 ---
 stability derivative test
 
-- sign of derivative at equilibrium solution equal stability of solution
+- sign of derivative at equilibrium solution equal stability of equilibrium solution
 ---
 stability derivative test formula
 
@@ -155,6 +154,18 @@ $$
 \begin{align*}
 f'(u_*) < 0 \rightarrow \lim_{t \rightarrow \infty} u(t) = u_* \\
 f'(u_*) > 0 \rightarrow \lim_{t \rightarrow \infty} u(t) \ne u_* \\
+\end{align*}
+$$
+---
+bifurcation
+
+- dynamical system transform from generate to degenerate
+---
+bifurcation formula
+
+$$
+\begin{align*}
+
 \end{align*}
 $$
 ---
