@@ -80,7 +80,7 @@ neighborhood formula
 
 $$
 \begin{align*}
-N \subset X, \exists (r > 0) \in \mathbb R: x_0 \in B_r(x_0) \subset N_r(x_0) \\
+N \subset X, \exists r > 0: x_0 \in B_r(x_0) \subset N_r(x_0) \\
 N = \text{neighborhood} \\
 X = \text{metric space} \\
 r = \text{radius} \\
@@ -97,7 +97,7 @@ limit point formula
 
 $$
 \begin{align*}
-S \subset X, \forall (r > 0) \in \mathbb R: (N_r(x_0) \setminus \{x_0\}) \cap S \ne \emptyset \\
+S \subset X, \forall r > 0: (N_r(x_0) \setminus \{x_0\}) \cap S \ne \emptyset \\
 X = \text{metric space} \\
 r = \text{radius} \\
 N = \text{neighborhood} \\
@@ -113,7 +113,7 @@ interior point formula
 
 $$
 \begin{align*}
-S \subset X, \exists (r > 0) \in \mathbb R: N_r(x_0) \subset S \\
+S \subset X, \exists r > 0: N_r(x_0) \subset S \\
 X = \text{metric space} \\
 r = \text{radius} \\
 N = \text{neighborhood} \\
@@ -129,7 +129,7 @@ open formula
 
 $$
 \begin{align*}
-S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: N_r(x) \subset S \\
+S \subset X, \forall x \in S, \exists r > 0: N_r(x) \subset S \\
 S = \text{open set} \\
 X = \text{metric space} \\
 x = \text{interior point} \\
@@ -146,7 +146,7 @@ relatively open formula
 
 $$
 \begin{align*}
-S \subset Y \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: N_r(x) \cap Y \subset S \\
+S \subset Y \subset X, \forall x \in S, \exists r > 0: N_r(x) \cap Y \subset S \\
 S = \text{relatively open set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
@@ -250,7 +250,7 @@ bounded formula
 
 $$
 \begin{align*}
-S \subset X, \exists x_0 \in X, \exists (r > 0) \in \mathbb R: S \subset B_r(x_0) \\
+S \subset X, \exists x_0 \in X, \exists r > 0: S \subset B_r(x_0) \\
 S = \text{bounded set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
@@ -293,7 +293,7 @@ infinite limit point property formula
 
 $$
 \begin{align*}
-\{0, 1, \dots, n\} \not\sim S \subset X \rightarrow \forall (r > 0) \in \mathbb R, \forall x_0 \in S': |N_r(x_0) \setminus \{x_0\} \cap S| = \infty \\
+\{0, 1, \dots, n\} \not\sim S \subset X \rightarrow \forall r > 0, \forall x_0 \in S': |N_r(x_0) \setminus \{x_0\} \cap S| = \infty \\
 S = \text{infinite set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
@@ -310,7 +310,7 @@ finite limit point property formula
 
 $$
 \begin{align*}
-\{0, 1, \dots, n\} \sim S \subset X \rightarrow \forall (r > 0) \in \mathbb R, \forall x \in S: N_r(x) \setminus \{x_0\} \cap S = \{x_0\} \\
+\{0, 1, \dots, n\} \sim S \subset X \rightarrow \forall r > 0, \forall x \in S: N_r(x) \setminus \{x_0\} \cap S = \{x_0\} \\
 S = \text{finite set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
@@ -341,8 +341,8 @@ cover complement property formula
 
 $$
 \begin{align*}
-S' \subset S \subset X \leftrightarrow \forall x \in S^c, \exists (r > 0) \in \mathbb R: N_r(x) \subset S^c \\
-S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: N_r(x) \subset S \leftrightarrow (S')^c \subset S^c \subset X \\
+S' \subset S \subset X \leftrightarrow \forall x \in S^c, \exists r > 0: N_r(x) \subset S^c \\
+S \subset X, \forall x \in S, \exists r > 0: N_r(x) \subset S \leftrightarrow (S')^c \subset S^c \subset X \\
 S' = \text{derived set} \\
 c = \text{complement} \\
 r = \text{radius} \\
@@ -361,9 +361,9 @@ join cover property formula
 
 $$
 \begin{align*}
-S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: N_r(x) \subset S \rightarrow N_r(x) \subset \bigcup_{i} S_i \\
+S \subset X, \forall x \in S, \exists r > 0: N_r(x) \subset S \rightarrow N_r(x) \subset \bigcup_{i} S_i \\
 S' \subset S \subset X  \rightarrow S' \subset \bigcap_{i} S_i   \\
-S \subset X, \forall x \in S, \exists (r > 0) \in \mathbb R: N_r(x) \subset S \rightarrow N_r(x) \subset \bigcap_{i=1}^n S_i \\
+S \subset X, \forall x \in S, \exists r > 0: N_r(x) \subset S \rightarrow N_r(x) \subset \bigcap_{i=1}^n S_i \\
 S' \subset S \subset X  \rightarrow S' \subset \bigcup_{i}^n S_i  \\
 \end{align*}
 $$

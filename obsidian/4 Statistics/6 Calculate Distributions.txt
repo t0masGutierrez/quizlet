@@ -12,7 +12,7 @@ $$
 ---
 cumulative distribution function
 
-- area of curve equal probability 
+- area under curve equal probability
 ---
 CDF formula
 
@@ -207,7 +207,7 @@ F \sim \chi^2(f, \text{df}_1, \text{df}_2) = P(U = u) \\
 V \sim \chi^2(v, \text{df}_1, \text{df}_2) = P(V = v) \\
 F = \frac{U/\text{df}_1}{V/\text{df}_2} \\
 u, v = \text{F-statistic} \\
-df = \text{degrees of freedom} 
+\text{df} = \text{degrees of freedom} 
 \end{align*}
 $$
 ---
