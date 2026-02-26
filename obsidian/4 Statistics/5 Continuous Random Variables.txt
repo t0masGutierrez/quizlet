@@ -1,6 +1,6 @@
 random variable
 
-- variable whose values equal the outcomes of random process
+- assign real number to outcome of sample space
 ---
 random variable formula
 
@@ -14,7 +14,7 @@ $$
 ---
 continuous random variable
 
-- infinite number of measurable values
+- variable with infinite number of measurable values
 ---
 continuous random variable formula
 

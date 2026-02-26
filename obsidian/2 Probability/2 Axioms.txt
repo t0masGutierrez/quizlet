@@ -197,27 +197,3 @@ P(A) = P(B)P(A|B) + P(B^c)P(A|B^c)
 \end{align*}
 $$
 ---
-independence
-
-- two events cannot influence each other
----
-independence formula
-
-$$
-\begin{align*}
-P(A \cap B) = P(A)P(B) 
-\end{align*}
-$$
----
-exclusivity
-
-- two events cannot occur at the same time
----
-exclusivity formula
-
-$$
-\begin{align*}
-P(A \cup B) = P(A) + P(B)
-\end{align*}
-$$
----

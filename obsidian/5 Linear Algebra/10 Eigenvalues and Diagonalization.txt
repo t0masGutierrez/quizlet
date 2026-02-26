@@ -122,7 +122,7 @@ diagonalization
 - form the reduced row echelon of the system
 - fundamental solutions of homogeneous system equal fundamental eigenvectors
 - test diagonalizability
-- form eigenmatrix such that column vectors equal fundamental eigenvectors
+- form eigenmatrix whose column vectors equal fundamental eigenvectors
 - compute inverse eigenmatrix
 - matrix multiplication equal diagonal matrix
 - all entries along main diagonal of diagonal matrix equal eigenvalue 

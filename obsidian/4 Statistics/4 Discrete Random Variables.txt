@@ -1,6 +1,6 @@
 random variable
 
-- variable whose values equal the outcomes of random process
+- assign real number to outcome of sample space
 ---
 random variable formula
 
@@ -14,7 +14,7 @@ $$
 ---
 discrete random variable
 
-- finite number of countable values
+- variable with finite number of countable values
 ---
 discrete random variable formula
 

@@ -1,0 +1,71 @@
+random variable
+
+- assign real number to outcome of sample space
+---
+random variable formula
+
+$$
+\begin{align*}
+X: \Omega \rightarrow \mathbb R \\
+X = \text{random variable} \\
+\Omega = \text{sample space}
+\end{align*}
+$$
+---
+discrete random variable
+
+- random variable with finite number of countable values
+---
+discrete random variable formula
+
+$$
+\begin{align*}
+(\{0, 1, 2, 3, \dots, n\} \sim X) \land (\mathbb N \sim X) \\
+\end{align*}
+$$
+---
+discrete probability mass function
+
+- probability as function of discrete random variable
+---
+discrete PMF probability formula
+
+$$
+\begin{align*}
+\sum_i P(X = x_i) = 1 \\
+P(a \le X \le b) = \sum_{i=a}^b P(X = x_i)
+\end{align*}
+$$
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---

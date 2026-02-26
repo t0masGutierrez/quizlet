@@ -15,13 +15,12 @@ $$
 eventual truth
 
 - there exists natural number such that proposition true for all but finitely many natural number
-- stable sequence
 ---
 eventual truth formula
 
 $$
 \begin{align*}
-\exists n_{p} \in \mathbb  N, \forall n > n_p: P(n) \\
+\exists N \in \mathbb  N, \forall n \ge N: P(n) \\
 P = \text{proposition}
 \end{align*}
 $$
@@ -29,13 +28,12 @@ $$
 infinite truth
 
 - proposition true for infinitely many natural number
-- oscillatory sequence
 ---
 infinite truth formula
 
 $$
 \begin{align*}
-\forall n_{p} \in \mathbb  N, \exists n > n_p: P(n) \\
+\forall N \in \mathbb  N, \exists n \ge N: P(n) \\
 P = \text{proposition}
 \end{align*}
 $$
@@ -48,7 +46,7 @@ convergent formula
 
 $$
 \begin{align*}
-\exists L \in X: \lim_{n \rightarrow \infty}a_n = L \leftrightarrow \forall \epsilon > 0, \exists N \in \mathbb N: n > N \rightarrow d(a_n, L) < \epsilon \\
+\exists L \in X: \lim_{n \rightarrow \infty}a_n = L \leftrightarrow \forall \epsilon > 0, \exists N \in \mathbb N, \forall n \in \mathbb N: n \ge N \rightarrow d(a_n, L) < \epsilon \\
 a_n = \text{term} \\
 L = \text{sequential limit} \\
 d = \text{metric}
@@ -79,7 +77,6 @@ limit property formula
 $$
 \begin{align*}
 \lim_{n \rightarrow \infty} a_n = L \rightarrow \lim_{n \rightarrow \infty} d(a_n, L) = 0 \\
-a_n = \text{term} \\
 L = \text{sequential limit} \\
 d = \text{metric}
 \end{align*}
@@ -96,7 +93,7 @@ convergence property formula
 
 $$
 \begin{align*}
-\lim_{n \rightarrow \infty} a_n = L \leftrightarrow \forall \epsilon> 0, \exists N \in \mathbb N: n \ge N \rightarrow a_n \in N(L) \\
+\lim_{n \rightarrow \infty} a_n = L \leftrightarrow \forall \epsilon> 0, \exists N \in \mathbb N, \forall n  \in \mathbb N: n \ge N \rightarrow a_n \in N_{\epsilon}(L) \\
 (\lim_{n \rightarrow \infty} a_n = L) \land (\lim_{n \rightarrow \infty} a_n = L') \rightarrow L = L' \\
 \lim_{n \rightarrow \infty} a_n = L \rightarrow \{a_n\} \subset X, \exists \epsilon > 0: \{a_n\} \subset B_{\epsilon}(L) \\
 (S \subset X) \land (L \in S') \rightarrow \exists \{a_n\} \in S: \lim_{n \rightarrow \infty} a_n = L
@@ -151,8 +148,7 @@ $$
 \begin{align*}
 \{a_{n_k}\}_{k=1}^{\infty} = a \circ n: \mathbb N \rightarrow S, \ k \mapsto a_{n_k} \\
 \forall k \in \mathbb N: n_k < n_{k+1}  \\
-a_{n_k} = b_k \\
-a, b = \text{term} \\
+\{a_{n_k}\} = \text{subsequence} \\
 S = \text{set}
 \end{align*}
 $$
@@ -200,12 +196,11 @@ closed subsequence property formula
 $$
 \begin{align*}
 (S = \{a_{n_k}\}) \land (S' = \{L | \lim_{k\rightarrow \infty} a_{n_k} = L\}) \rightarrow S' \subset S \subset X \\
-L' = \text{derived set} \\
+S = \text{set} \\
 a_{n_k} = \text{subsequence} \\
+S' = \text{derived set} \\
 L = \text{subsequential limit} \\
-X = \text{metric space} \\
-x_0 = \text{center} \\
-B = \text{open ball}
+X = \text{metric space} 
 \end{align*}
 $$
 ---
@@ -218,7 +213,8 @@ cauchy sequence formula
 $$
 \begin{align*}
 \forall \epsilon > 0, \exists N \in \mathbb N: n, m \ge N \rightarrow  d(a_n, a_m) < \epsilon \\
-\{_{c}a_n\} = \text{cauchy sequence} 
+\{_{c}a_n\} = \text{cauchy sequence} \\
+d = \text{metric}
 \end{align*}
 $$
 ---
@@ -277,7 +273,11 @@ bounded monotonicity property formula
 
 $$
 \begin{align*}
-(\{a_n\} \subset X, \exists x_0 \in X, \exists r > 0: B_r(x_0) \supset S) \land (\forall n \in \mathbb N: a_n \ge\le a_{n+1}) \rightarrow \exists L \in X: \lim_{n \rightarrow \infty} a_n = L 
+(\{a_n\} \subset X, \exists L \in X, \exists \epsilon > 0: B_{\epsilon}(L) \supset \{a_n\}) \land (\forall n \in \mathbb N: a_n \ge\le a_{n+1}) \rightarrow \lim_{n \rightarrow \infty} a_n = L \\
+\{a_n\} = \text{sequence} \\
+X = \text{metric space} \\
+L = \text{sequential limit} \\
+B = \text{open ball}
 \end{align*}
 $$
 ---
@@ -289,7 +289,9 @@ upper limit formula
 
 $$
 \begin{align*}
-(S = \{L \in \mathbb R|\lim_{k\rightarrow \infty} a_{n_k} = L\}) \land (a^* = \sup S) \rightarrow a^* = \lim_{n\rightarrow \infty} \sup a_n
+(S' = \{L \in \mathbb R|\lim_{k\rightarrow \infty} a_{n_k} = L\}) \land (a^* = \sup S') \rightarrow a^* = \lim_{n\rightarrow \infty} \sup a_n \\
+S' = \text{derived set} \\
+a^* = \text{upper limit}
 \end{align*}
 $$
 ---
@@ -301,14 +303,28 @@ lower limit formula
 
 $$
 \begin{align*}
-(S = \{L \in \mathbb R|\lim_{k\rightarrow \infty} a_{n_k} = L\}) \land (a_* = \inf S) \rightarrow a_* = \lim_{n\rightarrow \infty} \inf a_n
+(S' = \{L \in \mathbb R|\lim_{k\rightarrow \infty} a_{n_k} = L\}) \land (a_* = \inf S') \rightarrow a_* = \lim_{n\rightarrow \infty} \inf a_n \\
+S' = \text{derived set} \\
+a_* = \text{lower limit}
+\end{align*}
+$$
+---
+diameter
+
+- distance between supremum and infimum
+---
+diameter formula
+
+$$
+\begin{align*}
+S = \{a_n\} \rightarrow D = \sup S - \inf S
 \end{align*}
 $$
 ---
 bounded limit property
 
 - membership
-- eventual upper bound
+- eventual bound
 - convergence
 ---
 bounded limit property formula
@@ -339,7 +355,7 @@ $$
 0 \quad p < q \\
 \infty \quad p > q \\
 \end{cases} \\
-p > 0 \rightarrow \lim_{n \rightarrow \infty} p^{1/n} = \infty \\
+p > 0 \rightarrow \lim_{n \rightarrow \infty} p^{1/n} = 1 \\
 x \in \mathbb R \rightarrow \lim_{n \rightarrow \infty} x^{n} = \begin{cases} 
 0 \quad |x| < 1 \\
 \infty \quad x > 1 \\
