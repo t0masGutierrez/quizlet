@@ -1,6 +1,6 @@
 random variable
 
-- assign real number to outcome of sample space
+- function of sample space outcome equal real number
 ---
 random variable formula
 
@@ -14,13 +14,14 @@ $$
 ---
 discrete random variable
 
-- variable with finite number of countable values
+- random variable whose values are max countable
 ---
 discrete random variable formula
 
 $$
 \begin{align*}
 (\{0, 1, 2, 3, \dots, n\} \sim X) \land (\mathbb N \sim X) \\
+X = \text{random variable} 
 \end{align*}
 $$
 ---

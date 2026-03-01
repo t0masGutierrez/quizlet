@@ -86,9 +86,9 @@ continuous differentiability formula
 
 $$
 \begin{align*}
-f:D\subset \mathbb R^n \rightarrow \mathbb R^n \land f \in C^1(D) \\
-f = \text{velocity} \\
-C^1 = \text{continuous first differentiable} \\
+f, g:D\subset \mathbb R^n \rightarrow \mathbb R^n \land f, g \in C^2(D) \\
+f, g = \text{velocity} \\
+C^2 = \text{twice continuous differentiable} \\
 D = \text{domain} 
 \end{align*}
 $$
@@ -108,8 +108,7 @@ $$
 ---
 hartman-grobman property
 
-- local behavior of continuously differentiable, hyperbolic, nonlinear system approximately equal behavior of linearized system
-- amount of error decreases as the size of neighborhood decreases
+- local behavior of twice continuously differentiable, hyperbolic, nonlinear system approximately equal behavior of linearized system
 ---
 hartman-grobman property formula
 
@@ -123,7 +122,7 @@ $$
 ---
 periodic solution
 
-- repeating solution with complex eigenvalue
+- repeating solution with closed orbit
 ![[3 Mathematical Modeling/Images/periodic solution.png]]
 ---
 periodic solution formula
@@ -178,15 +177,15 @@ P = \text{period}
 \end{align*}
 $$
 ---
-center property
+nonlinear center property
 
-- infinite periodic solution surround local extremum of first integral equal equilibrium point
+- infinite periodic solution surround neighborhood of first integral extremum
 ---
-center property formula
+nonlinear center property formula
 
 $$
 \begin{align*}
-\frac{dE}{dt}(v_*) = 0 \rightarrow \exists\epsilon > 0, \forall v \in N_{\epsilon}(v_*), \forall t \ge 0: v(t + P) = v(t) \\
+ \exists\epsilon > 0, \forall v \in N_{\epsilon}(v_*): E(v) \gtrless E(v_*) \rightarrow \exists\epsilon > 0, \forall v \in N_{\epsilon}(v_*), \forall t \ge 0: v(t + P) = v(t) \\
 E = \text{first integral} \\
 v = \text{solution} \\
 t = \text{time} \\
@@ -198,7 +197,7 @@ $$
 ---
 bifurcation
 
-- quantitative change of parameter cause qualitative change of phase view
+- quantitative change of parameter cause qualitative change of phase
 ---
 bifurcation formula
 
@@ -228,7 +227,7 @@ bifurcation diagram
 
 - find equilibrium point
 - determine stability of equilibrium point
-- find parameter where the number or stability of equilibria change
+- find parameter where the number, type, or location of stability of equilibria change
 - graph the equilibrium point versus the parameter
 ![[3 Mathematical Modeling/Images/bifurcation diagram.png]]
 ---
@@ -238,19 +237,6 @@ $$
 \begin{align*}
 u_* \times h = \{(u_*, h)| f(u, h) = 0\} \\
 u_* = \text{equilibrium point} \\
-h = \text{parameter}
-\end{align*}
-$$
----
-hopf bifurcation
-
-- creation or destruction of limit cycle
----
-hopf bifurcation formula
-
-$$
-\begin{align*}
-\text{Re}(\lambda (h) = 0 \\
 h = \text{parameter}
 \end{align*}
 $$

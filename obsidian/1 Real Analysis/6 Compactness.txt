@@ -23,7 +23,7 @@ compact formula
 
 $$
 \begin{align*}
-\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
+\forall \set{Y_i} \subset X, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
 S = \text{compact set} \\
 Y = \text{open set} \\
 \set{Y} = \text{open cover} \\
@@ -39,7 +39,7 @@ closure compactness property formula
 
 $$
 \begin{align*}
-\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: \bar S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
+\forall \set{Y_i} \subset X, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: \bar S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
 S = \text{compact set} \\
 \bar S = \text{closure} \\
 Y = \text{open set} \\
@@ -56,11 +56,12 @@ compact closedness property
 
 $$
 \begin{align*}
-\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \rightarrow \forall x_0 \in S': x_0 \in S \\
+\forall \set{Y_i} \subset X, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \rightarrow S' \subset S \\
+\set{Y} = \text{open cover} \\
+X = \text{metric space} \\
 S = \text{closed set} \\
 Y = \text{open set} \\
-\set{Y} = \text{open cover} \\
-X = \text{metric space} 
+S' = \text{derived set} 
 \end{align*}
 $$
 ---
@@ -72,11 +73,10 @@ closed compactness property formula
 
 $$
 \begin{align*}
-S \subset K, \forall x_0 \in S': x_0 \in S \rightarrow \forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset K \\
+S' \subset S \subset K \rightarrow \forall \set{Y_i} \subset X, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
+S' = \text{derived set} \\
 S = \text{compact set} \\
 K = \text{compact set} \\
-x_0 = \text{limit point} \\
-S' = \text{derived set} \\
 Y = \text{open set} \\
 \set{Y} = \text{open cover}
 \end{align*}
@@ -90,11 +90,10 @@ closed intersection property formula
 
 $$
 \begin{align*}
-(S \subset X, \forall x_0 \in S': x_0 \in S) \land (\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: K \subset \bigcup_{k=1}^n Y_{i_k} \subset X) \rightarrow S \cap K \subset \bigcup_{k=1}^n Y_{i_k} \\
+(S' \subset S \subset X) \land (\forall \set{Y_i} \subset X, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: K \subset \bigcup_{k=1}^n Y_{i_k} \subset X) \rightarrow S \cap K \subset \bigcup_{k=1}^n Y_{i_k} \\
+S' = \text{derived set} \\
 S = \text{closed set} \\
 X = \text{metric space} \\
-x_0 = \text{limit point} \\
-S' = \text{derived set} \\
 K = \text{compact set} \\
 Y = \text{open set} \\
 \set{Y} = \text{open cover} 
@@ -103,13 +102,13 @@ $$
 ---
 finite intersection property
 
-- if for every finite collection of compact set there exists nonempty intersection then for every collection of compact set there exists nonempty intersection
+- for every finite subcollection of compact set there exists nonempty intersection implies for every collection of compact set there exists nonempty intersection
 ---
 finite intersection property formula
 
 $$
 \begin{align*}
-\forall k: \bigcap_{k=1}^n S_{i_k} \ne \emptyset \rightarrow \bigcap _{i} S_i \ne \emptyset \\
+\bigcap_{k=1}^n S_{i_k} \ne \emptyset \rightarrow \bigcap _{i} S_i \ne \emptyset \\
 S = \text{compact set} 
 \end{align*}
 $$
@@ -133,14 +132,14 @@ $$
 ---
 interval intersection property
 
-- intersection of nested compact interval equal nonempty set
+- intersection of nested interval equal nonempty set
 ---
 interval intersection property formula
 
 $$
 \begin{align*}
 (\{I_n\} \in \mathbb R) \land (\forall n \in \mathbb N: I_n \subset I_{n+1}) \rightarrow \bigcap_{n=1}^\infty I_n \ne \emptyset \\
-I = \text{compact interval}
+I = \text{interval}
 \end{align*}
 $$
 ---
@@ -165,7 +164,7 @@ k-cell compactness property formula
 
 $$
 \begin{align*}
-\forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: \prod_{i=1}^k [a_i, b_i] \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
+\forall \set{Y_i} \subset X, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: \prod_{i=1}^k [a_i, b_i] \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
 Y = \text{open set} \\
 \set{Y} = \text{open cover} \\
 \prod_{i=1}^k [a_i, b_i] = \text{k-cell} \\
@@ -175,7 +174,7 @@ $$
 ---
 heine-borel property
 
-- compact set equal closed bounded set
+- every compact set of k-dimensional real numbers equal closed bounded set
 ---
 heine-borel property formula
 
@@ -183,11 +182,11 @@ $$
 \begin{align*}
 (S' \subset S \subset X ) \\
 \land (S \subset X, \exists x_0 \in X, \exists (r > 0) \in \mathbb R: B_r(x_0) \supset S) \\
-\leftrightarrow \forall \set{Y_i}, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
+\leftrightarrow \forall \set{Y_i} \subset X, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
 S = \text{compact set} \\
 S' = \text{derived set} \\
 X = \text{metric space} \\
-x_0 = \text{limit point} \\
+x_0 = \text{center} \\
 r = \text{radius} \\
 B = \text{open ball} \\
 Y = \text{open set} \\

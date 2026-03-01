@@ -164,7 +164,7 @@ $$
 ---
 bifurcation
 
-- quantitative change of parameter cause qualitative change of phase view
+- quantitative change of parameter cause qualitative change of phase
 ---
 bifurcation formula
 
@@ -194,7 +194,7 @@ bifurcation diagram
 
 - find equilibrium point
 - determine stability of equilibrium point
-- find parameter where the number or stability of equilibria change
+- find parameter where the number, type, or location of stability of equilibria change
 - graph the equilibrium point versus the parameter
 ![[3 Mathematical Modeling/Images/bifurcation diagram.png]]
 ---

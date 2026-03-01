@@ -220,7 +220,7 @@ $$
 ---
 periodic solution
 
-- repeating solution with imaginary eigenvalue
+- repeating solution with closed orbit
 ![[3 Mathematical Modeling/Images/periodic solution.png]]
 ---
 periodic solution formula
@@ -310,11 +310,11 @@ linear system formula
 $$
 \begin{align*}
 (\frac{dx}{dt} = ax + by) \land (\frac{dy}{dt} = cx + dy) \rightarrow \frac{dv}{dt} = Av \\
-v = [x, y] \\
 A = \begin{bmatrix} 
 a & b \\
 c & d \\
 \end{bmatrix} \\
+v = [x, y] \\
 x, y, v = \text{solution} \\
 t = \text{time} \\
 a, b, c, d = \text{coefficient} 
@@ -370,7 +370,7 @@ $$
 distinct real eigenvalues property
 
 - two negative eigenvalues equal node with asymptotic stability
-- opposite polarity eigenvalues equal saddle with instability
+- two opposite eigenvalues equal saddle with instability
 - two positive eigenvalues equal node with instability
 ![[3 Mathematical Modeling/Images/distinct real eigenvalues property.png]]
 ---
@@ -446,9 +446,9 @@ $$
 ---
 complex eigenvalues property
 
-- negative real eigenvalue part equal limit cycle with asymptotic stability
-- zero real eigenvalue part equal spiral with neutral stability
-- positive real eigenvalue part equal spiral with instability
+- negative real eigenvalue part equal converging spiral with asymptotic stability
+- zero real eigenvalue part equal constant spiral with neutral stability
+- positive real eigenvalue part equal diverging spiral with instability
 ---
 complex eigenvalues property formula
 
