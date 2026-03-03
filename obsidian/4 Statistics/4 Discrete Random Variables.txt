@@ -6,9 +6,11 @@ random variable formula
 
 $$
 \begin{align*}
-X: \Omega \rightarrow \mathbb{R} \\
+X: \Omega \rightarrow \mathbb R, X(\omega) = x\\
 X = \text{random variable} \\
-\Omega = \text{sample space} 
+\Omega = \text{sample space} \\
+x = \text{real number} \\
+\omega = \text{outcome}
 \end{align*}
 $$
 ---
@@ -20,7 +22,7 @@ discrete random variable formula
 
 $$
 \begin{align*}
-(\{0, 1, 2, 3, \dots, n\} \sim X) \land (\mathbb N \sim X) \\
+(\{0, 1, 2, 3, \dots, n\} \sim X) \lor (\mathbb N \sim X) \\
 X = \text{random variable} 
 \end{align*}
 $$
@@ -42,7 +44,9 @@ discrete PMF mean formula
 
 $$
 \begin{align*}
-\mu = \sum_i P(X=x_i)x_i
+\mu = \sum_i x_iP(X=x_i) \\
+x = \text{real number} \\
+X = \text{random variable}
 \end{align*}
 $$
 ---
@@ -50,7 +54,9 @@ discrete PMF standard deviation formula
 
 $$
 \begin{align*}
-\sigma = \sqrt{\sum_i(x_i - \mu)^2P(x_i)}
+\sigma = \sqrt{\sum_i(x_i - \mu)^2P(x_i)} \\
+x = \text{real number} \\
+\mu = \text{mean} 
 \end{align*}
 $$
 ---

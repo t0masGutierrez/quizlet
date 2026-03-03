@@ -193,7 +193,7 @@ closure formula
 
 $$
 \begin{align*}
-\bar S = S' \cup S\\
+\bar S = S \cup S' \\
 S' = \text{derived set}
 \end{align*}
 $$
@@ -210,7 +210,7 @@ $$
 \begin{align*}
 \bar S' \subset \bar S \subset X \\
 S' \subset S \subset X \leftrightarrow \bar S = S \\
-(=S \subset K) \land (K' \subset K \subset X) \rightarrow \bar S \subset K
+(S \subset K) \land (K' \subset K \subset X) \rightarrow \bar S \subset K
 \end{align*}
 $$
 ---
@@ -223,6 +223,7 @@ supremum closure property formula
 $$
 \begin{align*}
 S \subset X \rightarrow \exists \sup \bar S \\
+X = \text{metric space} \\
 \bar S = \text{closure}
 \end{align*}
 $$
@@ -235,10 +236,10 @@ dense formula
 
 $$
 \begin{align*}
-S \subset X, \forall x \in X: x \in (S \cup S') \\
+S \subset \bar S = X \\
 S = \text{dense set} \\
+\bar S = \text{closure} \\
 X = \text{metric space} \\
-S' = \text{derived set}
 \end{align*}
 $$
 ---
@@ -253,8 +254,8 @@ $$
 S \subset X, \exists x_0 \in X, \exists r > 0: S \subset B_r(x_0) \\
 S = \text{bounded set} \\
 X = \text{metric space} \\
-r = \text{radius} \\
 x_0 = \text{center} \\
+r = \text{radius} \\
 \text{d} = \text{metric}
 \end{align*}
 $$
@@ -268,8 +269,8 @@ cover property formula
 
 $$
 \begin{align*}
-\emptyset \subset X, \forall x \in \emptyset , \exists r > 0 \in \mathbb R: N_r(x_0) \subset \emptyset, X \\
-\emptyset \subset X, \forall r > 0 \in \mathbb R: N_r(x_0) \setminus \{x_0\} \cap \emptyset, X \ne \emptyset
+\emptyset \subset X, \forall x \in \emptyset , \exists r > 0: N_r(x) \subset \emptyset, X \\
+\emptyset', X' \subset \emptyset, X \ne \emptyset
 \end{align*}
 $$
 ---
@@ -281,7 +282,9 @@ interval limit point property
 
 $$
 \begin{align*}
-(a, b) = S \subset X \rightarrow S' = [a, b] 
+(a, b) = S \subset X \rightarrow S' = [a, b] \\
+S = \text{interval} \\
+X = \text{metric space}
 \end{align*}
 $$
 ---
@@ -297,8 +300,8 @@ $$
 S = \text{infinite set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
-N = \text{neighborhood} \\
-x_0 = \text{limit point}
+x_0 = \text{limit point} \\
+N = \text{neighborhood} 
 \end{align*}
 $$
 ---
@@ -310,12 +313,12 @@ finite limit point property formula
 
 $$
 \begin{align*}
-\{0, 1, \dots, n\} \sim S \subset X \rightarrow \forall r > 0, \forall x \in S: N_r(x) \setminus \{x_0\} \cap S = \{x_0\} \\
+\{0, 1, \dots, n\} \sim S \subset X \rightarrow \forall r > 0, \forall x \in S: N_r(x) \setminus \{x\} \cap S = \{x\} \\
 S = \text{finite set} \\
 X = \text{metric space} \\
 r = \text{radius} \\
-N = \text{neighborhood} \\
-x = \text{isolated point}
+x = \text{isolated point} \\
+N = \text{neighborhood} 
 \end{align*}
 $$
 ---

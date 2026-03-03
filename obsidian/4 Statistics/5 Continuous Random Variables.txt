@@ -6,15 +6,17 @@ random variable formula
 
 $$
 \begin{align*}
-X: \Omega \rightarrow \mathbb{R} \\
+X: \Omega \rightarrow \mathbb R, X(\omega) = x\\
 X = \text{random variable} \\
-\Omega = \text{sample space} 
+\Omega = \text{sample space} \\
+x = \text{real number} \\
+\omega = \text{outcome}
 \end{align*}
 $$
 ---
 continuous random variable
 
-- random variable whose values are max countable
+- random variable whose values are uncountable
 ---
 continuous random variable formula
 
@@ -29,7 +31,7 @@ continuous probability density function
 
 - probability as function of continuous random variable
 ---
-continuous PDF formula
+continuous PDF probability formula
 
 $$
 \begin{align*}
@@ -58,7 +60,7 @@ uniform probability density function
 
 - probability as function of equally likely events
 ---
-uniform PDF formula
+uniform PDF probability formula
 
 $$
 \begin{align*}
@@ -92,7 +94,7 @@ exponential probability density function
 
 - probability as function of the amount of time between events
 ---
-exponential PDF formula
+exponential PDF probability formula
 
 $$
 \begin{align*}
@@ -124,7 +126,7 @@ normal probability density function
 
 - probability as function of mean and standard deviation
 ---
-normal PDF formula
+normal PDF probability formula
 
 $$
 \begin{align*}
@@ -138,7 +140,7 @@ standard normal probability density function
 
 - probability as function of z-score
 ---
-standard normal PDF formula
+standard normal PDF probability formula
 
 $$
 \begin{align*}
@@ -151,15 +153,15 @@ student probability density function
 
 - probability as function of t-statistic
 ---
-student PDF formula
+student PDF probability formula
 
 $$
 \begin{align*}
-f(t) = \frac{\Gamma(\frac{\nu+1}{2})}{ \Gamma(\frac{s^2}{2})\sqrt{\nu\pi}}(1+\frac{t^2}{\nu})^{-(\nu+1)/2} \\
+f(x) = \frac{\Gamma(\frac{\nu+1}{2})}{ \Gamma(\frac{s^2}{2})\sqrt{\nu\pi}}(1+\frac{x^2}{\nu})^{-(\nu+1)/2} \\
 \nu = n-1 \\
 \Gamma = \text{gamma} \\
 \nu = \text{degrees of freedom} \\
-t = \text{t-statistic}
+x = \text{t-statistic}
 \end{align*}
 $$
 ---
@@ -167,7 +169,7 @@ chi-squared probability density function
 
 - probability as function of $\chi^2$-statistic
 ---
-chi-squared PDF formula
+chi-squared PDF probability formula
 
 $$
 \begin{align*}
@@ -181,16 +183,9 @@ $$
 ---
 F probability density function
 
-$$
-\begin{align*}
-f(x) = \frac{\Gamma(\frac{d_1+d_2}{2})}
-{\Gamma(\frac{d_1}{2})\Gamma(\frac{d_2}{2})}  
-(\frac{d_1}{d_2})^{d_1/2}x^{d_1/2 - 1}  
-(1 + \frac{d_1}{d_2}x)^{-\frac{d_1+d_2}{2}}
-\end{align*}
-$$
+- probability as function of F-statistic
 ---
-F PDF formula
+F PDF probability formula
 
 $$
 \begin{align*}

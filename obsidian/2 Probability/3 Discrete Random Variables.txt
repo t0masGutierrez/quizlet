@@ -6,9 +6,11 @@ random variable formula
 
 $$
 \begin{align*}
-X: \Omega \rightarrow \mathbb R \\
+X: \Omega \rightarrow \mathbb R, X(\omega) = x\\
 X = \text{random variable} \\
-\Omega = \text{sample space}
+\Omega = \text{sample space} \\
+x = \text{real number} \\
+\omega = \text{outcome}
 \end{align*}
 $$
 ---
@@ -20,7 +22,7 @@ discrete random variable formula
 
 $$
 \begin{align*}
-(\{0, 1, 2, 3, \dots, n\} \sim X) \land (\mathbb N \sim X) \\
+(\{0, 1, 2, 3, \dots, n\} \sim X) \lor (\mathbb N \sim X) \\
 X = \text{random variable}
 \end{align*}
 $$
@@ -29,7 +31,7 @@ discrete probability mass function
 
 - probability as function of discrete random variable
 ---
-discrete PMF probability formula
+discrete PMF formula
 
 $$
 \begin{align*}
@@ -38,29 +40,63 @@ P(a \le X \le b) = \sum_{i=a}^b P(X = x_i)
 \end{align*}
 $$
 ---
-term
+expectation
 
-- definition
+- expected value of random variable
 ---
-term
+expectation formula
 
-- definition
+$$
+\begin{align*}
+E[X] = \sum_i x_iP(X=x_i) \\
+x = \text{real number} \\
+X = \text{random variable}
+\end{align*}
+$$
 ---
-term
+expectation property
 
-- definition
+- sum
+- linearity
+- function
 ---
-term
+expectation property formula
 
-- definition
+$$
+\begin{align*}
+E[\sum_i X_i] = \sum_i E[X_i] \\
+E[aX + bY] = aE[X] + bE[Y] \\
+E[g(X)] = \sum_i g(x_i)P(X=x_i) \\
+\end{align*}
+$$
 ---
-term
+variance
 
-- definition
+- spread of random variable around expected value
 ---
-term
+variance formula
 
-- definition
+$$
+\begin{align*}
+\text{Var}(X) = E[X^2] - (E[X])^2 = E[(X - E[X])^2] \\
+E = \text{expectation} \\
+X = \text{random variable}
+\end{align*}
+$$
+---
+variance property
+
+- addition
+- multiplication
+---
+variance property formula
+
+$$
+\begin{align*}
+\text{Var}(X + c) = \text{Var}(X) \\
+\text{Var}(cX) = c^2\text{Var}(X)
+\end{align*}
+$$
 ---
 term
 

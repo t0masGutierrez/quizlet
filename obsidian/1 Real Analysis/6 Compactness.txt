@@ -15,11 +15,11 @@ X = \text{metric space}
 \end{align*}
 $$
 ---
-compact
+topologically compact
 
 - for every open cover of compact set there exists finite subcover
 ---
-compact formula
+topologically compact formula
 
 $$
 \begin{align*}
@@ -181,7 +181,7 @@ heine-borel property formula
 $$
 \begin{align*}
 (S' \subset S \subset X ) \\
-\land (S \subset X, \exists x_0 \in X, \exists (r > 0) \in \mathbb R: B_r(x_0) \supset S) \\
+\land (S \subset X, \exists x_0 \in X, \exists r > 0: B_r(x_0) \supset S) \\
 \leftrightarrow \forall \set{Y_i} \subset X, \exists \{Y_{i_1}, \dots Y_{i_n}\} \subset \{Y_i\}: S \subset \bigcup_{k=1}^n Y_{i_k} \subset X \\
 S = \text{compact set} \\
 S' = \text{derived set} \\
@@ -202,9 +202,8 @@ bolzano-weierstrass property formula
 
 $$
 \begin{align*}
-S \subset \mathbb R^k \rightarrow S \subset X, \forall (r > 0) \in \mathbb R: (N_r(x_0) \setminus \{x_0\}) \cap \mathbb R^k \ne \emptyset \\
+(S \subset \mathbb R^k) \land (\set {0, 1, 2, 3, \dots, n} \not\sim S) \rightarrow \forall r > 0: N_r(x_0) \setminus \{x_0\} \cap \mathbb R^k \ne \emptyset \\
 S = \text{bounded set} \\
-X = \text{metric space} \\
 r = \text{radius} \\
 N = \text{neighborhood} \\
 x_0 = \text{limit point}

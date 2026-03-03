@@ -228,6 +228,8 @@ countable subset property formula
 $$
 \begin{align*}
 (\mathbb N \sim S) \land (S_1 \subset S) \rightarrow \mathbb N \sim S_1 \\
+S = \text{countable set} \\
+S_1 = \text{countable set}
 \end{align*}
 $$
 ---
@@ -259,13 +261,14 @@ $$
 ---
 countable product property
 
-- every cartesian product of countable set equal countable set
+- every countable product of countable set equal countable set
 ---
 countable product property formula
 
 $$
 \begin{align*}
-(\mathbb N \sim S) \land (S_1, S_2, S_3, \dots = n) \rightarrow \mathbb N \sim S^n
+(\mathbb N \sim S) \land (S_1, S_2, S_3, \dots = n) \rightarrow \mathbb N \sim S^n \\
+S = \text{countable set}
 \end{align*}
 $$
 ---
@@ -290,7 +293,9 @@ countable function property formula
 $$
 \begin{align*}
 (f: A \rightarrow B) \land (\mathbb N \sim A) \rightarrow \mathbb N \sim f(A) \\
-f = \text{function}
+f = \text{function} \\
+A = \text{domain} \\
+B = \text{codomain} 
 \end{align*}
 $$
 ---
@@ -303,7 +308,9 @@ uncountable injection property formula
 $$
 \begin{align*}
 (f: A \rightarrow B) \land (\mathbb N \not\sim A) \rightarrow \mathbb N \not\sim B \\
-f = \text{injection}
+f = \text{injection} \\
+A = \text{domain} \\
+B = \text{codomain} 
 \end{align*}
 $$
 ---
@@ -316,7 +323,9 @@ uncountable surjection property formula
 $$
 \begin{align*}
 (f: A \rightarrow B) \land (\mathbb N \not\sim B) \rightarrow \mathbb N \not\sim A \\
-f = \text{surjection}
+f = \text{surjection} \\
+A = \text{domain} \\
+B = \text{codomain} 
 \end{align*}
 $$
 ---

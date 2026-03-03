@@ -197,7 +197,7 @@ $$
 ---
 field
 
-- set with two binary operations that satisfy the 11 field axioms
+- set with two binary operations that satisfy the 9 field axioms
 ---
 field formula
 

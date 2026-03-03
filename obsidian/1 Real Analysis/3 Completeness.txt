@@ -98,14 +98,12 @@ upper bound property
 
 - epsilon upper bound
 - sub upper bound
-- super upper bound
 ---
 upper bound property
 
 $$
 \begin{align*}
-S \subset \mathbb R, \forall \epsilon > 0, \exists x \in S: u - \epsilon < x \rightarrow u = \sup S \\
-S_2 \subset S_1 \subset \mathbb R, \exists u \in \mathbb R,\forall x \in S_1: x \le u \rightarrow \forall y \in S_2: y \le u \\
+S \subset \mathbb R, \forall \epsilon > 0, \exists x \in S: x > u - \epsilon \rightarrow u = \sup S \\
 S_2 \subset S_1 \subset \mathbb R \rightarrow \sup S_2 \le \sup S_1 \\
 \end{align*}
 $$
@@ -144,7 +142,7 @@ archimedean property formula
 
 $$
 \begin{align*}
-\forall (x > 0) \in \mathbb R, \forall y \in \mathbb R, \exists n \in \mathbb N: y < nx
+\forall x \in \mathbb R^+, \forall y \in \mathbb R, \exists n \in \mathbb N: y < nx
 \end{align*}
 $$
 ---
@@ -168,7 +166,7 @@ nth root property formula
 
 $$
 \begin{align*}
-\forall (x > 0) \in \mathbb R, \exists !(y > 0) \in \mathbb R, \forall n \in \mathbb N: y^n = x \\
+\forall x \in \mathbb R^+, \exists !y \in \mathbb R^+, \forall n \in \mathbb N: y^n = x \\
 y = \text{nth root}
 \end{align*}
 $$

@@ -1,0 +1,242 @@
+algebraic equation
+
+- equation involving elementary functions of unknown solution
+---
+algebraic equation formula
+
+$$
+\begin{align*}
+y = f(t, x, \epsilon) \\
+t = \text{time} \\
+x = \text{solution} \\
+\epsilon = \text{parameter}
+\end{align*}
+$$
+---
+differential equation
+
+- equation involving derivatives of unknown solution
+---
+differential equation formula
+
+$$
+\begin{align*}
+\frac{dx}{dt} = f(t, x, \epsilon), x(t=0) = x_0, t \ge 0 \\
+t = \text{time} \\
+x = \text{solution} \\
+\epsilon = \text{parameter}
+\end{align*}
+$$
+---
+perturbed equation
+
+- equation containing small nonnegative parameter 
+---
+perturbed equation formula
+
+$$
+\begin{align*}
+f(t, x, \epsilon) \\
+0 \le \epsilon \ll 1 \\
+\epsilon = \text{parameter}
+\end{align*}
+$$
+---
+regular
+
+- every solution of perturbed equation with positive parameter equal solution of perturbed equation with zero parameter
+---
+regular formula
+
+$$
+\begin{align*}
+\# f(t, x, \epsilon) = k, \epsilon > 0 \rightarrow \# f(t, x, \epsilon) = k, \epsilon = 0 \\
+k = \text{number of solutions} \\
+\epsilon = \text{parameter} 
+\end{align*}
+$$
+---
+singular
+
+- every solution of perturbed equation with positive parameter not equal solution of perturbed equation with zero parameter
+---
+singular formula
+
+$$
+\begin{align*}
+\# f(t, x, \epsilon) = k, \epsilon > 0 \rightarrow \# f(t, x, \epsilon) \ne k, \epsilon = 0 \\
+k = \text{number of solutions} \\
+\epsilon = \text{parameter} 
+\end{align*}
+$$
+---
+analytic
+
+- there exists limit of power series near point
+---
+analytic formula
+
+$$
+\begin{align*}
+f(t, x, \epsilon) = \sum_{i, j, k = 0}^{\infty}c_{ijk}(t-t_0)^i(x - x_0)^j(\epsilon - \epsilon_0)^k \\
+|t-t_0| < \sigma, |x-x_0| < \eta, |\epsilon-\epsilon_0| < \rho \\
+t = \text{time} \\
+x = \text{solution} \\
+\epsilon = \text{parameter} \\
+c = \text{coefficient} \\
+\sigma, \eta, \rho = \text{radius of convergence}
+\end{align*}
+$$
+---
+analytic property
+
+- complex analytic function
+- complex analytic variable
+- multivariable analytic function
+- analytic operation
+---
+analytic property formula
+
+$$
+\begin{align*}
+f \in \mathbb C \rightarrow f(t, x, \epsilon) \in C^{\omega} \\
+x \in \mathbb C \rightarrow f(t, x, \epsilon) \in C^{\omega} \\
+i \ge 1 \rightarrow  f(t, x_i, \epsilon) \in C^{\omega} \\
+(+), (\cdot), (\circ), (\frac{df}{dx}), (\int dfdx) \in C^{\omega} 
+\end{align*}
+$$
+---
+function notation
+
+- describe the asymptotic behavior of function as parameter approaches limit
+---
+function notation formula
+
+$$
+\begin{align*}
+f(\epsilon) = \sum_{n=0}^\infty C_n \epsilon^k \rightarrow \frac{f(\epsilon)}{\epsilon^r} = \sum_{n=r}^\infty C_{n-r} \epsilon^{n-r} \\
+C = \text{constant} \\
+\epsilon = \text{parameter} 
+\end{align*}
+$$
+---
+big-O notation
+
+- size of function less or equal big-O
+---
+big-O notation formula
+
+$$
+\begin{align*}
+\lim_{\epsilon \rightarrow 0} |\frac{f(\epsilon)}{\epsilon^r}| \le C \rightarrow f(\epsilon) = O(\epsilon^r) \\
+\epsilon = \text{parameter} \\
+C = \text{constant} \\
+O = \text{order} 
+\end{align*}
+$$
+---
+little-o notation
+
+- size of function much less little-o
+---
+little-o notation formula
+
+$$
+\begin{align*}
+\lim_{\epsilon \rightarrow 0} \frac{f(\epsilon)}{\epsilon^r} = 0 \rightarrow f(\epsilon) = o(\epsilon^r) \\
+\epsilon = \text{parameter} \\
+o = \text{order} 
+\end{align*}
+$$
+---
+regular algebraic equation
+
+- series solution equal solution of algebraic equation
+![[3 Mathematical Modeling/Images/regularly perturbed algebraic equation.png]]
+---
+regular algebraic equation formula
+
+$$
+\begin{align*}
+F(x, \epsilon) = 0, x(\epsilon = 0) = x_0 \\
+F(x_0, 0) = 0 \\
+0 < \epsilon \ll 1 \\
+x(\epsilon) = \text{solution} \\
+\epsilon = \text{parameter}
+\end{align*}
+$$
+---
+regular algebraic property
+
+- for every analytic algebraic equation there exists analytic solution
+---
+regular algebraic property formula
+
+$$
+\begin{align*}
+(F \in C^{\omega}) \land (\frac{\partial F}{\partial x}(x_0, 0) \ne 0 \lor \frac{\partial F}{\partial \epsilon}(x_0, 0) \ne 0) \rightarrow x(\epsilon) \in C^{\omega}
+\end{align*}
+$$
+---
+simple root
+
+- solution of regularly perturbed algebraic equation equal integer power series
+---
+simple root formula
+
+$$
+\begin{align*}
+x(\epsilon) = \sum_{n=0}^{\infty} \epsilon^nx_n \\
+x = \text{solution} \\
+\epsilon = \text{parameter} 
+\end{align*}
+$$
+---
+repeated root
+
+- solution of regularly perturbed algebraic equation equal rational power series
+---
+repeated root formula
+
+$$
+\begin{align*}
+x(\epsilon) = \sum_{n =0}^{\infty} \epsilon^{n/m}x_n \rightarrow x(\delta) = \sum_{n =0}^{\infty} \delta^n x_n \\
+\delta = \epsilon^{1/m} \\
+x = \text{solution} \\
+\epsilon = \text{parameter}  \\
+m = \text{order} 
+\end{align*}
+$$
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
+term
+
+- definition
+---
