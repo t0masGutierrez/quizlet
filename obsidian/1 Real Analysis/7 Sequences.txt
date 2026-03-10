@@ -170,11 +170,11 @@ X = \text{metric space}
 \end{align*}
 $$
 ---
-limit sequence property
+limit subsequence property
 
-- every limit of sequence equal limit of subsequence
+- every limit of convergent sequence equal limit of subsequence
 ---
-limit sequence property formula
+limit subsequence property formula
 
 $$
 \begin{align*}
@@ -193,7 +193,9 @@ $$
 \forall \set {a_n} \subset S \subset X, \exists \set {a_{n_k}} \subset \set {a_n}, \exists L \in S:\lim_{k \rightarrow \infty} a_{n_k} = L \\
 a_n = \text{sequence} \\
 S = \text{set} \\
+a_{n_k} = \text{subsequence} \\
 X = \text{metric space} \\
+L = \text{subsequential limit}
 \end{align*}
 $$
 ---
@@ -212,39 +214,6 @@ Y = \text{open set} \\
 \set{Y} = \text{open cover} \\
 X = \text{metric space} \\
 a_n = \text{sequence} 
-\end{align*}
-$$
----
-totally bounded
-
-- every point of totally bounded set within finite cover of open ball
----
-totally bounded formula
-
-$$
-\begin{align*}
-S \subset X, \forall \epsilon > 0, \exists \set {a_i}_{i=1}^{n} \subset X: S \subset \bigcup_{i=1}^n B_{\epsilon}(x_i) \\
-S = \text{totally bounded set} \\
-X = \text{metric space} \\
-a_n = \text{sequence} \\
-B = \text{open ball} \\
-x_i = \text{center}
-\end{align*}
-$$
----
-bounded property
-
-- forward
-- reverse
-- complete
----
-bounded property formula
-
-$$
-\begin{align*}
-S \subset X, \forall \epsilon > 0, \exists \set {a_i}_{i=1}^{n} \subset X: S \subset \bigcup_{i=1}^n B_{\epsilon}(x_i) \rightarrow \exists x_0 \in X, \exists r > 0: S \subset B_r(x_0) \\
-S \subset X, \exists x_0 \in X, \exists r > 0: S \subset B_r(x_0) \not\rightarrow \forall \epsilon > 0, \exists \set {a_i}_{i=1}^{n} \subset X: S \subset \bigcup_{i=1}^n B_{\epsilon}(x_i) \\
-S \subset \mathbb R^k, \forall \epsilon > 0, \exists \set {a_i}_{i=1}^{n} \subset \mathbb R^k: S \subset \bigcup_{i=1}^n B_{\epsilon}(x_i) \leftrightarrow \exists x_0 \in \mathbb R^k, \exists r > 0: S \subset B_r(x_0)
 \end{align*}
 $$
 ---
@@ -333,9 +302,9 @@ upper limit formula
 
 $$
 \begin{align*}
-(S = \{L \in \mathbb R|\lim_{k\rightarrow \infty} a_{n_k} = L\}) \land (a^* = \sup S) \rightarrow a^* = \lim_{n\rightarrow \infty} \sup a_n \\
+S = \{L \in \mathbb R|\lim_{k\rightarrow \infty} a_{n_k} = L\} \rightarrow  \lim_{n\rightarrow \infty} \sup a_n = \sup S \\
 S = \text{derived set} \\
-a^* = \text{upper limit}
+\sup S = \text{upper limit}
 \end{align*}
 $$
 ---
@@ -347,9 +316,9 @@ lower limit formula
 
 $$
 \begin{align*}
-(S = \{L \in \mathbb R|\lim_{k\rightarrow \infty} a_{n_k} = L\}) \land (a_* = \inf S) \rightarrow a_* = \lim_{n\rightarrow \infty} \inf a_n \\
+S = \{L \in \mathbb R|\lim_{k\rightarrow \infty} a_{n_k} = L\} \rightarrow \lim_{n\rightarrow \infty} \inf a_n = \inf S\\
 S = \text{derived set} \\
-a_* = \text{lower limit}
+\inf S = \text{lower limit}
 \end{align*}
 $$
 ---
@@ -364,8 +333,8 @@ bounded limit property formula
 $$
 \begin{align*}
 a^*, a_* \in S \\
-L > a^* \rightarrow \exists N \in \mathbb N : n \ge N \rightarrow a_n < L \\
-L < a_* \rightarrow \exists N \in \mathbb N : n \ge N \rightarrow a_n > L \\
+L > a^* \rightarrow \exists N \in \mathbb N, \forall n \ge N: a_n < L \\
+L < a_* \rightarrow \exists N \in \mathbb N, \forall n \ge N: a_n > L \\
 \lim_{n \rightarrow \infty} a_n = L \leftrightarrow \lim_{n\rightarrow \infty} \sup a_n = \lim_{n\rightarrow \infty} \inf a_n = L
 \end{align*}
 $$

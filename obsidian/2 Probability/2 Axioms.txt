@@ -181,19 +181,21 @@ $$
 \begin{align*}
 P(A|B) = \frac{P(A)P(B|A)}{P(B)} \\
 A = \text{hypothesis} \\
-B = \text{evidence}
+B = \text{condition}
 \end{align*}
 $$
 ---
 law of total probability
 
-- partition event into sum of itself and it's complement
+- partition event into sum of possible cases
 ---
 law of total probability formula
 
 $$
 \begin{align*}
-P(A) = P(B)P(A|B) + P(B^c)P(A|B^c)
+P(A) = \sum_{i=1}^n P(A|B_i)P(B_i) \\
+A = \text{hypothesis} \\
+B = \text{condition}
 \end{align*}
 $$
 ---

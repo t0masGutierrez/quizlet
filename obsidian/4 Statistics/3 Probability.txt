@@ -166,7 +166,21 @@ $$
 \begin{align*}
 P(A|B) = \frac{P(A)P(B|A)}{P(B)} \\
 A = \text{hypothesis} \\
-B = \text{evidence}
+B = \text{condition}
+\end{align*}
+$$
+---
+law of total probability
+
+- partition event into sum of possible cases
+---
+law of total probability formula
+
+$$
+\begin{align*}
+P(A) = \sum_{i=1}^n P(A|B_i)P(B_i) \\
+A = \text{hypothesis} \\
+B = \text{condition}
 \end{align*}
 $$
 ---
@@ -178,7 +192,7 @@ permutation formula
 
 $$
 \begin{align*}
-P(n, k) = \frac{n!}{(n-k)!} \\
+_nP_k = \frac{n!}{(n-k)!} = k!\begin{pmatrix} n \\ k \end{pmatrix}\\
 n = \text{number of objects} \\
 k = \text{number of arrangements}
 \end{align*}
@@ -192,7 +206,7 @@ combination formula
 
 $$
 \begin{align*}
-C(n, k) = \frac{n!}{k!(n-k)!} \\
+\begin{pmatrix} n \\ k \end{pmatrix} = \frac{n!}{k!(n-k)!} \\
 n = \text{number of objects} \\
 k = \text{number of choices}
 \end{align*}

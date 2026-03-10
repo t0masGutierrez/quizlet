@@ -90,6 +90,67 @@ b = \text{upper endpoint}
 \end{align*}
 $$
 ---
+normal probability density function
+
+- probability as function of mean and standard deviation
+---
+normal PDF probability formula
+
+$$
+\begin{align*}
+f(x) = \frac{\exp(\frac{-(x - \mu)^2}{2\sigma^2})}{\sigma\sqrt {2\pi}} \\
+\mu = \text{mean} \\
+\sigma = \text{standard deviation}
+\end{align*}
+$$
+---
+normal PDF mean formula
+
+$$
+\begin{align*}
+\mu = \mu \\
+\mu = \text{mean} 
+\end{align*}
+$$
+---
+normal PDF standard deviation formula
+
+$$
+\begin{align*}
+\sigma = \sigma \\
+\sigma = \text{standard deviation} 
+\end{align*}
+$$
+---
+standard normal probability density function
+
+- probability as function of z-score
+---
+standard normal PDF probability formula
+
+$$
+\begin{align*}
+f(x) = \frac{e^{-x^2/2}}{\sqrt {2\pi}} \\
+x = \text{z-score}
+\end{align*}
+$$
+---
+standard normal PDF mean formula
+
+$$
+\begin{align*}
+\mu = 0 
+\end{align*}
+$$
+---
+standard  normal PDF standard deviation formula
+
+$$
+\begin{align*}
+\sigma = 1
+\end{align*}
+$$
+---
 exponential probability density function
 
 - probability as function of the amount of time between events
@@ -122,62 +183,107 @@ $$
 \end{align*}
 $$
 ---
-normal probability density function
+gamma probability density function
 
-- probability as function of mean and standard deviation
+- probability as function of real number
 ---
-normal PDF probability formula
-
-$$
-\begin{align*}
-f(x) = \frac{\exp(\frac{-(x - \mu)^2}{2\sigma^2})}{\sigma\sqrt {2\pi}} \\
-\mu = \text{mean} \\
-\sigma = \text{standard deviation}
-\end{align*}
-$$
----
-standard normal probability density function
-
-- probability as function of z-score
----
-standard normal PDF probability formula
+gamma PDF probability formula
 
 $$
 \begin{align*}
-f(z) = \frac{e^{-z^2/2}}{\sqrt {2\pi}} \\
-z = \text{z-score}
+f(x) = \frac{\lambda^{\alpha}x^{\alpha-1}e^{-\lambda x}}{\Gamma(\alpha)} \\
+\lambda = \text{rate} \\
+\alpha = \text{shape} \\
+x = \text{real number} \\
+\Gamma = \text{gamma}
 \end{align*}
 $$
 ---
-student probability density function
+gamma PDF mean formula
+
+$$
+\begin{align*}
+\mu = \frac{\alpha}{\lambda} \\
+\alpha = \text{shape} \\
+\lambda = \text{rate} 
+\end{align*}
+$$
+---
+gamma PDF standard deviation formula
+
+$$
+\begin{align*}
+\mu = \sqrt\frac{\alpha}{\lambda^2} \\
+\alpha = \text{shape} \\
+\lambda = \text{rate} 
+\end{align*}
+$$
+---
+t probability density function
 
 - probability as function of t-statistic
 ---
-student PDF probability formula
+t PDF probability formula
 
 $$
 \begin{align*}
-f(x) = \frac{\Gamma(\frac{\nu+1}{2})}{ \Gamma(\frac{s^2}{2})\sqrt{\nu\pi}}(1+\frac{x^2}{\nu})^{-(\nu+1)/2} \\
-\nu = n-1 \\
+f(x) = \frac{\Gamma(\frac{d+1}{2})}{ \Gamma(\frac{d}{2})\sqrt{d\pi}}(1+\frac{x^2}{d})^{-(d+1)/2} \\
+d = n-1 \\
 \Gamma = \text{gamma} \\
-\nu = \text{degrees of freedom} \\
+d = \text{degrees of freedom} \\
 x = \text{t-statistic}
 \end{align*}
 $$
 ---
-chi-squared probability density function
-
-- probability as function of $\chi^2$-statistic
----
-chi-squared PDF probability formula
+t PDF mean formula
 
 $$
 \begin{align*}
-f(x) = \frac{x^{\nu/2 - 1}e^{-x/2}}{2^{\nu/2}\Gamma(\frac{\nu}{2})} \\
-\nu = n - 1 \\
+\mu = 0
+\end{align*}
+$$
+---
+t PDF standard deviation formula
+
+$$
+\begin{align*}
+\sigma = \sqrt \frac{d}{d-2} \\
+d = n - 1 \\
+d = \text{degrees of freedom}
+\end{align*}
+$$
+---
+chi-square probability density function
+
+- probability as function of $\chi^2$-statistic
+---
+chi-square PDF probability formula
+
+$$
+\begin{align*}
+f(x) = \frac{x^{d/2 - 1}e^{-x/2}}{2^{d/2}\Gamma(\frac{d}{2})} \\
+d = n - 1 \\
 x = \text{$\chi^2$-statistic} \\
 \Gamma = \text{gamma} \\
-\nu = \text{degrees of freedom} \\
+d = \text{degrees of freedom} \\
+\end{align*}
+$$
+---
+chi-square PDF mean formula
+
+$$
+\begin{align*}
+\mu = d = n - 1 \\
+d = \text{degrees of freedom}
+\end{align*}
+$$
+---
+chi-square PDF standard deviation formula
+
+$$
+\begin{align*}
+\sigma = \sqrt {2d} = \sqrt {2(n-1)} \\
+d = \text{degrees of freedom}
 \end{align*}
 $$
 ---
@@ -190,10 +296,31 @@ F PDF probability formula
 $$
 \begin{align*}
 f(x) = \frac{x^{0.5d_1 - 1}\Gamma(\frac{d_1+d_2}{2})(\frac{d_1}{d_2})^{0.5d_1}  
-(1 + \frac{d_1}{d_2}x)^{\frac{-d_1-d_2}{2}}}
-{\Gamma(\frac{d_1}{2})\Gamma(\frac{d_2}{2})} \\
+}
+{\Gamma(\frac{d_1}{2})\Gamma(\frac{d_2}{2})(1 + \frac{d_1}{d_2}x)^{\frac{-d_1-d_2}{2}}} \\
+d = n - 1 \\
 x = \text{F-statistic} \\
 \Gamma = \text{gamma} \\
+d = \text{degrees of freedom}
+\end{align*}
+$$
+---
+F PDF mean formula
+
+$$
+\begin{align*}
+\mu = \frac{d_2}{d_2 - 2} \\
+d = n - 1 \\
+d = \text{degrees of freedom}
+\end{align*}
+$$
+---
+F PDF standard deviation formula
+
+$$
+\begin{align*}
+\sigma = \sqrt {\frac{2d_2^2(d_1+d_2 - 2)}{d_1(d_2 - 2)^2(d_2 - 4)}} \\
+d = n - 1 \\
 d = \text{degrees of freedom}
 \end{align*}
 $$

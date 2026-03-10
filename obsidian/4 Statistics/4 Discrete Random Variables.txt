@@ -74,6 +74,7 @@ bernoulli PMF probability formula
 $$
 \begin{align*}
 P(X = k) = pq^{1-k} \\
+X = \text{random variable} \\
 n = \text{number of trials} \\
 k = \text{number of successes} \\
 p = \text{probability of success} \\
@@ -115,7 +116,8 @@ binomial PMF probability formula
 
 $$
 \begin{align*}
-P(X = k) = C(n, k)p^kq^{n-k} \\
+P(X = k) = \begin{pmatrix} n \\ k \end{pmatrix} p^kq^{n-k} \\
+X = \text{random variable} \\
 n = \text{number of trials} \\
 k = \text{number of successes} \\
 p = \text{probability of success} \\
@@ -144,9 +146,55 @@ q = \text{probability of failure}
 \end{align*}
 $$
 ---
+negative binomial probability mass function
+
+- probability as function of the number of trials until rth success
+---
+negative binomial PMF assumptions
+
+- two outcomes
+- random number of trials
+- constant probability of success
+- independent trials
+---
+negative binomial PMF probability formula
+
+$$
+\begin{align*}
+P(X = k) = \begin{pmatrix} k-1 \\ r - 1 \end{pmatrix} p^rq^{k-r} \\
+X = \text{random variable} \\
+k = \text{number of trials} \\
+r = \text{success number} \\
+p = \text{probability of success} \\
+q = \text{probability of failure} 
+\end{align*}
+$$
+---
+negative binomial PMF mean formula
+
+$$
+\begin{align*}
+\mu = \frac{r}{p} \\
+r = \text{success number} \\
+p = \text{probability of success}
+\end{align*}
+$$
+---
+negative binomial PMF standard deviation formula
+
+$$
+\begin{align*}
+\sigma = \sqrt \frac{rq}{p^2} \\
+r = \text{success number} \\
+q = \text{probability of failure} \\
+p = \text{probability of success} 
+\end{align*}
+$$
+---
 geometric probability mass function
 
 - probability as function of the number of trials until 1st success
+- probability as function of the number of failures before 1st success
 ---
 geometric PMF assumptions
 
@@ -159,10 +207,13 @@ geometric PMF probability formula
 
 $$
 \begin{align*}
-P(X = k) = pq^{k-1} \\
+P(X_1 = k_1) = pq^{k_1-1} \\
+P(X_2 = k_2) = pq^{k_2} \\
+X = \text{random variable} \\
 p = \text{probability of success} \\
 q = \text{probability of failure} \\
-k = \text{number of trials until 1st success}
+k_1 = \text{number of trials until 1st success} \\
+k_2 = \text{number of failures before 1st success}
 \end{align*}
 $$
 ---
@@ -170,8 +221,10 @@ geometric PMF mean formula
 
 $$
 \begin{align*}
-\mu = \frac{1}{p} \\
-p = \text{probability of success}
+\mu_1 = \frac{1}{p} \\
+\mu_2 = \frac{q}{p} \\
+p = \text{probability of success} \\
+q = \text{probability of failure}
 \end{align*}
 $$
 ---
@@ -179,7 +232,8 @@ geometric PMF standard deviation formula
 
 $$
 \begin{align*}
-\sigma = \frac{\sqrt {1 - p}}{p} \\
+\sigma = \sqrt \frac{q}{p^2} \\
+q = \text{probability of failure} \\
 p = \text{probability of success}
 \end{align*}
 $$
@@ -190,8 +244,7 @@ hypergeometric probability mass function
 ---
 hypergeometric PMF assumptions
 
-- two outcomes
-- fixed number of trials
+- finite population
 - variable probability of success
 - dependent trials
 ---
@@ -199,7 +252,8 @@ hypergeometric PMF probability formula
 
 $$
 \begin{align*}
-P(X = k) = \frac{C(K, k)C(N-K, n-k)}{C(N,n)} \\
+P(X = k) = \frac{\begin{pmatrix} K \\ k \end{pmatrix}\begin{pmatrix} N-K \\ n-k \end{pmatrix}}{\begin{pmatrix} N \\ n \end{pmatrix}} \\
+X = \text{random variable} \\
 K = \text{interest group size} \\
 k = \text{number of interest items drawn} \\
 N = \text{population size} \\
@@ -246,6 +300,7 @@ poisson PMF probability formula
 $$
 \begin{align*}
 P(X = k) = \frac{e^{-\lambda}\lambda^k}{k!} \\
+X = \text{random variable} \\
 k = \text{number of events within interval} \\
 \lambda = \text{average number of events per interval} 
 \end{align*}
@@ -265,7 +320,7 @@ poisson PMF standard deviation formula
 $$
 \begin{align*}
 \sigma = \sqrt \lambda \\
-\mu = \text{average number of events per interval}
+\lambda = \text{average number of events per interval}
 \end{align*}
 $$
 ---

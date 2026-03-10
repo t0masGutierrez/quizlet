@@ -14,25 +14,25 @@ inferential statistics
 
 - infer something about unknown data
 ---
+bar chart
+
+- compare univariate categorical data
+---
 box plot
 
-- compare numerical data
+- compare univariate numerical data
+---
+grouped box plot
+
+- compare multivariate mixed data
+---
+contingency table
+
+- compare bivariate categorical data
 ---
 scatter plot
 
-- compare numerical data
----
-line graph
-
-- compare numerical data
----
-bar graph
-
-- compare categorical data
----
-pie chart
-
-- compare categorical data
+- compare bivariate numerical data
 ---
 frequency
 
@@ -46,11 +46,6 @@ cumulative frequency
 
 - count of category including sum of all previous category
 ---
-contingency table
-
-- count of category contingent upon two category
-![[4 Statistics/Images/contingency table.png]]
----
 marginal frequency
 
 - total count of single category
@@ -63,66 +58,6 @@ histogram
 
 - frequency distribution
 ![[4 Statistics/Images/histogram.png|300]]
----
-class
-
-- divide continuous range of data into equal, consecutive, and distinct interval
----
-class formula
-
-$$
-\begin{align*}
-k = 1 + \lceil \frac{\log n}{\log 2}\rceil \\
-w = \frac{\max(x) - \min(x)}{k} \\
-k = \text{number of classes} \\
-w = \text{class width} \\
-n = \text{sample size}
-\end{align*}
-$$
----
-class midpoint
-
-- mean difference between upper class endpoint and lower class endpoint
----
-class midpoint formula
-
-$$
-\begin{align*}
-m_i = \frac{E_i + E_{i+1}}{2} \\
-E = \text{class endpoint}
-\end{align*}
-$$
----
-histogram mean
-
-- average histogram
----
-histogram mean formula
-
-$$
-\begin{align*}
-\mu = \frac{\sum_{i=1}^n f_im_i}{\sum_{i=1}^n f_i} \\
-n = \text{sample size} \\
-f = \text{frequency} \\
-m = \text{class midpoint} 
-\end{align*}
-$$
----
-histogram standard deviation
-
-- average difference between histogram and mean
----
-histogram standard deviation formula
-
-$$
-\begin{align*}
-s = \sqrt{\frac{\sum_{i=1}^nf_im_i^2}{n} - \mu ^2} \\
-n = \text{sample size} \\
-f = \text{frequency} \\
-m = \text{class midpoint} \\
-\bar x = \text{mean}
-\end{align*}
-$$
 ---
 uniform distribution
 
@@ -147,7 +82,7 @@ positive skew distribution
 measure of center
 
 - center of data
-- mean median and mode
+- mean, median, and mode
 ---
 mean
 
@@ -195,12 +130,6 @@ standard deviation
 
 - average difference between data and mean
 ---
-chebyshev rule
-
-- $\ge$ 75% of data within 2 standard deviation
-- $\ge$ 89% of data within 3 standard deviation
-- $\ge$ 95% of data within 4.5 standard deviation
----
 empirical rule
 
 - 68% of normal data within 1 standard deviation
@@ -239,58 +168,10 @@ $$
 measure of position
 
 - location of data
-- z score, 5 number summary, and percentile
----
-z score
-
-- number of standard deviations from mean
----
-z score formula
-
-$$
-\begin{align*}
-z = \frac{x - \mu}{\sigma} \\
-x = \text{datum} \\
-\bar x = \text{mean} \\
-s = \text{standard deviation}
-\end{align*}
-$$
+- 5 number summary
 ---
 5 number summary
 
 - min Q1 median Q3 max
 ![[4 Statistics/Images/5 number summary.png|300]]
----
-percentile
-
-- convert percentile into data
----
-percentile formula
-
-$$
-\begin{align*}
-\text{sort}(x) \rightarrow i = \frac{k}{100}(n+1) \\
-x = \text{data} \\
-i = \text{index} \\
-k = \text{percentile} \\
-n = \text{sample size}
-\end{align*}
-$$
----
-inverse percentile
-
-- convert data into percentile
----
-inverse percentile formula
-
-$$
-\begin{align*}
-\text{sort}(x) \rightarrow k = 100(\frac{|x_j < x_i| + 0.5|x_j = x_i|}{n}) \\
-x = \text{data} \\
-k = \text{percentile} \\
-x_j = \text{nontarget data} \\
-x_i = \text{target data} \\
-n = \text{sample size}
-\end{align*}
-$$
 ---

@@ -97,7 +97,7 @@ limit point formula
 
 $$
 \begin{align*}
-S \subset X, \forall r > 0: (N_r(x_0) \setminus \{x_0\}) \cap S \ne \emptyset \\
+S \subset X, \forall r > 0: N_r(x_0) \setminus \{x_0\} \cap S \ne \emptyset \\
 X = \text{metric space} \\
 r = \text{radius} \\
 N = \text{neighborhood} \\
@@ -185,15 +185,30 @@ X = \text{metric space}
 \end{align*}
 $$
 ---
+interior
+
+- largest open subset of the set
+---
+interior formula
+
+$$
+\begin{align*}
+S^{\circ} = \{x \in X|\exists r > 0: N_r(x) \subset S\} \\
+x = \text{interior point} \\
+X = \text{metric space} \\
+N = \text{neighborhood}
+\end{align*}
+$$
+---
 closure
 
-- union between set and derived set
+- smallest closed superset of the set
 ---
 closure formula
 
 $$
 \begin{align*}
-\bar S = S \cup S' \\
+S \subset \overline S = S \cup S' \\
 S' = \text{derived set}
 \end{align*}
 $$
@@ -208,9 +223,9 @@ closure property formula
 
 $$
 \begin{align*}
-\bar S' \subset \bar S \subset X \\
-S' \subset S \subset X \leftrightarrow \bar S = S \\
-(S \subset K) \land (K' \subset K \subset X) \rightarrow \bar S \subset K
+\overline S' \subset \overline S \subset X \\
+S' \subset S \subset X \leftrightarrow \overline S = S \\
+(S \subset K) \land (K' \subset K \subset X) \rightarrow \overline S \subset K
 \end{align*}
 $$
 ---
@@ -222,9 +237,25 @@ supremum closure property formula
 
 $$
 \begin{align*}
-S \subset X \rightarrow \exists \sup \bar S \\
+S \subset X \rightarrow \exists \sup \overline S \\
 X = \text{metric space} \\
-\bar S = \text{closure}
+\overline S = \text{closure}
+\end{align*}
+$$
+---
+boundary
+
+- intersection of set and complement of set
+---
+boundary formula
+
+$$
+\begin{align*}
+\partial S = \overline S \setminus S^{\circ} = \overline S \cap \overline {S^c} = \set {x \in X| \forall r > 0: N_r(x) \cap S \ne \emptyset \land N_r(x) \cap S^c \ne \emptyset}\\
+\overline S = \text{closure} \\
+S^{\circ} = \text{interior} \\
+c = \text{complement} \\
+N = \text{neighborhood}
 \end{align*}
 $$
 ---
@@ -236,9 +267,9 @@ dense formula
 
 $$
 \begin{align*}
-S \subset \bar S = X \\
+S \subset \overline S = X \\
 S = \text{dense set} \\
-\bar S = \text{closure} \\
+\overline S = \text{closure} \\
 X = \text{metric space} \\
 \end{align*}
 $$
@@ -255,8 +286,40 @@ S \subset X, \exists x_0 \in X, \exists r > 0: S \subset B_r(x_0) \\
 S = \text{bounded set} \\
 X = \text{metric space} \\
 x_0 = \text{center} \\
-r = \text{radius} \\
-\text{d} = \text{metric}
+r = \text{radius} 
+\end{align*}
+$$
+---
+totally bounded
+
+- every point of totally bounded set within finite cover of open ball
+---
+totally bounded formula
+
+$$
+\begin{align*}
+S \subset X, \forall \epsilon > 0, \exists \set {a_i}_{i=1}^{n} \subset X: S \subset \bigcup_{i=1}^n B_{\epsilon}(x_i) \\
+S = \text{totally bounded set} \\
+X = \text{metric space} \\
+a_n = \text{sequence} \\
+B = \text{open ball} \\
+x_i = \text{center}
+\end{align*}
+$$
+---
+totally bounded property
+
+- forward
+- reverse
+- complete
+---
+totally bounded property formula
+
+$$
+\begin{align*}
+S \subset X, \forall \epsilon > 0, \exists \set {x_i}_{i=1}^{n} \subset X: S \subset \bigcup_{i=1}^n B_{\epsilon}(x_i) \rightarrow \exists x_0 \in X, \exists r > 0: S \subset B_r(x_0) \\
+S \subset X, \exists x_0 \in X, \exists r > 0: S \subset B_r(x_0) \not\rightarrow \forall \epsilon > 0, \exists \set {x_i}_{i=1}^{n} \subset X: S \subset \bigcup_{i=1}^n B_{\epsilon}(x_i) \\
+S \subset \mathbb R^k, \forall \epsilon > 0, \exists \set {x_i}_{i=1}^{n} \subset \mathbb R^k: S \subset \bigcup_{i=1}^n B_{\epsilon}(x_i) \leftrightarrow \exists x_0 \in \mathbb R^k, \exists r > 0: S \subset B_r(x_0)
 \end{align*}
 $$
 ---
@@ -269,8 +332,8 @@ cover property formula
 
 $$
 \begin{align*}
-\emptyset \subset X, \forall x \in \emptyset , \exists r > 0: N_r(x) \subset \emptyset, X \\
-\emptyset', X' \subset \emptyset, X \ne \emptyset
+\forall x \in \emptyset, X, \exists r > 0: N_r(x) \subset \emptyset, X \\
+\emptyset', X' \subset \emptyset, X 
 \end{align*}
 $$
 ---
@@ -284,6 +347,7 @@ $$
 \begin{align*}
 (a, b) = S \subset X \rightarrow S' = [a, b] \\
 S = \text{interval} \\
+S' = \text{derived set} \\
 X = \text{metric space}
 \end{align*}
 $$

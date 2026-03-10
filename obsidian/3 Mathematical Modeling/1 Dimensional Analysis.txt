@@ -187,13 +187,13 @@ buckingham pi property
 - convert matrix into reduced row echelon form
 - back substitute for the fundamental solution set
 - dimensional exponent of first target dimensionless power product equal 1 and dimensional exponent of additional target dimensionless power product equal 0
-- every physically meaningful equation expressible as relationship between $m-n$ dimensionless power product
+- every physically meaningful equation expressible as relationship between $n-m-1$ dimensionless power product
 ---
 buckingham pi property formula
 
 $$
 \begin{align*}
-q_1 = f(q_2, \dots, q_n) \sim \pi_1 = \phi (\pi_2, \dots, \pi_{n-m}) \\
+q_1 = f(q_2, \dots, q_n) \sim \pi_1 = \phi (\pi_2, \dots, \pi_{n-m-1}) \\
 [\pi] = 1 \leftrightarrow \Delta_\pi = \sum_{i=1}^n b_i\Delta_{q_i} = A\vec b = 0 \\
 A = [\Delta q_1, \dots, \Delta q_n] \in \mathcal M_{mn} \\
 \vec b = [b_1, \dots, b_n] \in \mathbb R^n \\

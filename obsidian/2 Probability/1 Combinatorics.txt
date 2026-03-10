@@ -34,39 +34,9 @@ permutation formula
 
 $$
 \begin{align*}
-P(n, k) = \frac{n!}{(n - k)!} = n(n - 1)(n - 2) ... (n - k + 1) \\ 
+_nP_k = \frac{n!}{(n - k)!} = k!\begin{pmatrix} n \\ k \end{pmatrix} \\ 
 n = \text{number of objects} \\
 k = \text{number of arrangements}
-\end{align*}
-$$
----
-replaceable permutation
-
-- number of ways to arrange replaceable objects with order
----
-replaceable permutation formula
-
-$$
-\begin{align*}
-P(n, k) = n^k \\ 
-n = \text{number of objects} \\
-k = \text{number of arrangements}
-\end{align*}
-$$
----
-common permutation
-
-- number of ways to arrange common objects with order
----
-common permutation formula
-
-$$
-\begin{align*}
-P(n, k) = \frac{n!}{\prod_{i=1}^rm_i!} \\
-n = \text{number of objects} \\
-k = \text{number of arrangements} \\
-m = \text{number of common objects} \\
-r = \text{number of common arrangements} 
 \end{align*}
 $$
 ---
@@ -78,38 +48,9 @@ combination formula
 
 $$
 \begin{align*}
-C(n, k) = \frac{n!}{k!(n - k)!} = \frac{n(n - 1)(n - 2) ... (n - k + 1)}{k!} \\
+C(n, k) = \frac{n!}{k!(n - k)!} \\
 n = \text{number of objects} \\
 k = \text{number of choices}
-\end{align*}
-$$
----
-replaceable combination
-
-- number of ways to choose replaceable objects without order
----
-replaceable combination formula
-
-$$
-\begin{align*}
-C(n+k-1, k) = \frac{(n + k - 1)!}{k!(n - 1)!} = \frac{n(n + 1)(n + 2) ... (n + k - 1)}{k!} \\
-n = \text{number of objects} \\
-k = \text{number of choices}
-\end{align*}
-$$
----
-multinomial combination
-
-- number of divisions into distinct nonoverlapping subgroups
----
-multinomial combination formula
-
-$$
-\begin{align*}
-C(n, m_1, m_2, \dots, m_k) = \frac{n!}{\prod_{i=1}^k m_i!} \\
-n = \text{number of objects} \\
-m = \text{number of submembers} \\
-k = \text{number of subgroups}
 \end{align*}
 $$
 ---
@@ -124,19 +65,6 @@ $$
 (x + y)^n = \sum_{k=0}^n C(n, k)x^ky^{n - k} \\
 n = \text{number of objects} \\
 k = \text{number of choices}
-\end{align*}
-$$
----
-power number
-
-- number of subsets
----
-power number formula
-
-$$
-\begin{align*}
-\mathcal{P}(A) = 2^n \\
-n = \text{number of elements}
 \end{align*}
 $$
 ---
