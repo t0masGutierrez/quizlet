@@ -36,7 +36,7 @@ def format():
                             lines = git.readlines()
 
                             # loop through lines inside github file
-                            for i in range(len(lines)-2):
+                            for i in range(len(lines)-1):
                                 pattern = not lines[i].startswith("- ") and lines[i+1].startswith("- ") 
                                 pattern1 = lines[i+1].startswith("$$") and not lines[i+2].startswith("---")
                                 pattern2 = lines[i].startswith("$$") and lines[i+1].startswith("---") 
