@@ -9,6 +9,7 @@ S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \\
 u = \text{upper bound} 
 \end{aligned}
 $$
+
 ---
 ### bounded below
 - there exist lower bound such that every element of set greater or equal lower bound
