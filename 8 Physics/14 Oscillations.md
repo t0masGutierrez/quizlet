@@ -1,6 +1,5 @@
 ### periodic motion
 - motion that repeats itself at regular time intervals
-![[8 Physics/Images/periodic motion.png]]
 ---
 ### period
 - time between 1 revolution
@@ -42,7 +41,6 @@ $$
 ---
 ### simple harmonic motion
 - periodic motion where object oscillate about equilibrium with restoring force directly proportional displacement
-![[8 Physics/Images/simple harmonic motion.png|400]]
 ---
 ### simple harmonic motion formula
 
@@ -64,13 +62,11 @@ $$
 ---
 ### phase angle
 - temporal difference of simple harmonic motion
-![[8 Physics/Images/phase angle1.png]]
 ---
 ### maximum simple harmonic motion
 - maximum displacement where $x = \pm A$ 
 - maximum velocity where $x = 0$ 
 - maximum acceleration where $x = \pm A$ 
-![[8 Physics/Images/maximum simple harmonic motion.png]]
 ---
 ### maximum simple harmonic motion formula
 
@@ -87,7 +83,6 @@ $$
 ---
 ### simple harmonic motion energy
 - constant oscillation between potential energy and kinetic energy
-![[8 Physics/Images/simple harmonic motion mechanical energy.png]]
 ---
 ### simple harmonic motion energy formula
 
@@ -104,14 +99,12 @@ $$
 ---
 ### energy diagram
 - energy as function of position
-![[8 Physics/Images/energy diagram1.png]]
 ---
 ### turning point
 - point where potential energy approaches total mechanical energy and turns around
 ---
 ### equilibrium point
 - local extrema point where zero force acting on system
-![[8 Physics/Images/equilibrium point.png]]
 ---
 ### equilibrium stability
 - stable equilibrium point equal minimum where changes return position 
@@ -119,7 +112,6 @@ $$
 ---
 ### spring mass
 - restoring force by spring on mass directly proportional displacement
-![[8 Physics/Images/spring mass.png|300]]
 ---
 ### angular frequency formula
 
@@ -134,7 +126,6 @@ $$
 ---
 ### simple pendulum
 - point mass swinging on string under the force of gravity
-![[8 Physics/Images/simple pendulum.png]]
 ---
 ### angular frequency formula
 
@@ -149,7 +140,6 @@ $$
 ---
 ### physical pendulum
 - distribution of mass swinging about axis of rotation under the force of gravity
-![[8 Physics/Images/physical pendulum.png]]
 ---
 ### angular frequency formula
 
@@ -166,7 +156,6 @@ $$
 ---
 ### damped oscillation
 - decreasing periodic motion by subtracting energy via damping force
-![[8 Physics/Images/damped oscillation.png|500]]
 ---
 ### damped oscillation formula
 

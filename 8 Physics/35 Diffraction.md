@@ -1,15 +1,12 @@
 ### diffraction
 - bending and spreading of waves upon encountering obstacle or transmitting through narrow aperture
-![[8 Physics/Images/diffraction.png|300]]
 ---
 ### fresnel versus fraunhofer
 - fresnel diffraction equal near field
 - fraunhofer diffraction equal far field
-![[8 Physics/Images/fresnel versus fraunhofer.png|400]]
 ---
 ### single slit diffraction
 - transmission of coherent light through single slit of finite width demonstrate wave nature of light propagation and principle of superposition
-![[8 Physics/Images/single slit diffraction.png|500]]
 ---
 ### single slit destructive diffraction formula
 
@@ -26,7 +23,6 @@ $$
 ---
 ### single slit amplitude
 - amplitude of single slit diffraction equal the sum of amplitudes
-![[8 Physics/Images/single slit amplitude.png|300]]
 ---
 ### single slit amplitude formula
 
@@ -42,7 +38,6 @@ $$
 ### single slit intensity
 - minimum intensity where path difference equal integer multiple of $\lambda$ 
 - minimum intensity where phase angle equal even multiple of $\pi$ 
-![[8 Physics/Images/single slit intensity.png|300]]
 ---
 ### single slit intensity formula
 
@@ -69,7 +64,6 @@ $$
 ---
 ### double slit intensity
 - superposition of interference and diffraction
-![[8 Physics/Images/double slit diffraction.png|400]]
 ---
 ### double slit intensity formula
 
@@ -89,15 +83,12 @@ $$
 - missing interference order equal diffraction order
 - 1st interference order equal 0
 - 1st diffraction order equal 1
-![[8 Physics/Images/graph double slit intensity.png]]
 ---
 ### diffraction grating
 - diffraction as the number of slits approaches infinity
-![[8 Physics/Images/diffraction grating.png|300]]
 ---
 ### circular diffraction
 - bending and spreading of waves upon transmission of light through narrow circular opening
-![[8 Physics/Images/circular diffraction.png|400]]
 ---
 ### destructive circular diffraction formula
 
@@ -129,7 +120,6 @@ $$
 ---
 ### rayleigh criterion
 - limit of resolution equal intersection between central maximum and 1st minimum
-![[8 Physics/Images/rayleigh criterion.png|400]]
 ---
 ### calculate rayleigh criterion
 - angular position less rayleigh criterion equal blurry image
@@ -138,7 +128,6 @@ $$
 ---
 ### diffraction limit
 - fundamental boundary on focal precision due to diffraction
-![[8 Physics/Images/diffraction limit.png]]
 ---
 ### diffraction limit formula
 

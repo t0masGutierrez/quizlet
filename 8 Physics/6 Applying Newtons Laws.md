@@ -5,11 +5,9 @@
 - formulate newtons 2nd law for all scalar components
 - equilibrium equal $\sum F = 0$ 
 - non equilibrium equal $\sum F = ma$ 
-![[8 Physics/Images/atwood machine.png|400]]
 ---
 ### friction force
 - resistive force by surface on object
-![[8 Physics/Images/friction force.png|400]]
 ---
 ### friction force formula
 
@@ -68,7 +66,6 @@ $$
 ---
 ### ideal bank curve
 - centripetal force equal normal force
-![[8 Physics/Images/ideal bank curve.png]]
 ---
 ### ideal bank curve velocity formula
 

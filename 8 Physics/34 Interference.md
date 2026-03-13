@@ -1,37 +1,30 @@
 ### electromagnetic wave
 - oscillatory disturbances that propagate through space and transfer electromagnetic energy
-![[8 Physics/Images/electromagnetic wave1.png]]
 ---
 ### huygens principle
 - every point on wavefront acts as source of secondary wavelets traveling at the same wave velocity and the wavefront at later time equal the tangent surface of these wavelets
-![[8 Physics/Images/huygens principle.png|400]]
 ---
 ### monochromaticity 
 - light of narrow bandwidth
 ---
 ### coherence
 - constant phase angle between monochromatic waves
-![[8 Physics/Images/coherence.png|300]]
 ---
 ### incoherence
 - random phase angle between polychromatic waves
-![[8 Physics/Images/incoherence.png|300]]
 ---
 ### double slit interference
 - transmission of coherent light through double slit demonstrate wave nature of light propagation and principle of superposition
-![[8 Physics/Images/double slit experiment.png|400]]
 ---
 ### superposition
 - combination of two or more waves equal the sum of amplitudes
 ---
 ### interference
 - fringe pattern as result of superposition
-![[8 Physics/Images/interference.png|400]]
 ---
 ### constructive interference
 - combination of two or more waves equal larger wave
 - phase angle equal 0
-![[8 Physics/Images/constructive interference1.png|300]]
 ---
 ### constructive interference formula
 
@@ -47,7 +40,6 @@ $$
 ### destructive interference
 - combination of two or more waves equal smaller wave
 - phase angle equal $\pi$ 
-![[8 Physics/Images/destructive interference1.png|300]]
 ---
 ### destructive interference formula
 
@@ -62,7 +54,6 @@ $$
 ---
 ### path difference
 - interference dependent path between double slit and common point
-![[8 Physics/Images/path difference.png|400]]
 ---
 ### constructive path difference formula
 
@@ -92,7 +83,6 @@ $$
 ---
 ### small angle approximation
 - small angular position between central fringe and $m^{th}$ fringe
-![[8 Physics/Images/small angle approximation.png|300]]
 ---
 ### small angle approximation formula
 
@@ -109,11 +99,9 @@ $$
 ---
 ### triple slit interference
 - transmission of coherent light through triple slit demonstrate wave nature of light propagation and principle of superposition
-![[8 Physics/Images/triple slit interference.png|300]]
 ---
 ### multiple slit interference
 - transmission of coherent light through multiple slit demonstrate wave nature of light propagation and principle of superposition
-![[8 Physics/Images/multiple slit interference.png|500]]
 ---
 ### principal maxima
 - point where all waves interfere constructively with maximum intensity
@@ -134,7 +122,6 @@ $$
 ---
 ### double slit amplitude
 - amplitude of double slit interference equal the sum of amplitudes 
-![[8 Physics/Images/double slit amplitude.png|200]]
 ---
 ### double slit amplitude formula
 
@@ -150,7 +137,6 @@ $$
 ### double slit intensity
 - maximum intensity where path difference equal integer multiple of $\lambda$ 
 - maximum intensity where phase angle equal even multiple of $\pi$ 
-![[8 Physics/Images/double slit intensity.png]]
 ---
 ### double slit intensity formula
 
@@ -179,7 +165,6 @@ $$
 ---
 ### thin film interference
 - interference of light upon interaction with thin layer of material
-![[8 Physics/Images/thin film interference.png|200]]
 ---
 ### calculate thin film interference
 - partial reflection of incident ray
@@ -190,7 +175,6 @@ $$
 ---
 ### fringe spacing
 - distance between adjacent fringe as result of thin film interference
-![[8 Physics/Images/fringe spacing.png|400]]
 ---
 ### fringe spacing formula
 
@@ -206,7 +190,6 @@ $$
 ### thin film same phase angle
 - reflection against material with lower refraction index equal 0 phase angle
 - reflection against material with higher refraction index equal $\pi$ phase angle
-![[8 Physics/Images/thin film same phase angle.png|300]]
 ---
 ### same constructive interference formula
 
@@ -237,7 +220,6 @@ $$
 ### thin film different phase angle
 - from high to low equal no phase angle
 - from low to high equal $\pi$ phase angle
-![[8 Physics/Images/thin film different phase angle.png|400]]
 ---
 ### different constructive interference formula
 
@@ -268,5 +250,4 @@ $$
 ### thin film versus thick film
 - thin film equal coherent light
 - thick film equal incoherent light
-![[8 Physics/Images/thin film versus thick film.png|400]]
 ---

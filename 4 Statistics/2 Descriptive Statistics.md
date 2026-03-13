@@ -43,23 +43,18 @@
 ---
 ### histogram
 - frequency distribution
-![[4 Statistics/Images/histogram.png|300]]
 ---
 ### uniform distribution
 - flat curve
-![[4 Statistics/Images/uniform distribution.png|300]]
 ---
 ### symmetrical distribution
 - bell shaped curve
-![[4 Statistics/Images/symmetrical distribution.png|400]]
 ---
 ### negative skew distribution
 - long left tail
-![[4 Statistics/Images/negative skew distribution.png|200]]
 ---
 ### positive skew distribution
 - long right tail
-![[4 Statistics/Images/positive skew distribution.png|200]]
 ---
 ### measure of center
 - center of data
@@ -104,7 +99,6 @@
 - 68% of normal data within 1 standard deviation
 - 95% of normal data within 2 standard deviation
 - 99.7% of normal data within 3 standard deviation
-![[4 Statistics/Images/empirical rule.png|400]]
 ---
 ### empirical rule of thumb
 - two standard deviation equal significant deviation
@@ -140,5 +134,4 @@ $$
 ---
 ### 5 number summary
 - min Q1 median Q3 max
-![[4 Statistics/Images/5 number summary.png|300]]
 ---

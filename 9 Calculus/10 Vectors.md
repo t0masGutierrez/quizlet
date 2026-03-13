@@ -6,7 +6,6 @@
 ---
 ### unit vector
 - vector with magnitude of 1 that specify direction without scaling
-![[9 Calculus/Images/unit vector.png|300]]
 ---
 ### unit vector formula
 
@@ -21,7 +20,6 @@ $$
 ### component
 - horizontal change equal *x* component
 - vertical change equal *y* component
-![[8 Physics/Images/component.png|500]]
 ---
 ### scalar component formula
 
@@ -80,7 +78,6 @@ $$
 ### inverse tangent range
 - $[\frac{-\pi}{2} \le \theta \le \frac{\pi}{2}] = [-90 \le \theta \le 90] = Q_1 \lor Q_4$  
 - if $A_x < 0$ then 180 addition with direction
-![[8 Physics/Images/inverse tangent range.png]]
 ---
 ### vector equality
 - if $A \ne B$ then unequal magnitude or unequal direction
@@ -156,23 +153,19 @@ $$
 ### graphical vector addition
 - vector *B* starts where vector *A* ends
 - vector sum *C* equal diagonal from where vector *A* starts to where vector *B* ends
-![[8 Physics/Images/graphical vector addition.png]]
 ---
 ### parallelogram vector addition
 - both vectors start at the same origin
 - construct two parallel vectors
 - vector sum *C* equal diagonal from origin to where parallel vectors intersect
-![[8 Physics/Images/parallelogram vector addition.png]]
 ---
 ### graphical vector subtraction
 - antiparallel vector *B* starts where vector *A* ends
 - vector sum equal diagonal from where vector *A* starts to where antiparallel vector *B* ends
-![[8 Physics/Images/graphical vector subtraction.png|300]]
 ---
 ### dot product
 - scalar quantity of similarity between two vectors
 - aka scalar product
-![[9 Calculus/Images/dot product.png]]
 ---
 ### dot product formula
 
@@ -212,7 +205,6 @@ $$
 ### cross product
 - vector quantity of dissimilarity between two vectors
 - aka vector product
-![[8 Physics/Images/cross product.png]]
 ---
 ### cross product formula
 
@@ -256,7 +248,6 @@ $$
 ---
 ### triple scalar product
 - scalar quantity of parallelogram volume between three vectors
-![[8 Physics/Images/triple scalar product.png]]
 ---
 ### scalar triple product formula
 
@@ -302,7 +293,6 @@ $$
 - x dimension
 - y dimension
 - z dimension
-![[9 Calculus/Images/3 dimension coordinate system.png|300]]
 ---
 ### linear direction angle
 - angle between lines
@@ -320,7 +310,6 @@ $$
 ---
 ### linear direction vector
 - vector parallel line
-![[9 Calculus/Images/linear direction vector.png]]
 ---
 ### linear direction vector formula
 
@@ -336,7 +325,6 @@ $$
 ---
 ### vector equation of 3d line
 - for all parameters there exists distinct position vector that corresponds with point on line
-![[9 Calculus/Images/vector equation of 3d line.png]]
 ---
 ### vector formula of 3d line
 
@@ -353,7 +341,6 @@ $$
 ---
 ### parametric equation of 3d line
 - for all parameters there exists distinct position vector that corresponds with point on line
-![[9 Calculus/Images/parametric equation of 3d line.png]]
 ---
 ### parametric equation of 3d line
 
@@ -383,7 +370,6 @@ $$
 ---
 ### planar direction vector
 - vector perpendicular plane
-![[9 Calculus/Images/planar direction vector.png]]
 ---
 ### planar direction vector formula
 
@@ -399,7 +385,6 @@ $$
 ---
 ### vector equation of 3d plane
 - for all directions there exists distinct position vector that corresponds with point on plane
-![[9 Calculus/Images/vector equation of 3d plane.png]]
 ---
 ### vector formula of 3d plane
 
@@ -424,15 +409,12 @@ $$
 ---
 ### parallel plane
 - scalar multiple of direction vector
-![[9 Calculus/Images/parallel plane.png]]
 ---
 ### perpendicular plane
 - dot product of direction vector equal zero
-![[9 Calculus/Images/perpendicular plane.png]]
 ---
 ### intersecting plane
 - intersection equal 3d line
-![[9 Calculus/Images/intersecting plane.png]]
 ---
 ### linear distance
 - length between point and line

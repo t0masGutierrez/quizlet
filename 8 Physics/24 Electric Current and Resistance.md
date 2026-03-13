@@ -1,7 +1,6 @@
 ### drift velocity
 - average velocity of unbound electric charge with electric field
 - zero velocity of unbound electric charge without electric field
-![[8 Physics/Images/drift velocity.png|250]]
 ---
 ### drift velocity formula
 
@@ -36,7 +35,6 @@ $$
 ---
 ### electric current
 - rate of electric charge flow
-![[8 Physics/Images/electric current.png|300]]
 ---
 ### electric current formula
 
@@ -57,7 +55,6 @@ $$
 ---
 ### electric current density
 - measure of electric current compactness
-![[8 Physics/Images/electric current density.png|300]]
 ---
 ### electric current density formula
 
@@ -95,7 +92,6 @@ $$
 ---
 ### resistivity
 - how strongly material oppose the flow of electric charge
-![[8 Physics/Images/resistivity.png|500]]
 ---
 ### resistivity formula
 
@@ -110,7 +106,6 @@ $$
 ---
 ### temperature resistivity
 - how strongly material oppose the flow of electric charge dependent temperature of material
-![[8 Physics/Images/temperature resistivity.png]]
 ---
 ### temperature resistivity formula
 
@@ -126,7 +121,6 @@ $$
 ---
 ### resistance
 - difficulty of electric charge flow
-![[8 Physics/Images/resistance.png|300]]
 ---
 ### resistance formula
 
@@ -166,11 +160,9 @@ $$
 ---
 ### resistor
 - electric component designed to resist electric current
-![[8 Physics/Images/resistor.png|400]]
 ---
 ### ohms law
 - electric current directly proportional voltage and inversely proportional resistance
-![[8 Physics/Images/ohms law.png|300]]
 ---
 ### ohms formula
 
@@ -203,11 +195,9 @@ $$
 - electric current
 - voltage
 - resistance
-![[8 Physics/Images/ohms law and power.png]]
 ---
 ### electromotive force
 - generate voltage by moving electric charge from low potential to high potential
-![[8 Physics/Images/electromotive force.png|400]]
 ---
 ### electromotive force formula
 
@@ -224,11 +214,9 @@ $$
 ---
 ### internal resistance
 - difficulty of electric charge flow inside voltage source
-![[8 Physics/Images/internal resistance.png]]
 ---
 ### terminal voltage
 - electric potential difference after experiencing internal resistance 
-![[8 Physics/Images/terminal voltage.png]]
 ---
 ### terminal voltage formula
 
@@ -272,7 +260,6 @@ $$
 ---
 ### net power
 - rate of energy transfer after experiencing internal resistance
-![[8 Physics/Images/total power.png|250]]
 ---
 ### net power formula
 
@@ -290,7 +277,6 @@ $$
 ---
 ### battery
 - voltage source
-![[8 Physics/Images/battery.png]]
 ---
 ### calculate battery
 - connect voltage source equal constant voltage

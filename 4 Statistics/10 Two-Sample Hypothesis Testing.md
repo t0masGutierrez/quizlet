@@ -131,7 +131,6 @@ $$
 ---
 ### F distribution
 - probability distribution of sample statistic that describes the variability of random sampling of the same size from the same population
-![[4 Statistics/Images/F distribution.png]]
 ---
 ### sample variance
 - point estimate of population variance

@@ -1,6 +1,5 @@
 ### work
 - transfer of energy from the application of force causing displacement parallel force
-![[8 Physics/Images/work.png|300]]
 ---
 ### constant work formula
 
@@ -32,7 +31,6 @@ $$
 ---
 ### hookes law
 - restoring force by spring directly proportional displacement
-![[8 Physics/Images/hookes law.png|400]]
 ---
 ### hookes formula
 
@@ -47,7 +45,6 @@ $$
 ---
 ### hookes work
 - transfer of energy from the application of restoring force causing displacement parallel force
-![[8 Physics/Images/hookes work.png|300]]
 ---
 ### hookes work formula
 
@@ -76,7 +73,6 @@ $$
 ---
 ### net work
 - work done by net force acting on object
-![[8 Physics/Images/net work.png]]
 ---
 ### net work formula
 

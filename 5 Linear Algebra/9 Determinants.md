@@ -260,7 +260,6 @@ $$
 - matrix row equivalent with identity matrix
 - every solution equal trivial solution for homogeneous system
 - there exists unique solution for heterogeneous system
-![[5 Linear Algebra/Images/singularity summary.png]]
 ---
 ### identity matrix determinant
 - product of 1's along the main diagonal

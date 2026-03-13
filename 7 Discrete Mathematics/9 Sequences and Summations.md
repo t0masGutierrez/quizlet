@@ -1,6 +1,5 @@
 ### sequence
 - ordered collection of objects
-![[7 Discrete Mathematics/Images/sequence.png]]
 ---
 ### sequence formula
 
@@ -77,7 +76,6 @@ $$
 ---
 ### summation
 - sum of terms
-![[7 Discrete Mathematics/Images/summation.png]]
 ---
 ### summation formula
 

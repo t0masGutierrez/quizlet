@@ -16,7 +16,6 @@ $$
 ### union
 - joining of either set
 - or
-![[7 Discrete Mathematics/Images/union.png]]
 ---
 ### union formula
 
@@ -30,7 +29,6 @@ $$
 ### intersection
 - joining of both set
 - and
-![[7 Discrete Mathematics/Images/intersection.png]]
 ---
 ### intersection formula
 
@@ -44,7 +42,6 @@ $$
 ### subtraction
 - complement of A with respect to B
 - small not
-![[7 Discrete Mathematics/Images/subtraction.png]]
 ---
 ### subtraction formula
 
@@ -58,7 +55,6 @@ $$
 ### complementation
 - complement of A with respect to U
 - big not
-![[7 Discrete Mathematics/Images/complementation.png]]
 ---
 ### complementation formula
 
@@ -101,13 +97,11 @@ $$
 ---
 ### set identity
 - set expression that satisfy the requirements of tautology
-![[7 Discrete Mathematics/Images/set identity.png]]
 ---
 ### prove set identity
 - subset method
 - membership method
 - identity method
-![[7 Discrete Mathematics/Images/prove set identity.png]]
 ---
 ### union of set collection
 - set containing elements of at least 1 set

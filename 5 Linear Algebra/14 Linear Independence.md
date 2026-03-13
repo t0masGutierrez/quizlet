@@ -189,5 +189,4 @@ $$
 - zero coefficient
 - no redundant vector
 - finite subset linear independence
-![[5 Linear Algebra/Images/linear independence summary.png]]
 ---

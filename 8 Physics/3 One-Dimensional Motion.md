@@ -13,7 +13,6 @@ $$
 ---
 ### displacement
 - vector change of position
-![[8 Physics/Images/displacement.png]]
 ---
 ### displacement formula
 
@@ -28,7 +27,6 @@ $$
 ---
 ### distance
 - scalar length of path
-![[8 Physics/Images/distance.png]]
 ---
 ### distance formula
 
@@ -97,7 +95,6 @@ $$
 ---
 ### position from velocity
 - sum of velocity with respect to time
-![[8 Physics/Images/position from velocity.png|600]]
 ---
 ### position from velocity formula
 
@@ -141,7 +138,6 @@ $$
 ---
 ### velocity from acceleration
 - sum of acceleration with respect to time
-![[8 Physics/Images/velocity from acceleration.png]]
 ---
 ### velocity from acceleration formula
 
@@ -157,7 +153,6 @@ $$
 ### changing speed
 - same direction of velocity and acceleration equal increasing speed
 - opposite direction of velocity and acceleration equal decreasing speed
-![[8 Physics/Images/changing speed.png]]
 ---
 ### kinematics
 - motion under constant acceleration
@@ -229,7 +224,6 @@ $$
 ---
 ### free fall
 - object under no forces except gravity
-![[8 Physics/Images/freefall.png]]
 ---
 ### free fall formulae
 

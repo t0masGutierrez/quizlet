@@ -1,7 +1,7 @@
 ### sampling variability
 - different samples from the same population have different sample statistics
 ---
-### sampling variability
+### sampling variability formula
 
 $$
 \begin{aligned}
@@ -89,7 +89,7 @@ T = \text{sample statistic} \\
 $$
 
 ---
-### central limit theorem
+### central limit
 - sampling distribution approaches normal distribution as sample size approaches infinity regardless of the population distribution
 ---
 ### central limit formula

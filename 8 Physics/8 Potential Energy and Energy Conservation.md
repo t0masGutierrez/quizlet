@@ -1,6 +1,5 @@
 ### potential energy
 - energy of position
-![[8 Physics/Images/potential energy.png]]
 ---
 ### potential energy formula
 
@@ -16,7 +15,6 @@ $$
 ### conservative force
 - reversible force that conserve mechanical energy
 - dependent position and independent path
-![[8 Physics/Images/gravitational conservative force.png|300]]
 ---
 ### work energy
 - work done by conservative force equal negative change of potential energy
@@ -108,14 +106,12 @@ $$
 ---
 ### energy diagram
 - mechanical energy as function of position
-![[8 Physics/Images/energy diagram.png]]
 ---
 ### turning point
 - point where potential energy approaches total mechanical energy and turns around
 ---
 ### equilibrium point
 - local extrema point where zero force acting on system
-![[8 Physics/Images/equilibrium point.png]]
 ---
 ### stable equilibrium point
 - minima equilibrium point where changes return position

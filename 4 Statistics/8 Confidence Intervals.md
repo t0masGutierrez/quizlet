@@ -92,7 +92,6 @@ $$
 ---
 ### confidence level
 - probability of the population parameter lying inside the confidence interval
-![[4 Statistics/Images/confidence level.png|300]]
 ---
 ### confidence level formula
 
@@ -121,7 +120,6 @@ $$
 ---
 ### critical z-value
 - boundary point on normal distribution between rejection region and non-rejection region
-![[4 Statistics/Images/critical z-value.png]]
 ---
 ### critical z-value formula
 
@@ -210,7 +208,6 @@ $$
 - random sample
 - independent observations
 - normal population and large sample size
-![[4 Statistics/Images/mean confidence interval requirements.png|300]]
 ---
 ### construct mean confidence interval
 - compute sample proportion
@@ -309,7 +306,6 @@ $$
 ---
 ### critical chi-square-value
 - boundary point on chi-square distribution between rejection region and non-rejection region
-![[4 Statistics/Images/critical chi-square-value.png]]
 ---
 ### calculate critical chi-square-value
 - right tail area equal half of significance level

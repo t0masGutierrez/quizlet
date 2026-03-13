@@ -24,7 +24,6 @@
 - vectors equal rows of matrix
 - basis not subset of spanning set
 - nonzero rows equal basis vectors
-![[5 Linear Algebra/Images/span simplification versus independence test.png]]
 ---
 ### independent basis property
 - enlargement require linearly independent set

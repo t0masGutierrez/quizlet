@@ -29,7 +29,6 @@ $$
 ---
 ### propositional rule of inference
 - valid argument form prove argument validity
-![[7 Discrete Mathematics/Images/propositional rule of inference.png]]
 ---
 ### modus ponens
 - hypothesis and conditional prove conclusion
@@ -84,7 +83,6 @@ $$
 ---
 ### predicate rule of inference
 - valid argument form prove argument validity
-![[7 Discrete Mathematics/Images/predicate rule of inference.png]]
 ---
 ### universal modus tollens
 - proposition instance and general conditional prove conclusion instance

@@ -3,12 +3,10 @@
 ---
 ### electric circuit
 - closed conducting path allowing the flow of electric charge
-![[8 Physics/Images/electric circuit.png|300]]
 ---
 ### series resistor
 - equivalent electric current equal electric current across series
 - equivalent voltage equal sum of voltage across series
-![[8 Physics/Images/series resistor.png]]
 ---
 ### series resistance formula
 
@@ -27,7 +25,6 @@ $$
 ### parallel resistor
 - equivalent voltage equal voltage across parallel
 - equivalent electric current equal sum of electric current across parallel
-![[8 Physics/Images/parallel resistor.png]]
 ---
 ### parallel resistance formula
 
@@ -45,16 +42,13 @@ $$
 ---
 ### complex resistor
 - cannot calculate equivalent resistor with series or parallel
-![[8 Physics/Images/complex resistor.png|300]]
 ---
 ### junction
 - connection of three or more conductors
-![[8 Physics/Images/junction.png|300]]
 ---
 ### kirchhoffs junction rule
 - sum of electric current entering junction must equal sum of electric current exiting junction
 - conservation of electric charge
-![[8 Physics/Images/kirchoffs junction rule.png]]
 ---
 ### kirchhoff junction formula
 
@@ -74,12 +68,10 @@ $$
 ---
 ### loop
 - closed conducting path
-![[8 Physics/Images/loop.png|300]]
 ---
 ### kirchhoffs loop rule
 - sum of voltage around loop must equal zero
 - conservation of energy
-![[8 Physics/Images/kirchoffs loop rule.png]]
 ---
 ### kirchhoffs loop formula
 
@@ -99,7 +91,6 @@ $$
 ---
 ### RC electric circuit
 - electric circuit with resistance and capacitance
-![[8 Physics/Images/RC electric circuit.png|250]]
 ---
 ### calculate RC electric circuit
 - charging equal connect emf
@@ -107,7 +98,6 @@ $$
 ---
 ### charging capacitor
 - positive terminal of capacitor input electric current
-![[8 Physics/Images/charging capacitor.png|250]]
 ---
 ### calculate charging capacitor
 - initial capacitor equal closed switch therefore maximum electric current
@@ -115,7 +105,6 @@ $$
 ---
 ### discharging capacitor
 - positive terminal of capacitor output electric current
-![[8 Physics/Images/discharging capacitor.png]]
 ---
 ### calculate discharging capacitor
 - initial capacitor equal closed switch therefore maximum electric current
@@ -141,7 +130,6 @@ $$
 ---
 ### charging electric charge
 - electric charge on charging capacitor as function of time
-![[8 Physics/Images/charging electric charge.png]]
 ---
 ### charging electric charge formula
 
@@ -160,7 +148,6 @@ $$
 ---
 ### discharging electric charge
 - electric charge on discharging capacitor as function of time
-![[8 Physics/Images/discharging electric charge.png]]
 ---
 ### discharging electric charge formula
 
@@ -176,7 +163,6 @@ $$
 ---
 ### charging electric current
 - rate of electric charge flow through charging resistor as function of time 
-![[8 Physics/Images/discharging electric current.png]]
 ---
 ### charging electric current formula
 
@@ -195,7 +181,6 @@ $$
 ---
 ### discharging electric current
 - rate of electric charge flow through discharging resistor as function of time
-![[8 Physics/Images/discharging electric current.png]]
 ---
 ### discharging electric current formula
 
@@ -229,7 +214,6 @@ $$
 ### charging voltage
 - increasing capacitor voltage
 - decreasing resistor voltage
-![[8 Physics/Images/charging voltage.png]]
 ---
 ### capacitor voltage formula
 
@@ -245,7 +229,6 @@ $$
 ### discharging voltage
 - decreasing capacitor voltage
 - decreasing resistor voltage
-![[8 Physics/Images/discharging voltage.png]]
 ---
 ### resistor voltage formula
 

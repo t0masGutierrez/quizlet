@@ -8,7 +8,6 @@ output:
 ---
 ### vector
 - quantity with both magnitude and direction
-![[9 Calculus/Images/vector.png]]
 ---
 ### unit vector
 - vector with magnitude of 1 that specify direction without scaling
@@ -26,7 +25,6 @@ $$
 ### component
 - horizontal change equal *x* component
 - vertical change equal *y* component
-![[8 Physics/Images/component.png|500]]
 ---
 ### scalar component formula
 
@@ -85,7 +83,6 @@ $$
 ### inverse tangent range
 - $[\frac{-\pi}{2} \le \theta \le \frac{\pi}{2}] = [-90 \le \theta \le 90] = Q_1 \lor Q_4$  
 - negative $A_x$ equal 180 addition with direction
-![[8 Physics/Images/inverse tangent range.png]]
 ---
 ### vector equality
 - equal magnitude and equal direction
@@ -161,23 +158,19 @@ $$
 ### graphical vector addition
 - vector *B* starts where vector *A* ends
 - vector sum *C* equal diagonal from where vector *A* starts to where vector *B* ends
-![[8 Physics/Images/graphical vector addition.png]]
 ---
 ### parallelogram vector addition
 - both vectors start via origin
 - construct two parallel vectors
 - vector sum *C* equal diagonal from origin to where parallel vectors intersect
-![[8 Physics/Images/parallelogram vector addition.png]]
 ---
 ### graphical vector subtraction
 - anti parallel vector *B* starts where vector *A* ends
 - vector sum equal diagonal from where vector *A* starts to where anti parallel vector *B* ends
-![[8 Physics/Images/graphical vector subtraction.png|300]]
 ---
 ### dot product
 - scalar quantity of similarity between two vectors
 - aka scalar product
-![[9 Calculus/Images/dot product.png]]
 ---
 ### dot product formula
 
@@ -225,7 +218,6 @@ $$
 ### cross product
 - vector quantity of dissimilarity between two vectors
 - aka vector product
-![[8 Physics/Images/cross product.png]]
 ---
 ### cross product formula
 
@@ -277,7 +269,6 @@ $$
 - point hand to vector *A*
 - curl palm to vector *B*
 - point thumb to vector $A \times B$
-![[8 Physics/Images/right hand rule.png]]
 ---
 
 

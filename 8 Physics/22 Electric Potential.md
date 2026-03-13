@@ -1,6 +1,5 @@
 ### work
 - transfer of energy from the application of force causing displacement parallel force
-![[8 Physics/Images/net work.png]]
 ---
 ### constant work formula
 
@@ -32,7 +31,6 @@ $$
 ---
 ### potential energy
 - energy of position
-![[8 Physics/Images/potential energy.png]]
 ---
 ### potential energy formula
 
@@ -48,7 +46,6 @@ $$
 ### conservative force
 - reversible force that conserve mechanical energy
 - dependent position and independent path
-![[8 Physics/Images/electric conservative force.png|300]]
 ---
 ### work energy
 - work done by conservative force equal negative change of potential energy
@@ -65,7 +62,6 @@ $$
 ---
 ### electric potential energy
 - potential energy of electric charge as function of distance
-![[8 Physics/Images/electric potential energy1.png]]
 ---
 ### electric potential energy formula
 
@@ -85,7 +81,6 @@ $$
 ---
 ### electric potential energy
 - potential energy of electric field as function of position
-![[8 Physics/Images/electric potential energy.png]]
 ---
 ### electric potential energy formula
 
@@ -106,7 +101,6 @@ $$
 ### electric potential
 - region of space where electric charge experience electric potential energy
 - negative derivative of electric field
-![[8 Physics/Images/electric potential.png|400]]
 ---
 ### electric potential formula
 
@@ -129,7 +123,6 @@ $$
 ### equipotential surface
 - equal electric potential for every point on surface
 - zero work done by electric force on electric charge for every point on surface
-![[8 Physics/Images/equipotential surface.png|300]]
 ---
 ### calculate equipotential surface
 - equipotential surface perpendicular electric field line
@@ -138,7 +131,6 @@ $$
 ### electric potential difference
 - region of space where electric charge experience change of electric potential energy
 - negative anti derivative of electric field
-![[8 Physics/Images/electric potential difference.png]]
 ---
 ### electric potential difference formula
 
@@ -172,7 +164,6 @@ $$
 ---
 ### uniform electric field
 - region of space around source electric charge where test electric charge experience uniform electric force
-![[8 Physics/Images/uniform electric field.png]]
 ---
 ### uniform electric field formula
 
@@ -187,7 +178,6 @@ $$
 ---
 ### non uniform electric field
 - region of space around source electric charge where test electric charge experience non uniform electric force
-![[8 Physics/Images/non uniform electric field.png|400]]
 ---
 ### non uniform electric field formula
 
@@ -203,7 +193,6 @@ $$
 ### electrostatic conductor
 - equipotential for every point outer closed surface of electrostatic conductor
 - equipotential for every point inner closed surface of electrostatic conductor
-![[8 Physics/Images/electrostatic conductor1.png|400]]
 ---
 ### electrostatic conductor formula
 

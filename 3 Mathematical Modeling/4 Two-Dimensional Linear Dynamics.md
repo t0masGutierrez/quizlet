@@ -17,7 +17,6 @@ $$
 ---
 ### time view
 - view solution as curve in the $(t, x)$-plane or $(t, y)$-plane
-![[3 Mathematical Modeling/Images/2d time view.png]]
 ---
 ### time view formula
 
@@ -32,7 +31,6 @@ $$
 ---
 ### phase view
 - view solution as moving point in the $(x, y)$-plane
-![[3 Mathematical Modeling/Images/2d phase view.png]]
 ---
 ### phase view formula
 
@@ -46,7 +44,6 @@ $$
 ---
 ### solvability property
 - for every initial condition there exists unique solution of dynamical system
-![[3 Mathematical Modeling/Images/solvability property.png]]
 ---
 ### solvability property formula
 
@@ -61,7 +58,6 @@ $$
 ---
 ### vector field
 - collection of vectors for all points
-![[3 Mathematical Modeling/Images/vector field.png]]
 ---
 ### vector field formula
 
@@ -75,7 +71,6 @@ $$
 ---
 ### direction field
 - collection of signs for all points
-![[3 Mathematical Modeling/Images/direction field.png]]
 ---
 ### direction field formula
 
@@ -169,7 +164,6 @@ $$
 ---
 ### asymptotic equilibrium stability
 - if nearby initial condition then nearby solution converge on equilibrium point
-![[3 Mathematical Modeling/Images/asymptotic stability1.png]]
 ---
 ### asymptotic equilibrium stability formula
 
@@ -186,7 +180,6 @@ $$
 ---
 ### neutral equilibrium stability
 - if nearby initial condition then nearby solution sometimes converge on equilibrium point
-![[3 Mathematical Modeling/Images/neutral stability1.png]]
 ---
 ### neutral equilibrium stability formula
 
@@ -203,7 +196,6 @@ $$
 ---
 ### equilibrium instability
 - if far initial condition then far solution diverge off equilibrium point
-![[3 Mathematical Modeling/Images/instability1.png]]
 ---
 ### equilibrium instability formula
 
@@ -220,7 +212,6 @@ $$
 ---
 ### periodic solution
 - repeating solution with closed orbit
-![[3 Mathematical Modeling/Images/periodic solution.png]]
 ---
 ### periodic solution formula
 
@@ -236,7 +227,6 @@ $$
 ---
 ### asymptotic periodic stability
 - if nearby initial condition then nearby solution spirally converge on periodic solution
-![[3 Mathematical Modeling/Images/asymptotic periodic stability.png]]
 ---
 ### asymptotic periodic stability formula
 
@@ -253,7 +243,6 @@ $$
 ---
 ### neutral periodic stability
 - if nearby initial condition then nearby solution sometimes spirally converge on periodic solution
-![[3 Mathematical Modeling/Images/neutral periodic stability.png]]
 ---
 ### neutral periodic stability formula
 
@@ -270,7 +259,6 @@ $$
 ---
 ### periodic instability
 - if far initial condition then far solution diverge off spirally periodic solution
-![[3 Mathematical Modeling/Images/periodic instability.png]]
 ---
 ### periodic instability formula
 
@@ -371,7 +359,6 @@ $$
 - two negative eigenvalues equal node with asymptotic stability
 - two opposite eigenvalues equal saddle with instability
 - two positive eigenvalues equal node with instability
-![[3 Mathematical Modeling/Images/distinct real eigenvalues property.png]]
 ---
 ### distinct real eigenvalues property formula
 
@@ -386,7 +373,6 @@ $$
 ---
 ### repeated real eigenvalues
 - general solution of linear system equal eigenvectors of coefficient matrix with repeated real eigenvalues
-![[3 Mathematical Modeling/Images/repeated real eigenvalues.png]]
 ---
 ### repeated real eigenvalues formula
 
@@ -426,7 +412,6 @@ $$
 ---
 ### complex eigenvalues
 - general solution of linear system equal eigenvectors of coefficient matrix with complex eigenvalues
-![[3 Mathematical Modeling/Images/complex eigenvalues.png]]
 ---
 ### complex eigenvalues formula
 

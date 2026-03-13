@@ -169,7 +169,6 @@ $$
 - $g(x) ≤ f(x) ≤ h(x)$ for all *x* near *n*
 - $\lim_{x \to n} g(x) = \lim_{x \to n} h(x) = L$
 - if both conditions met then $\lim_{x \to n}f(x) = L$
-![[9 Calculus/Images/squeeze theorem.png]]
 ---
 ### continuity
 

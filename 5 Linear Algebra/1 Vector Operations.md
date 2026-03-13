@@ -3,7 +3,6 @@
 ---
 ### vector
 - quantity with both magnitude and direction
-![[9 Calculus/Images/vector.png]]
 ---
 ### n-vector
 - ordered n-tuple of real numbers
@@ -163,7 +162,6 @@ $$
 ### graphical vector addition
 - vector *B* starts where vector *A* ends
 - vector sum *C* equal diagonal from where vector *A* starts to where vector *B* ends
-![[8 Physics/Images/graphical vector addition.png]]
 ---
 ### vector addition property
 - commutative
@@ -209,7 +207,6 @@ $$
 ### component
 - horizontal change equal $x_1$ component
 - vertical change equal $x_2$ component
-![[8 Physics/Images/component.png|300]]
 ---
 ### scalar component formula
 

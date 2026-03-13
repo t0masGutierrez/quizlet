@@ -1,14 +1,11 @@
 ### transverse wave
 - particle motion perpendicular wave motion
-![[8 Physics/Images/transverse wave.png|400]]
 ---
 ### electromagnetic wave
 - oscillatory disturbances that propagate through space and transfer electromagnetic energy
-![[8 Physics/Images/electromagnetic wave.png|400]]
 ---
 ### wave position
 - field magnitude as function of space and time
-![[8 Physics/Images/electromagnetic wave position.png|300]]
 ---
 ### wave position formula
 
@@ -28,7 +25,6 @@ $$
 ---
 ### electromagnetic ratio
 - speed of light
-![[8 Physics/Images/electromagnetic ratio.png|500]]
 ---
 ### electromagnetic ratio formula
 
@@ -43,7 +39,6 @@ $$
 ---
 ### wave velocity
 - rate of wavefront
-![[8 Physics/Images/wave velocity.png|300]]
 ---
 ### wave velocity formula
 
@@ -87,7 +82,6 @@ $$
 ---
 ### energy density
 - measure of electromagnetic energy compactness
-![[8 Physics/Images/energy density.png|300]]
 ---
 ### average energy density formula
 
@@ -117,7 +111,6 @@ $$
 ---
 ### poynting
 - rate of energy flow through normal surface
-![[8 Physics/Images/intensity.png]]
 ---
 ### average poynting formula
 
@@ -182,7 +175,6 @@ $$
 ---
 ### electromagnetic spectrum
 - range of electromagnetic waves
-![[8 Physics/Images/electromagnetic spectrum.png|500]]
 ---
 ### visible light
 - violet
@@ -191,11 +183,9 @@ $$
 - yellow
 - orange
 - red
-![[8 Physics/Images/visible wave.png|300]]
 ---
 ### radiation pressure
 - transfer of momentum from the application of local force by electromagnetic radiation
-![[8 Physics/Images/radiation pressure.png|300]]
 ---
 ### radiation pressure absorption formula
 
@@ -225,7 +215,6 @@ $$
 ---
 ### standing wave
 - two identical waves traveling opposite directions that oscillate between constructive interference and destructive interference
-![[8 Physics/Images/standing wave.gif]]
 ---
 ### wave position
 - standing field magnitude as function of space and time
@@ -248,20 +237,16 @@ $$
 ---
 ### node
 - position of zero displacement
-![[8 Physics/Images/nodal plane.png|400]]
 ---
 ### antinode
 - position of maximum displacement
-![[8 Physics/Images/node.png]]
 ---
 ### fundamental mode
 - lowest possible oscillation frequency of standing wave
-![[8 Physics/Images/fundamental mode.png]]
 ---
 ### normal mode
 - possible standing wave pattern where all particles oscillate with the same frequency
 - single antinode equal fundamental mode, 1st harmonic, and 0th overtone
-![[8 Physics/Images/normal mode.png]]
 ---
 ### resonant wavelength
 - wavelength of normal mode

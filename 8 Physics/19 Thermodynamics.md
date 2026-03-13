@@ -1,6 +1,5 @@
 ### system
 - thermodynamic property of interest
-![[8 Physics/Images/system.png]]
 ---
 ### closed system
 - can exchange energy with surrounding but not mass 
@@ -10,7 +9,6 @@
 ---
 ### zeroth law of thermodynamics
 - zero net heat flow between objects of the same temperature
-![[8 Physics/Images/zeroth law of thermodynamics.png]]
 ---
 ### 0th formula of thermodynamics
 
@@ -25,11 +23,9 @@ $$
 ---
 ### pV diagram
 - pressure versus volume
-![[8 Physics/Images/pV diagram.png]]
 ---
 ### work
 - transfer of energy from the application of force causing displacement parallel force
-![[8 Physics/Images/work1.png]]
 ---
 ### variable work formula
 
@@ -44,11 +40,9 @@ $$
 ---
 ### positive work
 - molecules lose kinetic energy as gas expands
-![[8 Physics/Images/positive work.png]]
 ---
 ### negative work
 - molecules gain kinetic energy as gas contracts
-![[8 Physics/Images/negative work.png]]
 ---
 ### internal energy
 - kinetic energy of molecular motion
@@ -70,7 +64,6 @@ $$
 ---
 ### first law of thermodynamics
 - energy can transfer and transform but cannot create nor destroy
-![[8 Physics/Images/first law of thermodynamics.png]]
 ---
 ### 1st formula of thermodynamics
 
@@ -105,7 +98,6 @@ $$
 ---
 ### thermodynamic process
 - process that changes thermodynamic state of system
-![[8 Physics/Images/thermodynamic process.png]]
 ---
 ### isothermal process
 - constant temperature
@@ -123,7 +115,6 @@ $$
 ---
 ### isothermal curve
 - $T_i = T_f$ 
-![[8 Physics/Images/isothermal curve.png]]
 ---
 ### isochoric process
 - constant volume
@@ -141,7 +132,6 @@ $$
 ---
 ### isochoric curve
 - $T_i > T_f$ 
-![[8 Physics/Images/isochoric curve.png]]
 ---
 ### isobaric process
 - constant pressure
@@ -159,7 +149,6 @@ $$
 ---
 ### isobaric curve
 - $T_i < T_f$ 
-![[8 Physics/Images/isobaric curve.png]]
 ---
 ### adiabatic process
 - zero heat transfer with surrounding
@@ -181,7 +170,6 @@ $$
 ---
 ### adiabatic curve
 - $T_i > T_f$ 
-![[8 Physics/Images/adiabatic curve.png]]
 ---
 ### specific heat
 - amount of heat that must enter substance to change temperature by $\Delta T$ 
@@ -201,7 +189,6 @@ $$
 ---
 ### constant volume specific heat capacity
 - specific heat of gas inside rigid container
-![[8 Physics/Images/constant volume specific heat1.png]]
 ---
 ### constant volume specific heat capacity formula
 
@@ -218,7 +205,6 @@ $$
 ---
 ### constant pressure specific heat capacity
 - specific heat of gas inside rigid container
-![[8 Physics/Images/constant pressure specific heat.png]]
 ---
 ### constant pressure specific heat capacity formula
 
@@ -254,7 +240,6 @@ $$
 - sequence of thermodynamic processes that return initial thermodynamic state therefore zero change of internal energy
 - clockwise cycle equal positive work
 - counterclockwise cycle equal negative work
-![[8 Physics/Images/thermodynamic cycle.png]]
 ---
 ### thermodynamic cycle formula
 
@@ -267,7 +252,6 @@ $$
 ---
 ### second law of thermodynamics
 - heat flows from high temperature to low temperature until thermal equilibrium
-![[8 Physics/Images/second law of thermodynamics.png]]
 ---
 ### 2nd formula of thermodynamics
 
@@ -283,7 +267,6 @@ $$
 ### heat engine
 - transform heat into work
 - transform thermal energy into mechanical energy
-![[8 Physics/Images/heat engine.png]]
 ---
 ### heat engine efficiency formula
 
@@ -299,7 +282,6 @@ $$
 ### refrigerator
 - transform work into heat
 - transform mechanical energy into thermal energy
-![[8 Physics/Images/refrigerator.png]]
 ---
 ### refrigerator coefficient of performance formula
 
@@ -314,7 +296,6 @@ $$
 ### heat pump
 - transform heat into work
 - transform thermal energy into mechanical energy
-![[8 Physics/Images/heat pump.png]]
 ---
 ### heat pump coefficient of performance formula
 
@@ -328,7 +309,6 @@ $$
 ---
 ### carnot cycle
 - maximum efficiency cycle operating between two constant temperature reservoirs
-![[8 Physics/Images/carnot cycle.png|500]]
 ---
 ### carnot cycle formula
 
@@ -359,7 +339,6 @@ $$
 ---
 ### entropy
 - measure of disorder or the number of microstates
-![[8 Physics/Images/entropy.png]]
 ---
 ### entropy formula
 
@@ -381,7 +360,6 @@ $$
 ### microscopic entropy
 - most probable macrostate has the greatest number of corresponding microstates
 - most probable macrostate has the greatest entropy
-![[8 Physics/Images/microscopic entropy.png]]
 ---
 ### microscopic entropy formula
 
@@ -396,7 +374,6 @@ $$
 ---
 ### third law of thermodynamics
 - entropy decreases as temperature decreases 
-![[8 Physics/Images/third law of thermodynamics.png|400]]
 ---
 ### 3rd formula of thermodynamics
 

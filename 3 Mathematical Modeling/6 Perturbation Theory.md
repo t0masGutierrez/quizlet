@@ -174,7 +174,6 @@ $$
 ---
 ### regular algebraic equation
 - series solution equal solution of algebraic equation
-![[3 Mathematical Modeling/Images/regularly perturbed algebraic equation.png]]
 ---
 ### regular algebraic equation formula
 
@@ -243,7 +242,6 @@ $$
 ---
 ### regular differential equation
 - series solution equal solution of differential equation
-![[3 Mathematical Modeling/Images/regular differential equation.png]]
 ---
 ### regular differential equation formula
 

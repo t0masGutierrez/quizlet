@@ -3,7 +3,6 @@
 ---
 ### force
 - vector quantity of push or pull on object
-![[8 Physics/Images/force.png]]
 ---
 ### scalar component formula
 
@@ -41,7 +40,6 @@ $$
 ---
 ### net external force
 - vector sum of all outside forces acting on object
-![[8 Physics/Images/net external force.png|300]]
 ---
 ### net external force formula
 
@@ -85,7 +83,6 @@ $$
 - formulate newtons 2nd law for all scalar components
 - equilibrium equal $\sum F = 0$ 
 - non equilibrium equal $\sum F = ma$ 
-![[8 Physics/Images/free body diagram.png|300]]
 ---
 ### newtons first law
 - object at rest remains at rest or in motion with constant velocity unless net external force act on object
@@ -138,5 +135,4 @@ $$
 ---
 ### action reaction pair
 - pair of equal and opposite forces resulting from the interaction of two objects
-![[8 Physics/Images/action reaction pair.png]]
 ---

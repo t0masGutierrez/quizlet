@@ -1,6 +1,5 @@
 ### torque
 - rotational analogue of force
-![[8 Physics/Images/torque.png]]
 ---
 ### torque formula
 
@@ -16,7 +15,6 @@ $$
 ---
 ### tangential force torque
 - component of force perpendicular radius
-![[8 Physics/Images/tangential force torque.png]]
 ---
 ### tangential force torque formula
 
@@ -31,7 +29,6 @@ $$
 ---
 ### lever arm torque
 - perpendicular distance from the axis of rotation to the line of action of the force
-![[8 Physics/Images/lever arm torque.png]]
 ---
 ### lever arm torque formula
 
@@ -46,7 +43,6 @@ $$
 ---
 ### newtons second law
 - angular acceleration dependent moment of inertia and amount of net external torque acting on moment of inertia
-![[8 Physics/Images/newtons second law.png]]
 ---
 ### newton 2nd formula
 
@@ -61,11 +57,9 @@ $$
 ---
 ### hinge
 - connection of two objects such that normal force prevent translational motion but allow rotational motion
-![[8 Physics/Images/hinge.png]]
 ---
 ### work
 - transfer of energy from the application of torque causing displacement parallel torque
-![[8 Physics/Images/work.png]]
 ---
 ### constant work formula
 
@@ -137,7 +131,6 @@ $$
 ---
 ### rolling kinetic energy
 - rolling kinetic energy equal translational kinetic energy and rotational kinetic energy
-![[8 Physics/Images/kinetic energy.png]]
 ---
 ### rolling kinetic energy formula
 
@@ -224,7 +217,6 @@ $$
 ---
 ### angular momentum
 - difficulty of stopping or changing direction of rotational motion
-![[8 Physics/Images/angular momentum.png]]
 ---
 ### angular momentum formula
 
@@ -258,7 +250,6 @@ $$
 ---
 ### angular impulse
 - measure of net external torque over time
-![[8 Physics/Images/impulse.png]]
 ---
 ### angular impulse formula
 
@@ -301,7 +292,6 @@ $$
 ---
 ### precession
 - circular motion of axis of rotation and rotational motion about axis of rotation
-![[8 Physics/Images/precession.png]]
 ---
 ### precession formula
 
@@ -350,17 +340,13 @@ $$
 ---
 ### center of gravity
 - point inside object that acts as the location of all weight
-![[8 Physics/Images/center of gravity.png|300]]
 ---
 ### area of support
 - region between point(s) of contact
-![[8 Physics/Images/area of support.png]]
 ---
 ### internal tipping
 - object tipping under its own weight when center of gravity outside area of support
-![[8 Physics/Images/internal tipping.png]]
 ---
 ### external tipping
 - object tipping under external force when axis of rotation equal point of contact
-![[8 Physics/Images/external tipping.png]]
 ---

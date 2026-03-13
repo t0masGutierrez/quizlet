@@ -3,7 +3,6 @@
 ---
 ### mutual inductance
 - effectiveness of inducing emf between two conductors due to changing electric current
-![[8 Physics/Images/mutual inductance.png|200]]
 ---
 ### mutual inductance formula
 
@@ -34,7 +33,6 @@ $$
 ---
 ### self inductance
 - effectiveness of inducing emf on self due to changing electric current
-![[8 Physics/Images/self inductance.png|300]]
 ---
 ### self inductance formula
 
@@ -76,7 +74,6 @@ $$
 ---
 ### self inductance emf
 - self induced emf due to changing electric current
-![[8 Physics/Images/self inductance emf.png|350]]
 ---
 ### self inductance emf formula
 
@@ -92,7 +89,6 @@ $$
 ---
 ### inductor
 - electric component designed to oppose changing electric current
-![[8 Physics/Images/inductor.png|500]]
 ---
 ### inductor formula
 
@@ -109,7 +105,6 @@ $$
 ### kirchhoffs loop rule
 - sum of voltage around loop must equal zero
 - conservation of energy
-![[8 Physics/Images/kirchoffs loop rule.png]]
 ---
 ### kirchhoffs loop formula
 
@@ -129,7 +124,6 @@ $$
 ---
 ### magnetic potential energy
 - energy of position inside inductor
-![[8 Physics/Images/magnetic potential energy.png|300]]
 ---
 ### magnetic potential energy formula
 
@@ -158,7 +152,6 @@ $$
 ---
 ### RL electric circuit
 - electric circuit with resistance and self inductance
-![[8 Physics/Images/RL electric circuit.png]]
 ---
 ### calculate RL electric circuit
 - increasing equal connect emf
@@ -166,7 +159,6 @@ $$
 ---
 ### increasing inductor
 - positive terminal of inductor input electric current
-![[8 Physics/Images/increasing inductor.png]]
 ---
 ### calculate increasing inductor
 - initial inductor equal open switch therefore zero electric current
@@ -174,7 +166,6 @@ $$
 ---
 ### decreasing inductor
 - positive terminal of inductor output electric current
-![[8 Physics/Images/decreasing inductor.png]]
 ---
 ### calculate decreasing inductor
 - initial inductor equal closed switch therefore maximum electric current
@@ -200,7 +191,6 @@ $$
 ---
 ### increasing electric current
 - electric current through increasing inductor as function of time
-![[8 Physics/Images/increasing electric current.png|400]]
 ---
 ### increasing electric current formula
 
@@ -219,7 +209,6 @@ $$
 ---
 ### decreasing electric current
 - electric current through decreasing inductor as function of time
-![[8 Physics/Images/decreasing electric current.png|400]]
 ---
 ### decreasing electric current formula
 
@@ -235,14 +224,12 @@ $$
 ---
 ### LC electric circuit
 - electric circuit with self inductance and capacitance
-![[8 Physics/Images/LC electric circuit.png|500]]
 ---
 ### calculate LC electric circuit
 - oscillating energy between capacitor electric field and inductor magnetic field
 ---
 ### LC potential energy
 - energy of position inside LC electric circuit
-![[8 Physics/Images/LC potential energy.png]]
 ---
 ### LC potential energy formula
 
@@ -263,7 +250,6 @@ $$
 ---
 ### simple harmonic motion
 - periodic motion where object oscillate about equilibrium with restoring force directly proportional displacement
-![[8 Physics/Images/simple harmonic motion.png|400]]
 ---
 ### simple harmonic motion formula
 
@@ -293,7 +279,6 @@ $$
 ---
 ### LC harmonic motion
 - periodic motion where energy oscillate about equilibrium with restoring force directly proportional displacement
-![[8 Physics/Images/LC harmonic motion.png|500]]
 ---
 ### LC harmonic motion formula
 
@@ -319,14 +304,12 @@ $$
 ---
 ### RLC electric circuit
 - electric circuit with resistance, self inductance, and capacitance
-![[8 Physics/Images/RLC electric circuit.png|300]]
 ---
 ### calculate RLC electric circuit
 - damped oscillating energy between capacitor electric field and inductor magnetic field
 ---
 ### damped oscillation
 - decreasing harmonic motion by subtracting energy via damping force
-![[8 Physics/Images/damped oscillation1.png|400]]
 ---
 ### damped oscillation formula
 
@@ -347,7 +330,6 @@ $$
 ---
 ### damped RLC oscillation
 - decreasing LC harmonic motion by subtracting energy via resistance
-![[8 Physics/Images/damped RLC oscillation.png|300]]
 ---
 ### damped RLC oscillation formula
 

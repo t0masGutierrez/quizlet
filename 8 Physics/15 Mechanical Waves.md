@@ -3,7 +3,6 @@
 ---
 ### pulse
 - single non oscillatory disturbance that propagates through medium with constant amplitude
-![[8 Physics/Images/pulse.png|300]]
 ---
 ### pulse formula
 
@@ -20,13 +19,11 @@ $$
 - vertical particle oscillation
 - particle motion perpendicular wave motion
 - horizontal wave propagation
-![[8 Physics/Images/transverse wave.png|400]]
 ---
 ### longitudinal wave
 - horizontal particle oscillation
 - particle motion parallel wave motion
 - horizontal wave propagation
-![[8 Physics/Images/longitudinal wave.png]]
 ---
 ### wave position
 - particle displacement as function of space and time
@@ -47,7 +44,6 @@ $$
 ---
 ### wavelength
 - distance between 1 revolution
-![[8 Physics/Images/wavelength.png]]
 ---
 ### wave number
 - number of wavelengths per cycle
@@ -77,7 +73,6 @@ $$
 ---
 ### wave function
 - temporal acceleration as function of spatial curvature 
-![[8 Physics/Images/wave function.png]]
 ---
 ### wave function formula
 
@@ -140,7 +135,6 @@ $$
 ---
 ### wavefront
 - imaginary perpendicular surface intersecting all waves in phase
-![[8 Physics/Images/wavefront.png|400]]
 ---
 ### wave velocity
 - rate of wavefront
@@ -180,23 +174,18 @@ $$
 ---
 ### moveable boundary
 - wave change horizontal direction
-![[8 Physics/Images/moveable boundary.png]]
 ---
 ### immoveable boundary
 - wave change horizontal direction and vertical direction
-![[8 Physics/Images/immoveable boundary.png]]
 ---
 ### superposition
 - combination of two or more waves equal the sum of amplitudes
-![[8 Physics/Images/superposition.png|500]]
 ---
 ### constructive interference
 - combination of two or more waves equal larger wave
-![[8 Physics/Images/constructive interference.png|300]]
 ---
 ### destructive interference
 - combination of two or more waves equal smaller wave
-![[8 Physics/Images/destructive interference.png|300]]
 ---
 ### in phase motion
 - waves with aligned crests and troughs
@@ -212,28 +201,22 @@ $$
 ---
 ### resonance
 - driving frequency equal natural frequency thus maximizing amplitude
-![[8 Physics/Images/resonance.png]]
 ---
 ### standing wave
 - two identical waves traveling opposite directions that oscillate between constructive interference and destructive interference
-![[8 Physics/Images/standing wave.gif]]
 ---
 ### node
 - position of zero displacement
-![[8 Physics/Images/node.png]]
 ---
 ### antinode
 - position of maximum displacement
-![[8 Physics/Images/antinode.png]]
 ---
 ### fundamental mode
 - lowest possible oscillation frequency of standing wave
-![[8 Physics/Images/fundamental mode.png]]
 ---
 ### normal mode
 - possible standing wave pattern where all particles oscillate with the same frequency
 - single antinode equal fundamental mode, 1st harmonic, and 0th overtone
-![[8 Physics/Images/normal mode.png]]
 ---
 ### resonant wavelength
 - wavelength of normal mode
@@ -283,6 +266,5 @@ $$
 ---
 ### fourier transform
 - represent sinusoidal wave as sum of sinusoidal waves
-![[8 Physics/Images/fourier transform.png|300]]
 ---
 

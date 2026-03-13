@@ -42,7 +42,6 @@ $$
 ---
 ### instantaneous angular velocity
 - rate of change of angular position as $\Delta t$ approaches zero
-![[8 Physics/Images/angular velocity.png]]
 ---
 ### instantaneous angular velocity formula
 
@@ -71,7 +70,6 @@ $$
 ---
 ### instantaneous angular acceleration
 - rate of change of angular velocity as $\Delta t$ approaches zero
-![[8 Physics/Images/angular acceleration.png]]
 ---
 ### instantaneous angular acceleration formula
 
@@ -139,7 +137,6 @@ $$
 ---
 ### moment of inertia
 - rotational analogue of mass
-![[8 Physics/Images/moment of inertia.png]]
 ---
 ### moment of inertia formula
 
@@ -162,11 +159,9 @@ $$
 - center solid cylinder
 - center solid sphere
 - center hollow sphere
-![[8 Physics/Images/axis of rotation.png]]
 ---
 ### parallel axis
 - moment of inertia about parallel center of mass equal sum of moment of inertia between axes
-![[8 Physics/Images/parallel axis.png]]
 ---
 ### parallel axis formula
 
@@ -182,7 +177,6 @@ $$
 ---
 ### translational kinetic energy
 - kinetic energy of object undergoing translational motion dependent mass and velocity
-![[8 Physics/Images/translational kinetic energy.png]]
 ---
 ### translational kinetic energy formula
 
@@ -197,7 +191,6 @@ $$
 ---
 ### rotational kinetic energy
 - kinetic energy of object undergoing rotational motion dependent moment of inertia and angular velocity
-![[8 Physics/Images/rotational kinetic energy.png]]
 ---
 ### rotational kinetic energy formula
 

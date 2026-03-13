@@ -38,6 +38,7 @@ def update_notes():
                                 pattern1 = lines[i+1].startswith("$$") and not lines[i+2].startswith("---")
                                 pattern2 = lines[i].startswith("$$") and lines[i+1].startswith("---") 
                                 pattern3 = lines[i].startswith("\\")
+                                pattern4 = "![[" in lines[i]
 
                                 # add hashtags before terms
                                 if pattern0 or pattern1:
@@ -51,6 +52,10 @@ def update_notes():
                                 # replace alignment
                                 if pattern3:
                                     lines[i] = lines[i].replace("align*", "aligned")
+
+                                # remove images
+                                if pattern4:
+                                    lines[i] = lines[i].split("![[")[0]
                             
                             # write to github files
                             with open(output + folder_name + "/" + file_name + ".md", "w") as git:

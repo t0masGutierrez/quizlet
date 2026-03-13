@@ -1,6 +1,5 @@
 ### position vector
 - location as function of time
-![[8 Physics/Images/position vector.png]]
 ---
 ### position vector formula
 
@@ -17,7 +16,6 @@ $$
 ---
 ### displacement vector
 - vector change of position
-![[8 Physics/Images/displacement vector.png]]
 ---
 ### displacement vector formula
 
@@ -73,7 +71,6 @@ $$
 - motion of freefalling object along two axes
 - horizontal motion under constant velocity
 - vertical motion under constant acceleration
-![[8 Physics/Images/projectile motion.png]]
 ---
 ### scalar component formula
 
@@ -174,7 +171,6 @@ $$
 ---
 ### uniform circular motion
 - object travel along circle with constant speed but non zero acceleration
-![[8 Physics/Images/uniform circular motion.png|300]]
 ---
 ### tangential acceleration
 - tangent vector along circle express change of speed
@@ -186,7 +182,6 @@ $$
 - maximum radial acceleration equal maximum tangential velocity
 - changing speed equal acceleration vector anti parallel velocity vector
 - minimum radial acceleration equal minimum tangential velocity
-![[8 Physics/Images/nonuniform circular motion.png|300]]
 ---
 ### tangential velocity formula
 

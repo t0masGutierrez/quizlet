@@ -144,7 +144,6 @@ $$
 - vectors of matrix transformation range equal vectors of linear transformation range
 - dimension of matrix transformation kernel equal dimension of linear transformation kernel 
 - dimension of matrix transformation range equal dimension of linear transformation range
-![[5 Linear Algebra/Images/isomorphism preservation property.png]]
 ---
 ### isomorphic preservation property formula
 
@@ -162,5 +161,4 @@ $$
 - one to one
 - onto
 - isomorphism
-![[5 Linear Algebra/Images/summary.png|300]]
 ---
