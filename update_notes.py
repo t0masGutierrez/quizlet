@@ -9,7 +9,7 @@ def update_notes():
     dirs = {}
     # loop through folders inside obsidian
     for dir in os.listdir(input):
-        ignore = ["Templates", "Linguistics", "Brain.base"]
+        ignore = ["Templates", "Brain.base"]
         if not dir.startswith(".") and dir not in ignore:
             folder_name = dir
             folder_path = input + folder_name
