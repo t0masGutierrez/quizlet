@@ -11,6 +11,7 @@ f = \text{perturbed equation} \\
 \epsilon = \text{parameter}
 \end{align*}
 $$
+
 ---
 algebraic equation
 
@@ -26,6 +27,7 @@ x = \text{solution} \\
 \epsilon = \text{parameter}
 \end{align*}
 $$
+
 ---
 differential equation
 
@@ -41,6 +43,7 @@ x = \text{solution} \\
 \epsilon = \text{parameter}
 \end{align*}
 $$
+
 ---
 regular
 
