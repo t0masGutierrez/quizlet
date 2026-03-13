@@ -4,12 +4,12 @@ perturbed equation
 ---
 perturbed equation formula
 $$
-\begin{align*}
+\begin{aligned*}
 f(t, x, \epsilon) \\
 0 \le \epsilon \ll 1 \\
 f = \text{perturbed equation} \\
 \epsilon = \text{parameter}
-\end{align*}
+\end{aligned*}
 $$
 
 ---
@@ -19,13 +19,13 @@ algebraic equation
 ---
 algebraic equation formula
 $$
-\begin{align*}
+\begin{aligned*}
 y = f(t, x, \epsilon) \\
 f = \text{perturbed equation} \\
 t = \text{time} \\
 x = \text{solution} \\
 \epsilon = \text{parameter}
-\end{align*}
+\end{aligned*}
 $$
 
 ---
@@ -35,13 +35,13 @@ differential equation
 ---
 differential equation formula
 $$
-\begin{align*}
+\begin{aligned*}
 \frac{dx}{dt} = f(t, x, \epsilon), x(t=0) = x_0, t \ge 0 \\
 f = \text{perturbed equation} \\
 t = \text{time} \\
 x = \text{solution} \\
 \epsilon = \text{parameter}
-\end{align*}
+\end{aligned*}
 $$
 
 ---
