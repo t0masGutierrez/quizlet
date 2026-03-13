@@ -1,7 +1,7 @@
 ### bounded above
 - there exist upper bound such that every element of set less or equal upper bound
 ---
-### bounded above formula
+### bounded above formula \\
 $$
 \begin{aligned}
 S \subset \mathbb R, \exists u \in \mathbb R, \forall x \in S: x \le u \\
