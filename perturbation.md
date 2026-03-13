@@ -1,5 +1,4 @@
 ## perturbed equation
-
 - equation containing small nonnegative parameter  
 
 ---
