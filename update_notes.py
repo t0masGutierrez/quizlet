@@ -2,7 +2,7 @@ import os
 
 def update_notes():
     input = os.path.expanduser("~") + "/Obsidian/brainTwo/"
-    output = os.path.expanduser("~") + "/Github/quizlet/obsidian/"
+    output = os.path.expanduser("~") + "/Github/notes/"
     dirs = {}
     # loop through folders inside obsidian
     for dir in os.listdir(input):
