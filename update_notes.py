@@ -1,8 +1,8 @@
 import os
 
-def format():
+def update_notes():
     """
-    Format markdown files
+    Update markdown files
     """
     input = os.path.expanduser("~") + "/Obsidian/brainTwo/"
     output = os.path.expanduser("~") + "/Github/quizlet/obsidian/"
@@ -35,7 +35,7 @@ def format():
                         with open(output + folder_name + "/" + file_name + ".md", "r") as git:
                             lines = git.readlines()
 
-                            # loop through lines inside github file
+                            # loop through lines inside file
                             for i in range(len(lines)-1):
                                 pattern = not lines[i].startswith("- ") and lines[i+1].startswith("- ") 
                                 pattern1 = lines[i+1].startswith("$$") and not lines[i+2].startswith("---")
@@ -60,7 +60,7 @@ def format():
                                 git.writelines(lines)
 
 def main():
-    format()
+    update_notes()
 
 if __name__ == "__main__":
     main()
