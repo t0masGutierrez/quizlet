@@ -3,36 +3,42 @@
 - boiling point equal $100^\circ C$ 
 ---
 ### celsius formula
+
 $$
 \begin{aligned}
 T_c = \frac{5}{9}(T_f - 32) \\
 T_f = \text{fahrenheit}
 \end{aligned}
 $$
+
 ---
 ### fahrenheit
 - freezing point equal $32^\circ F$ 
 - boiling point equal $212^\circ F$ 
 ---
 ### fahrenheit formula
+
 $$
 \begin{aligned}
 T_f = (\frac{9}{5})T_c + 32 \\
 T_c = \text{celcius}
 \end{aligned}
 $$
+
 ---
 ### kelvin
 - freezing point equal $273.15 \ K$ 
 - boiling point equal $373.15 \ K$ 
 ---
 ### kelvin formula
+
 $$
 \begin{aligned}
 K = T_c + 273.15 \\
 T_c = \text{celcius}
 \end{aligned}
 $$
+
 ---
 ### internal energy
 - average distance between atoms increases as internal energy increases
@@ -43,6 +49,7 @@ $$
 ![[8 Physics/Images/thermal expansion of solid.png]]
 ---
 ### thermal expansion of 1d solid formula
+
 $$
 \begin{aligned}
 \frac{\Delta L}{L} = \alpha \Delta T_c \\
@@ -51,8 +58,10 @@ T_c = \text{celcius} \\
 L = \text{length}
 \end{aligned}
 $$
+
 ---
 ### thermal expansion of 2d solid formula
+
 $$
 \begin{aligned}
 \frac{\Delta A}{A} = 2\alpha \Delta T_c \\
@@ -61,8 +70,10 @@ T_c = \text{celcius} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### thermal expansion of 3d solid formula
+
 $$
 \begin{aligned}
 \frac{\Delta V}{V} = 3\alpha \Delta T_c \\
@@ -71,12 +82,14 @@ T_c = \text{celcius} \\
 V = \text{volume}
 \end{aligned}
 $$
+
 ---
 ### thermal expansion of fluid
 - fluid expands as temperature increases
 ![[8 Physics/Images/thermal expansion of fluid.png]]
 ---
 ### thermal expansion of fluid formula
+
 $$
 \begin{aligned}
 \frac{\Delta V}{V} = \beta \Delta T_c \\
@@ -85,6 +98,7 @@ T_c = \text{celcius} \\
 V = \text{volue}
 \end{aligned}
 $$
+
 ---
 ### heat
 - transfer of thermal energy between systems of different temperature
@@ -99,11 +113,13 @@ $$
 ![[8 Physics/Images/kilocalorie.png]]
 ---
 ### kilocalorie formula
+
 $$
 \begin{aligned}
 1 \ \text{kcal} = 4186 \ \text{J}
 \end{aligned}
 $$
+
 ---
 ### specific heat
 - amount of heat that must enter mass to change temperature by $\Delta T$ 
@@ -111,6 +127,7 @@ $$
 ![[8 Physics/Images/specific heat.png|400]]
 ---
 ### specific heat formula
+
 $$
 \begin{aligned}
 Q = mc\Delta T_c \\
@@ -119,6 +136,7 @@ c = \text{specific heat capacity} \\
 T_c = \text{celcius}
 \end{aligned}
 $$
+
 ---
 ### melting point
 - temperature where solids become liquids by adding heat
@@ -162,6 +180,7 @@ $$
 ![[8 Physics/Images/latent heat.png]]
 ---
 ### latent heat formula
+
 $$
 \begin{aligned}
 Q = \pm mL \\
@@ -169,6 +188,7 @@ m = \text{mass} \\
 L = \text{latent heat}
 \end{aligned}
 $$
+
 ---
 ### phase change diagram
 - temperature versus heat

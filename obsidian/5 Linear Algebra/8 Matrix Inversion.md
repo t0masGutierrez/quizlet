@@ -2,6 +2,7 @@
 - square matrix multiplication with inverse matrix equal identity matrix
 ---
 ### multiplicative inverse formula
+
 $$
 \begin{aligned}
 AA^{-1} = A^{-1}A = I \\
@@ -10,11 +11,13 @@ A^{-1} = \text{inverse matrix} \\
 I = \text{identity matrix}
 \end{aligned}
 $$
+
 ---
 ### identity matrix
 - diagonal matrix where all entries along main diagonal equal 1
 ---
 ### identity matrix formula
+
 $$
 \begin{aligned}
 I = \begin{bmatrix}
@@ -26,6 +29,7 @@ i = \text{row index} \\
 j = \text{column index}
 \end{aligned}
 $$
+
 ---
 ### nonsingular matrix
 - invertible square matrix
@@ -37,6 +41,7 @@ $$
 - for every nonsingular matrix there exists unique inverse matrix
 ---
 ### existence and uniqueness formula
+
 $$
 \begin{aligned}
 (AB=I) \land (AC=I) \rightarrow B=C \\
@@ -45,6 +50,7 @@ B, C = \text{inverse matrix} \\
 I = \text{identity matrix}
 \end{aligned}
 $$
+
 ---
 ### nonsingular matrix exponentiation property
 - inverse
@@ -58,6 +64,7 @@ $$
 - zero
 ---
 ### nonsingular matrix exponentiation property formula
+
 $$
 \begin{aligned}
 (A^{-1})^{-1} = A \\
@@ -71,17 +78,20 @@ A^1 = A \\
 A^0 = I
 \end{aligned}
 $$
+
 ---
 ### 2x2 matrix inversion
 - square matrix of size two multiplication with inverse matrix equal identity matrix
 ---
 ### 2x2 matrix inversion formula
+
 $$
 \begin{aligned}
 A^{-1} = \begin{bmatrix} a & b \\ c & d \end{bmatrix}^{-1} = \frac{1}{\delta}\begin{bmatrix} d & -b \\ -c & a \end{bmatrix} \\
 \delta = ad - bc \ne 0
 \end{aligned}
 $$
+
 ---
 ### nxn matrix inversion
 - form the $n\times 2n$ augmented matrix whose left columns equal square matrix and right columns equal identity matrix
@@ -90,6 +100,7 @@ $$
 - if left columns not equal identity matrix then singular matrix
 ---
 ### nxn matrix inversion formula
+
 $$
 \begin{aligned}
 A|I \rightarrow I|A^{-1} \\
@@ -98,11 +109,13 @@ I = \text{identity matrix} \\
 A^{-1} = \text{inverse matrix}
 \end{aligned}
 $$
+
 ---
 ### nonsingular matrix property
 - nonsingular matrix if and only if rank equal number of columns
 ---
 ### nonsingular matrix property formula
+
 $$
 \begin{aligned}
 \exists A^{-1} \leftrightarrow \text{rank}(A)= n \\
@@ -111,6 +124,7 @@ A = \text{matrix} \\
 n = \text{number of columns}
 \end{aligned}
 $$
+
 ---
 ### coefficient matrix inversion
 - if nonsingular coefficient matrix then single solution equal $A^{-1}B$ 

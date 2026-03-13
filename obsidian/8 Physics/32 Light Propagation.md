@@ -7,6 +7,7 @@
 ![[8 Physics/Images/wave velocity.png|300]]
 ---
 ### wave velocity formula
+
 $$
 \begin{aligned}
 v = \lambda f = \frac{\omega}{k} \\
@@ -19,12 +20,14 @@ k = \text{wave number} \\
 \mu_0 = 4\pi \times 10^{-7} \\
 \end{aligned}
 $$
+
 ---
 ### refraction index
 - ratio between vacuum and non vacuum
 ![[8 Physics/Images/refraction index.png]]
 ---
 ### refraction index formula
+
 $$
 \begin{aligned}
 n = \frac{c}{v} = \frac{\lambda_0}{\lambda} = \sqrt{KK_m} \\
@@ -35,6 +38,7 @@ K = \text{dielectric constant} \\
 K_m = \text{relative permeability} 
 \end{aligned}
 $$
+
 ---
 ### ray
 - straight line representing the trajectory of light propagation
@@ -56,6 +60,7 @@ $$
 ![[8 Physics/Images/law of reflection.png|300]]
 ---
 ### formula of reflection
+
 $$
 \begin{aligned}
 \theta_1 = \theta_r \\
@@ -63,6 +68,7 @@ $$
 \theta_r = \text{angular reflection}
 \end{aligned}
 $$
+
 ---
 ### refraction
 - change of direction after the transmission of light through surface
@@ -73,6 +79,7 @@ $$
 ![[8 Physics/Images/law of refraction.png]]
 ---
 ### formula of refraction
+
 $$
 \begin{aligned}
 n_1\sin(\theta_1) = n_2\sin(\theta_2) \\
@@ -81,12 +88,14 @@ n = \text{refraction index} \\
 \theta_2 = \text{angular refraction}
 \end{aligned}
 $$
+
 ---
 ### critical angle
 - angular incidence where angular refraction equal 90
 ![[8 Physics/Images/critical angle.png]]
 ---
 ### critical angle formula
+
 $$
 \begin{aligned}
 \theta_c = \arcsin(\frac{n_2}{n_1}) \\
@@ -94,6 +103,7 @@ n_2 < n_1 \\
 n = \text{refraction index}
 \end{aligned}
 $$
+
 ---
 ### total internal reflection
 - angular incidence above critical angle so there exists zero refraction
@@ -146,6 +156,7 @@ $$
 ![[8 Physics/Images/malus law.png|400]]
 ---
 ### malus formula
+
 $$
 \begin{aligned}
 I = I_0 \cos^2(\theta) \\
@@ -153,6 +164,7 @@ I = \text{intensity} \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### calculate malus law
 - intensity of polar electromagnetic wave directly proportional square of electric field amplitude
@@ -170,6 +182,7 @@ $$
 ![[8 Physics/Images/brewsters law.png]]
 ---
 ### brewsters formula
+
 $$
 \begin{aligned}
 \theta_1 = \arctan(\frac{n_2}{n_1}) \\
@@ -177,6 +190,7 @@ $$
 n = \text{refraction index}
 \end{aligned}
 $$
+
 ---
 ### polarization by double refraction
 - for birefringent materials different polarizations refract by different amounts 
@@ -192,6 +206,7 @@ $$
 ![[8 Physics/Images/polarization by scattering.png|400]]
 ---
 ### polarization by scattering formula
+
 $$
 \begin{aligned}
 I \propto f^4 \propto \frac{1}{\lambda^4} \\

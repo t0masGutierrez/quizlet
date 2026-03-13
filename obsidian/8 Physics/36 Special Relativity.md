@@ -30,6 +30,7 @@
 ![[8 Physics/Images/lorentz factor.png|300]]
 ---
 ### lorentz factor formula
+
 $$
 \begin{aligned}
 \gamma = \sqrt[-2]{1-\frac{v_{A/B}^2}{c^2}} \ge 1 \\
@@ -37,6 +38,7 @@ v = \text{velocity} \\
 c = 3 \times 10^8
 \end{aligned}
 $$
+
 ---
 ### proper time
 - time elapsed in the rest frame
@@ -47,6 +49,7 @@ $$
 ![[8 Physics/Images/time dilation.png]]
 ---
 ### time dilation formula
+
 $$
 \begin{aligned}
 \Delta t = \Delta t_o \gamma \\
@@ -54,6 +57,7 @@ t_0 = \text{proper time} \\
 \gamma = \text{lorentz factor}
 \end{aligned}
 $$
+
 ---
 ### proper length
 - length measured in the rest frame
@@ -65,6 +69,7 @@ $$
 ![[8 Physics/Images/length contraction.png|400]]
 ---
 ### length contraction formula
+
 $$
 \begin{aligned}
 L = \frac{L_0}{\gamma} \\
@@ -72,11 +77,13 @@ L_0 = \text{proper length} \\
 \gamma = \text{lorentz factor}
 \end{aligned}
 $$
+
 ---
 ### galilean transformation
 - how classical mechanics relate the coordinates of event between two inertial frames
 ---
 ### galilean transformation formula
+
 $$
 \begin{aligned}
 x = x' + vt \\
@@ -88,20 +95,24 @@ v = \text{velocity} \\
 t = \text{time}
 \end{aligned}
 $$
+
 ---
 ### galilean velocity transformation formula
+
 $$
 \begin{aligned}
 v = v' + v_{A/B} \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### lorentz transformation
 - how special relativity relate the coordinates of event between two inertial frames
 ![[8 Physics/Images/lorentz transformation.png|200]]
 ---
 ### lorentz transformation formula
+
 $$
 \begin{aligned}
 x = (x' + vt')\gamma \\
@@ -115,18 +126,22 @@ t = \text{time} \\
 c = 3 \times 10^8
 \end{aligned}
 $$
+
 ---
 ### lorentz velocity transformation formula
+
 $$
 \begin{aligned}
 v = \frac{v' + v_{A/B}}{1 + v_{A/B}v'/c^2}
 \end{aligned}
 $$
+
 ---
 ### spacetime interval
 - spatiotemporal difference between two 4 dimensional events
 ---
 ### spacetime interval formula
+
 $$
 \begin{aligned}
 \Delta s^2 = c^2\Delta t^2 - \Delta x^2 - \Delta y^2 - \Delta z^2 \\
@@ -135,17 +150,20 @@ t = \text{time} \\
 x = \text{position}
 \end{aligned}
 $$
+
 ---
 ### lorentz invariance
 - the spacetime interval is the same across all inertial frames
 ---
 ### lorentz invariance formula
+
 $$
 \begin{aligned}
 \Delta s^2 = (\Delta s')^2 \\
 s = \text{spacetime}
 \end{aligned}
 $$
+
 ---
 ### worldline
 - path through spacetime
@@ -171,6 +189,7 @@ $$
 ![[8 Physics/Images/relativistic doppler effect.png|300]]
 ---
 ### relativistic doppler effect formula
+
 $$
 \begin{aligned}
 f = f_0\sqrt{\frac{c \pm v_{A/B}}{c \mp v_{A/B}}} \\
@@ -179,6 +198,7 @@ c = 3 \times 10^8 \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### red shift
 - increase of wavelength due to the source moving further the observer
@@ -193,6 +213,7 @@ $$
 ![[8 Physics/Images/relativistic momentum.png|250]]
 ---
 ### relativistic momentum formula
+
 $$
 \begin{aligned}
 \overrightarrow p = \gamma m \overrightarrow v \\
@@ -201,12 +222,14 @@ m = \text{mass} \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### relativistic kinetic energy
 - energy of motion near the speed of light
 ![[8 Physics/Images/relativistic kinetic energy.png|200]]
 ---
 ### relativistic kinetic energy formula
+
 $$
 \begin{aligned}
 K = (\gamma - 1)mc^2 \\
@@ -215,12 +238,14 @@ m = \text{mass} \\
 c = 3 \times 10^8
 \end{aligned}
 $$
+
 ---
 ### relativistic energy
 - energy of particle moving near the speed of light
 ![[8 Physics/Images/relativistic energy.png|300]]
 ---
 ### total relativistic energy formula
+
 $$
 \begin{aligned}
 E = \gamma mc^2 \\
@@ -229,8 +254,10 @@ m = \text{mass} \\
 c = 3 \times 10^8
 \end{aligned}
 $$
+
 ---
 ### rest relativistic energy formula
+
 $$
 \begin{aligned}
 E_0 = mc^2 \\
@@ -238,11 +265,13 @@ m = \text{mass} \\
 c = 3 \times 10^8
 \end{aligned}
 $$
+
 ---
 ### energy and momentum
 - total energy of particle with zero velocity equal rest energy
 ---
 ### energy and momentum formula
+
 $$
 \begin{aligned}
 E^2 = (mc^2)^2 + (pc)^2 \\

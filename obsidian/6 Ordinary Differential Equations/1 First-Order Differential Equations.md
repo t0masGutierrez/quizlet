@@ -2,6 +2,7 @@
 - equation involving derivatives of unknown function and the highest derivative of the unknown function equal 1
 ---
 ### 1st order differential equation formula
+
 $$
 \begin{aligned}
 \frac{dy}{dt} = f(t, y) \\
@@ -9,6 +10,7 @@ t = \text{independent variable} \\
 y = \text{unknown function} 
 \end{aligned}
 $$
+
 ---
 ### general solution of differential equation
 - family of functions with arbitrary constants that satisfy the differential equation
@@ -20,21 +22,26 @@ $$
 - its possible to separate the variables
 ---
 ### separable equation formula
+
 $$
 \begin{aligned}
 \frac{dy}{dt} = \frac{g(t)}{f(y)}
 \end{aligned}
 $$
+
 ---
 ### general solution of separable equation formula
+
 $$
 \begin{aligned}
 \int f(y)dy = \int g(t) dt \\
 t = \text{independent variable}
 \end{aligned}
 $$
+
 ---
 ### particular solution of separable equation formula
+
 $$
 \begin{aligned}
 \int_{y_0}^y f(r) dr = \int_{t_0}^t g(s)ds \\
@@ -44,6 +51,7 @@ t = \text{independent variable} \\
 s = \text{dummy variable} \\
 \end{aligned}
 $$
+
 ---
 ### homogeneous
 - RHS equal zero
@@ -64,6 +72,7 @@ $$
 - unknown function independent variable of coefficients
 ---
 ### 1st order homogeneous linear differential equation formula
+
 $$
 \begin{aligned}
 \frac{dy}{dt} + a(t)y(t) = 0 \\
@@ -72,8 +81,10 @@ t = \text{independent variable} \\
 a = \text{coefficient} \\
 \end{aligned}
 $$
+
 ---
 ### general solution of 1st order homogeneous linear differential equation formula
+
 $$
 \begin{aligned}
 y(t) = c\exp(-\int a(t)dt) \\
@@ -82,8 +93,10 @@ a = \text{coefficient} \\
 t = \text{independent variable}
 \end{aligned}
 $$
+
 ---
 ### particular solution of 1st order homogeneous linear differential equation formula
+
 $$
 \begin{aligned}
 y(t) = y(t_0)\exp(-\int_{t_0}^t a(r)dr) \\
@@ -92,11 +105,13 @@ a = \text{coefficient} \\
 r = \text{dummy variable}
 \end{aligned}
 $$
+
 ---
 ### integrating factor
 - multiplication with 1st order heterogeneous linear differential equation such that the LHS equal the derivative of product therefore becoming integrable
 ---
 ### integrating factor formula
+
 $$
 \begin{aligned}
 \frac{d\mu}{dt} = \mu(t)a(t) \\
@@ -107,8 +122,10 @@ $$
 \mu(t)\frac{dy}{dt} + \frac{d\mu}{dt}y(t)
 \end{aligned}
 $$
+
 ---
 ### 1st order heterogeneous linear differential equation formula
+
 $$
 \begin{aligned}
 \frac{dy}{dt} + a(t)y(t) = b(t) \\
@@ -118,8 +135,10 @@ a = \text{coefficient} \\
 b \ne 0
 \end{aligned}
 $$
+
 ---
 ### general solution of 1st order heterogeneous linear differential equation formula
+
 $$
 \begin{aligned}
 y(t) = \frac{1}{\mu(t)}(\int \mu(t) b(t)dt+c) = \exp(-\int a(t)dt)(\int \mu(t) b(t)dt+c) \\
@@ -130,8 +149,10 @@ c = \text{constant} \\
 a = \text{coefficient}
 \end{aligned}
 $$
+
 ---
 ### particular solution of 1st order heterogeneous linear differential equation formula
+
 $$
 \begin{aligned}
 y(t) = \frac{1}{\mu(t)}[\mu(t_0)y(t_0) +\int_{t_0}^t \mu(r) b(r)dr] = \exp(-\int a(t)dt)[\mu(t_0)y(t_0)+\int_{t_0}^t \mu(r) b(r)dr] \\
@@ -142,17 +163,20 @@ b \ne 0 \\
 a = \text{coefficient}
 \end{aligned}
 $$
+
 ---
 ### exact equation
 - equal partial derivatives
 ---
 ### exact equation formula
+
 $$
 \begin{aligned}
 M(t, y)dt + N(t, y)dy = 0 \\
 \frac{\partial M}{\partial y} = \frac{\partial N}{\partial t}
 \end{aligned}
 $$
+
 ---
 ### exact equation 1st method
 - test exactness
@@ -161,6 +185,7 @@ $$
 - combine terms
 ---
 ### general solution of exact equation 1st method formula
+
 $$
 \begin{aligned}
 \phi(t, y) = \int M(t, y)dt + \int N(t, y)dy + c \\
@@ -172,6 +197,7 @@ y = \text{unknown function} \\
 c = \text{constant} \\
 \end{aligned}
 $$
+
 ---
 ### exact equation 2nd method
 - test exactness
@@ -183,6 +209,7 @@ $$
 - solve in terms of unknown function
 ---
 ### general solution of exact equation 2nd method formula
+
 $$
 \begin{aligned}
 \phi(t, y) = \int M(t, y)dt + \int \left(N(t, y) - \frac{\partial }{\partial y}\int M(t, y)dt \right) \\
@@ -194,19 +221,23 @@ y = \text{unknown function} \\
 c = \text{constant} \\
 \end{aligned}
 $$
+
 ---
 ### exact equation integrating factor
 - multiplication with nonexact equation such that the partial derivatives equal therefore becoming integrable
 ---
 ### exact equation integrating factor formula
+
 $$
 \begin{aligned}
 f(t) = \frac{\frac{\partial M}{\partial y} - \frac{\partial N}{\partial t}}{N} \rightarrow \mu(t) = \exp(\int f(t)dt) \\
 f(y) = \frac{\frac{\partial N}{\partial t} - \frac{\partial M}{\partial y}}{M} \rightarrow \mu(y) = \exp(\int f(y)dy) \\
 \end{aligned}
 $$
+
 ---
 ### general solution of nonexact equation 1st method formula
+
 $$
 \begin{aligned}
 \phi(t, y) = \int \mu(t \lor y)M(t, y)dt + \int \mu(t \lor y)N(t, y)dy + c \\
@@ -219,8 +250,10 @@ y = \text{unknown function} \\
 c = \text{constant} \\
 \end{aligned}
 $$
+
 ---
 ### general solution of nonexact equation 2nd method formula
+
 $$
 \begin{aligned}
 \phi(t, y) = \int \mu(t \lor y)M(t, y)dt + \int \left(N(t, y) - \frac{\partial }{\partial y}\int M(t, y)dt \right) \\

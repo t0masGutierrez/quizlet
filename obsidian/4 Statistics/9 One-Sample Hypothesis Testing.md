@@ -17,22 +17,26 @@
 - statement of equality
 ---
 ### null hypothesis formula
+
 $$
 \begin{aligned}
 H_0: \quad \ge, \quad =, \quad  \le
 \end{aligned}
 $$
+
 ---
 ### alternative hypothesis
 - value of parameter not equal claim  
 - statement of inequality
 ---
 ### alternative hypothesis formula
+
 $$
 \begin{aligned}
 H_1: \quad >, \quad \ne, \quad <
 \end{aligned}
 $$
+
 ---
 ### reject versus fail to reject
 - reject null hypothesis if theres sufficient evidence that population parameter differs from the null hypothesis 
@@ -43,32 +47,38 @@ $$
 - false positive
 ---
 ### type I error formula
+
 $$
 \begin{aligned}
 \alpha = \text{rejecting } H_0 \text{ | } H_0 \text{ true}
 \end{aligned}
 $$
+
 ---
 ### type II error
 - failing to reject null hypothesis given its false  
 - false negative
 ---
 ### type II error formula
+
 $$
 \begin{aligned}
 \beta = \text{failing to reject } H_0 \text{ | } H_0 \text{ false}
 \end{aligned}
 $$
+
 ---
 ### power of hypothesis test
 - measure of hypothesis test effectiveness
 ---
 ### power of hypothesis test formula
+
 $$
 \begin{aligned}
 1-\beta = P(\text{rejecting } H_0 \text{ | } H_0 \text{ false})
 \end{aligned}
 $$
+
 ---
 ### test statistic
 - number of standard deviations between sample statistic and null hypothesis
@@ -128,6 +138,7 @@ $$
 - if null hypothesis inside confidence interval then fail to reject null hypothesis
 ---
 ### mean z-test formula
+
 $$
 \begin{aligned}
 \text{avgZ-Test}(\mu_0, \sigma, \bar X, n, \mu_1) \\
@@ -138,8 +149,10 @@ n = \text{sample size} \\
 \mu_1 = \text{alternative hypothesis}
 \end{aligned}
 $$
+
 ---
 ### mean t-test formula
+
 $$
 \begin{aligned}
 \text{avgT-Test}(\mu_0, \bar X, s, n, \mu_1) \\
@@ -150,8 +163,10 @@ n = \text{sample size} \\
 \mu_1 = \text{alternative hypothesis}
 \end{aligned}
 $$
+
 ---
 ### proportion z-test formula
+
 $$
 \begin{aligned}
 \text{propZ-Test}(\mu_0, \sigma, \bar X, n, \mu_1) \\

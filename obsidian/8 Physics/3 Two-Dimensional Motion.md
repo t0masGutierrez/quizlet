@@ -3,6 +3,7 @@
 ![[8 Physics/Images/position vector.png]]
 ---
 ### position vector formula
+
 $$
 \begin{aligned}
 \overrightarrow{r}(t) = x(t)\hat{i} + y(t)\hat{j} + z(t)\hat{k} \\
@@ -12,23 +13,27 @@ z = \text{z position} \\
 t = \text{time}
 \end{aligned}
 $$
+
 ---
 ### displacement vector
 - vector change of position
 ![[8 Physics/Images/displacement vector.png]]
 ---
 ### displacement vector formula
+
 $$
 \begin{aligned}
 \Delta \overrightarrow{r} = \overrightarrow{r} - \overrightarrow{r}_0 \\
 r = \text{position}
 \end{aligned}
 $$
+
 ---
 ### instantaneous velocity vector
 - rate of change of position as $\Delta t$ approaches zero
 ---
 ### instantaneous velocity vector formula
+
 $$
 \begin{aligned}
 \overrightarrow{v} = \frac{d\overrightarrow{r}}{dt} =
@@ -42,11 +47,13 @@ t = \text{time} \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### instantaneous acceleration
 - rate of change of velocity as $\Delta t$ approaches zero
 ---
 ### instantaneous acceleration formula
+
 $$
 \begin{aligned}
 \overrightarrow{a} = \frac{d\overrightarrow{v}}{dt} =
@@ -60,6 +67,7 @@ t = \text{time} \\
 a = \text{acceleration}
 \end{aligned}
 $$
+
 ---
 ### projectile motion
 - motion of freefalling object along two axes
@@ -68,6 +76,7 @@ $$
 ![[8 Physics/Images/projectile motion.png]]
 ---
 ### scalar component formula
+
 $$
 \begin{aligned}
 v_{0x} = v_{0}\cos(\theta) \\
@@ -76,16 +85,20 @@ v_0 = \text{initial velocity} \\
 \theta = \text{angle between vectors}
 \end{aligned}
 $$
+
 ---
 ### projectile horizontal motion formula
+
 $$
 \begin{aligned}
 v_x = v_{0x} \\
 x = x_0 + v_xt
 \end{aligned}
 $$
+
 ---
 ### projectile vertical motion formula
+
 $$
 \begin{aligned}
 v_y = v_{0y} - gt \\
@@ -95,8 +108,10 @@ v_y^2 = v_{0y}^2 - 2g(y - y_0) \\
 g = 9.8
 \end{aligned}
 $$
+
 ---
 ### projectile motion magnitude formula
+
 $$
 \begin{aligned}
 v = \sqrt{v_x^2 + v_y^2} \\
@@ -104,8 +119,10 @@ v_x = \text{x scalar component} \\
 v_y = \text{y scalar component}
 \end{aligned}
 $$
+
 ---
 ### projectile motion direction formula
+
 $$
 \begin{aligned}
 \theta = \arctan(\frac{v_y}{v_x}) \\
@@ -113,11 +130,13 @@ v_y = \text{y scalar component} \\
 v_x = \text{x scalar component}
 \end{aligned}
 $$
+
 ---
 ### zero vertical displacement
 - projectile motion with zero vertical displacement
 ---
 ### time formula
+
 $$
 \begin{aligned}
 t = \frac{2v_0\sin(\theta)}{g} \\
@@ -126,8 +145,10 @@ v_0 = \text{initial velocity} \\
 g = 9.8
 \end{aligned}
 $$
+
 ---
 ### maximum vertical formula
+
 $$
 \begin{aligned}
 y = x\tan(\theta) - \frac{gx^2}{2v_0^2\cos^2(\theta)} \\
@@ -137,8 +158,10 @@ g = 9.8 \\
 v_0 = \text{initial velocity}
 \end{aligned}
 $$
+
 ---
 ### maximum horizontal formula
+
 $$
 \begin{aligned}
 x = \frac{v_0^2 \sin(2\theta)}{g} \\
@@ -147,6 +170,7 @@ v_0 = \text{initial velocity} \\
 g = 9.8 
 \end{aligned}
 $$
+
 ---
 ### uniform circular motion
 - object travel along circle with constant speed but non zero acceleration
@@ -165,6 +189,7 @@ $$
 ![[8 Physics/Images/nonuniform circular motion.png|300]]
 ---
 ### tangential velocity formula
+
 $$
 \begin{aligned}
 v_{tan} = \frac{2\pi r}{T} \\
@@ -172,8 +197,10 @@ v_{tan} = \frac{2\pi r}{T} \\
 T = \text{period}
 \end{aligned}
 $$
+
 ---
 ### radial acceleration formula
+
 $$
 \begin{aligned}
 a_{rad} = \frac{v_{tan}^2}{r} \\

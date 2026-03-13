@@ -3,6 +3,7 @@
 ![[8 Physics/Images/net work.png]]
 ---
 ### constant work formula
+
 $$
 \begin{aligned}
 W = \overrightarrow F \cdot d \overrightarrow r = F \Delta r \cos(\theta) \\
@@ -11,8 +12,10 @@ r = \text{position} \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### variable work formula
+
 $$
 \begin{aligned}
 W = \sum_i F_i \Delta r_i = \int_{r_1}^{r_2} \overrightarrow F \cdot d \overrightarrow r \\
@@ -20,6 +23,7 @@ F = \text{force} \\
 r = \text{position}
 \end{aligned}
 $$
+
 ---
 ### calculate work
 - displacement parallel force equal positive work
@@ -31,6 +35,7 @@ $$
 ![[8 Physics/Images/potential energy.png]]
 ---
 ### potential energy formula
+
 $$
 \begin{aligned}
 U = \int_{r_2}^{r_1} \overrightarrow F_{cons} \cdot d \overrightarrow r \\
@@ -38,6 +43,7 @@ F_{cons} = \text{conservative force} \\
 r = \text{position}
 \end{aligned}
 $$
+
 ---
 ### conservative force
 - reversible force that conserve mechanical energy
@@ -48,18 +54,21 @@ $$
 - work done by conservative force equal negative change of potential energy
 ---
 ### work energy formula
+
 $$
 \begin{aligned}
 W_{cons} = U_i - U_f \\
 U = \text{potential energy}
 \end{aligned}
 $$
+
 ---
 ### electric potential energy
 - potential energy of electric charge as function of distance
 ![[8 Physics/Images/electric potential energy1.png]]
 ---
 ### electric potential energy formula
+
 $$
 \begin{aligned}
 U = k\frac{q_1 q_2}{r} \\
@@ -68,6 +77,7 @@ q = \text{electric charge} \\
 r = \text{distance} 
 \end{aligned}
 $$
+
 ---
 ### calculate electric potential energy
 - positive electric potential energy between same electric charge
@@ -78,6 +88,7 @@ $$
 ![[8 Physics/Images/electric potential energy.png]]
 ---
 ### electric potential energy formula
+
 $$
 \begin{aligned}
 U = qEy \\
@@ -86,6 +97,7 @@ E = \text{electric field} \\
 y = \text{position}
 \end{aligned}
 $$
+
 ---
 ### calculate electric potential energy
 - electric potential energy decreases parallel electric force
@@ -97,6 +109,7 @@ $$
 ![[8 Physics/Images/electric potential.png|400]]
 ---
 ### electric potential formula
+
 $$
 \begin{aligned}
 V = \frac{U}{q} = k\sum_i\frac{Q_i}{r_i} \\
@@ -107,6 +120,7 @@ Q = \text{source electric charge} \\
 r = \text{distance} 
 \end{aligned}
 $$
+
 ---
 ### calculate electric potential
 - positive electric charge move from high electric potential to low electric potential
@@ -127,6 +141,7 @@ $$
 ![[8 Physics/Images/electric potential difference.png]]
 ---
 ### electric potential difference formula
+
 $$
 \begin{aligned}
 \Delta V = \frac{\Delta U}{q} = k\int \frac{dQ}{r} \\
@@ -137,6 +152,7 @@ Q = \text{source electric charge} \\
 r = \text{distance} 
 \end{aligned}
 $$
+
 ---
 ### calculate electric potential difference
 - decreasing voltage parallel electric field
@@ -146,17 +162,20 @@ $$
 - electron change of energy whilst moving through electric potential difference of 1 volt
 ---
 ### electron volt formula
+
 $$
 \begin{aligned}
 eV = 1.6 \times 10^{-19}
 \end{aligned}
 $$
+
 ---
 ### uniform electric field
 - region of space around source electric charge where test electric charge experience uniform electric force
 ![[8 Physics/Images/uniform electric field.png]]
 ---
 ### uniform electric field formula
+
 $$
 \begin{aligned}
 E = \frac{\Delta V}{r} \\
@@ -164,12 +183,14 @@ V = \text{electric potential} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### non uniform electric field
 - region of space around source electric charge where test electric charge experience non uniform electric force
 ![[8 Physics/Images/non uniform electric field.png|400]]
 ---
 ### non uniform electric field formula
+
 $$
 \begin{aligned}
 E = \frac{-dV}{dr} \\
@@ -177,6 +198,7 @@ V = \text{electric potential} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### electrostatic conductor
 - equipotential for every point outer closed surface of electrostatic conductor
@@ -184,6 +206,7 @@ $$
 ![[8 Physics/Images/electrostatic conductor1.png|400]]
 ---
 ### electrostatic conductor formula
+
 $$
 \begin{aligned}
 E \perp = \frac{\sigma}{\epsilon_0} \\

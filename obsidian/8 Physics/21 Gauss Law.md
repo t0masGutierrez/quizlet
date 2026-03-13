@@ -3,6 +3,7 @@
 ![[8 Physics/Images/electric flux.png]]
 ---
 ### electric flux formula
+
 $$
 \begin{aligned}
 \Phi = \overrightarrow E \cdot \overrightarrow A = EA \cos(\theta) \\
@@ -11,12 +12,14 @@ A = \text{area} \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### open surface electric flux
 - surface enclosing indefinite volume incapable of enclosing electric charge
 - electric flux dependent size of open surface
 ---
 ### open surface electric flux formula
+
 $$
 \begin{aligned}
 \Phi = \int_{A_1}^{A_2}\overrightarrow E \cdot d\overrightarrow A \\
@@ -24,6 +27,7 @@ E = \text{electric field} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### closed surface electric flux
 - surface enclosing definite volume capable of enclosing electric charge
@@ -31,6 +35,7 @@ $$
 ![[8 Physics/Images/closed surface electric flux.png]]
 ---
 ### closed surface electric flux formula
+
 $$
 \begin{aligned}
 \Phi = \oint_{A_1}^{A_2} \overrightarrow E \cdot d\overrightarrow A \\
@@ -38,6 +43,7 @@ E = \text{electric field} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### zero electric flux
 - no electric charge inside closed surface
@@ -49,6 +55,7 @@ $$
 - electric flux directly proportional net electric charge inside gaussian surface 
 ---
 ### gauss formula
+
 $$
 \begin{aligned}
 \pm \Phi = \oint_{A_1}^{A_2}\overrightarrow E \cdot d\overrightarrow A = \frac{\pm Q_{enc}}{\epsilon_0} \\
@@ -58,6 +65,7 @@ Q = \text{electric charge} \\
 \epsilon_0 = 8.85 \times 10^{-12} \\
 \end{aligned}
 $$
+
 ---
 ### calculate gauss law
 - identify gaussian surface
@@ -77,6 +85,7 @@ $$
 ![[8 Physics/Images/symmetrical electric charge distribution.png]]
 ---
 ### symmetrical electric charge distribution formula
+
 $$
 \begin{aligned}
 E = \frac{Q_{enc}}{\epsilon_0A} \\
@@ -85,12 +94,14 @@ Q = \text{electric charge} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### spherical electric charge distribution
 - electric charge distribution along sphere
 ![[8 Physics/Images/spherical electric charge distribution.png|600]]
 ---
 ### spherical electric charge distribution formula
+
 $$
 \begin{aligned}
 E = \frac{Q_{enc}}{4 \pi \epsilon_0 r^2} \\
@@ -99,12 +110,14 @@ Q = \text{electric charge} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### cylindrical electric charge distribution
 - electric charge distribution along cylinder
 ![[8 Physics/Images/cylindrical electric charge distribution.png]]
 ---
 ### cylindrical electric charge distribution formula
+
 $$
 \begin{aligned}
 E = \frac{\lambda_{enc}}{2 \pi \epsilon_0 r} \\
@@ -113,12 +126,14 @@ E = \frac{\lambda_{enc}}{2 \pi \epsilon_0 r} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### planar electric charge distribution
 - electric charge distribution along plane
 ![[8 Physics/Images/planar electric charge distribution.png|400]]
 ---
 ### planar electric charge distribution formula
+
 $$
 \begin{aligned}
 E = \frac{\sigma_{enc}}{2 \epsilon_0} \\
@@ -126,12 +141,14 @@ E = \frac{\sigma_{enc}}{2 \epsilon_0} \\
 \epsilon_0 = 8.85 \times 10^{-12} \\
 \end{aligned}
 $$
+
 ---
 ### parallel planar electric charge distribution
 - electric charge distribution along parallel plane
 ![[8 Physics/Images/parallel planar electric charge distribution.png]]
 ---
 ### parallel planar electric charge distribution formula
+
 $$
 \begin{aligned}
 E = \frac{\sigma_{enc}}{\epsilon_0} \\
@@ -139,12 +156,14 @@ E = \frac{\sigma_{enc}}{\epsilon_0} \\
 \epsilon_0 = 8.85 \times 10^{-12} \\
 \end{aligned}
 $$
+
 ---
 ### electric charge density
 - measure of electric charge compactness
 ![[8 Physics/Images/electric charge density.png|500]]
 ---
 ### electric charge density formula
+
 $$
 \begin{aligned}
 dQ = \lambda  \ dL \\
@@ -156,6 +175,7 @@ A = \text{area} \\
 V = \text{volume}
 \end{aligned}
 $$
+
 ---
 ### electrostatic conductor
 - zero electric field inside closed surface of electrostatic conductor

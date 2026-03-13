@@ -3,6 +3,7 @@
 ![[7 Discrete Mathematics/Images/graph.png|300]]
 ---
 ### graph formula
+
 $$
 \begin{aligned}
 G = (V, E) \\
@@ -10,6 +11,7 @@ V = \text{set of vertices} \\
 E = \text{set of edges}
 \end{aligned}
 $$
+
 ---
 ### loop
 - edge connecting vertex with itself
@@ -79,6 +81,7 @@ $$
 - set of all adjacent vertices
 ---
 ### undirect neighborhood formula
+
 $$
 \begin{aligned}
 N(v) = \{u \in V | (v, u) \in E \} \\
@@ -86,24 +89,29 @@ v = \text{home vertex} \\
 u = \text{neighbor vertex}
 \end{aligned}
 $$
+
 ---
 ### direct neighborhood formula
+
 $$
 \begin{aligned}
 N^-(v) = \{u \in V | (u, v) \in E \} \\
 N^+(v) = \{u \in V | (v, u) \in E \} 
 \end{aligned}
 $$
+
 ---
 ### degree of vertex
 - number of edges incident with vertex
 ---
 ### degree of vertex formula
+
 $$
 \begin{aligned}
 deg(v) = N(v)
 \end{aligned}
 $$
+
 ---
 ### isolate vertex
 - vertex of degree 0
@@ -115,17 +123,20 @@ $$
 - for all undirect graphs the sum of the degrees of all vertices equal twice the number of edges
 ---
 ### undirect handshaking formula
+
 $$
 \begin{aligned}
 \sum_{v \in V} deg(v) = 2|E| \\
 |E| = \text{number of edges}
 \end{aligned}
 $$
+
 ---
 ### edge parity theorem
 - for all undirect graphs theres always even number of vertices with odd degree
 ---
 ### edge parity formula
+
 $$
 \begin{aligned}
 \mathbb{E} = 2k \\
@@ -133,11 +144,13 @@ $$
 \therefore \sum_{v \in V} deg(v) \in \mathbb{E}
 \end{aligned}
 $$
+
 ---
 ### in degree of vertex
 - number of incoming edges incident with vertex
 ---
 ### in degree of vertex formula
+
 $$
 \begin{aligned}
 deg^-(v) = \{u \in V | (u, v) \in E \} \\
@@ -145,11 +158,13 @@ u = \text{initial vertex} \\
 v = \text{terminal vertex}
 \end{aligned}
 $$
+
 ---
 ### out degree of vertex
 - number of outgoing edges incident with vertex
 ---
 ### out degree of vertex formula
+
 $$
 \begin{aligned}
 deg^+(v) = \{u \in V | (v, u) \in E \} \\
@@ -157,75 +172,88 @@ v = \text{initial vertex} \\
 u = \text{terminal vertex}
 \end{aligned}
 $$
+
 ---
 ### direct handshaking theorem
 - for all direct graphs the sum of the in degrees of all vertices and the sum of the out degrees of all vertices equal the number of edges
 ---
 ### direct handshaking formula
+
 $$
 \begin{aligned}
 \sum_{v \in V} deg^-(v) = \sum_{v \in V} deg^+(v) = |E| \\
 |E| = \text{number of edges}
 \end{aligned}
 $$
+
 ---
 ### complete graph
 - graph where every pair of vertices connect by exactly 1 edge
 ![[7 Discrete Mathematics/Images/complete graph.png]]
 ---
 ### complete graph formula
+
 $$
 \begin{aligned}
 |E| = \frac{n(n - 1)}{2} \\
 n = \text{number of vertices}
 \end{aligned}
 $$
+
 ---
 ### cycle graph
 - graph where traversal of all vertices without traversing same vertex twice can begin and end at the same vertex
 ![[7 Discrete Mathematics/Images/cycle graph.png]]
 ---
 ### cycle graph formula
+
 $$
 \begin{aligned}
 |E| = n \\
 n = \text{number of vertices}
 \end{aligned}
 $$
+
 ---
 ### wheel graph
 - cycle graph except central vertex connect all vertices
 ![[7 Discrete Mathematics/Images/wheel graph.png]]
 ### ---
+
 $$
 \begin{aligned}
 |E| = 2(n - 1) \\
 n = \text{number of vertices}
 \end{aligned}
 $$
+
 ---
 ### hypercube graph
 - graph where vertices equal $2^n$ bit strings of length *n* and two vertices adjacent if and only if bit strings differ by exactly 1 bit
 ![[7 Discrete Mathematics/Images/hypercube graph.png]]
 ---
 ### hypercube graph formula
+
 $$
 \begin{aligned}
 |E| = n \times 2^{n - 1} \\
 n = \text{number of vertices}
 \end{aligned}
 $$
+
 ---
 ### bipartition
 - divide set of vertices into two disjoint subsets such that every vertex has edge and there exists no edge between vertices within same set
 ![[7 Discrete Mathematics/Images/bipartite graph.png]]
 ---
 ### bipartition formula
+
 $$
 \begin{aligned}
 V_1 \cup V_2 = V \land V_1 \cap V_2 = \emptyset
 \end{aligned}
 $$
+
 ---
 ### bipartite color theorem
 - bipartition of graph possible if and only if coloring of vertices with exactly two colors such that no adjacent vertices share the same color 
@@ -252,6 +280,7 @@ $$
 - subset of vertices from larger graph where edges exist between select vertices
 ---
 ### subgraph formula
+
 $$
 \begin{aligned}
 W \subseteq V \land F \subseteq E \\
@@ -259,11 +288,13 @@ H = (W, F) \\
 G = (V, E)
 \end{aligned}
 $$
+
 ---
 ### induce subgraph
 - subset of vertices from larger graph where edges exist between subset of vertices
 ---
 ### induce subgraph formula
+
 $$
 \begin{aligned}
 e \in F \leftrightarrow (v_1, v_2) \in W \\
@@ -271,31 +302,37 @@ H = (W, F) \\
 G = (V, E)
 \end{aligned}
 $$
+
 ---
 ### edge addition
 - graph addition with edge connect non adjacent vertices
 ---
 ### edge addition formula
+
 $$
 \begin{aligned}
 G + e = (V, E \cup \{e\})
 \end{aligned}
 $$
+
 ---
 ### edge subtraction
 - graph subtraction with edge disconnect adjacent vertices
 ---
 ### edge subtraction formula
+
 $$
 \begin{aligned}
 G - e = (V, E - \{e\})
 \end{aligned}
 $$
+
 ---
 ### edge contraction
 - graph subtraction with edge merges vertices incident with edge into single vertex
 ---
 ### edge contraction formula
+
 $$
 \begin{aligned}
 V' = V - \{v_1, v_2\} \cup \{w\} \\
@@ -303,22 +340,26 @@ E' = \{e \in E | e \ne w\} \\
 w = \text{merge vertex}
 \end{aligned}
 $$
+
 ---
 ### vertex subtraction
 - graph subtraction with vertex disconnect incident edges
 ---
 ### vertex subtraction formula
+
 $$
 \begin{aligned}
 G - v = (V - {v}, E') \\
 G = (V, E)
 \end{aligned}
 $$
+
 ---
 ### graph union
 - joining of vertices and edges between graphs
 ---
 ### graph union formula
+
 $$
 \begin{aligned}
 G_1 \cup G_2 = V_1 \cup V_2 \land E_1 \cup E_2 \\

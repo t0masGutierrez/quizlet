@@ -1,4 +1,5 @@
 ### derivative rules
+
 $$
 \begin{aligned}
 \frac{d}{dx}c = 0 \\
@@ -27,16 +28,19 @@ $$
 \frac{d}{dx}\text{arccsc}(u) = \frac{-u'}{|u|\sqrt{u^2 - 1}}
 \end{aligned}
 $$
+
 ---
 ### related rate
 - treat variables as composite functions with respect to time
 ---
 ### related rate formula
+
 $$
 \begin{aligned}
 \frac{dy}{dt} = \frac{dy}{du} \times \frac{du}{dt}
 \end{aligned}
 $$
+
 ---
 ### calculate related rate
 - identify rate
@@ -48,25 +52,31 @@ $$
 - isolate rate
 ---
 ### inverse sine range
+
 $$
 \begin{aligned}
 [\frac{-\pi}{2}, \frac{\pi}{2}]
 \end{aligned}
 $$
+
 ---
 ### inverse cosine range
+
 $$
 \begin{aligned}
 [0, \pi]
 \end{aligned}
 $$
+
 ---
 ### inverse tangent range
+
 $$
 \begin{aligned}
 [\frac{-\pi}{2}, \frac{\pi}{2}]
 \end{aligned}
 $$
+
 ---
 ### formulate right triangle
 - substitute trigonometric ratio from inverse trigonometric argument into right triangle
@@ -78,14 +88,17 @@ $$
 - output angle
 ---
 ### inverse trigonometric formula
+
 $$
 \begin{aligned}
 y = \sin^{-1}(x) \\
 \sin(y) = x
 \end{aligned}
 $$
+
 ---
 ### inverse trigonometric derivative rules
+
 $$
 \begin{aligned}
 \frac{d}{dx}\arcsin(u) = \frac{u'}{\sqrt{1 - u^2}} \\
@@ -96,6 +109,7 @@ $$
 \frac{d}{dx}\text{arccsc}(u) = \frac{-u'}{|u|\sqrt{u^2 - 1}}
 \end{aligned}
 $$
+
 ---
 ### extrema
 - maxima or minima
@@ -155,11 +169,13 @@ $$
 ![[9 Calculus/Images/mean value theorem.png]]
 ---
 ### mean value formula
+
 $$
 \begin{aligned}
 f'(x) = \frac{f(b) - f(a)}{b - a}
 \end{aligned}
 $$
+
 ---
 ### calculate mean value theorem
 - compute average rate of change over interval endpoints
@@ -273,45 +289,54 @@ $$
 - approximate function value near point but approximation less accurate as *x* becomes further from point
 ---
 ### linear approximation formula
+
 $$
 \begin{aligned}
 y = f'(n)(x - n) + f(n)
 \end{aligned}
 $$
+
 ---
 ### differential versus delta
 - $dy$ approximates change
 - $\Delta y$ exacts change
 ---
 ### differential formula
+
 $$
 \begin{aligned}
 dy = f'(x)dx
 \end{aligned}
 $$
+
 ---
 ### delta formula
+
 $$
 \begin{aligned}
 \Delta y = f(x + \Delta x) - f(x)
 \end{aligned}
 $$
+
 ---
 ### error
 - difference between exact and approximate
 ---
 ### error formula
+
 $$
 \begin{aligned}
 \Delta y = f'(x)\Delta x \\
 \Delta x = \text{error}
 \end{aligned}
 $$
+
 ---
 ### relative error
 - ratio of approximate to exact
 ---
 ### relative error formula
+
 $$
 \begin{aligned}
 \Delta y = \frac{dy}{y}

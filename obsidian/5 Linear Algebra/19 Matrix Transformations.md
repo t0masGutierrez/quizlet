@@ -2,6 +2,7 @@
 - if known action of linear transformation on domain basis then known action on domain because every vector equal linear combination of its basis vectors
 ---
 ### action formula
+
 $$
 \begin{aligned}
 (L: \mathcal V \rightarrow \mathcal W) \land (B = \vec b_1, \dots, \vec b_n) \rightarrow L(c_1\vec b_1 + \dots c_n\vec b_n) = \vec w \\
@@ -14,12 +15,14 @@ B =\text{basis} \\
 c =\text{coordinate}
 \end{aligned}
 $$
+
 ---
 ### matrix transformation
 - image as C-coordinates equal matrix multiplication with preimage as B-coordinates
 - jth column of matrix transformation equal jth basis image vector expressed as C-coordinates
 ---
 ### matrix transformation formula
+
 $$
 \begin{aligned}
 (L : \mathcal V \rightarrow \mathcal W) \land (B = \vec b_1, \dots, \vec b_n) \land (C = \vec c_1, \dots \vec c_m) \rightarrow [\vec w]_C = A_{BC} [\vec v]_B \\
@@ -39,6 +42,7 @@ C = \text{codomain basis} \\
 A = \text{matrix transformation} 
 \end{aligned}
 $$
+
 ---
 ### terminology
 - matrix $A_{BC}$ equal matrix $A$ of the linear transformation $L$ with respect to the domain basis $B$ and codomain basis $C$ 
@@ -47,6 +51,7 @@ $$
 - matrix transformation with change of coordinates
 ---
 ### transitive matrix transformation property formula
+
 $$
 \begin{aligned}
 (L : \mathcal V \rightarrow \mathcal W) \land ([\vec v]_D = P_{BD}[\vec v]_B) \land ([\vec v]_E = Q_{CE}[\vec v]_C) \rightarrow A_{DE} = Q_{CE}A_{BC}P_{BD}^{-1} \\
@@ -62,11 +67,13 @@ Q = \text{codomain transition matrix} \\
 A = \text{matrix transformation} 
 \end{aligned}
 $$
+
 ---
 ### linear operator similarity property
 - linear operation on matrix respect to different bases equal similar matrices
 ---
 ### linear operator similarity property formula
+
 $$
 \begin{aligned}
 (L : \mathcal V \rightarrow \mathcal V) \land ([\vec v]_D = A_{DD}[\vec v]_D) \land ([\vec v]_C = A_{CC}[\vec v]_C) \land ([\vec v]_C = P_{DC}[\vec v]_D) \rightarrow A_{CC} \sim A_{DD} \\
@@ -80,11 +87,13 @@ C, D = \text{basis} \\
 P = \text{transition matrix} 
 \end{aligned}
 $$
+
 ---
 ### composite matrix transformation property
 - composition of matrix transformation equal matrix transformation
 ---
 ### composite matrix transformation property formula
+
 $$
 \begin{aligned}
 (L_1 : \mathcal V_1 \rightarrow \mathcal V_2) \land (L_2 : \mathcal V_2 \rightarrow \mathcal V_3) \rightarrow L_2 \circ L_1 : \mathcal V_1 \rightarrow \mathcal V_3 \\

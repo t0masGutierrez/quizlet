@@ -29,21 +29,25 @@
 - divide statement into general cases and prove each case separately
 ---
 ### proof by cases formula
+
 $$
 \begin{aligned}
 p_1 \lor p_2 \lor ... \lor p_n \to q
 \end{aligned}
 $$
+
 ---
 ### proof by exhaustion
 - divide statement into all possible cases and prove each case separately
 ---
 ### proof by exhaustion formula
+
 $$
 \begin{aligned}
 (p_1 \to q) \land (p_2 \to q) \land ... \land (p_n \to q)
 \end{aligned}
 $$
+
 ---
 ### without loss of generality
 - assumption that enables proof of theorem by reducing number of cases

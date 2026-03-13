@@ -1,4 +1,5 @@
 ### integral rules
+
 $$
 \begin{aligned}
 \int du = u + c \\
@@ -24,6 +25,7 @@ $$
 \int \frac{du}{u\sqrt{u^2 - a^2}} = \frac{1}{a} \text{arcsec}(\frac{u}{a}) + c \\
 \end{aligned}
 $$
+
 ---
 ### fitting integral rules
 - binomial expansion
@@ -79,11 +81,13 @@ $$
 ![[9 Calculus/Images/area of region between two curves.png]]
 ---
 ### area of region between two curves formula
+
 $$
 \begin{aligned}
 A = \int_a^b [f(x) - g(x)] dx \\
 \end{aligned}
 $$
+
 ---
 ### calculate area of region between two curves
 - find points of intersection by equating both functions and factoring
@@ -105,12 +109,14 @@ $$
 ![[9 Calculus/Images/disk method.png]]
 ---
 ### disk method formula
+
 $$
 \begin{aligned}
 V = \pi \int_a^b R(x)^2dx \\
 R(x) = \text{distance from axis of revolution}
 \end{aligned}
 $$
+
 ---
 ### disk method axis of revolution
 - if horizontal axis of revolution then $dx$ equal variable of integration
@@ -127,6 +133,7 @@ $$
 ![[9 Calculus/Images/washer method.png]]
 ---
 ### washer method formula
+
 $$
 \begin{aligned}
 V = \pi \int_a^b [R(x)^2 - r(x)^2]dx \\
@@ -134,6 +141,7 @@ R(x) = \text{big radius} \\
 r(x) = \text{small radius} \\
 \end{aligned}
 $$
+
 ---
 ### shell volume
 - parallel rectangle revolve about hollow axis of revolution
@@ -144,12 +152,14 @@ $$
 ![[9 Calculus/Images/shell method.png]]
 ---
 ### shell formula
+
 $$
 \begin{aligned}
 V = 2\pi \int_a^b R(x)f(x)dx \\
 R(x) = \text{distance from the axis of revolution} \\
 \end{aligned}
 $$
+
 ---
 ### shell method axis of revolution
 - if horizontal axis of revolution then $dy$ equal variable of integration
@@ -167,11 +177,13 @@ $$
 ![[9 Calculus/Images/arc length.png]]
 ---
 ### arc length formula
+
 $$
 \begin{aligned}
 s = \int_a^b \sqrt{1 + (\frac{dy}{dx})^2}dx
 \end{aligned}
 $$
+
 ---
 ### calculate arc length
 - differentiate function
@@ -183,12 +195,14 @@ $$
 ![[9 Calculus/Images/frustum area.png]]
 ---
 ### surface area formula
+
 $$
 \begin{aligned}
 S(x) = 2\pi \int_a^b R(x) \sqrt{1 + (\frac{dy}{dx})^2}dx \\
 S(y) = 2\pi \int_a^b R(y) \sqrt{1 + (\frac{dx}{dy})^2}dy
 \end{aligned}
 $$
+
 ---
 ### calculate surface area
 - if horizontal axis of revolution then $y = R(x)$ 

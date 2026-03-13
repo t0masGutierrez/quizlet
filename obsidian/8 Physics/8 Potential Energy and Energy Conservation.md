@@ -3,6 +3,7 @@
 ![[8 Physics/Images/potential energy.png]]
 ---
 ### potential energy formula
+
 $$
 \begin{aligned}
 U = \int_{r_2}^{r_1} \overrightarrow F_{cons} \cdot d \overrightarrow r \\
@@ -10,6 +11,7 @@ F_{cons} = \text{conservative force} \\
 r = \text{position}
 \end{aligned}
 $$
+
 ---
 ### conservative force
 - reversible force that conserve mechanical energy
@@ -20,17 +22,20 @@ $$
 - work done by conservative force equal negative change of potential energy
 ---
 ### work energy formula
+
 $$
 \begin{aligned}
 W_{cons} = U_i - U_f \\
 U = \text{potential energy}
 \end{aligned}
 $$
+
 ---
 ### gravitational potential energy
 - potential energy of gravity as function of position
 ---
 ### gravitational potential energy formula
+
 $$
 \begin{aligned}
 U_g = mgy \\
@@ -39,11 +44,13 @@ g = \text{gravity} \\
 y = \text{position}
 \end{aligned}
 $$
+
 ---
 ### elastic potential energy
 - potential energy of elasticity as function of position
 ---
 ### elastic potential energy formula
+
 $$
 \begin{aligned}
 U_{el} = \frac{1}{2}kx^2 \\
@@ -51,11 +58,13 @@ k = \text{spring constant} \\
 x = \text{position}
 \end{aligned}
 $$
+
 ---
 ### mechanical energy
 - kinetic energy and potential energy
 ---
 ### mechanical energy formula
+
 $$
 \begin{aligned}
 E = K + U \\
@@ -63,11 +72,13 @@ K = \text{kinetic energy} \\
 U = \text{potential energy}
 \end{aligned}
 $$
+
 ---
 ### work energy
 - work done by non conservative force equal non zero change of mechanical energy
 ---
 ### work energy formula
+
 $$
 \begin{aligned}
 W_{noncons} = \Delta E \\
@@ -77,11 +88,13 @@ K = \text{kinetic energy} \\
 U = \text{potential energy}
 \end{aligned}
 $$
+
 ---
 ### energy conservation
 - work done by conservative force equal zero change of mechanical energy
 ---
 ### energy conservation formula
+
 $$
 \begin{aligned}
 E_i = E_f \\
@@ -91,6 +104,7 @@ K = \text{kinetic energy} \\
 U = \text{potential energy}
 \end{aligned}
 $$
+
 ---
 ### energy diagram
 - mechanical energy as function of position

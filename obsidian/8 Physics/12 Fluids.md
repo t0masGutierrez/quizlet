@@ -24,6 +24,7 @@
 ![[8 Physics/Images/volume.png]]
 ---
 ### volume formula
+
 $$
 \begin{aligned}
 \text{cube} = lwh \\
@@ -31,6 +32,7 @@ $$
 \text{cyclinder} = \pi r^2h
 \end{aligned}
 $$
+
 ---
 ### calculate volume
 - submerge object into liquid
@@ -41,6 +43,7 @@ $$
 ![[8 Physics/Images/density.png]]
 ---
 ### density formula
+
 $$
 \begin{aligned}
 \rho = \frac{m}{V} \\
@@ -48,12 +51,14 @@ m = \text{mass} \\
 V = \text{volume}
 \end{aligned}
 $$
+
 ---
 ### pressure
 - measure of local force
 ![[8 Physics/Images/pressure.png]]
 ---
 ### pressure formula
+
 $$
 \begin{aligned}
 p = \frac{F\perp}{A} \\
@@ -61,23 +66,27 @@ F = \text{force} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### atmospheric pressure
 - weight of air column
 ![[8 Physics/Images/atmospheric pressure.png]]
 ---
 ### atmospheric pressure formula
+
 $$
 \begin{aligned}
 \text{1 atm} = \text{101325 Pa}
 \end{aligned}
 $$
+
 ---
 ### hydrostatic pressure
 - weight of fluid column
 ![[8 Physics/Images/hydrostatic pressure.png]]
 ---
 ### hydrostatic pressure formula
+
 $$
 \begin{aligned}
 p = p_0 + \rho gy \\
@@ -87,11 +96,13 @@ g = 9.8 \\
 y = \text{position}
 \end{aligned}
 $$
+
 ---
 ### gauge pressure
 - measure of pressure relative atmospheric pressure
 ---
 ### gauge pressure formula
+
 $$
 \begin{aligned}
 p_g = p_{abs} - p_{atm} \\
@@ -99,6 +110,7 @@ p_{abs} = \text{absolute pressure} \\
 p_{atm} = \text{atmospheric pressure} \\
 \end{aligned}
 $$
+
 ---
 ### manometer
 - measure pressure inside container by comparing height of fluid column
@@ -109,6 +121,7 @@ $$
 ![[8 Physics/Images/pascal principle.png]]
 ---
 ### pascal formula
+
 $$
 \begin{aligned}
 \frac{F_1}{A_1} = \frac{F_2}{A_2} \\
@@ -116,6 +129,7 @@ F = \text{force} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### archimedes principle
 - buoyant force equal weight of fluid displacement
@@ -125,6 +139,7 @@ $$
 ![[8 Physics/Images/buoyant force.png]]
 ---
 ### buoyant force formula
+
 $$
 \begin{aligned}
 F_b = \rho_f V_fg \\
@@ -133,6 +148,7 @@ V_f = \text{fluid volume} \\
 g = 9.8
 \end{aligned}
 $$
+
 ---
 ### calculate buoyant force
 - buoyant force greater object weight cause floating
@@ -143,6 +159,7 @@ $$
 - object inside fluid appear less heavy due to buoyant force
 ---
 ### apparent weight formula
+
 $$
 \begin{aligned}
 w_{app} =w - F_b \\
@@ -150,12 +167,14 @@ w = \text{weight} \\
 F_b = \text{buoyant force}
 \end{aligned}
 $$
+
 ---
 ### volume flow rate
 - amount of fluid flow through cross section over time
 ![[8 Physics/Images/volume flow rate.png]]
 ---
 ### volume flow rate formula
+
 $$
 \begin{aligned}
 \frac{dV}{dt} = A v \\
@@ -163,12 +182,14 @@ A = \text{area} \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### incompressible fluid
 - constant density aka mass conservation
 ![[8 Physics/Images/incompressible fluid.png]]
 ---
 ### continuity formula
+
 $$
 \begin{aligned}
 A_1 v_1 = A_2 v_2 \\
@@ -176,12 +197,14 @@ A = \text{area} \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### viscous fluid
 - internal friction of fluid cause velocity change along solid boundary
 ![[8 Physics/Images/viscous fluid.png]]
 ---
 ### viscosity formula
+
 $$
 \begin{aligned}
 \mu = \frac{Fy}{Av} \\
@@ -191,6 +214,7 @@ A = \text{area} \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### ideal fluid
 - constant density and zero viscosity
@@ -199,6 +223,7 @@ $$
 - for ideal fluids there exists inverse relationship between pressure and velocity
 ---
 ### bernoulli formula
+
 $$
 \begin{aligned}
 p_1 + \frac{1}{2}\rho v_1^2 + \rho gy_1 = p_2 + \frac{1}{2}\rho v_2^2 + \rho gy_2 \\
@@ -209,8 +234,10 @@ g = 9.8 \\
 y = \text{position}
 \end{aligned}
 $$
+
 ---
 ### special bernoulli formula
+
 $$
 \begin{aligned}
 \text{static flow} = p_1 + \rho gy_1 = p_2 + \rho gy_2 \\
@@ -222,11 +249,13 @@ y = \text{position} \\
 v = \text{velocity} 
 \end{aligned}
 $$
+
 ---
 ### drag force
 - resistive force by fluid on object
 ---
 ### drag force formula
+
 $$
 \begin{aligned}
 \overrightarrow F_d = \frac{1}{2}\rho A \overrightarrow v^2C_d \\
@@ -236,11 +265,13 @@ v = \text{velocity} \\
 C_d = \text{drag coefficient}
 \end{aligned}
 $$
+
 ---
 ### terminal velocity
 - free falling object with constant velocity
 ---
 ### terminal velocity formula
+
 $$
 \begin{aligned}
 m \overrightarrow g = \overrightarrow F_d \rightarrow \overrightarrow v = \sqrt{\frac{2m \overrightarrow g}{\rho C_dA}} \\

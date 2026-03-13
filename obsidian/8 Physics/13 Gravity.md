@@ -7,6 +7,7 @@
 ![[8 Physics/Images/newtons law of gravitation.png|500]]
 ---
 ### newtons formula of gravitation
+
 $$
 \begin{aligned}
 F_g = G\frac{m_1m_2}{r^2} \\
@@ -15,12 +16,14 @@ m = \text{mass} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### gravitational field
 - region of space around mass where other masses experience gravitational force
 ![[8 Physics/Images/gravitational field.png|300]]
 ---
 ### gravitational field formula
+
 $$
 \begin{aligned}
 g = G\frac{M}{r^2} = \frac{F_g}{m}\\
@@ -30,12 +33,14 @@ r = \text{distance} \\
 m = \text{test mass}
 \end{aligned}
 $$
+
 ---
 ### gravitational potential energy
 - potential energy of gravity as function of distance
 ![[8 Physics/Images/gravitational potential energy.png]]
 ---
 ### gravitational potential energy formula
+
 $$
 \begin{aligned}
 U_g = -G\frac{m_1m_2}{r} \\
@@ -44,6 +49,7 @@ m = \text{mass} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### calculate gravitational potential energy
 - $\sum U_g = -G\sum_{ij} \frac{m_im_j}{r_{ij}}$ 
@@ -57,6 +63,7 @@ $$
 - work done by conservative force equal zero change of mechanical energy
 ---
 ### energy conservation formula
+
 $$
 \begin{aligned}
 \frac{1}{2}mv_1^2 + \frac{-GMm}{r_1} = \frac{1}{2}mv_2^2 + \frac{-GMm}{r_2} \\
@@ -67,6 +74,7 @@ G = 6.67 \times 10^{-11} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### orbital motion
 - negative mechanical energy equal circular orbit or elliptical orbit
@@ -79,6 +87,7 @@ $$
 ![[8 Physics/Images/circular orbit.png]]
 ---
 ### circular orbit energy formula
+
 $$
 \begin{aligned}
 E = -G\frac{m_1m_2}{2r} \\
@@ -87,8 +96,10 @@ m = \text{mass} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### circular orbit velocity formula
+
 $$
 \begin{aligned}
 v = \sqrt{\frac{Gm}{r}} \\
@@ -97,8 +108,10 @@ m = \text{mass} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### circular orbit period formula
+
 $$
 \begin{aligned}
 T = 2\pi \sqrt{\frac{r^3}{Gm}} \\
@@ -107,6 +120,7 @@ G = 6.67 \times 10^{-11} \\
 m = \text{mass}
 \end{aligned}
 $$
+
 ---
 ### stable orbit
 - projectile does not overcome gravitational field
@@ -120,6 +134,7 @@ $$
 - minimum velocity for overcoming gravitational field
 ---
 ### escape velocity formula
+
 $$
 \begin{aligned}
 v = \sqrt{\frac{2GM}{r}} \\
@@ -128,6 +143,7 @@ m = \text{mass} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### conic section
 - circle

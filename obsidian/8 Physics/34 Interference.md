@@ -34,6 +34,7 @@
 ![[8 Physics/Images/constructive interference1.png|300]]
 ---
 ### constructive interference formula
+
 $$
 \begin{aligned}
 \Delta r = m\lambda \\
@@ -41,6 +42,7 @@ m = \pm 0, \pm1, \pm2 ... \\
 \lambda = \text{wavelength}
 \end{aligned}
 $$
+
 ---
 ### destructive interference
 - combination of two or more waves equal smaller wave
@@ -48,6 +50,7 @@ $$
 ![[8 Physics/Images/destructive interference1.png|300]]
 ---
 ### destructive interference formula
+
 $$
 \begin{aligned}
 \Delta r = (m + \frac{1}{2})\lambda \\
@@ -55,12 +58,14 @@ m = \pm 0, \pm1, \pm2 ... \\
 \lambda = \text{wavelength}
 \end{aligned}
 $$
+
 ---
 ### path difference
 - interference dependent path between double slit and common point
 ![[8 Physics/Images/path difference.png|400]]
 ---
 ### constructive path difference formula
+
 $$
 \begin{aligned}
 d \sin(\theta) = m\lambda \\
@@ -70,8 +75,10 @@ m = \text{interference order} \\
 \lambda = \text{wavelength}
 \end{aligned}
 $$
+
 ---
 ### destructive path difference formula
+
 $$
 \begin{aligned}
 d \sin(\theta) = (m + \frac{1}{2})\lambda \\
@@ -81,12 +88,14 @@ m = \text{interference order} \\
 \lambda = \text{wavelength}
 \end{aligned}
 $$
+
 ---
 ### small angle approximation
 - small angular position between central fringe and $m^{th}$ fringe
 ![[8 Physics/Images/small angle approximation.png|300]]
 ---
 ### small angle approximation formula
+
 $$
 \begin{aligned}
 \sin(\theta) \approx \tan(\theta) = \frac{y}{L} \\
@@ -96,6 +105,7 @@ y = \text{position} \\
 L = \text{length}
 \end{aligned}
 $$
+
 ---
 ### triple slit interference
 - transmission of coherent light through triple slit demonstrate wave nature of light propagation and principle of superposition
@@ -127,6 +137,7 @@ $$
 ![[8 Physics/Images/double slit amplitude.png|200]]
 ---
 ### double slit amplitude formula
+
 $$
 \begin{aligned}
 E = 2E_{12}\cos(\frac{\phi}{2}) \\
@@ -134,6 +145,7 @@ E = \text{electric field} \\
 \phi = \text{phase angle}
 \end{aligned}
 $$
+
 ---
 ### double slit intensity
 - maximum intensity where path difference equal integer multiple of $\lambda$ 
@@ -141,6 +153,7 @@ $$
 ![[8 Physics/Images/double slit intensity.png]]
 ---
 ### double slit intensity formula
+
 $$
 \begin{aligned}
 I = I_0 \cos^2(\frac{\phi}{2}) \\
@@ -148,8 +161,10 @@ I = \text{intensity} \\
 \phi = \text{phase angle}
 \end{aligned}
 $$
+
 ---
 ### double slit intensity phase angle formula
+
 $$
 \begin{aligned}
 \phi = (\frac{2\pi}{\lambda})\Delta r = k d\sin\theta \\
@@ -160,6 +175,7 @@ d = \text{distance} \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### thin film interference
 - interference of light upon interaction with thin layer of material
@@ -177,6 +193,7 @@ $$
 ![[8 Physics/Images/fringe spacing.png|400]]
 ---
 ### fringe spacing formula
+
 $$
 \begin{aligned}
 \tan(\theta) = \frac{y'}{L'} = \frac{y}{L} \\
@@ -184,6 +201,7 @@ y = \text{position} \\
 L = \text{length}
 \end{aligned}
 $$
+
 ---
 ### thin film same phase angle
 - reflection against material with lower refraction index equal 0 phase angle
@@ -191,6 +209,7 @@ $$
 ![[8 Physics/Images/thin film same phase angle.png|300]]
 ---
 ### same constructive interference formula
+
 $$
 \begin{aligned}
 2nt = m \lambda \\
@@ -200,8 +219,10 @@ m = \text{interference order} \\
 \lambda = \text{wavelength}
 \end{aligned}
 $$
+
 ---
 ### same destructive interference formula
+
 $$
 \begin{aligned}
 2nt = (m + \frac{1}{2})\lambda \\
@@ -211,6 +232,7 @@ m = \text{interference order} \\
 \lambda = \text{wavelength} 
 \end{aligned}
 $$
+
 ---
 ### thin film different phase angle
 - from high to low equal no phase angle
@@ -218,6 +240,7 @@ $$
 ![[8 Physics/Images/thin film different phase angle.png|400]]
 ---
 ### different constructive interference formula
+
 $$
 \begin{aligned}
 2nt = (m + \frac{1}{2})\lambda \\
@@ -227,8 +250,10 @@ m = \text{interference order} \\
 \lambda = \text{wavelength} 
 \end{aligned}
 $$
+
 ---
 ### different destructive interference formula
+
 $$
 \begin{aligned}
 2nt = m \lambda \\
@@ -238,6 +263,7 @@ m = \text{interference order} \\
 \lambda = \text{wavelength}
 \end{aligned}
 $$
+
 ---
 ### thin film versus thick film
 - thin film equal coherent light

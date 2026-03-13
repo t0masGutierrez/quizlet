@@ -6,6 +6,7 @@
 ![[8 Physics/Images/AC electric current.png|300]]
 ---
 ### AC electric current formula
+
 $$
 \begin{aligned}
 i(t) = I\cos(\omega t) \\
@@ -14,12 +15,14 @@ I = \text{electric current} \\
 t = \text{time} 
 \end{aligned}
 $$
+
 ---
 ### AC voltage
 - sinusoidal function of time varying voltage
 ![[8 Physics/Images/AC voltage.png|300]]
 ---
 ### AC voltage formula
+
 $$
 \begin{aligned}
 v(t) = V\cos(\omega t + \phi) \\
@@ -29,35 +32,41 @@ t = \text{time} \\
 \phi = \text{phase angle}
 \end{aligned}
 $$
+
 ---
 ### rms electric current
 - root mean square of electric current
 ![[8 Physics/Images/rms electric current.png|300]]
 ---
 ### rms electric current
+
 $$
 \begin{aligned}
 I_{rms} = \frac{I}{\sqrt2} \\
 I = \text{electric current}
 \end{aligned}
 $$
+
 ---
 ### rms voltage
 - root mean square of voltage
 ---
 ### rms voltage
+
 $$
 \begin{aligned}
 V_{rms} = \frac{V}{\sqrt2} \\
 V = \text{voltage}
 \end{aligned}
 $$
+
 ---
 ### resistor
 - electric component designed to resist electric current
 ![[8 Physics/Images/resistor2.png|400]]
 ---
 ### resistor formula
+
 $$
 \begin{aligned}
 v_R = iR \\
@@ -65,12 +74,14 @@ i = \text{electric current} \\
 R = \text{resistance}
 \end{aligned}
 $$
+
 ---
 ### inductor
 - electric component designed to oppose changing electric current
 ![[8 Physics/Images/inductor2.png|400]]
 ---
 ### inductor formula
+
 $$
 \begin{aligned}
 v_L = L \frac{di}{dt} \\
@@ -79,12 +90,14 @@ i = \text{electric current} \\
 t = \text{time}
 \end{aligned}
 $$
+
 ---
 ### capacitor
 - electric component designed to store electric charge
 ![[8 Physics/Images/capacitor1.png|400]]
 ---
 ### capacitor formula
+
 $$
 \begin{aligned}
 v_C = \frac{q}{C} \\
@@ -92,6 +105,7 @@ q = \text{electric charge} \\
 C = \text{capacitance}
 \end{aligned}
 $$
+
 ---
 ### reactance
 - reaction to AC
@@ -107,6 +121,7 @@ $$
 ![[8 Physics/Images/resistive reactance.png|400]]
 ---
 ### resistive reactance formula
+
 $$
 \begin{aligned}
 X_R = \frac{V_R}{I} = R \\
@@ -115,12 +130,14 @@ I = \text{electric current} \\
 R = \text{resistance}
 \end{aligned}
 $$
+
 ---
 ### inductive reactance
 - reaction to changing electric current
 ![[8 Physics/Images/inductive reactance.png|200]]
 ---
 ### inductive reactance formula
+
 $$
 \begin{aligned}
 X_L = \frac{V_L}{I} = \omega L \\
@@ -130,12 +147,14 @@ I = \text{electric current} \\
 L = \text{self inductance}
 \end{aligned}
 $$
+
 ---
 ### capacitive reactance
 - reaction to changing voltage
 ![[8 Physics/Images/capacitive reactance.png|400]]
 ---
 ### capacitive reactance formula
+
 $$
 \begin{aligned}
 X_C = \frac{V_C}{I} = \frac{1}{\omega C} \\
@@ -145,12 +164,14 @@ I = \text{electric current} \\
 C = \text{capacitance}
 \end{aligned}
 $$
+
 ---
 ### phase angle
 - temporal difference between waves of the same angular frequency
 ![[8 Physics/Images/phase angle.png|300]]
 ---
 ### phase angle formula
+
 $$
 \begin{aligned}
 \phi = \arctan(\frac{X_L - X_C}{R}) \\
@@ -158,6 +179,7 @@ X = \text{reactance} \\
 R = \text{resistance}
 \end{aligned}
 $$
+
 ---
 ### calculate phase angle
 - positive phase angle equal leading voltage
@@ -168,6 +190,7 @@ $$
 ![[8 Physics/Images/impedance.png|400]]
 ---
 ### impedance formula
+
 $$
 \begin{aligned}
 Z = \sqrt{R^2 + (X_L - X_C)^2} \\
@@ -175,11 +198,13 @@ R = \text{resistance} \\
 X = \text{reactance}
 \end{aligned}
 $$
+
 ---
 ### ohms law
 - electric current directly proportional voltage and inversely proportional impedance
 ---
 ### ohms formula
+
 $$
 \begin{aligned}
 V = IZ 
@@ -187,12 +212,14 @@ I = \text{electric current} \\
 Z = \text{impedance}
 \end{aligned}
 $$
+
 ---
 ### average power
 - rate of energy transfer
 ![[8 Physics/Images/average power.png|350]]
 ---
 ### average power formula
+
 $$
 \begin{aligned}
 P = I_{rms}V_{rms} \cos(\phi) = I_{rms}^2Z \cos(\phi) = \frac{V_{rms}^2}{Z} \cos(\phi) \\
@@ -202,12 +229,14 @@ V = \text{voltage} \\
 Z = \text{impedance}
 \end{aligned}
 $$
+
 ---
 ### power factor
 - amount of power thats dissipating energy
 ![[8 Physics/Images/power factor.png]]
 ---
 ### power factor formula
+
 $$
 \begin{aligned}
 \cos(\phi) = \frac{R}{Z} \\
@@ -215,6 +244,7 @@ R = \text{resistance} \\
 Z = \text{impedance}
 \end{aligned}
 $$
+
 ---
 ### resonance
 - driving angular frequency equal natural angular frequency thus maximizing amplitude
@@ -225,6 +255,7 @@ $$
 ![[8 Physics/Images/resonant angular frequency.png|250]]
 ---
 ### resonant angular frequency formula
+
 $$
 \begin{aligned}
 \omega = \sqrt{\frac{1}{LC}} \\
@@ -232,6 +263,7 @@ L = \text{self inductance} \\
 C = \text{capacitance}
 \end{aligned}
 $$
+
 ---
 ### calculate resonant angular frequency
 - impedance equal resistance
@@ -243,6 +275,7 @@ $$
 ![[8 Physics/Images/quality factor.png|250]]
 ---
 ### quality factor formula
+
 $$
 \begin{aligned}
 Q = \frac{\omega}{\Delta \omega} = \frac{\omega L}{R} \\
@@ -252,6 +285,7 @@ L = \text{self inductance} \\
 R = \text{resistance}
 \end{aligned}
 $$
+
 ---
 ### calculate quality factor
 - high quality signal equal narrow, tall crest with low energy loss per cycle
@@ -262,6 +296,7 @@ $$
 ![[8 Physics/Images/step up transformer.png|300]]
 ---
 ### step up transformer voltage formula
+
 $$
 \begin{aligned}
 \frac{V_2}{V_1} = \frac{N_2}{N_1} \\
@@ -269,12 +304,14 @@ V = \text{voltage} \\
 N = \text{number of loops}
 \end{aligned}
 $$
+
 ---
 ### step down transformer
 - transform voltage from high voltage to low voltage
 ![[8 Physics/Images/step down transformer.png|300]]
 ---
 ### step down transformer power formula
+
 $$
 \begin{aligned}
 I_1V_1 = I_2V_2 \\
@@ -282,6 +319,7 @@ I = \text{electric current} \\
 V = \text{voltage}
 \end{aligned}
 $$
+
 ---
 ### rectification
 - AC conversion DC with electric component
@@ -295,6 +333,7 @@ $$
 ![[8 Physics/Images/average rectification electric current.png]]
 ---
 ### average full wave rectification electric current formula
+
 $$
 \begin{aligned}
 I_{avg} = (\frac{2}{\pi})I = 0.637I \\

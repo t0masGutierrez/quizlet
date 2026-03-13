@@ -2,6 +2,7 @@
 - equation involving 1 or more variables with degree 1
 ---
 ### linear equation formula
+
 $$
 \begin{aligned}
 a_1x_1 + a_1x_2 + \cdots + a_1x_n = b_1 \\
@@ -10,11 +11,13 @@ b = \text{constant} \\
 x = \text{variable}
 \end{aligned}
 $$
+
 ---
 ### system of linear equations
 - collection of $m$ linear equations, each with linear combination of the same $n$ variables
 ---
 ### system of linear equations formula
+
 $$
 \begin{aligned}
 \begin{array}{l}
@@ -28,11 +31,13 @@ b = \text{constant} \\
 x = \text{variable}
 \end{aligned}
 $$
+
 ---
 ### particular solution of system of linear equations
 - $n$ tuple of solutions that satisfy every linear equation of the system
 ---
 ### particular solution of system of linear equations formula
+
 $$
 \begin{aligned}
 \sum_{i=1}^n a_{ji}y_i = b_j \\
@@ -42,11 +47,13 @@ y = \text{solution} \\
 n = \text{number of variables}
 \end{aligned}
 $$
+
 ---
 ### complete solution set of system of linear equations
 - set of all n tuple of solutions that satisfy every linear equation of the system
 ---
 ### complete solution set of system of linear equations formula
+
 $$
 \begin{aligned}
 \{y_1, y_2, \dots, y_n\} \\
@@ -54,11 +61,13 @@ y = \text{solution} \\
 n = \text{number of variables}
 \end{aligned}
 $$
+
 ---
 ### coefficient matrix
 - two dimensional array of coefficients
 ---
 ### coefficient matrix formula
+
 $$
 \begin{aligned}
 A = \begin{bmatrix}
@@ -73,11 +82,13 @@ m = \text{number of rows} \\
 n = \text{number of columns}
 \end{aligned}
 $$
+
 ---
 ### variable matrix 
 - 1 dimensional array of variables
 ---
 ### variable matrix formula
+
 $$
 \begin{aligned}
 X = \begin{bmatrix}
@@ -90,11 +101,13 @@ x_n
 x = \text{variable}
 \end{aligned}
 $$
+
 ---
 ### constant matrix
 - 1 dimensional array of constants
 ---
 ### constant matrix formula
+
 $$
 \begin{aligned}
 B = \begin{bmatrix}
@@ -107,11 +120,13 @@ b_m
 b = \text{constant}
 \end{aligned}
 $$
+
 ---
 ### system of linear equations
 - collection of $m$ linear equations, each with linear combination of the same $n$ variables
 ---
 ### system of linear equations formula
+
 $$
 \begin{aligned}
 AX = B \\
@@ -136,11 +151,13 @@ X = \text{variable matrix} \\
 B = \text{constant matrix}
 \end{aligned}
 $$
+
 ---
 ### augmented matrix
 - coefficient matrix with appended constant matrix
 ---
 ### augmented matrix formula
+
 $$
 \begin{aligned}
 A | B = \left[\begin{array}{cccc|c}
@@ -151,6 +168,7 @@ a_{m1} & a_{m2} & \cdots & a_{mn} & b_m
 \end{array}\right]
 \end{aligned}
 $$
+
 ---
 ### number of solutions
 - single solution
@@ -186,6 +204,7 @@ $$
 - row scaling
 ---
 ### type I row operation formula
+
 $$
 \begin{aligned}
 \langle i\rangle \rightarrow c\langle i\rangle  \\
@@ -193,11 +212,13 @@ i = \text{row index} \\
 c = \text{scalar}
 \end{aligned}
 $$
+
 ---
 ### type II row operation
 - row replacement
 ---
 ### type II row operation formula
+
 $$
 \begin{aligned}
 \langle i\rangle \rightarrow \langle i\rangle + c\langle j\rangle \\
@@ -205,28 +226,33 @@ i, j = \text{row index} \\
 c = \text{scalar}
 \end{aligned}
 $$
+
 ---
 ### type III row operation
 - row swapping
 ---
 ### type III row operation formula
+
 $$
 \begin{aligned}
 \langle i \rangle \leftrightarrow \langle j \rangle \\
 i, j = \text{row index}
 ### \end{aligned}
+
 $$---
 ### row operation property
 - associative
 - multiple associative
 ---
 ### row operation property formula
+
 $$
 \begin{aligned}
 R(AB) = (R(A))B \\
 R_n(\dots (R_2(R_1(AB))) \dots) = (R_n(\dots (R_2(R_1(A))) \dots))B \\
 \end{aligned}
 $$
+
 ---
 ### pivot entry
 - special entry equal 1

@@ -3,6 +3,7 @@
 ![[7 Discrete Mathematics/Images/induction.png|300]]
 ---
 ### induction formula
+
 $$
 \begin{aligned}
 P(1) \\
@@ -10,6 +11,7 @@ P(k) \to P(k + 1) \\
 \therefore \forall nP(n)
 \end{aligned}
 $$
+
 ---
 ### calculate induction
 - prove statement true for the 1st element $S₁$
@@ -31,6 +33,7 @@ $$
 ![[7 Discrete Mathematics/Images/strong induction.png|300]]
 ---
 ### strong induction formula
+
 $$
 \begin{aligned}
 P(1) \\
@@ -39,6 +42,7 @@ P(j) \to P(j + 1) \\
 j = 1, 2, ... k
 \end{aligned}
 $$
+
 ---
 ### calculate strong induction
 - prove statement true for the 1st element $S₁$

@@ -21,6 +21,7 @@
 - rate of energy transfer
 ---
 ### average power formula
+
 $$
 \begin{aligned}
 P_{avg} = \frac{E}{t} \\
@@ -28,11 +29,13 @@ E = \text{energy} \\
 t = \text{time}
 \end{aligned}
 $$
+
 ---
 ### instantaneous power
 - rate of doing work
 ---
 ### instantaneous power formula
+
 $$
 \begin{aligned}
 P = \overrightarrow F \cdot \overrightarrow v \\
@@ -40,12 +43,14 @@ F = \text{force} \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### sound intensity
 - loudness
 ![[8 Physics/Images/sound intensity.png]]
 ---
 ### sound intensity formula
+
 $$
 \begin{aligned}
 I = \frac{P}{A} \\
@@ -53,12 +58,14 @@ P = \text{power} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### sphere sound intensity
 - sound intensity of sphere decreases equally in all directions as distance from sphere increases
 ![[8 Physics/Images/sphere sound intensity.png]]
 ---
 ### sphere sound intensity formula
+
 $$
 \begin{aligned}
 I = \frac{P}{4\pi r^2} \\
@@ -66,12 +73,14 @@ P = \text{power} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### sound intensity level
 - logarithmic measure of sound intensity relative reference sound intensity
 ![[8 Physics/Images/sound intensity level.png]]
 ---
 ### sound intensity level formula
+
 $$
 \begin{aligned}
 \beta = 10 \log(\frac{I}{I_0}) \\
@@ -79,12 +88,14 @@ I = \text{sound intensity} \\
 I_0 = 10^{-12}
 \end{aligned}
 $$
+
 ---
 ### sound perception
 - factor of 10 sound intensity increase equal multiple of 10 sound intensity level increase
 ![[8 Physics/Images/sound perception.png]]
 ---
 ### sound perception formula
+
 $$
 \begin{aligned}
 \Delta I^n \rightarrow \Delta \beta = 10n \\
@@ -92,12 +103,14 @@ I = \text{sound intensity} \\
 \beta = \text{sound intensity level}
 \end{aligned}
 $$
+
 ---
 ### moving observer sound perception
 - observer moving toward stationary source perceive higher frequency than stationary observer
 ![[8 Physics/Images/moving observer sound perception.png]]
 ---
 ### moving observer sound perception formula
+
 $$
 \begin{aligned}
 f_o = (\frac{v \pm v_0}{v})f_s \\
@@ -106,12 +119,14 @@ v_o = \text{observer velocity} \\
 f_s = \text{source frequency}
 \end{aligned}
 $$
+
 ---
 ### moving source sound perception
 - source moving toward stationary observer perceive higher frequency than stationary source
 ![[8 Physics/Images/moving source sound perception.png|400]]
 ---
 ### moving source sound perception formula
+
 $$
 \begin{aligned}
 f_o = (\frac{v}{v \mp v_s})f_s \\
@@ -120,6 +135,7 @@ v_s = \text{source velocity} \\
 f_s = \text{source frequency}
 \end{aligned}
 $$
+
 ---
 ### doppler effect
 - moving together equal higher frequency and shorter wavelength
@@ -128,6 +144,7 @@ $$
 ![[8 Physics/Images/doppler effect.png|500]]
 ---
 ### doppler formula
+
 $$
 \begin{aligned}
 f_o = (\frac{v \pm v_o}{v \mp v_s})f_s \\
@@ -137,6 +154,7 @@ v_s = \text{source velocity} \\
 f_s = \text{source frequency} \\
 \end{aligned}
 $$
+
 ---
 ### wave front
 - separation of wave crest by single wavelength
@@ -147,6 +165,7 @@ $$
 ![[8 Physics/Images/source interference.png]]
 ---
 ### constructive interference formula
+
 $$
 \begin{aligned}
 \Delta r = n\lambda \\
@@ -154,8 +173,10 @@ n = Z^+ \\
 \lambda = \text{wavelength}
 \end{aligned}
 $$
+
 ---
 ### destructive interference formula
+
 $$
 \begin{aligned}
 \Delta r = (n + \frac{1}{2})\lambda \\
@@ -163,12 +184,14 @@ n = Z^+ \\
 \lambda = \text{wavelength}
 \end{aligned}
 $$
+
 ---
 ### beat frequency
 - interfering sound waves of different frequency oscillate between in phase and out phase
 ![[8 Physics/Images/beat frequency.png]]
 ---
 ### beat frequency formula
+
 $$
 \begin{aligned}
 f = |f_2 - f_1| \\
@@ -176,6 +199,7 @@ f_2 = \text{reflect frequency} \\
 f_1 = \text{incident frequency}
 \end{aligned}
 $$
+
 ---
 ### asymmetric normal mode
 - possible asymmetric standing wave pattern where all particles oscillate with the same frequency
@@ -185,6 +209,7 @@ $$
 - wavelength of asymmetric normal mode
 ---
 ### asymmetric resonant wavelength formula
+
 $$
 \begin{aligned}
 \lambda_n = \frac{4L}{n} \\
@@ -192,11 +217,13 @@ L = \text{length} \\
 n = 1, 3, 5, ...
 \end{aligned}
 $$
+
 ---
 ### asymmetric resonant frequency
 - odd integer multiple of fundamental frequency
 ---
 ### asymmetric resonant frequency formula
+
 $$
 \begin{aligned}
 f_n = \frac{nv}{4L} \\

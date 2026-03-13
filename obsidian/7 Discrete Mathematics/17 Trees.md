@@ -2,6 +2,7 @@
 - tree if and only if there exists unique simple path between any two vertices
 ---
 ### tree formula
+
 $$
 \begin{aligned}
 |E| = n - 1 \\
@@ -9,12 +10,14 @@ n = \text{number of vertices} \\
 |E| = \text{number of edges}
 \end{aligned}
 $$
+
 ---
 ### tree graph
 - graph that may not contain loops, multiple edges, cycles, or disconnections
 ![[7 Discrete Mathematics/Images/tree.png|500]]
 ---
 ### tree graph formula
+
 $$
 \begin{aligned}
 \forall a(a, a) \notin R \\
@@ -23,6 +26,7 @@ $$
 \forall (e \in E)(e \in R)
 \end{aligned}
 $$
+
 ---
 ### forest graph
 - collection of disjoint trees
@@ -63,6 +67,7 @@ $$
 - root tree where every interval vertex has *N* children vertices
 ---
 ### full N-ary tree formula
+
 $$
 \begin{aligned}
 n \to i = \frac{n - 1}{N} \land l = \frac{(n + 1)(N - 1)}{N} \\
@@ -74,6 +79,7 @@ i = \text{number of internal vertices} \\
 l = \text{number of leaves}
 \end{aligned}
 $$
+
 ---
 ### binary tree
 - root tree where every internal vertex has 2 children vertices

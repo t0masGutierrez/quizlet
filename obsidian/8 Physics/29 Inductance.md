@@ -6,6 +6,7 @@
 ![[8 Physics/Images/mutual inductance.png|200]]
 ---
 ### mutual inductance formula
+
 $$
 \begin{aligned}
 M = \frac{N_1\Phi_{12}}{i_2} = \frac{N_2\Phi_{21}}{i_1} \\
@@ -14,11 +15,13 @@ N = \text{number of loops} \\
 i = \text{electric current}
 \end{aligned}
 $$
+
 ---
 ### mutual inductance emf
 - mutually induced emf between two conductors due to changing electric current
 ---
 ### mutual inductance emf formula
+
 $$
 \begin{aligned}
 \epsilon_2 = -M\frac{di_1}{dt} \\
@@ -27,12 +30,14 @@ i = \text{electric current} \\
 t =\text{time} 
 \end{aligned}
 $$
+
 ---
 ### self inductance
 - effectiveness of inducing emf on self due to changing electric current
 ![[8 Physics/Images/self inductance.png|300]]
 ---
 ### self inductance formula
+
 $$
 \begin{aligned}
 L = \frac{N\Phi}{i} \\
@@ -41,8 +46,10 @@ N = \text{number of loops} \\
 i = \text{electric current}
 \end{aligned}
 $$
+
 ---
 ### solenoid self inductance formula
+
 $$
 \begin{aligned}
 L = \frac{\mu_0 N^2A}{L'} \\
@@ -52,8 +59,10 @@ A = \text{area} \\
 L' = \text{length}
 \end{aligned}
 $$
+
 ---
 ### toroid self inductance formula
+
 $$
 \begin{aligned}
 L = \frac{\mu_0N^2A}{2\pi R} \\
@@ -63,12 +72,14 @@ A = \text{area} \\
 R = \text{radius}
 \end{aligned}
 $$
+
 ---
 ### self inductance emf
 - self induced emf due to changing electric current
 ![[8 Physics/Images/self inductance emf.png|350]]
 ---
 ### self inductance emf formula
+
 $$
 \begin{aligned}
 \epsilon = -L\frac{di}{dt} \\
@@ -77,12 +88,14 @@ i = \text{electric current} \\
 t = \text{time}
 \end{aligned}
 $$
+
 ---
 ### inductor
 - electric component designed to oppose changing electric current
 ![[8 Physics/Images/inductor.png|500]]
 ---
 ### inductor formula
+
 $$
 \begin{aligned}
 v_L = L\frac{di}{dt} \\
@@ -91,6 +104,7 @@ i = \text{electric current} \\
 t = \text{time}
 \end{aligned}
 $$
+
 ---
 ### kirchhoffs loop rule
 - sum of voltage around loop must equal zero
@@ -98,12 +112,14 @@ $$
 ![[8 Physics/Images/kirchoffs loop rule.png]]
 ---
 ### kirchhoffs loop formula
+
 $$
 \begin{aligned}
 \sum V = 0 \\
 V = \text{voltage}
 \end{aligned}
 $$
+
 ---
 ### calculate kirchhoffs loop rule
 - identify loop
@@ -116,6 +132,7 @@ $$
 ![[8 Physics/Images/magnetic potential energy.png|300]]
 ---
 ### magnetic potential energy formula
+
 $$
 \begin{aligned}
 U = \frac{LI^2}{2} \\
@@ -123,11 +140,13 @@ L = \text{self inductance} \\
 I = \text{electric current}
 \end{aligned}
 $$
+
 ---
 ### energy density
 - measure of magnetic potential energy compactness
 ---
 ### energy density formula
+
 $$
 \begin{aligned}
 u = \frac{B^2}{2\mu_0} \\
@@ -135,6 +154,7 @@ B = \text{magnetic field} \\
 \mu_0 = 4 \pi \times 10^{-7}
 \end{aligned}
 $$
+
 ---
 ### RL electric circuit
 - electric circuit with resistance and self inductance
@@ -164,6 +184,7 @@ $$
 - measure of increasing time
 ---
 ### time constant formula
+
 $$
 \begin{aligned}
 \tau = \frac{L}{R} \\
@@ -171,6 +192,7 @@ L = \text{self inductance} \\
 R = \text{resistance}
 \end{aligned}
 $$
+
 ---
 ### calculate time constant
 - small time constant equal faster increasing
@@ -181,6 +203,7 @@ $$
 ![[8 Physics/Images/increasing electric current.png|400]]
 ---
 ### increasing electric current formula
+
 $$
 \begin{aligned}
 i(t) = \frac{V}{R}(1 - e^{-Rt/L}) = I(1 - e^{-t/\tau}) \\
@@ -192,12 +215,14 @@ I = \text{electric current} \\
 \tau = \text{time constant}
 \end{aligned}
 $$
+
 ---
 ### decreasing electric current
 - electric current through decreasing inductor as function of time
 ![[8 Physics/Images/decreasing electric current.png|400]]
 ---
 ### decreasing electric current formula
+
 $$
 \begin{aligned}
 i(t) = I(e^{-t/\tau}) \\
@@ -206,6 +231,7 @@ t = \text{time} \\
 \tau = \text{time constant}
 \end{aligned}
 $$
+
 ---
 ### LC electric circuit
 - electric circuit with self inductance and capacitance
@@ -219,6 +245,7 @@ $$
 ![[8 Physics/Images/LC potential energy.png]]
 ---
 ### LC potential energy formula
+
 $$
 \begin{aligned}
 U = \frac{q^2}{2C} + \frac{Li^2}{2} = \frac{Q^2}{2C} = \frac{LI^2}{2} \\
@@ -228,6 +255,7 @@ L = \text{self inductance} \\
 i = \text{electric current}
 \end{aligned}
 $$
+
 ---
 ### calculate LC potential energy
 - increasing electric energy equal decreasing magnetic energy
@@ -238,6 +266,7 @@ $$
 ![[8 Physics/Images/simple harmonic motion.png|400]]
 ---
 ### simple harmonic motion formula
+
 $$
 \begin{aligned}
 x(t) = A \cos(\omega t + \phi) \\
@@ -252,6 +281,7 @@ k = \text{spring constant} \\
 m = \text{mass}
 \end{aligned}
 $$
+
 ---
 ### calculate simple harmonic motion
 - potential energy equal electric energy
@@ -266,6 +296,7 @@ $$
 ![[8 Physics/Images/LC harmonic motion.png|500]]
 ---
 ### LC harmonic motion formula
+
 $$
 \begin{aligned}
 q(t) = Q\cos(\omega t + \phi) \\
@@ -280,6 +311,7 @@ L = \text{self inductance} \\
 C = \text{capacitance}
 \end{aligned}
 $$
+
 ---
 ### calculate LC harmonic motion
 - maximum initial electric charge and zero initial electric current equal zero phase angle 
@@ -297,6 +329,7 @@ $$
 ![[8 Physics/Images/damped oscillation1.png|400]]
 ---
 ### damped oscillation formula
+
 $$
 \begin{aligned}
 x(t) = A(e^{-bt/2m})\cos(\omega t + \phi) \\
@@ -310,12 +343,14 @@ k = \text{spring constant} \\
 \phi = \text{phase angle}
 \end{aligned}
 $$
+
 ---
 ### damped RLC oscillation
 - decreasing LC harmonic motion by subtracting energy via resistance
 ![[8 Physics/Images/damped RLC oscillation.png|300]]
 ---
 ### damped RLC oscillation formula
+
 $$
 \begin{aligned}
 q(t) = Q(e^{-Rt/2L})\cos(\omega t + \phi) \\

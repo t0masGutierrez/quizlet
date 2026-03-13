@@ -7,11 +7,13 @@
 - not
 ---
 ### boolean complement formula
+
 $$
 \begin{aligned}
 \overline{1} = 0 \\
 \overline{0} = 1
 ### \end{aligned}
+
 $$
 
 ---
@@ -20,6 +22,7 @@ $$
 - and
 ---
 ### boolean product formula
+
 $$
 \begin{aligned}
 1 \times 1 = 1 \\
@@ -28,12 +31,14 @@ $$
 0 \times 0 = 0
 \end{aligned}
 $$
+
 ---
 ### boolean sum
 - joining of either proposition
 - or
 ---
 ### boolean sum formula
+
 $$
 \begin{aligned}
 1 + 1 = 1 \\
@@ -42,28 +47,33 @@ $$
 0 + 0 = 0
 \end{aligned}
 $$
+
 ---
 ### boolean function
 - boolean expression as function of boolean variable(s)
 ---
 ### boolean function formula
+
 $$
 \begin{aligned}
 f : \{0, 1\}^n \to \{0, 1\} \\
 n = \text{number of variables}
 \end{aligned}
 $$
+
 ---
 ### boolean complexity
 - number of variable combinations
 ---
 ### boolean complexity formula
+
 $$
 \begin{aligned}
 N = 2^n \\
 n = \text{number of variables}
 \end{aligned}
 $$
+
 ---
 ### boolean variable
 - variable whose values equal 1 or 0

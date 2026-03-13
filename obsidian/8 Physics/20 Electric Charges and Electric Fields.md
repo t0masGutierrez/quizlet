@@ -80,6 +80,7 @@
 - electric force between two electric charge directly proportional product of electric charge and inversely proportional square of distance between electric charge
 ---
 ### coulomb formula
+
 $$
 \begin{aligned}
 \overrightarrow F_e = k\frac{|q_1q_2|}{r^2} \hat r \\
@@ -89,6 +90,7 @@ r = \text{distance} \\
 \hat r = \text{direction}
 \end{aligned}
 $$
+
 ---
 ### source electric charge
 - electric charge responsible for the magnitude of electric field
@@ -101,6 +103,7 @@ $$
 ![[8 Physics/Images/electric field.png|300]]
 ---
 ### electric field formula
+
 $$
 \begin{aligned}
 \overrightarrow E = k\frac{|Q|}{r^2}\hat r = \frac{\overrightarrow F_e}{q} \\
@@ -112,6 +115,7 @@ F_e = \text{electric force} \\
 q = \text{test electric charge}
 \end{aligned}
 $$
+
 ---
 ### calculate electric field
 - compute magnitude of source electric charge
@@ -135,6 +139,7 @@ $$
 ![[8 Physics/Images/electric dipole.png]]
 ---
 ### electric dipole formula
+
 $$
 \begin{aligned}
 \overrightarrow p = q\overrightarrow d \\
@@ -142,23 +147,27 @@ q = \text{electric charge} \\
 d = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### electric dipole force
 - zero net force between electric dipole
 ![[8 Physics/Images/electric dipole force.png|400]]
 ---
 ### electric dipole force formula
+
 $$
 \begin{aligned}
 \overrightarrow F_{net} = 0
 \end{aligned}
 $$
+
 ---
 ### electric dipole electric field
 - electric field via electric dipole
 ![[8 Physics/Images/internal electric field.png|350]]
 ---
 ### electric dipole electric field formula
+
 $$
 \begin{aligned}
 \overrightarrow E = \frac{\overrightarrow p}{2\pi \epsilon_0r^3} \\
@@ -168,12 +177,14 @@ q = \text{electric charge} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### electric dipole torque
 - torque rotates electric dipole parallel electric field
 ![[8 Physics/Images/electric dipole torque.png|200]]
 ---
 ### electric dipole torque formula
+
 $$
 \begin{aligned}
 \overrightarrow \tau = \overrightarrow p \times \overrightarrow E  = pE \sin(\theta) \\
@@ -182,6 +193,7 @@ E = \text{electric field} \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### calculate electric dipole torque
 - maximum torque where electric dipole perpendicular electric field
@@ -191,6 +203,7 @@ $$
 - electric dipole parallel electric field maximizes potential energy
 ---
 ### electric dipole potential energy formula
+
 $$
 \begin{aligned}
 U = -\overrightarrow p \cdot \overrightarrow E  = -pE \cos(\theta) \\
@@ -199,6 +212,7 @@ E = \text{electric field} \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### calculate electric dipole potential energy
 - maximum potential energy where electric dipole parallel electric field
@@ -209,6 +223,7 @@ $$
 ![[8 Physics/Images/electric charge density.png|400]]
 ---
 ### electric charge density formula
+
 $$
 \begin{aligned}
 dQ = \lambda  \ dL \\

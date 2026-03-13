@@ -2,6 +2,7 @@
 - two dimensional array of entries created by arranging vectors into rows and columns
 ---
 ### matrix formula
+
 $$
 \begin{aligned}
 A = \begin{bmatrix}
@@ -15,11 +16,13 @@ m = \text{number of rows} \\
 n = \text{number of columns} 
 \end{aligned}
 $$
+
 ---
 ### matrix equality
 - two matrices equal if and only if all corresponding entries equal and size equal
 ---
 ### matrix equality formula
+
 $$
 \begin{aligned}
 A = B \leftrightarrow \forall (1 \le i \le m)(1 \le j \le n): (a_{ij} = b_{ij}) \land (|A| = |B|) \\
@@ -31,11 +34,13 @@ m = \text{number of rows} \\
 n = \text{number of columns}
 \end{aligned}
 $$
+
 ---
 ### main diagonal
 - entries where the row index equal column index
 ---
 ### main diagonal formula
+
 $$
 \begin{aligned}
 \text{diag}(A) = \{a_{11}, \dots , a_{nn}\} \\
@@ -44,11 +49,13 @@ n = \text{number of rows} \\
 n = \text{number of columns} \\
 \end{aligned}
 $$
+
 ---
 ### square matrix 
 - number of rows equal number of columns
 ---
 ### square matrix formula
+
 $$
 \begin{aligned}
 A = \begin{bmatrix}
@@ -60,11 +67,13 @@ a_{31} & a_{32} & a_{33}
 a = \text{entry}
 \end{aligned}
 $$
+
 ---
 ### diagonal matrix
 - square matrix where all entries not along main diagonal equal zero
 ---
 ### diagonal matrix formula
+
 $$
 \begin{aligned}
 D = \begin{bmatrix}
@@ -78,11 +87,13 @@ i = \text{row index} \\
 j = \text{column index}
 \end{aligned}
 $$
+
 ---
 ### identity matrix
 - diagonal matrix where all entries along main diagonal equal 1
 ---
 ### identity matrix formula
+
 $$
 \begin{aligned}
 I = \begin{bmatrix}
@@ -95,11 +106,13 @@ i = \text{row index} \\
 j = \text{column index}
 \end{aligned}
 $$
+
 ---
 ### upper triangular matrix
 - diagonal matrix where all entries below main diagonal equal 0
 ---
 ### upper triangular matrix formula
+
 $$
 \begin{aligned}
 U = \begin{bmatrix}
@@ -113,11 +126,13 @@ i = \text{row index} \\
 j = \text{column index}
 \end{aligned}
 $$
+
 ---
 ### lower triangular matrix
 - diagonal matrix where all entries above main diagonal equal 0
 ---
 ### lower triangular matrix formula
+
 $$
 \begin{aligned}
 L = \begin{bmatrix}
@@ -131,11 +146,13 @@ i = \text{row index} \\
 j = \text{column index}
 \end{aligned}
 $$
+
 ---
 ### zero matrix
 - all entries equal 0
 ---
 ### zero matrix formula
+
 $$
 \begin{aligned}
 A = \begin{bmatrix}
@@ -148,11 +165,13 @@ m = \text{number of rows} \\
 n = \text{number of columns} \\
 \end{aligned}
 $$
+
 ---
 ### trace
 - sum of entries along the main diagonal
 ---
 ### trace formula
+
 $$
 \begin{aligned}
 \text{tr}(A) = \sum a_{ii} \\
@@ -161,11 +180,13 @@ i = \text{row index} \\
 i = \text{column index}
 \end{aligned}
 $$
+
 ---
 ### scalar multiplication
 - scalar quantity multiplication with matrix
 ---
 ### scalar multiplication formula
+
 $$
 \begin{aligned}
 cA = \begin{bmatrix}
@@ -180,11 +201,13 @@ m = \text{number of rows} \\
 n = \text{number of columns} 
 \end{aligned}
 $$
+
 ---
 ### matrix addition
 - matrix entry addition with corresponding matrix entry
 ---
 ### matrix addition formula
+
 $$
 \begin{aligned}
 A + B = \begin{bmatrix}
@@ -198,6 +221,7 @@ m = \text{number of rows} \\
 n = \text{number of columns} \\
 \end{aligned}
 $$
+
 ---
 ### matrix addition property
 - commutative
@@ -209,6 +233,7 @@ $$
 - multiplicative identity
 ---
 ### matrix addition property formula
+
 $$
 \begin{aligned}
 A + B = B + A \\
@@ -221,12 +246,14 @@ c(A + B) = cA + cB \\
 1(A) = A
 \end{aligned}
 $$
+
 ---
 ### linear combination
 - sum of scalar multiplication with matrix
 - every matrix of $\mathcal M_{mn}$ equal linear combination of standard unit matrix of $\mathcal M_{mn}$ 
 ---
 ### linear combination formula
+
 $$
 \begin{aligned}
 B = \sum_{i = 1}^k c_iA_i \\
@@ -235,11 +262,13 @@ A = \text{matrix} \\
 k = \text{number of matrices}
 \end{aligned}
 $$
+
 ---
 ### matrix transposition
 - switch row index with column index
 ---
 ### matrix transposition formula
+
 $$
 \begin{aligned}
 A = \begin{bmatrix} 
@@ -257,6 +286,7 @@ a = \text{entry} \\
 T = \text{transposition}
 \end{aligned}
 $$
+
 ---
 ### matrix transposition property
 - inverse
@@ -264,6 +294,7 @@ $$
 - associative
 ---
 ### matrix transposition property formula
+
 $$
 \begin{aligned}
 (A^T)^T = A \\
@@ -271,11 +302,13 @@ $$
 (cA)^T = c(A^T)
 \end{aligned}
 $$
+
 ---
 ### symmetric 
 - matrix equal transposed matrix
 ---
 ### symmetric formula
+
 $$
 \begin{aligned}
 A = A^T \\
@@ -283,11 +316,13 @@ A = \text{matrix} \\
 T = \text{transposition}
 \end{aligned}
 $$
+
 ---
 ### skew symmetric 
 - matrix with zero main diagonal equal negative transposed matrix
 ---
 ### skew symmetric formula
+
 $$
 \begin{aligned}
 A = -A^T \\
@@ -295,23 +330,27 @@ A = \text{matrix} \\
 T = \text{transposition}
 \end{aligned}
 $$
+
 ---
 ### symmetry property 
 - symmetric
 - skew symmetric
 ---
 ### symmetry property formula
+
 $$
 \begin{aligned}
 A \in \mathcal M_{nn} \rightarrow A + A^T = (A + A^T)^T \\
 A \in \mathcal M_{nn} \rightarrow A - A^T = -(A - A^T)^T
 \end{aligned}
 $$
+
 ---
 ### square matrix decomposition
 - every square matrix decomposable into symmetric and skew symmetric 
 ---
 ### square matrix decomposition formula
+
 $$
 \begin{aligned}
 A = S + V \\

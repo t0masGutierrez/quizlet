@@ -2,6 +2,7 @@
 - number *a* divisible by number *b* if and only if there exists integer *c* such that number *a* equal *bc* without remainder
 ---
 ### divisibility formula
+
 $$
 \begin{aligned}
 b | a \leftrightarrow \exists c(a = bc) \\
@@ -10,32 +11,40 @@ b = \text{divisor} \\
 b|a = \text{b divides a}
 \end{aligned}
 $$
+
 ---
 ### divisibility addition property
+
 $$
 \begin{aligned}
 b |a \land b |c \to b|(a + c)
 \end{aligned}
 $$
+
 ---
 ### divisibility multiplication property
+
 $$
 \begin{aligned}
 b|a \to \forall c (b|ac)
 \end{aligned}
 $$
+
 ---
 ### divisibility transition property
+
 $$
 \begin{aligned}
 b|a \land a|c \to b|c
 \end{aligned}
 $$
+
 ---
 ### division
 - inverse operation of multiplication
 ---
 ### division formula
+
 $$
 \begin{aligned}
 a = bq + r \\
@@ -45,11 +54,13 @@ r = \text{remainder} \\
 a = \text{dividend}
 \end{aligned}
 $$
+
 ---
 ### quotient
 - result of division without remainder
 ---
 ### quotient formula
+
 $$
 \begin{aligned}
 q = a \ \text{div} \ b = floor(\frac{a}{b}) \\
@@ -57,11 +68,13 @@ a = \text{dividend} \\
 b = \text{divisor}
 \end{aligned}
 $$
+
 ---
 ### remainder
 - amount left over after division
 ---
 ### remainder formula
+
 $$
 \begin{aligned}
 r = a \ \text{mod} \ b = a - bq \\
@@ -69,11 +82,13 @@ a = \text{dividend} \\
 b = \text{divisor}
 \end{aligned}
 $$
+
 ---
 ### congruence relation
 - if equivalent elements then applying modulus operation preserves equivalence
 ---
 ### congruence relation formula
+
 $$
 \begin{aligned}
 a \equiv b (\text{mod} \ m) \leftrightarrow k = m |(a - b) \\
@@ -81,23 +96,27 @@ n = \text{modulus} \\
 k = Z^+
 \end{aligned}
 $$
+
 ---
 ### congruence operation
 - addition preserves equivalence and multiplication preserves equivalence
 ---
 ### congruence operation formula
+
 $$
 \begin{aligned}
 a + c \equiv b + d \ (\text{mod} \ m) \\
 a \times c \equiv b \times d \ (\text{mod} \ m)
 \end{aligned}
 $$
+
 ---
 ### modular arithmetic
 - system of arithmetic where numbers wrap around upon reaching the modulus
 ![[7 Discrete Mathematics/Images/modular arithmetic.png]]
 ---
 ### modular arithmetic formula
+
 $$
 \begin{aligned}
 a +_m b \equiv (a + b) \ \text{mod} \ m \equiv [(a \ \text{mod} \ m) + (b \ \text{mod} \ m)] \ \text{mod} \ m \\

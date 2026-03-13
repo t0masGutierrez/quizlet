@@ -12,6 +12,7 @@
 - row scaling
 ---
 ### inverse type I row operation formula
+
 $$
 \begin{aligned}
 \langle i\rangle \rightarrow (\frac{1}{c})\langle i\rangle  \\
@@ -19,11 +20,13 @@ i = \text{row index} \\
 c = \text{scalar}
 \end{aligned}
 $$
+
 ---
 ### inverse type II row operation
 - row replacement
 ---
 ### inverse type II row operation formula
+
 $$
 \begin{aligned}
 \langle i\rangle \rightarrow \langle i\rangle - c\langle j\rangle \\
@@ -31,34 +34,40 @@ i, j = \text{row index} \\
 c = \text{scalar}
 \end{aligned}
 $$
+
 ---
 ### inverse type III row operation
 - row swapping
 ---
 ### inverse type III row operation formula
+
 $$
 \begin{aligned}
 \langle j \rangle \leftrightarrow \langle i \rangle \\
 i, j = \text{row index} \\
 \end{aligned}
 $$
+
 ---
 ### row equivalence property
 - bidirectional
 - transitive
 ---
 ### row equivalence property formula
+
 $$
 \begin{aligned}
 C \sim D \rightarrow D \sim C \\
 (C \sim D) \land (D \sim E) \rightarrow C \sim E
 \end{aligned}
 $$
+
 ---
 ### system equivalence property
 - row equivalent system equal system equivalent system
 ---
 ### system equivalence property formula
+
 $$
 \begin{aligned}
 C|D \sim A|B \rightarrow CX = D \sim AX=B \\
@@ -67,11 +76,13 @@ D, B = \text{constant matrix} \\
 X = \text{variable matrix}
 \end{aligned}
 $$
+
 ---
 ### RREF equality property
 - row equivalent matrices share the same RREF
 ---
 ### RREF equality property formula
+
 $$
 \begin{aligned}
  A \sim B \leftrightarrow \text{RREF}(A) = \text{RREF}(B) \\
@@ -79,6 +90,7 @@ $$
  \text{RREF} = \text{reduced row echelon form}
 \end{aligned}
 $$
+
 ---
 ### rank
 - number of nonzero rows of RREF
@@ -93,6 +105,7 @@ $$
 - number of coordinates must equal number of vectors
 ---
 ### linear combination property formula
+
 $$
 \begin{aligned}
 \exists y \in \text{RREF}(A | \vec x) \rightarrow \vec x \in \text{Row}(A) \\
@@ -102,11 +115,13 @@ A = \text{coefficient matrix} \\
 \vec x = \text{vector}
 \end{aligned}
 $$
+
 ---
 ### row space
 - set of all possible linear combinations of the rows of matrix
 ---
 ### row space formula
+
 $$
 \begin{aligned}
 \text{Row}(A) = \{\sum_{i=1}^m c_i\vec a_i | c \in \mathbb R, \vec a \in \mathbb R^n\} \\
@@ -116,23 +131,27 @@ c = \text{scalar} \\
 \vec a = \text{row vector} 
 \end{aligned}
 $$
+
 ---
 ### row space equivalence property
 - transitive
 - equal
 ---
 ### row space equivalence property formula
+
 $$
 \begin{aligned}
 (a \in \text{Row}P) \land (\forall p \in P: p \in \text{Row}Q) \rightarrow a \in \text{Row}(Q) \\
 A \sim B \rightarrow \text{Row}(A) = \text{Row}(B)
 \end{aligned}
 $$
+
 ---
 ### zero vector property
 - zero vector equal element of every row space
 ---
 ### zero vector property formula
+
 $$
 \begin{aligned}
 \vec 0 = 0a_1 + \dots + 0a_m \\
@@ -140,11 +159,13 @@ a = \text{row} \\
 m = \text{number of rows}
 \end{aligned}
 $$
+
 ---
 ### ith row vector property
 - ith row vector equal element of every row space
 ---
 ### ith row vector property formula
+
 $$
 \begin{aligned}
 \vec a_i = 0a_1 + \dots + 1a_i + \dots + 0a_m \\
@@ -153,6 +174,7 @@ i = \text{row index} \\
 m = \text{number of rows} \\
 \end{aligned}
 $$
+
 ---
 ### row space test
 - generate augmented matrix whose columns equal the vectors of set and whose constant matrix equal the possible element of row space

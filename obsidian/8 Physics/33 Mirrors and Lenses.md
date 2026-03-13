@@ -40,6 +40,7 @@
 - ratio of lateral size between image and object
 ---
 ### lateral magnification formula
+
 $$
 \begin{aligned}
 m = \frac{y'}{y} = \frac{-r'}{r} \\
@@ -47,6 +48,7 @@ y = \text{position} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### calculate lateral magnification
 - positive equal upright image
@@ -99,24 +101,28 @@ $$
 ![[8 Physics/Images/focal length.png|300]]
 ---
 ### focal length formula
+
 $$
 \begin{aligned}
 f = \frac{R}{2} \\
 R = \text{radius}
 \end{aligned}
 $$
+
 ---
 ### paraxial approximation
 - small angle with optical axis
 - small distance between optical axis and ray
 ---
 ### paraxial approximation formula
+
 $$
 \begin{aligned}
 \sin(\theta) \approx \theta \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### ray tracing
 - double ray convergence equal real image
@@ -152,6 +158,7 @@ $$
 ![[8 Physics/Images/spherical mirror1.png|300]]
 ---
 ### spherical mirror formula
+
 $$
 \begin{aligned}
 \frac{1}{f} = \frac{1}{r} + \frac{1}{r'} \\
@@ -159,6 +166,7 @@ r = \text{object distance} \\
 r' = \text{image distance}
 \end{aligned}
 $$
+
 ---
 ### spherical mirror polarity
 - concave mirror equal positive focal length
@@ -219,6 +227,7 @@ $$
 ![[8 Physics/Images/thin lens1.png|450]]
 ---
 ### lens maker formula
+
 $$
 \begin{aligned}
 \frac{1}{f} = (\frac{n_2}{n_1} - 1)(\frac{1}{R_1} - \frac{1}{R_2}) \\
@@ -226,6 +235,7 @@ n = \text{refraction index} \\
 R = \text{radius}
 \end{aligned}
 $$
+
 ---
 ### thin lens polarity
 - convex lens equal positive focal length
@@ -270,12 +280,14 @@ $$
 - measure of lens ability to focus light
 ---
 ### focusing power formula
+
 $$
 \begin{aligned}
 P = \frac{1}{f} \\
 f = \text{focal length}
 \end{aligned}
 $$
+
 ---
 ### the camera
 - definition
@@ -301,6 +313,7 @@ $$
 ![[8 Physics/Images/f number.png|250]]
 ---
 ### f number formula
+
 $$
 \begin{aligned}
 f / \# = \frac{f}{D} \\
@@ -308,29 +321,34 @@ f = \text{focal length} \\
 D = \text{diameter}
 \end{aligned}
 $$
+
 ---
 ### intensity
 - rate of incoming light through sensor
 ---
 ### intensity formula
+
 $$
 \begin{aligned}
 I \propto \frac{1}{(f/\#)^2} \\
 f / \# = \text{f number}
 \end{aligned}
 $$
+
 ---
 ### angular magnification
 - ratio of angular size between image and object
 ![[8 Physics/Images/angular magnification.png|400]]
 ---
 ### angular magnification formula
+
 $$
 \begin{aligned}
 M = \frac{\theta'}{\theta} \\
 \theta = \text{angular position} 
 \end{aligned}
 $$
+
 ---
 ### calculate angular magnification
 -  >1 equal larger image
@@ -345,6 +363,7 @@ $$
 ![[8 Physics/Images/simple magnification.png|300]]
 ---
 ### simple magnification formula
+
 $$
 \begin{aligned}
 M = \frac{N}{f} \\
@@ -352,11 +371,13 @@ N = \text{near point distance} \\
 f = \text{focal length}
 \end{aligned}
 $$
+
 ---
 ### maximum simple magnification
 - magnification where image distance equal near point distance
 ---
 ### maximum simple magnification formula
+
 $$
 \begin{aligned}
 M = \frac{N}{f} + 1\\
@@ -364,6 +385,7 @@ N = \text{near point distance} \\
 f = \text{focal length}
 \end{aligned}
 $$
+
 ---
 ### the microscope
 - magnify near object
@@ -388,6 +410,7 @@ $$
 ![[8 Physics/Images/microscope magnification.png|400]]
 ---
 ### microscope magnification formula
+
 $$
 \begin{aligned}
 M = m_{obj} \times M_{eye} = \frac{-r_o'}{r_o} \times \frac{N}{f_e} \approx \frac{-r_o'N}{f_of_e} \\
@@ -399,6 +422,7 @@ f_e = \text{eyepiece focal length} \\
 f_o = \text{objective focal length} 
 \end{aligned}
 $$
+
 ---
 ### the telescope
 - magnify far object
@@ -409,6 +433,7 @@ $$
 ![[8 Physics/Images/refracting telescope.png|500]]
 ---
 ### refracting telescope magnification formula
+
 $$
 \begin{aligned}
 M = \frac{\theta'}{\theta} \approx \frac{-y}{f_e} \times \frac{f_o}{y} = \frac{-f_o}{f_e} \\
@@ -419,6 +444,7 @@ f_o = \text{objective focal length} \\
 f_e = \text{eyepiece focal length}
 \end{aligned}
 $$
+
 ---
 ### reflecting telescope
 - refracting telescope except replace objective lens with mirror

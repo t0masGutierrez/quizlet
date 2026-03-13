@@ -12,6 +12,7 @@
 - constant matrix equal zero matrix
 ---
 ### homogeneous system of linear equations formula
+
 $$
 \begin{aligned}
 AX = 0 \\
@@ -20,6 +21,7 @@ X = \text{variable matrix} \\
 0 = \text{constant matrix}
 \end{aligned}
 $$
+
 ---
 ### homogeneous solution set
 - if every column equal pivot column then every solution equal trivial solution
@@ -29,6 +31,7 @@ $$
 - constant matrix equal nonzero matrix
 ---
 ### heterogeneous system of linear equations formula
+
 $$
 \begin{aligned}
 AX \ne 0 \\
@@ -37,6 +40,7 @@ X = \text{variable matrix} \\
 0 = \text{constant matrix}
 \end{aligned}
 $$
+
 ---
 ### heterogeneous solution set
 - if there exists pivot entry for every column then single solution
@@ -57,6 +61,7 @@ $$
 - set of linearly independent n-vectors such that every solution of system of linear equations expressible as linear combination of these n-vectors
 ---
 ### fundamental solution set formula
+
 $$
 \begin{aligned}
 \{\sum_i^k c_i\vec x_i | c \in \mathbb R, \vec x \in \mathbb R^n\} \\
@@ -66,11 +71,13 @@ c = \text{scalar} \\
 \vec x = \text{vector}
 \end{aligned}
 $$
+
 ---
 ### simultaneous matrix
 - combine augmented matrices with same coefficient matrices but different constant matrices 
 ---
 ### simultaneous matrix formula
+
 $$
 \begin{aligned}
 A | B | B' = \left[\begin{array}{cccc|c|c}
@@ -81,6 +88,7 @@ a_{m1} & a_{m2} & \cdots & a_{mn} & b_{m} & b_{m}'
 \end{array}\right]
 \end{aligned}
 $$
+
 ---
 ### size property
 - for collection of $m$ linear equations, each with linear combination of the same $n$ variables, if $m = n$ then every solution equal trivial solution

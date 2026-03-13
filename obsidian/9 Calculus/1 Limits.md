@@ -2,52 +2,65 @@
 - $f(x)$ behavior as x approaches value
 ---
 ### limit formula
+
 $$
 \begin{aligned}
 \lim_{x \to n} f(x) = L \\
 \lim_{x \to n} g(x) = K
 \end{aligned}
 $$
+
 ---
 ### limit constant formula
+
 $$
 \begin{aligned}
 \lim_{x \to n} c = c
 \end{aligned}
 $$
+
 ---
 ### limit constant multiple formula
+
 $$
 \begin{aligned}
 \lim_{x \to n} cf(x) = c \times L
 \end{aligned}
 $$
+
 ---
 ### limit sum formula
+
 $$
 \begin{aligned}
 \lim_{x \to n} f(x) \pm g(x) = L \pm K
 \end{aligned}
 $$
+
 ---
 ### limit product formula
+
 $$
 \lim_{x \to n} f(x) \times g(x) = L \times K
 $$
+
 ---
 ### limit quotient formula
+
 $$
 \begin{aligned}
 \lim_{x \to n} f(x) \div g(x) = L \div K \\
 K \ne 0
 \end{aligned}
 $$
+
 ---
 ### composite limit
 - limit must be existent at internal function
 - external function must be continuous at limit
 ---
 ### limit composition formula
+
 $$
 \begin{aligned}
 \lim_{x \to n} (f \circ g) (x) = f[\lim_{x \to n} g(x)] \\
@@ -55,6 +68,7 @@ g(x) = L \\
 L \in f
 \end{aligned}
 $$
+
 ---
 ### multiple composite limit
 - find the limit of 1st function 1 sided limit and the nth function 1 sided limit
@@ -118,6 +132,7 @@ difference of squares
 ---
 conjugate root theorem
 $$(a + \sqrt{b})(a - \sqrt{b}) = a^2 - b$$
+
 ---
 ### limit by trigonometric identity
 - pythagorean identity
@@ -125,16 +140,20 @@ $$(a + \sqrt{b})(a - \sqrt{b}) = a^2 - b$$
 ---
 special sine identity
 $$\lim_{x \to n} \frac{\sin(x)}{x} = 1$$
+
 ---
 special cosine identity
 $$\lim_{x \to n} \frac{1 - \cos(x)}{x} = 0$$
+
 ---
 ### pythagorean identity
+
 $$
 \begin{aligned}
 \sin^2(x) + \cos^2(x) = 1
 \end{aligned}
 $$
+
 ---
 ### strategy
 - if nonzero ÷ 0 then unbounded limit
@@ -153,6 +172,7 @@ $$
 ![[9 Calculus/Images/squeeze theorem.png]]
 ---
 ### continuity
+
 $$
 \begin{aligned}
 \lim_{x \to n} f(x) = f(n) \\
@@ -160,6 +180,7 @@ $$
 \lim_{x \to n} f(x) \ne \pm \infty
 \end{aligned}
 $$
+
 ---
 ### discontinuity
 - hole
@@ -248,12 +269,14 @@ $$
 - if function continuous over closed interval then function encompasses every value between endpoints
 ---
 ### intermediate value formula
+
 $$
 \begin{aligned}
 \exists x \in [a, b] \to f(a) \le f(x) \le f(b) \\
 \forall x \in [a, b] \lim_{x \to n} f(x) = f(n)
 \end{aligned}
 $$
+
 ---
 ### delta
 - difference between domain
@@ -263,19 +286,23 @@ $$
 ---
 epsilon delta limit formula
 $$\forall (\epsilon > 0) \exists(\delta > 0)(0 < |x - n| < \delta \to |f(x) - L| < \epsilon)$$
+
 ---
 ### indeterminate
 - null guarantee of limit existence
 ---
 ### indeterminate formula
+
 $$
 \begin{aligned}
 \frac{0}{0} \\
 \frac{\infty}{\infty}
 \end{aligned}
 $$
+
 ---
 ### unknown indeterminate formula
+
 $$
 \begin{aligned}
 \infty - \infty \\
@@ -285,8 +312,10 @@ $$
 0^0
 \end{aligned}
 $$
+
 ---
 ### known indeterminate formula
+
 $$
 \begin{aligned}
 -\infty - \infty = -\infty \\
@@ -296,16 +325,19 @@ $$
 0^\infty = 0
 \end{aligned}
 $$
+
 ---
 ### l'hopital rule
 - behavior of function ratio near indeterminate approximates behavior of its derivative ratio
 ---
 ### l'hopital formula
+
 $$
 \begin{aligned}
 \lim_{x \to n} \frac{f(x)}{g(x)} = \lim_{x \to n} \frac{f'(x)}{g'(x)}
 \end{aligned}
 $$
+
 ---
 ### calculate l'hopital rule
 - apply l'hopital rule if and only if limit equal indeterminate formula
@@ -316,6 +348,7 @@ $$
 - repeat until determinate
 ---
 ### fit l'hopital rule
+
 $$
 \begin{aligned}
 f(x)g(x) \to \frac{f(x)}{\frac{1}{g(x)}} \\

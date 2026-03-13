@@ -12,6 +12,7 @@
 ![[8 Physics/Images/friction force.png|400]]
 ---
 ### friction force formula
+
 $$
 \begin{aligned}
 \overrightarrow F_f = \mu \overrightarrow F_N \\
@@ -19,11 +20,13 @@ $$
 F_N = \text{normal force}
 \end{aligned}
 $$
+
 ---
 ### static friction
 - friction that acts on stationary objects
 ---
 ### static friction force formula
+
 $$
 \begin{aligned}
 \overrightarrow F_{fs} \le \mu_s \overrightarrow F_N \\
@@ -31,11 +34,13 @@ $$
 F_N = \text{normal force}
 \end{aligned}
 $$
+
 ---
 ### kinetic friction
 - friction that acts on sliding objects
 ---
 ### kinetic friction force formula
+
 $$
 \begin{aligned}
 \overrightarrow F_{fk} \le \mu_k \overrightarrow F_N \\
@@ -43,11 +48,13 @@ $$
 F_N = \text{normal force}
 \end{aligned}
 $$
+
 ---
 ### centripetal force
 - center seeking force causing uniform circular motion
 ---
 ### centripetal force formula
+
 $$
 \begin{aligned}
 \overrightarrow F_c = m \overrightarrow a_{rad} = m\frac{\overrightarrow v_{tan}^2}{r} \\
@@ -57,12 +64,14 @@ v_{tan} = \text{tangential velocity} \\
 r = \text{radius}
 \end{aligned}
 $$
+
 ---
 ### ideal bank curve
 - centripetal force equal normal force
 ![[8 Physics/Images/ideal bank curve.png]]
 ---
 ### ideal bank curve velocity formula
+
 $$
 \begin{aligned}
 v_{eq} = \sqrt{rg \tan(\theta)} \\
@@ -71,12 +80,14 @@ g = 9.8 \\
 \theta = \text{angle between vectors}
 \end{aligned}
 $$
+
 ---
 ### non ideal bank curve
 - minimum velocity before sliding inward equal centripetal force subtraction with friction force
 - maximum velocity before sliding outward equal centripetal force addition with friction force
 ---
 ### non ideal bank curve velocity formula
+
 $$
 \begin{aligned}
 v_{min} = \sqrt{\frac{rg(\tan\theta - \mu)}{1 + \mu \tan \theta}} \\
@@ -87,6 +98,7 @@ g = 9.8 \\
 \mu = \text{friction coefficient}
 \end{aligned}
 $$
+
 ---
 ### inertial force
 - fictitious force without physical origin

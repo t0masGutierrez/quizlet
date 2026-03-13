@@ -64,6 +64,7 @@
 - inverse equivalent converse
 ---
 ### order of operations
+
 $$
 \begin{aligned}
 1 = \neg \\
@@ -73,6 +74,7 @@ $$
 5 = \leftrightarrow \\
 \end{aligned}
 $$
+
 ---
 ### language conversion logic
 - identify propositions from language

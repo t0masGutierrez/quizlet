@@ -5,6 +5,7 @@
 - mean of sample statistic not equal population parameter
 ---
 ### biased estimator formula
+
 $$
 \begin{aligned}
 E[T] \ne \mathcal T \\
@@ -12,11 +13,13 @@ T = \text{sample statistic} \\
 \mathcal T = \text{population parameter}
 \end{aligned}
 $$
+
 ---
 ### unbiased estimator
 - mean of sample statistic equal population parameter
 ---
 ### unbiased estimator formula
+
 $$
 \begin{aligned}
 E[T] = \mathcal T \\
@@ -24,11 +27,13 @@ T = \text{sample statistic} \\
 \mathcal T = \text{population parameter}
 \end{aligned}
 $$
+
 ---
 ### confidence interval
 - range of guesses for the population parameter
 ---
 ### confidence interval formula
+
 $$
 \begin{aligned}
 CI = T \pm (c^*)(SE) \\
@@ -37,8 +42,10 @@ c^* = \text{critical value} \\
 SE = \text{standard error}
 \end{aligned}
 $$
+
 ---
 ### mean confidence interval formula
+
 $$
 \begin{aligned}
 CI=\bar X \pm z^*(\frac{\sigma}{\sqrt n}) \\
@@ -50,8 +57,10 @@ s = \text{sample standard deviation} \\
 n = \text{sample size}
 \end{aligned}
 $$
+
 ---
 ### proportion confidence interval formula
+
 $$
 \begin{aligned}
 CI=\hat p \pm z^* \sqrt {\frac{\hat p(1-\hat p)}{n}} \\
@@ -60,8 +69,10 @@ z^* = \text{critical value} \\
 n = \text{sample size}
 \end{aligned}
 $$
+
 ---
 ### standard deviation confidence interval formula
+
 $$
 \begin{aligned}
 CI=\sqrt{\frac{(n-1)s^2}{\chi^2_{\alpha/2}}} \leq \sigma \leq \sqrt{\frac{(n-1)s^2}{\chi^2_{1-\alpha/2}}} \\
@@ -70,6 +81,7 @@ s = \text{sample standard deviation} \\
 \chi^2 = \text{critical value}
 \end{aligned}
 $$
+
 ---
 ### correct confidence interval
 - 95% confidence that the population parameter lie inside the confidence interval
@@ -83,6 +95,7 @@ $$
 ![[4 Statistics/Images/confidence level.png|300]]
 ---
 ### confidence level formula
+
 $$
 \begin{aligned}
 \text{1-tail CI} = 1-2\alpha \\
@@ -90,11 +103,13 @@ $$
 \alpha = \text{significance level}
 \end{aligned}
 $$
+
 ---
 ### critical value
 - boundary point on probability distribution between rejection region and non-rejection region
 ---
 ### critical value formula
+
 $$
 \begin{aligned}
 T < c^*_{\leftarrow} \rightarrow \text{reject} \\
@@ -102,12 +117,14 @@ T > |c^*_2| \rightarrow \text{reject} \\
 T > c^*_{\rightarrow} \rightarrow \text{reject} \\
 \end{aligned}
 $$
+
 ---
 ### critical z-value
 - boundary point on normal distribution between rejection region and non-rejection region
 ![[4 Statistics/Images/critical z-value.png]]
 ---
 ### critical z-value formula
+
 $$
 \begin{aligned}
 z^*_{\leftarrow } = N^{-1}(\alpha, 0, 1) \\
@@ -116,11 +133,13 @@ z^*_{\rightarrow} = N^{-1}(1-\alpha, 0, 1) \\
 \alpha = \text{significance level}
 \end{aligned}
 $$
+
 ---
 ### margin of error
 - maximum likely amount of error between statistic and parameter
 ---
 ### margin of error formula
+
 $$
 \begin{aligned}
 E = (c^*)(SE) \\
@@ -128,11 +147,13 @@ c^* = \text{critical value} \\
 SE = \text{standard error}
 \end{aligned}
 $$
+
 ---
 ### sample size
 - number of observations as function of margin of error
 ---
 ### mean sample size formula
+
 $$
 \begin{aligned}
 n = (\frac{z^*\sigma}{E})^2 \\
@@ -141,8 +162,10 @@ z^* = \text{critical value} \\
 E = \text{margin of error}
 \end{aligned}
 $$
+
 ---
 ### known proportion sample size formula
+
 $$
 \begin{aligned}
 n = (\frac{z^*\sqrt {p(1- p)}}{E})^2 \\
@@ -151,8 +174,10 @@ p = \text{proportion} \\
 E = \text{margin of error}
 \end{aligned}
 $$
+
 ---
 ### unknown proportion sample size formula
+
 $$
 \begin{aligned}
 n = (\frac{0.5z^*}{E})^2 \\
@@ -162,11 +187,13 @@ p = \text{proportion} \\
 E = \text{margin of error}
 \end{aligned}
 $$
+
 ---
 ### point estimate
 - single best guess for the population parameter
 ---
 ### point estimate formula
+
 $$
 \begin{aligned}
 T \approx \mathcal T \\
@@ -174,6 +201,7 @@ T = \text{sample statistic} \\
 \mathcal T = \text{population parameter} \\
 \end{aligned}
 $$
+
 ---
 ### sample mean
 - point estimate of population mean
@@ -210,17 +238,20 @@ $$
 - number of sample data that can vary without changing estimate
 ---
 ### degrees of freedom formula
+
 $$
 \begin{aligned}
 \text{d} = n-1 \\
 n = \text{sample size}
 \end{aligned}
 $$
+
 ---
 ### t-score
 - number of estimated standard errors from the mean
 ---
 ### t-score formula
+
 $$
 \begin{aligned}
 t = \frac{\bar X - \mu}{s/\sqrt n} \\
@@ -229,11 +260,13 @@ x = \text{sample mean} \\
 \sigma = \text{standard deviation}
 \end{aligned}
 $$
+
 ---
 ### critical t-value
 - boundary point on student distribution between rejection region and non-rejection region
 ---
 ### critical t-value formula
+
 $$
 \begin{aligned}
 t^*_1 = S^{-1}(1-\alpha, \text{d}) \\
@@ -242,6 +275,7 @@ t^*_2 = S^{-1}(1-\frac{\alpha}{2},\text{d}) \\
 \text{d} = \text{degrees of freedom}
 \end{aligned}
 $$
+
 ---
 ### sample standard deviation
 - point estimate of population standard deviation
@@ -262,6 +296,7 @@ $$
 - number of deviations from the variance
 ---
 ### chi-square-score formula
+
 $$
 \begin{aligned}
 \chi^2 = \frac{(n-1)s^2}{\sigma^2} \\
@@ -270,6 +305,7 @@ s = \text{sample standard deviation} \\
 \sigma = \text{standard deviation}
 \end{aligned}
 $$
+
 ---
 ### critical chi-square-value
 - boundary point on chi-square distribution between rejection region and non-rejection region
@@ -281,6 +317,7 @@ $$
 - chi-square table
 ---
 ### mean z-interval formula
+
 $$
 \begin{aligned}
 \text{avgZ-int}(\sigma, \bar X, n, 1-\alpha) \\
@@ -290,8 +327,10 @@ n = \text{sample size} \\
 \alpha = \text{significance level}
 \end{aligned}
 $$
+
 ---
 ### mean t-interval formula
+
 $$
 \begin{aligned}
 \text{avgZ-int}(\bar X, s, n, 1-\alpha) \\
@@ -301,8 +340,10 @@ n = \text{sample size} \\
 \alpha = \text{significance level}
 \end{aligned}
 $$
+
 ---
 ### proportion z-interval formula
+
 $$
 \begin{aligned}
 \text{propZ-int}(x, n, 1-\alpha) \\

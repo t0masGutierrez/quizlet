@@ -12,6 +12,7 @@
 ![[8 Physics/Images/single slit diffraction.png|500]]
 ---
 ### single slit destructive diffraction formula
+
 $$
 \begin{aligned}
 a \sin(\theta) = m\lambda \\
@@ -21,12 +22,14 @@ m = \text{diffraction order} \\
 \lambda = \text{wavelength}
 \end{aligned}
 $$
+
 ---
 ### single slit amplitude
 - amplitude of single slit diffraction equal the sum of amplitudes
 ![[8 Physics/Images/single slit amplitude.png|300]]
 ---
 ### single slit amplitude formula
+
 $$
 \begin{aligned}
 E = E_{12}[\frac{\sin(\beta/2)}{\beta/2}] \\
@@ -34,6 +37,7 @@ E = \text{electric field} \\
 \beta = \text{phase angle}
 \end{aligned}
 $$
+
 ---
 ### single slit intensity
 - minimum intensity where path difference equal integer multiple of $\lambda$ 
@@ -41,6 +45,7 @@ $$
 ![[8 Physics/Images/single slit intensity.png|300]]
 ---
 ### single slit intensity formula
+
 $$
 \begin{aligned}
 I = I_o[\frac{\sin(\beta/2)}{\beta/2}]^2 \\
@@ -48,8 +53,10 @@ I = \text{intensity} \\
 \beta = \text{phase angle}
 \end{aligned}
 $$
+
 ---
 ### single slit phase angle formula
+
 $$
 \begin{aligned}
 \beta = (\frac{2\pi}{\lambda})a \sin(\theta) \\
@@ -58,12 +65,14 @@ a = \text{width} \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### double slit intensity
 - superposition of interference and diffraction
 ![[8 Physics/Images/double slit diffraction.png|400]]
 ---
 ### double slit intensity formula
+
 $$
 \begin{aligned}
 I = I_o[\frac{\sin(\beta/2)}{\beta/2}]^2\cos^2(\frac{\phi}{2}) \\
@@ -72,6 +81,7 @@ I = \text{intensity} \\
 \phi = \text{phase angle}
 \end{aligned}
 $$
+
 ---
 ### graph double slit intensity
 - number of fringes equal the number of interference maximums inside diffraction envelope
@@ -90,6 +100,7 @@ $$
 ![[8 Physics/Images/circular diffraction.png|400]]
 ---
 ### destructive circular diffraction formula
+
 $$
 \begin{aligned}
 \sin(\theta_1) = 1.22(\frac{\lambda}{D}) \\
@@ -100,8 +111,10 @@ $$
 D = \text{diameter}
 \end{aligned}
 $$
+
 ---
 ### constructive circular diffraction formula
+
 $$
 \begin{aligned}
 \sin(\theta_1) =  1.63(\frac{\lambda}{D}) \\
@@ -112,6 +125,7 @@ $$
 D = \text{diameter}
 \end{aligned}
 $$
+
 ---
 ### rayleigh criterion
 - limit of resolution equal intersection between central maximum and 1st minimum
@@ -127,6 +141,7 @@ $$
 ![[8 Physics/Images/diffraction limit.png]]
 ---
 ### diffraction limit formula
+
 $$
 \begin{aligned}
 R = 1.22(\frac{\lambda f}{D}) \\

@@ -113,6 +113,7 @@
 - significant deviation from the mean
 ---
 ### lower outlier formula
+
 $$
 \begin{aligned}
 x = \text{Q1} - 1.5 \times \text{IQR} \\
@@ -120,8 +121,10 @@ x = \text{Q1} - 1.5 \times \text{IQR} \\
 \text{IQR} = \text{interquartile range}
 \end{aligned}
 $$
+
 ---
 ### upper outlier formula
+
 $$
 \begin{aligned}
 x = \text{Q3} + 1.5 \times \text{IQR} \\
@@ -129,6 +132,7 @@ x = \text{Q3} + 1.5 \times \text{IQR} \\
 \text{IQR} = \text{interquartile range}
 \end{aligned}
 $$
+
 ---
 ### measure of position
 - location of data

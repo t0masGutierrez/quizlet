@@ -3,6 +3,7 @@
 ![[8 Physics/Images/magnetic flux.png|300]]
 ---
 ### magnetic flux formula
+
 $$
 \begin{aligned}
 \Phi = \overrightarrow B \cdot \overrightarrow A = BA \cos(\theta) \\
@@ -11,6 +12,7 @@ A = \text{area} \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### generating emf
 - change magnetic field
@@ -22,6 +24,7 @@ $$
 ![[8 Physics/Images/faradays law.png|400]]
 ---
 ### faradays formula
+
 $$
 \begin{aligned}
 \epsilon = N\frac{-d\Phi}{dt} = N\frac{-d}{dt} \int_{A_1}^{A_2} \overrightarrow B \cdot d\overrightarrow A \\
@@ -32,6 +35,7 @@ B = \text{magnetic field} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### calculate faradays law
 - change magnetic flux
@@ -53,6 +57,7 @@ $$
 ![[8 Physics/Images/uniform motional emf.png]]
 ---
 ### uniform motional emf formula
+
 $$
 \begin{aligned}
 \epsilon = BL\frac{dx}{dt} = BLv \\
@@ -63,12 +68,14 @@ t = \text{time} \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### non uniform motional emf
 - generate emf by moving non uniform conductor through magnetic field
 ![[8 Physics/Images/non uniform motional emf.png|250]]
 ---
 ### non uniform motional emf formula
+
 $$
 \begin{aligned}
 \epsilon = \oint_{L_1}^{L_2} (\overrightarrow v \times \overrightarrow B) \cdot d\overrightarrow L \\
@@ -77,12 +84,14 @@ B = \text{magnetic field} \\
 L = \text{length}
 \end{aligned}
 $$
+
 ---
 ### static electric field
 - work done by conservative force on electric charge  
 ![[8 Physics/Images/static electric field.png]]
 ---
 ### static electric field formula
+
 $$
 \begin{aligned}
 \oint_{L_1}^{L_2} \overrightarrow E \cdot d \overrightarrow L = 0 \\
@@ -90,12 +99,14 @@ E = \text{electric field} \\
 L = \text{length}
 \end{aligned}
 $$
+
 ---
 ### induced electric field
 - work done by non conservative force on electric charge
 ![[8 Physics/Images/induced electric field.png]]
 ---
 ### induced electric field formula
+
 $$
 \begin{aligned}
 \oint_{L_1}^{L_2} \overrightarrow E \cdot d \overrightarrow L = \frac{-d\Phi}{dt} \\
@@ -104,12 +115,14 @@ L = \text{length} \\
 \Phi = \text{magnetic flux}
 \end{aligned}
 $$
+
 ---
 ### eddy current
 - circulating loop of induced electric current
 ![[8 Physics/Images/eddy current.png|500]]
 ---
 ### eddy current formula
+
 $$
 \begin{aligned}
 I = \frac{\epsilon}{R} \\
@@ -117,11 +130,13 @@ I = \frac{\epsilon}{R} \\
 R = \text{resistance}
 \end{aligned}
 $$
+
 ---
 ### conduction current
 - rate of electric charge flow due to electric field
 ---
 ### conduction current formula
+
 $$
 \begin{aligned}
 I_c = \int_{A_1}^{A_2} \overrightarrow J \cdot d \overrightarrow A \\
@@ -129,11 +144,13 @@ J = \text{electric current density} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### displacement current
 - rate of fictitious electric charge flow due to changing electric field
 ---
 ### displacement current formula
+
 $$
 \begin{aligned}
 I_d = \epsilon_0 \frac{d\Phi}{dt} \\
@@ -141,12 +158,14 @@ I_d = \epsilon_0 \frac{d\Phi}{dt} \\
 \Phi = \text{electric flux}
 \end{aligned}
 $$
+
 ---
 ### amperes law
 - magnetic field around amperian loop directly proportional net electric current inside amperian loop
 ![[8 Physics/Images/amperes law1.png|300]]
 ---
 ### amperes formula
+
 $$
 \begin{aligned}
 \oint_{L_1}^{L_2} \overrightarrow B \cdot d\overrightarrow L = \mu_0 (I_c + I
@@ -158,6 +177,7 @@ I_c = \text{conduction current} \\
 I_d = \text{displacement current}
 \end{aligned}
 $$
+
 ---
 ### electromagnetism
 - electric flux directly proportional net electric charge inside gaussian surface 
@@ -167,6 +187,7 @@ $$
 ![[8 Physics/Images/electromagnetism.png|300]]
 ---
 ### electromagnetism formula
+
 $$
 \begin{aligned}
 \oint_{A_1}^{A_2}\overrightarrow E \cdot d\overrightarrow A = \frac{Q_{enc}}{\epsilon_0} \\
@@ -175,11 +196,13 @@ $$
 \oint_{L_1}^{L_2} \overrightarrow B \cdot d\overrightarrow L = \mu_0 (I_c + \epsilon_0 \frac{d\Phi_E}{dt})_{enc} \\
 \end{aligned}
 $$
+
 ---
 ### lorentz force
 - net electromagnetic force 
 ---
 ### lorentz force formula
+
 $$
 \begin{aligned}
 \overrightarrow F_{net} = q(\overrightarrow E + \overrightarrow v \times \overrightarrow B) \\
@@ -189,12 +212,14 @@ v = \text{velocity} \\
 B = \text{magnetic field}
 \end{aligned}
 $$
+
 ---
 ### electric generator
 - conversion of mechanical energy into electrical energy by inducing emf with rotating coil inside magnetic field
 ![[8 Physics/Images/electric generator.png|400]]
 ---
 ### electric generator formula
+
 $$
 \begin{aligned}
 \epsilon = \epsilon_0 \sin(\omega t) = NBA \omega \sin(\omega t) \\
@@ -206,12 +231,14 @@ B = \text{magnetic field} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### electric motor
 - conversion of electrical energy into mechanical energy
 ![[8 Physics/Images/electric motor.png]]
 ---
 ### electric motor formula
+
 $$
 \begin{aligned}
 \epsilon = \epsilon_0 - \epsilon_{induced} \\

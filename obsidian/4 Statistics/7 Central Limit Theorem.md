@@ -2,6 +2,7 @@
 - different samples from the same population have different sample statistics
 ---
 ### sampling variability
+
 $$
 \begin{aligned}
 \omega_1, \omega_2 \subset \Omega \rightarrow T_1 \ne T_2 \\
@@ -9,11 +10,13 @@ $$
 T = \text{sample statistic}
 \end{aligned}
 $$
+
 ---
 ### sampling distribution
 - probability distribution of sample statistic across all possible samples of the same size
 ---
 ### sampling distribution formula
+
 $$
 \begin{aligned}
 T \sim (\mu_T, \sigma_T) \\
@@ -22,11 +25,13 @@ T = \text{sample statistic} \\
 \sigma = \text{standard deviation}
 \end{aligned}
 $$
+
 ---
 ### standard error
 - standard deviation of sampling distribution
 ---
 ### mean standard error formula
+
 $$
 \begin{aligned}
 SE(\bar X) = \frac{\sigma}{\sqrt n} \\
@@ -34,8 +39,10 @@ SE(\bar X) = \frac{\sigma}{\sqrt n} \\
 n = \text{sample size}
 \end{aligned}
 $$
+
 ---
 ### proportion standard error formula
+
 $$
 \begin{aligned}
 SE(\hat p) = \sqrt{\frac{p(1-p)}{n}} \\
@@ -43,8 +50,10 @@ p = \text{proportion} \\
 n = \text{sample size}
 \end{aligned}
 $$
+
 ---
 ### mean difference standard error formula
+
 $$
 \begin{aligned}
 SE(\bar X_1 - \bar X_2) = \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}} \\
@@ -52,8 +61,10 @@ SE(\bar X_1 - \bar X_2) = \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}
 n = \text{sample size}
 \end{aligned}
 $$
+
 ---
 ### proportion difference standard error formula
+
 $$
 \begin{aligned}
 SE(\hat p_1 - \hat p_2) = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}} \\
@@ -61,11 +72,13 @@ p = \text{proportion} \\
 n = \text{sample size}
 \end{aligned}
 $$
+
 ---
 ### law of large numbers
 - sample statistic approaches population parameter as sample size approaches infinity
 ---
 ### law of large numbers formula
+
 $$
 \begin{aligned}
 \lim_{n \rightarrow \infty} T = \mathcal T \\
@@ -74,11 +87,13 @@ T = \text{sample statistic} \\
 \mathcal T = \text{population parameter}
 \end{aligned}
 $$
+
 ---
 ### central limit theorem
 - sampling distribution approaches normal distribution as sample size approaches infinity regardless of the population distribution
 ---
 ### central limit formula
+
 $$
 \begin{aligned}
 \lim_{n\rightarrow \infty} T \sim N(\mu, \frac{\sigma}{\sqrt n}) \\
@@ -88,11 +103,13 @@ T = \text{sample statistic} \\
 \sigma = \text{standard deviation} 
 \end{aligned}
 $$
+
 ---
 ### individual z-score
 - number of standard deviations from the mean
 ---
 ### individual mean z-score formula
+
 $$
 \begin{aligned}
 z = \frac{X - \mu}{\sigma} \\
@@ -101,8 +118,10 @@ X = \text{datum} \\
 \sigma = \text{standard deviation} 
 \end{aligned}
 $$
+
 ---
 ### individual proportion z-score formula
+
 $$
 \begin{aligned}
 z = \frac{\hat p - p}{\sigma} \\
@@ -111,11 +130,13 @@ p = \text{proportion} \\
 \sigma = \text{standard deviation} 
 \end{aligned}
 $$
+
 ---
 ### sample z-score
 - number of standard deviations from the sample mean
 ---
 ### sample mean z-score formula
+
 $$
 \begin{aligned}
 z = \frac{\bar X - \mu}{SE(\bar X)} \\
@@ -124,8 +145,10 @@ z = \frac{\bar X - \mu}{SE(\bar X)} \\
 SE = \text{standard error}
 \end{aligned}
 $$
+
 ---
 ### sample proportion z-score formula
+
 $$
 \begin{aligned}
 z = \frac{\hat p - p}{SE(\hat p)} \\

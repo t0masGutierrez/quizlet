@@ -4,6 +4,7 @@
 ![[8 Physics/Images/drift velocity.png|250]]
 ---
 ### drift velocity formula
+
 $$
 \begin{aligned}
 \overrightarrow v_d = \frac{I}{nqA} \\
@@ -13,6 +14,7 @@ q = \text{electric charge} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### calculate drift velocity
 - unbound electric charge experience collision inside material thereby causing resistance
@@ -22,6 +24,7 @@ $$
 - measure of unbound electric charge compactness 
 ---
 ### number density formula
+
 $$
 \begin{aligned}
 n = \frac{N}{V} \\
@@ -29,12 +32,14 @@ N = \text{number of unbound electric charge} \\
 V = \text{volume}
 \end{aligned}
 $$
+
 ---
 ### electric current
 - rate of electric charge flow
 ![[8 Physics/Images/electric current.png|300]]
 ---
 ### electric current formula
+
 $$
 \begin{aligned}
 I = \frac{dq}{dt} \\
@@ -42,6 +47,7 @@ q = \text{electric charge} \\
 t = \text{time}
 \end{aligned}
 $$
+
 ---
 ### calculate electric current
 - apply voltage
@@ -54,6 +60,7 @@ $$
 ![[8 Physics/Images/electric current density.png|300]]
 ---
 ### electric current density formula
+
 $$
 \begin{aligned}
 \overrightarrow J = \frac{I}{A} = nq \overrightarrow v_d \\
@@ -64,6 +71,7 @@ q = \text{electric charge} \\
 v_d = \text{drift velocity}
 \end{aligned}
 $$
+
 ---
 ### conductor
 - high conductivity and low resistivity
@@ -75,6 +83,7 @@ $$
 - how strongly material support the flow of electric charge 
 ---
 ### conductivity formula
+
 $$
 \begin{aligned}
 \sigma = \frac{\overrightarrow J}{\overrightarrow E} \\
@@ -82,12 +91,14 @@ J = \text{electric current density} \\
 E = \text{electric field}
 \end{aligned}
 $$
+
 ---
 ### resistivity
 - how strongly material oppose the flow of electric charge
 ![[8 Physics/Images/resistivity.png|500]]
 ---
 ### resistivity formula
+
 $$
 \begin{aligned}
 \rho = \frac{\overrightarrow E}{\overrightarrow J} \\
@@ -95,12 +106,14 @@ E = \text{electric field} \\
 J = \text{electric current density}
 \end{aligned}
 $$
+
 ---
 ### temperature resistivity
 - how strongly material oppose the flow of electric charge dependent temperature of material
 ![[8 Physics/Images/temperature resistivity.png]]
 ---
 ### temperature resistivity formula
+
 $$
 \begin{aligned}
 \rho(T) = \rho_0(1 + \alpha \Delta T) \\
@@ -109,12 +122,14 @@ $$
 T = \text{temperature}
 \end{aligned}
 $$
+
 ---
 ### resistance
 - difficulty of electric charge flow
 ![[8 Physics/Images/resistance.png|300]]
 ---
 ### resistance formula
+
 $$
 \begin{aligned}
 R = \rho \frac{L}{A} \\
@@ -123,6 +138,7 @@ L = \text{length} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### calculate resistance
 - conversion of potential energy into thermal energy
@@ -132,6 +148,7 @@ $$
 - difficulty of electric charge flow dependent temperature
 ---
 ### temperature resistance formula
+
 $$
 \begin{aligned}
 R(T) = R_0(1 + \alpha \Delta T) \\
@@ -140,6 +157,7 @@ R = \text{resistance} \\
 T = \text{temperature}
 \end{aligned}
 $$
+
 ---
 ### calculate temperature resistance 
 - resistance of conductor directly proportional temperature
@@ -155,6 +173,7 @@ $$
 ![[8 Physics/Images/ohms law.png|300]]
 ---
 ### ohms formula
+
 $$
 \begin{aligned}
 V = IR \\
@@ -162,11 +181,13 @@ I = \text{electric current} \\
 R = \text{resistance}
 \end{aligned}
 $$
+
 ---
 ### power
 - rate of energy transfer
 ---
 ### power formula
+
 $$
 \begin{aligned}
 P = IV = I^2R = \frac{V^2}{R} \\
@@ -175,6 +196,7 @@ V = \text{voltage} \\
 R = \text{resistance}
 \end{aligned}
 $$
+
 ---
 ### ohms law and power
 - power
@@ -188,6 +210,7 @@ $$
 ![[8 Physics/Images/electromotive force.png|400]]
 ---
 ### electromotive force formula
+
 $$
 \begin{aligned}
 \epsilon = I(r + R) \\
@@ -197,6 +220,7 @@ r = \text{internal resistance} \\
 R = \text{resistance}
 \end{aligned}
 $$
+
 ---
 ### internal resistance
 - difficulty of electric charge flow inside voltage source
@@ -207,6 +231,7 @@ $$
 ![[8 Physics/Images/terminal voltage.png]]
 ---
 ### terminal voltage formula
+
 $$
 \begin{aligned}
 V = \epsilon - Ir \\
@@ -215,11 +240,13 @@ I = \text{electric current} \\
 r = \text{internal resistance}
 \end{aligned}
 $$
+
 ---
 ### power input
 - rate of energy production
 ---
 ### power input formula
+
 $$
 \begin{aligned}
 P = I\epsilon \\
@@ -227,11 +254,13 @@ I = \text{electric current} \\
 \epsilon = \text{emf}
 \end{aligned}
 $$
+
 ---
 ### power output
 - rate of energy dissipation
 ---
 ### power output
+
 $$
 \begin{aligned}
 P = I^2r \\
@@ -239,12 +268,14 @@ I = \text{electric current} \\
 r = \text{internal resistance}
 \end{aligned}
 $$
+
 ---
 ### net power
 - rate of energy transfer after experiencing internal resistance
 ![[8 Physics/Images/total power.png|250]]
 ---
 ### net power formula
+
 $$
 \begin{aligned}
 P = I\epsilon \pm I^2r \\
@@ -255,6 +286,7 @@ I = \text{electric current} \\
 r = \text{internal resistance}
 \end{aligned}
 $$
+
 ---
 ### battery
 - voltage source

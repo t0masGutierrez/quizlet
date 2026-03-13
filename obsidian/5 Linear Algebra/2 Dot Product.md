@@ -2,6 +2,7 @@
 - scalar quantity of similarity between two vectors
 ---
 ### dot product formula
+
 $$
 \begin{aligned}
 \vec x \cdot \vec y = x_1y_1 + ... + x_ny_n = \sum_{i=1}^n x_iy_i \\
@@ -10,8 +11,10 @@ n = \text{number of coordinates} \\
 i = \text{index}
 \end{aligned}
 $$
+
 ---
 ### dot product formula
+
 $$
 \begin{aligned}
 \vec x \cdot \vec y = (\| \vec x \|)(\| \vec y \|) \cos(\theta) \\
@@ -20,6 +23,7 @@ $$
 \theta = \text{direction}
 \end{aligned}
 $$
+
 ---
 ### dot product property
 - commutative
@@ -29,6 +33,7 @@ $$
 - distributive
 ---
 ### dot product property formula
+
 $$
 \begin{aligned}
 \vec x \cdot \vec y = \vec y \cdot \vec x \\
@@ -39,11 +44,13 @@ c(\vec x \cdot \vec y) = (c\vec x) \cdot \vec y = \vec x \cdot (c\vec y) \\
 (\vec x + \vec y) \cdot \vec z = (\vec x \cdot \vec z) + (\vec y \cdot \vec z)
 \end{aligned}
 $$
+
 ---
 ### unit vector property
 - dot product of unit vector equal $\pm 1$ 
 ---
 ### unit vector property formula
+
 $$
 \begin{aligned}
 -1 \le \vec x \cdot \vec y \le 1 \\
@@ -51,11 +58,13 @@ $$
 ||\vec y|| = 1
 \end{aligned}
 $$
+
 ---
 ### cauchy schwarz inequality
 - dot product of magnitudes equal upper boundary for magnitude of dot product
 ---
 ### cauchy schwarz inequality formula
+
 $$
 \begin{aligned}
 |\vec x \cdot \vec y | \le (\| \vec x \|)(\| \vec y \|) \\
@@ -63,11 +72,13 @@ $$
 \| \vec x \|, \| \vec y \| = \text{magnitude}
 \end{aligned}
 $$
+
 ---
 ### triangle inequality
 - sum of magnitudes equal upper boundary for magnitude of sum
 ---
 ### minkowski’s inequality formula
+
 $$
 \begin{aligned}
 \|\vec{x} + \vec{y}\| \le \|\vec{x}\| + \|\vec{y}\| \\
@@ -75,12 +86,14 @@ $$
 \| \vec x \|, \| \vec y \| = \text{magnitude}
 \end{aligned}
 $$
+
 ---
 ### direction
 - counterclockwise angle between two vectors 
 ![[9 Calculus/Images/dot product.png]]
 ---
 ### direction formula
+
 $$
 \begin{aligned}
 \cos(\theta) = \frac{\vec x \cdot \vec y}{(|| \vec x ||)(|| \vec y ||)} \\
@@ -89,6 +102,7 @@ $$
 \| \vec x \|, \| \vec y \| = \text{magnitude}
 \end{aligned}
 $$
+
 ---
 ### direction property
 - acute angle
@@ -98,6 +112,7 @@ $$
 - orthogonal direction
 ---
 ### direction property formula
+
 $$
 \begin{aligned}
 0 \le \theta \le 90 \leftrightarrow \vec x \cdot \vec y > 0 \\
@@ -107,11 +122,13 @@ $$
 \vec x \perp \vec y \leftrightarrow \vec x \cdot \vec y = 0
 \end{aligned}
 $$
+
 ---
 ### mutually orthogonal
 - for every pair of distinct vectors the dot product equal zero
 ---
 ### mutually orthogonal formula
+
 $$
 \begin{aligned}
 \forall i, j \in \{1, ..., k\}: i \ne j \rightarrow \vec x_i \cdot \vec x_j = 0 \\
@@ -121,11 +138,13 @@ k = \text{number of vectors} \\
 \vec x = \text{vector}
 \end{aligned}
 $$
+
 ---
 ### parallel projection
 - parallel projection of $\vec y$ onto $\vec x$ equal vector component of $\vec y$ parallel $\vec x$ 
 ---
 ### parallel projection formula
+
 $$
 \begin{aligned}
 \text{proj}_{x}(y\parallel) = (\frac{\vec x \cdot \vec y}{\|\vec x \|^2})\vec x \\
@@ -133,12 +152,14 @@ $$
 \|\vec x \| = \text{magnitude}
 \end{aligned}
 $$
+
 ---
 ### orthogonal projection
 - orthogonal projection of $\vec y$ onto $\vec x$ equal vector component of $\vec y$ orthogonal $\vec x$ 
 ![[5 Linear Algebra/Images/orthogonal projection.png|300]]
 ---
 ### orthogonal projection formula
+
 $$
 \begin{aligned}
 \text{proj}_{x}(y\perp) = \vec y - (\frac{\vec x \cdot \vec y}{\|\vec x \|^2})\vec x \\

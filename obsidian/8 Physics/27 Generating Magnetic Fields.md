@@ -7,6 +7,7 @@
 ![[8 Physics/Images/generating magnetic field via point.png|300]]
 ---
 ### generating magnetic field via point formula
+
 $$
 \begin{aligned}
 \overrightarrow B = (\frac{\mu_0}{4\pi})\frac{q\overrightarrow v \times \hat r}{r^2} = (\frac{\mu_0}{4\pi})\frac{qv \sin(\theta)}{r^2}\\
@@ -18,12 +19,14 @@ r = \text{distance} \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### biot savart law
 - electric current carrying conductor generate magnetic field
 ![[8 Physics/Images/biot savart law.png]]
 ---
 ### biot savart formula
+
 $$
 \begin{aligned}
 d \overrightarrow B = (\frac{\mu_0}{4\pi})\frac{Id\overrightarrow L \times \hat r}{r^2} = (\frac{\mu_0}{4\pi})\frac{IdL \sin(\theta)}{r^2}\\
@@ -35,12 +38,14 @@ r = \text{distance} \\
 \theta = \text{angular position}
 \end{aligned}
 $$
+
 ---
 ### generating magnetic field via line
 - electric current carrying line generate magnetic field
 ![[8 Physics/Images/generating magnetic field via line.png|500]]
 ---
 ### generating magnetic field via line formula
+
 $$
 \begin{aligned}
 B = \frac{\mu_0I}{2\pi r} \\
@@ -49,12 +54,14 @@ I = \text{electric current} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### generating magnetic field via loop
 - electric current carrying loop generate magnetic field along central axis of loop
 ![[8 Physics/Images/generating magnetic field via loop.png|450]]
 ---
 ### generating magnetic field via loop formula
+
 $$
 \begin{aligned}
 B_y = \frac{\mu_0 NI R^2}{2(y^2 + R^2)^{3/2}} \\
@@ -65,12 +72,14 @@ R = \text{radius} \\
 y = \text{position}
 \end{aligned}
 $$
+
 ---
 ### generating magnetic field via coil
 - electric current carrying coil generate magnetic field from center of coil
 ![[8 Physics/Images/generating magnetic field via coil.png]]
 ---
 ### generating magnetic field via coil formula
+
 $$
 \begin{aligned}
 B = \frac{\mu_0 NI}{2R} \\
@@ -80,12 +89,14 @@ I = \text{electric current} \\
 r = \text{radius}
 \end{aligned}
 $$
+
 ---
 ### generating magnetic field via solenoid
 - electric current carrying solenoid generate uniform inner magnetic field
 ![[8 Physics/Images/generating magnetic field via solenoid.png|300]]
 ---
 ### generating magnetic field via solenoid
+
 $$
 \begin{aligned}
 B = \mu_0 nI \\
@@ -94,11 +105,13 @@ n = \text{number density} \\
 I = \text{electric current}
 \end{aligned}
 $$
+
 ---
 ### number density
 - measure of loop compactness
 ---
 ### number density formula
+
 $$
 \begin{aligned}
 n = \frac{N}{L} \\
@@ -106,12 +119,14 @@ N = \text{number of loops} \\
 L = \text{length}
 \end{aligned}
 $$
+
 ---
 ### generating magnetic field via toroid
 - electric current carrying toroid generate non uniform inner magnetic field
 ![[8 Physics/Images/generating magnetic field via toroid.png]]
 ---
 ### generating magnetic field via toroid formula
+
 $$
 \begin{aligned}
 B = \frac{\mu_0 NI}{2\pi R} \\
@@ -121,12 +136,14 @@ I = \text{electric current} \\
 R = \text{radius}
 \end{aligned}
 $$
+
 ---
 ### amperes law
 - magnetic field around amperian loop directly proportional net electric current inside amperian loop
 ![[8 Physics/Images/amperes law.png|300]]
 ---
 ### amperes formula
+
 $$
 \begin{aligned}
 \oint_{L_1}^{L_2} \overrightarrow B \cdot d\overrightarrow L = \mu_0 I_{enc} \\
@@ -136,6 +153,7 @@ L = \text{length} \\
 I = \text{electric current}
 \end{aligned}
 $$
+
 ---
 ### calculate amperes law
 - identify amperian loop
@@ -153,6 +171,7 @@ $$
 ![[8 Physics/Images/symmetrical electric current distribution.png]]
 ---
 ### symmetrical electric current distribution formula
+
 $$
 \begin{aligned}
 B = \frac{\mu_0I_{enc}}{L} \\
@@ -161,12 +180,14 @@ I = \text{electric current} \\
 L = \text{length}
 \end{aligned}
 $$
+
 ---
 ### circular electric current distribution
 - electric current distribution along circle
 ![[8 Physics/Images/circular electric current distribution.png|250]]
 ---
 ### circular electric current distribution formula
+
 $$
 \begin{aligned}
 B = \frac{\mu_0I_{enc}}{2\pi r} \\
@@ -175,12 +196,14 @@ I = \text{electric current} \\
 r = \text{distance}
 \end{aligned}
 $$
+
 ---
 ### electric current density
 - measure of electric current compactness
 ![[8 Physics/Images/electric current density1.png]]
 ---
 ### electric current density formula
+
 $$
 \begin{aligned}
 dI = J \ dA \\
@@ -188,6 +211,7 @@ J = \text{electric current density} \\
 A = \text{area} \\
 \end{aligned}
 $$
+
 ---
 ### conductor shell
 - electric current inside circular conductor equal electric current density
@@ -203,6 +227,7 @@ $$
 ![[8 Physics/Images/diamagnetic.png]]
 ---
 ### generating diamagnetic field formula
+
 $$
 \begin{aligned}
 \overrightarrow B = \overrightarrow B_0 ( 1 + \chi_m) \\
@@ -210,6 +235,7 @@ B = \text{magnetic field} \\
 \chi_m = \text{magnetic susceptibility}
 \end{aligned}
 $$
+
 ---
 ### paramagnetic
 - weak internal magnetic field increase external magnetic field
@@ -217,6 +243,7 @@ $$
 ![[8 Physics/Images/paramagnetic.png]]
 ---
 ### generating paramagnetic field formula
+
 $$
 \begin{aligned}
 \overrightarrow B = \overrightarrow B_0 ( 1 + \chi_m) \\
@@ -224,6 +251,7 @@ B = \text{magnetic field} \\
 \chi_m = \text{magnetic susceptibility}
 \end{aligned}
 $$
+
 ---
 ### ferromagnetic
 - strong internal magnetic field increase external magnetic field
@@ -231,6 +259,7 @@ $$
 ![[8 Physics/Images/ferromagnetic.png]]
 ---
 ### generating ferromagnetic field formula
+
 $$
 \begin{aligned}
 \overrightarrow B = \overrightarrow B_0 + \mu_0 \overrightarrow M \\
@@ -239,11 +268,13 @@ B = \text{magnetic field} \\
 M = \text{magnetization}
 \end{aligned}
 $$
+
 ---
 ### magnetization
 - separation of magnetic pole via external magnetic field thereby inducing magnetic dipole
 ---
 ### magnetization formula
+
 $$
 \begin{aligned}
 \overrightarrow M = \frac{\overrightarrow \mu}{V} \\
@@ -251,23 +282,27 @@ $$
 V = \text{volume}
 \end{aligned}
 $$
+
 ---
 ### magnetic susceptibility
 - difference between relative permeability and unity
 ![[8 Physics/Images/magnetic susceptibility.png|250]]
 ---
 ### magnetic susceptibility formula
+
 $$
 \begin{aligned}
 \chi_m = K_m - 1 \\
 K_m = \text{relative permeability}
 \end{aligned}
 $$
+
 ---
 ### relative permeability
 - ratio between magnetic and non magnetic
 ---
 ### relative permeability formula
+
 $$
 \begin{aligned}
 K_m = \frac{\overrightarrow B}{\overrightarrow B_0} = \frac{\mu}{\mu_0} \\

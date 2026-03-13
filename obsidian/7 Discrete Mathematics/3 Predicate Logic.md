@@ -8,6 +8,7 @@
 - expression containing variables that become proposition once variables assign value or bound by quantifier
 ---
 ### proposition formula
+
 $$
 \begin{aligned}
 P(x) = p \\
@@ -16,6 +17,7 @@ p = \text{proposition} \\
 P = \text{predicate}
 \end{aligned}
 $$
+
 ---
 ### domain of discourse
 - range of elements that proposition function may accept
@@ -33,31 +35,37 @@ $$
 - predicate true for all elements in the domain of discourse
 ---
 ### universal quantification formula
+
 $$
 \begin{aligned}
 \forall xP(x)
 \end{aligned}
 $$
+
 ---
 ### existential quantification
 - there exists element in the domain of discourse such that predicate true
 ---
 ### existential quantification formula
+
 $$
 \begin{aligned}
 \exists xP(x)
 \end{aligned}
 $$
+
 ---
 ### uniqueness quantification
 - there exists unique element in the domain of discourse such that predicate true
 ---
 ### uniqueness quantification formula
+
 $$
 \begin{aligned}
 \exists !xP(x)
 \end{aligned}
 $$
+
 ---
 ### counterexample
 - disprove quantification by providing example where quantifier false

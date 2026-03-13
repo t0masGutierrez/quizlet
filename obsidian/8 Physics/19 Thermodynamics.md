@@ -13,6 +13,7 @@
 ![[8 Physics/Images/zeroth law of thermodynamics.png]]
 ---
 ### 0th formula of thermodynamics
+
 $$
 \begin{aligned}
 T_a = T_b \land T_b = T_c \rightarrow T_a = T_c \\
@@ -20,6 +21,7 @@ T_a = T_b \land T_b = T_c \rightarrow T_a = T_c \\
 T = \text{temperature}
 \end{aligned}
 $$
+
 ---
 ### pV diagram
 - pressure versus volume
@@ -30,6 +32,7 @@ $$
 ![[8 Physics/Images/work1.png]]
 ---
 ### variable work formula
+
 $$
 \begin{aligned}
 W = \sum_i p_i \Delta V_i = \int_{V_1}^{V_2} \overrightarrow p \cdot d \overrightarrow V \\
@@ -37,6 +40,7 @@ p = \text{pressure} \\
 V = \text{volume}
 \end{aligned}
 $$
+
 ---
 ### positive work
 - molecules lose kinetic energy as gas expands
@@ -50,6 +54,7 @@ $$
 - kinetic energy of molecular motion
 ---
 ### internal energy formula
+
 $$
 \begin{aligned}
 E = \frac{f}{2}Nk_bT_k = \frac{f}{2}nRT_k \\
@@ -61,12 +66,14 @@ n = \text{number of moles} \\
 R = 8.31
 \end{aligned}
 $$
+
 ---
 ### first law of thermodynamics
 - energy can transfer and transform but cannot create nor destroy
 ![[8 Physics/Images/first law of thermodynamics.png]]
 ---
 ### 1st formula of thermodynamics
+
 $$
 \begin{aligned}
 \Delta E = Q - W \\
@@ -74,11 +81,13 @@ Q = \text{heat} \\
 W = \text{work}
 \end{aligned}
 $$
+
 ---
 ### isolated system
 - cannot exchange neither energy nor mass with surrounding 
 ---
 ### isolated system formula
+
 $$
 \begin{aligned}
 \Delta E = 0 \\
@@ -86,6 +95,7 @@ Q = 0 \\
 W = 0
 \end{aligned}
 $$
+
 ---
 ### state function
 - internal energy, pressure, volume, temperature, and entropy
@@ -101,6 +111,7 @@ $$
 - constant temperature
 ---
 ### isothermal formula
+
 $$
 \begin{aligned}
 p_1V_1 = p_2V_2 \\
@@ -108,6 +119,7 @@ p = \text{pressure} \\
 V = \text{volume}
 \end{aligned}
 $$
+
 ---
 ### isothermal curve
 - $T_i = T_f$ 
@@ -117,6 +129,7 @@ $$
 - constant volume
 ---
 ### isochoric formula
+
 $$
 \begin{aligned}
 \frac{p_1}{T_1} = \frac{p_2}{T_2} \\
@@ -124,6 +137,7 @@ p = \text{pressure} \\
 T = \text{temperature}
 \end{aligned}
 $$
+
 ---
 ### isochoric curve
 - $T_i > T_f$ 
@@ -133,6 +147,7 @@ $$
 - constant pressure
 ---
 ### isobaric formula
+
 $$
 \begin{aligned}
 \frac{V_1}{T_1} = \frac{V_2}{T_2} \\
@@ -140,6 +155,7 @@ V = \text{volume} \\
 T = \text{temperature}
 \end{aligned}
 $$
+
 ---
 ### isobaric curve
 - $T_i < T_f$ 
@@ -149,6 +165,7 @@ $$
 - zero heat transfer with surrounding
 ---
 ### adiabatic formula
+
 $$
 \begin{aligned}
 p_1V_1^{\gamma} = p_2V_2^{\gamma} \\
@@ -160,6 +177,7 @@ T = \text{temperature} \\
 c = \text{specific heat capacity}
 \end{aligned}
 $$
+
 ---
 ### adiabatic curve
 - $T_i > T_f$ 
@@ -170,6 +188,7 @@ $$
 - high specific heat resist temperature change more than low specific heat
 ---
 ### specific heat formula
+
 $$
 \begin{aligned}
 Q = nc\Delta T_c \\
@@ -178,12 +197,14 @@ c = \text{specific heat capacity} \\
 T_c = \text{celcius}
 \end{aligned}
 $$
+
 ---
 ### constant volume specific heat capacity
 - specific heat of gas inside rigid container
 ![[8 Physics/Images/constant volume specific heat1.png]]
 ---
 ### constant volume specific heat capacity formula
+
 $$
 \begin{aligned}
 c_v = \frac{f}{2}R \\
@@ -193,12 +214,14 @@ f = \text{degrees of freedom} \\
 R = 8.31
 \end{aligned}
 $$
+
 ---
 ### constant pressure specific heat capacity
 - specific heat of gas inside rigid container
 ![[8 Physics/Images/constant pressure specific heat.png]]
 ---
 ### constant pressure specific heat capacity formula
+
 $$
 \begin{aligned}
 c_p = c_v + R \\
@@ -206,17 +229,20 @@ c = \text{specific heat capacity} \\
 R = 8.31
 \end{aligned}
 $$
+
 ---
 ### specific heat capacity ratio
 - ratio that describe thermodynamic behavior of gas
 ---
 ### specific heat capacity ratio formula
+
 $$
 \begin{aligned}
 \gamma = \frac{c_p}{c_v} \\
 c = \text{specific heat capacity}
 \end{aligned}
 $$
+
 ---
 ### irreversible thermodynamic process
 - change of thermodynamic state such that the system and surrounding cannot return initial thermodynamic state without changing system or surrounding
@@ -231,17 +257,20 @@ $$
 ![[8 Physics/Images/thermodynamic cycle.png]]
 ---
 ### thermodynamic cycle formula
+
 $$
 \begin{aligned}
 Q = W
 \end{aligned}
 $$
+
 ---
 ### second law of thermodynamics
 - heat flows from high temperature to low temperature until thermal equilibrium
 ![[8 Physics/Images/second law of thermodynamics.png]]
 ---
 ### 2nd formula of thermodynamics
+
 $$
 \begin{aligned}
 T_a < T_b \rightarrow T_a + Q = T_b \\
@@ -249,6 +278,7 @@ T = \text{temperature} \\
 Q = \text{heat}
 \end{aligned}
 $$
+
 ---
 ### heat engine
 - transform heat into work
@@ -256,6 +286,7 @@ $$
 ![[8 Physics/Images/heat engine.png]]
 ---
 ### heat engine efficiency formula
+
 $$
 \begin{aligned}
 e = \frac{W}{Q_h} \\
@@ -263,6 +294,7 @@ W = \text{work} \\
 Q = \text{heat}
 \end{aligned}
 $$
+
 ---
 ### refrigerator
 - transform work into heat
@@ -270,12 +302,14 @@ $$
 ![[8 Physics/Images/refrigerator.png]]
 ---
 ### refrigerator coefficient of performance formula
+
 $$
 \begin{aligned}
 COP = \frac{Q_c}{Q_h - Q_c} \\
 Q = \text{heat}
 \end{aligned}
 $$
+
 ---
 ### heat pump
 - transform heat into work
@@ -283,18 +317,21 @@ $$
 ![[8 Physics/Images/heat pump.png]]
 ---
 ### heat pump coefficient of performance formula
+
 $$
 \begin{aligned}
 COP = \frac{Q_h}{Q_h - Q_c} \\
 Q = \text{heat}
 \end{aligned}
 $$
+
 ---
 ### carnot cycle
 - maximum efficiency cycle operating between two constant temperature reservoirs
 ![[8 Physics/Images/carnot cycle.png|500]]
 ---
 ### carnot cycle formula
+
 $$
 \begin{aligned}
 e = \frac{T_h - T_c}{T_h} \\
@@ -303,12 +340,14 @@ COP = \frac{T_h}{T_h - T_c} \\
 T = \text{temperature}
 \end{aligned}
 $$
+
 ---
 ### second law of thermodynamics
 - universal entropy must remain constant or increase but never decrease
 - lower entropy energy has higher potential to do work
 ---
 ### 2nd formula of thermodynamics
+
 $$
 \begin{aligned}
 \Delta S = \Delta S_x + \Delta S_y \ge 0 \\
@@ -316,12 +355,14 @@ S_x = \text{system entropy} \\
 S_y = \text{surrounding entropy}
 \end{aligned}
 $$
+
 ---
 ### entropy
 - measure of disorder or the number of microstates
 ![[8 Physics/Images/entropy.png]]
 ---
 ### entropy formula
+
 $$
 \begin{aligned}
 \Delta S = \frac{Q}{T_k} \\
@@ -329,6 +370,7 @@ Q = \text{heat} \\
 T_k = \text{kelvin}
 \end{aligned}
 $$
+
 ---
 ### microstate
 - exact arrangement of molecules
@@ -342,6 +384,7 @@ $$
 ![[8 Physics/Images/microscopic entropy.png]]
 ---
 ### microscopic entropy formula
+
 $$
 \begin{aligned}
 S = k_b \ln(\Omega) \\
@@ -349,12 +392,14 @@ k_b = 1.38 \times 10^{-23} \\
 \Omega = \text{number of microstates}
 \end{aligned}
 $$
+
 ---
 ### third law of thermodynamics
 - entropy decreases as temperature decreases 
 ![[8 Physics/Images/third law of thermodynamics.png|400]]
 ---
 ### 3rd formula of thermodynamics
+
 $$
 \begin{aligned}
 S = k_b \ln(1) = 0 \\

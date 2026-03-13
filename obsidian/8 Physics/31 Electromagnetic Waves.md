@@ -11,6 +11,7 @@
 ![[8 Physics/Images/electromagnetic wave position.png|300]]
 ---
 ### wave position formula
+
 $$
 \begin{aligned}
 \overrightarrow E(x, t) = E_0 \cos(kx \mp \omega t) \ \hat j \\
@@ -23,12 +24,14 @@ x = \text{position} \\
 t = \text{time}
 \end{aligned}
 $$
+
 ---
 ### electromagnetic ratio
 - speed of light
 ![[8 Physics/Images/electromagnetic ratio.png|500]]
 ---
 ### electromagnetic ratio formula
+
 $$
 \begin{aligned}
 c = \frac{E}{B} \\
@@ -36,12 +39,14 @@ E = \text{electric field} \\
 B = \text{magnetic field} 
 \end{aligned}
 $$
+
 ---
 ### wave velocity
 - rate of wavefront
 ![[8 Physics/Images/wave velocity.png|300]]
 ---
 ### wave velocity formula
+
 $$
 \begin{aligned}
 v = \lambda f = \frac{\omega}{k} \\
@@ -54,11 +59,13 @@ k = \text{wave number} \\
 \mu_0 = 4\pi \times 10^{-7} \\
 \end{aligned}
 $$
+
 ---
 ### non vacuum wave velocity
 - rate of wavefront through matter
 ---
 ### non vacuum wave velocity formula
+
 $$
 \begin{aligned}
 v = \sqrt{\frac{1}{\epsilon \mu}} = \sqrt{\frac{1}{K\epsilon_0 K_m\mu_0}} = c\sqrt{\frac{1}{KK_m}} \\
@@ -71,6 +78,7 @@ K_m = \text{relative permeability} \\
 c = 3 \times 10^8
 \end{aligned}
 $$
+
 ---
 ### calculate non vacuum wave velocity
 - wavelength dependent medium
@@ -82,6 +90,7 @@ $$
 ![[8 Physics/Images/energy density.png|300]]
 ---
 ### average energy density formula
+
 $$
 \begin{aligned}
 u_{avg} = \frac{\epsilon_0 E_0^2}{2} = \frac{B_0^2}{2\mu_0} \\
@@ -91,8 +100,10 @@ B = \text{magnetic field} \\
 \mu_0 = 4\pi \times 10^{-7}
 \end{aligned}
 $$
+
 ---
 ### instantaneous energy density formula
+
 $$
 \begin{aligned}
 u = \epsilon_0 E^2 = \frac{B^2}{\mu_0}\\
@@ -102,12 +113,14 @@ B = \text{magnetic field} \\
 \mu_0 = 4\pi \times 10^{-7}
 \end{aligned}
 $$
+
 ---
 ### poynting
 - rate of energy flow through normal surface
 ![[8 Physics/Images/intensity.png]]
 ---
 ### average poynting formula
+
 $$
 \begin{aligned}
 S_{avg} = c(\frac{\epsilon_0 E_0^2}{2}) = c(\frac{B_0^2}{2\mu_0}) \\
@@ -119,8 +132,10 @@ B = \text{magnetic field} \\
 \mu_0 = 4\pi \times 10^{-7}
 \end{aligned}
 $$
+
 ---
 ### instantaneous poynting formula
+
 $$
 \begin{aligned}
 \overrightarrow S = \frac{\overrightarrow E \times \overrightarrow B}{\mu_0} \\
@@ -129,11 +144,13 @@ B = \text{magnetic field} \\
 \mu_0 = 4\pi \times 10^{-7}
 \end{aligned}
 $$
+
 ---
 ### power
 - rate of energy transfer
 ---
 ### power formula
+
 $$
 \begin{aligned}
 P = \frac{U}{t} = IA \\
@@ -143,11 +160,13 @@ I = \text{intensity} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---
 ### intensity
 - magnitude of electromagnetic radiation
 ---
 ### intensity formula
+
 $$
 \begin{aligned}
 I = \frac{P}{A} = S_{avg} \\
@@ -156,6 +175,7 @@ A = \text{area} \\
 S = \text{poynting}
 \end{aligned}
 $$
+
 ---
 ### electromagnetic radiation
 - emission and flow of energy via electromagnetic waves
@@ -178,6 +198,7 @@ $$
 ![[8 Physics/Images/radiation pressure.png|300]]
 ---
 ### radiation pressure absorption formula
+
 $$
 \begin{aligned}
 p_{rad} = \frac{F_{\perp}}{A} = \frac{I}{c} \\
@@ -187,8 +208,10 @@ I = \text{intensity} \\
 c = 3 \times 10^8
 \end{aligned}
 $$
+
 ---
 ### radiation pressure reflection formula
+
 $$
 \begin{aligned}
 p_{rad} = \frac{F_{\perp}}{A} = \frac{2I}{c} \\
@@ -198,6 +221,7 @@ I = \text{intensity} \\
 c = 3 \times 10^8
 \end{aligned}
 $$
+
 ---
 ### standing wave
 - two identical waves traveling opposite directions that oscillate between constructive interference and destructive interference
@@ -207,6 +231,7 @@ $$
 - standing field magnitude as function of space and time
 ---
 ### wave position formula
+
 $$
 \begin{aligned}
 \overrightarrow E(x, t) = -2E_0\sin(kx)\sin(\omega t) \ \hat j \\
@@ -219,6 +244,7 @@ x = \text{position} \\
 t = \text{time}
 \end{aligned}
 $$
+
 ---
 ### node
 - position of zero displacement
@@ -241,6 +267,7 @@ $$
 - wavelength of normal mode
 ---
 ### resonant wavelength formula
+
 $$
 \begin{aligned}
 \lambda_n = \frac{2L}{n} \\
@@ -248,11 +275,13 @@ L = \text{length} \\
 n = \text{harmonic number} 
 \end{aligned}
 $$
+
 ---
 ### resonant frequency
 - integer multiple of fundamental frequency
 ---
 ### resonant frequency formula
+
 $$
 \begin{aligned}
 f_n = \frac{nv}{2L} \\

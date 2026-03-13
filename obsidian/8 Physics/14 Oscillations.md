@@ -6,39 +6,46 @@
 - time between 1 revolution
 ---
 ### period formula
+
 $$
 \begin{aligned}
 T = \frac{\text{seconds}}{\text{1 revolution}}
 \end{aligned}
 $$
+
 ---
 ### oscillation frequency
 - number of revolutions per time
 ---
 ### oscillation frequency formula
+
 $$
 \begin{aligned}
 f = \frac{1}{T} \\
 T = \text{period}
 \end{aligned}
 $$
+
 ---
 ### angular frequency
 - number of phases per time 
 ---
 ### angular frequency formula
+
 $$
 \begin{aligned}
 \omega = 2\pi f \\
 f = \text{oscillation frequency}
 \end{aligned}
 $$
+
 ---
 ### simple harmonic motion
 - periodic motion where object oscillate about equilibrium with restoring force directly proportional displacement
 ![[8 Physics/Images/simple harmonic motion.png|400]]
 ---
 ### simple harmonic motion formula
+
 $$
 \begin{aligned}
 x(t) = A \cos(\omega t + \phi) \\
@@ -50,6 +57,7 @@ t = \text{time} \\
 \phi = \text{phase angle}
 \end{aligned}
 $$
+
 ---
 ### amplitude
 - maximum displacement of medium from equilibrium
@@ -65,6 +73,7 @@ $$
 ![[8 Physics/Images/maximum simple harmonic motion.png]]
 ---
 ### maximum simple harmonic motion formula
+
 $$
 \begin{aligned}
 x_{max} = A \\
@@ -74,12 +83,14 @@ A = \text{amplitude} \\
 \omega = \text{angular frequency}
 \end{aligned}
 $$
+
 ---
 ### simple harmonic motion energy
 - constant oscillation between potential energy and kinetic energy
 ![[8 Physics/Images/simple harmonic motion mechanical energy.png]]
 ---
 ### simple harmonic motion energy formula
+
 $$
 \begin{aligned}
 E = K + U = \frac{1}{2}kA^2 \\
@@ -89,6 +100,7 @@ k = \text{spring constant} \\
 A = \text{amplitude} 
 \end{aligned}
 $$
+
 ---
 ### energy diagram
 - energy as function of position
@@ -110,6 +122,7 @@ $$
 ![[8 Physics/Images/spring mass.png|300]]
 ---
 ### angular frequency formula
+
 $$
 \begin{aligned}
 \omega = \sqrt{\frac{k}{m}} \\
@@ -117,12 +130,14 @@ k = \text{spring constant} \\
 m = \text{mass}
 \end{aligned}
 $$
+
 ---
 ### simple pendulum
 - point mass swinging on string under the force of gravity
 ![[8 Physics/Images/simple pendulum.png]]
 ---
 ### angular frequency formula
+
 $$
 \begin{aligned}
 \omega = \sqrt{\frac{g}{L}} \\
@@ -130,12 +145,14 @@ g = 9.8 \\
 L = \text{length}
 \end{aligned}
 $$
+
 ---
 ### physical pendulum
 - distribution of mass swinging about axis of rotation under the force of gravity
 ![[8 Physics/Images/physical pendulum.png]]
 ---
 ### angular frequency formula
+
 $$
 \begin{aligned}
 \omega = \sqrt{\frac{mgL}{I}} \\
@@ -145,12 +162,14 @@ L = \text{length} \\
 I = \text{moment of inertia}
 \end{aligned}
 $$
+
 ---
 ### damped oscillation
 - decreasing periodic motion by subtracting energy via damping force
 ![[8 Physics/Images/damped oscillation.png|500]]
 ---
 ### damped oscillation formula
+
 $$
 \begin{aligned}
 m \frac{d^2x}{dt^2} + b\frac{dx}{dt} + kx = 0 \\
@@ -165,6 +184,7 @@ A = \text{amplitude} \\
 \omega = \text{angular frequency}
 \end{aligned}
 $$
+
 ---
 ### under damped oscillation
 - slow decrease of periodic motion
@@ -182,6 +202,7 @@ $$
 - increasing periodic motion by adding energy via driving force
 ---
 ### driven oscillation formula
+
 $$
 \begin{aligned}
 m \frac{d^2x}{dt^2} + b\frac{dx}{dt} + kx = F_0 \cos(\omega t + \phi) \\

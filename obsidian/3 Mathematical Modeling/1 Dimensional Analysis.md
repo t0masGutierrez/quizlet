@@ -14,6 +14,7 @@
 - type of measurement
 ---
 ### dimension formula
+
 $$
 \begin{aligned}
 [q] = \prod_{i=1}^m D_i^{a_i} \leftrightarrow \Delta_q = [a_1, \dots, a_m] \in \mathbb R^m \\
@@ -22,6 +23,7 @@ D = \text{dimension} \\
 a = \text{dimensional exponent}
 \end{aligned}
 $$
+
 ---
 ### dimension example
 - length
@@ -40,12 +42,14 @@ $$
 - linearly independent
 ---
 ### dimensional basis formula
+
 $$
 \begin{aligned}
 \text{Span}(D) = \mathcal V \\
 \text{Rank}(D) = m
 \end{aligned}
 $$
+
 ---
 ### dimension property
 - addition
@@ -56,6 +60,7 @@ $$
 - differentiation
 ---
 ### dimension property formula
+
 $$
 \begin{aligned}
 [p \pm q] \in D \leftrightarrow [p] = [q] \\
@@ -66,6 +71,7 @@ $$
 [\frac{d^kp}{dq^k}] = \frac{[p]}{[q]^k}
 \end{aligned}
 $$
+
 ---
 ### exponent property
 - multiplication
@@ -73,6 +79,7 @@ $$
 - exponentiation
 ---
 ### exponent property formula
+
 $$
 \begin{aligned}
 \Delta_{pq} = \Delta_p + \Delta_q \\
@@ -80,23 +87,27 @@ $$
 \Delta_{q^k} = k\Delta_q
 \end{aligned}
 $$
+
 ---
 ### dimensionless
 - dimension equal 1
 - dimensional exponent equal 0
 ---
 ### dimensionless formula
+
 $$
 \begin{aligned}
 [q] = 1 \leftrightarrow \Delta_q = 0 \\
 q = \text{pure number}
 \end{aligned}
 $$
+
 ---
 ### change of units
 - convert unit of quantity with respect to dimensional basis
 ---
 ### change of units formula
+
 $$
 \begin{aligned}
 q' = q\prod_{i=1}^m \lambda_i^{a_i} \\
@@ -105,6 +116,7 @@ q = \text{quantity} \\
 a = \text{dimensional exponent}
 \end{aligned}
 $$
+
 ---
 ### change of units example
 - $q = 9.8 \frac{m}{s^2}$ 
@@ -112,21 +124,25 @@ $$
 - $U' = \set{\text{km}, \text{min}}$ 
 ---
 ### change of units example formula
+
 $$
 \begin{aligned}
 q' = (9.8\frac{\text{m}}{\text{s}^2})(\frac{1\text{ km}}{1000\text{ m}})(\frac{60\text{ s}}{1\text{ min}})^{2} = 35.28 \frac{\text{km}}{\text{min}^2}
 \end{aligned}
 $$
+
 ---
 ### unit-free equation
 - every quantity of equation equal dimensionless quantity
 ---
 ### unit-free equation formula
+
 $$
 \begin{aligned}
 q_1 = f(q_2, \dots, q_n) \rightarrow q_1' = f'(q_2', \dots, q_n')
 \end{aligned}
 $$
+
 ---
 ### unit-free example
 - define the dimensions
@@ -147,6 +163,7 @@ $$
 - product of power of quantity with respect to quantitative exponent
 ---
 ### dimensionless power product formula
+
 $$
 \begin{aligned}
 \pi = \prod_{i=1}^n q_i^{b_i} > 0 \\
@@ -154,6 +171,7 @@ q = \text{quantity} \\
 b = \text{quantitative exponent}
 \end{aligned}
 $$
+
 ---
 ### buckingham pi property
 - calculate units
@@ -164,6 +182,7 @@ $$
 - every physically meaningful equation expressible as relationship between $n-m-1$ dimensionless power product
 ---
 ### buckingham pi property formula
+
 $$
 \begin{aligned}
 q_1 = f(q_2, \dots, q_n) \sim \pi_1 = \phi (\pi_2, \dots, \pi_{n-m-1}) \\

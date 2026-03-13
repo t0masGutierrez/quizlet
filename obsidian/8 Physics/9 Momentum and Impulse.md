@@ -2,6 +2,7 @@
 - difficulty of stopping or changing direction of motion
 ---
 ### momentum formula
+
 $$
 \begin{aligned}
 \overrightarrow p = m\overrightarrow v \\
@@ -9,11 +10,13 @@ m = \text{mass} \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### newtons second law
 - acceleration dependent mass and net external force acting on mass
 ---
 ### newtons 2nd formula
+
 $$
 \begin{aligned}
 \overrightarrow F_{net} = \frac{d\overrightarrow p}{dt} =
@@ -27,12 +30,14 @@ F_x = \text{x scalar component} \\
 F_y = \text{y scalar component}
 \end{aligned}
 $$
+
 ---
 ### impulse
 - measure of net external force over time
 ![[8 Physics/Images/impulse.png]]
 ---
 ### impulse formula
+
 $$
 \begin{aligned}
 \overrightarrow J = \sum F_{avg} \Delta t = \int_{t_1}^{t_2} \overrightarrow F_{net} \cdot d \overrightarrow t \\
@@ -41,11 +46,13 @@ F_{net} = \text{net force} \\
 t = \text{time}
 \end{aligned}
 $$
+
 ---
 ### impulse momentum
 - impulse equal change of momentum
 ---
 ### impulse momentum formula
+
 $$
 \begin{aligned}
 \overrightarrow J = \Delta \overrightarrow p = m \Delta \overrightarrow v \\
@@ -54,6 +61,7 @@ m = \text{mass} \\
 v = \text{velocity}
 \end{aligned}
 $$
+
 ---
 ### impulse momentum versus work energy
 - net force dependent time equal impulse momentum
@@ -63,12 +71,14 @@ $$
 - zero net external force equal zero change of momentum
 ---
 ### momentum conservation formula
+
 $$
 \begin{aligned}
 \overrightarrow p_i = \overrightarrow p_f \\
 p = \text{momentum}
 \end{aligned}
 $$
+
 ---
 ### collision
 - kinetic energy remains the same or decreases and momentum remains the same
@@ -93,6 +103,7 @@ $$
 - point inside object that acts as the location of all mass
 ---
 ### center of mass formula
+
 $$
 \begin{aligned}
 \overrightarrow r_{cm} = \frac{\sum_i m_i \overrightarrow r_i}{M} \\
@@ -101,11 +112,13 @@ r = \text{position} \\
 M = \text{system mass}
 \end{aligned}
 $$
+
 ---
 ### center of mass acceleration
 - center of mass acceleration dependent mass and net external force acting on mass
 ---
 ### center of mass acceleration formula
+
 $$
 \begin{aligned}
 \overrightarrow a_{cm} = \frac{\sum_i m_i \overrightarrow a_i}{M} \\
@@ -115,11 +128,13 @@ a = \text{acceleration} \\
 M = \text{system mass}
 \end{aligned}
 $$
+
 ---
 ### center of mass velocity
 - center of mass velocity dependent mass and momentum acting on mass
 ---
 ### center of mass velocity formula
+
 $$
 \begin{aligned}
 \overrightarrow v_{cm} = \frac{\sum_i m_i \overrightarrow v_i}{M} \\
