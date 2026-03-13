@@ -1,9 +1,6 @@
 import os
 
 def update_notes():
-    """
-    Update markdown files
-    """
     input = os.path.expanduser("~") + "/Obsidian/brainTwo/"
     output = os.path.expanduser("~") + "/Github/quizlet/obsidian/"
     dirs = {}
@@ -37,13 +34,13 @@ def update_notes():
 
                             # loop through lines inside file
                             for i in range(len(lines)-1):
-                                pattern = not lines[i].startswith("- ") and lines[i+1].startswith("- ") 
+                                pattern0 = not lines[i].startswith("- ") and lines[i+1].startswith("- ") 
                                 pattern1 = lines[i+1].startswith("$$") and not lines[i+2].startswith("---")
                                 pattern2 = lines[i].startswith("$$") and lines[i+1].startswith("---") 
                                 pattern3 = lines[i].startswith("\\")
 
                                 # add hashtags before terms
-                                if pattern or pattern1:
+                                if pattern0 or pattern1:
                                     lines[i] = "### " + lines[i]
                                     lines[i+1]
 
