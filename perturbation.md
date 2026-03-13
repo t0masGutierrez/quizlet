@@ -1,7 +1,7 @@
-##### perturbed equation
+###### perturbed equation
 - equation containing small nonnegative parameter  
 ---
-##### perturbed equation formula
+###### perturbed equation formula
 
 $$
 \begin{aligned}
