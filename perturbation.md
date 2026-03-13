@@ -1,9 +1,10 @@
-# perturbed equation
+### perturbed equation
+
 - equation containing small nonnegative parameter  
 
 ---
 
-# perturbed equation formula
+### perturbed equation formula
 
 $$
 \begin{aligned}
@@ -16,7 +17,7 @@ $$
 
 ---
 
-## algebraic equation
+### algebraic equation
 
 - equation involving elementary functions of unknown solution  
 
@@ -36,7 +37,7 @@ $$
 
 ---
 
-## differential equation
+### differential equation
 
 - equation involving derivatives of unknown solution  
 
