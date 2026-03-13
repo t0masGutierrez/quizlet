@@ -1,9 +1,6 @@
 ### perturbed equation
-
 - equation containing small nonnegative parameter  
-
 ---
-
 ### perturbed equation formula
 
 $$
