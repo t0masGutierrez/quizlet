@@ -167,4 +167,5 @@ $$
 \|\vec x \| = \text{magnitude}
 \end{aligned}
 $$
+
 ---

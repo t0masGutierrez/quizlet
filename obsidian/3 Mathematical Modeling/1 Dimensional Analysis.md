@@ -194,4 +194,5 @@ q = \text{quantity} \\
 b = \text{quantitative exponent}
 \end{aligned}
 $$
+
 ---

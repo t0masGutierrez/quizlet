@@ -150,4 +150,5 @@ f = \text{focal length} \\
 D = \text{diameter}
 \end{aligned}
 $$
+
 ---

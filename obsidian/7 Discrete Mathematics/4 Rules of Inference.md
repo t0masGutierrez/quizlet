@@ -98,4 +98,5 @@ $$
 \therefore \neg P(a)
 \end{aligned}
 $$
+
 ---

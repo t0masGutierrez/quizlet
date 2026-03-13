@@ -215,4 +215,5 @@ f = \text{oscillation frequency} \\
 \lambda = \text{wavelength}
 \end{aligned}
 $$
+
 ---

@@ -325,4 +325,5 @@ A = \text{domain} \\
 B = \text{codomain} 
 \end{aligned}
 $$
+
 ---

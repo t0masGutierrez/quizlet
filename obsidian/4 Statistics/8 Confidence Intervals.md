@@ -352,4 +352,5 @@ n = \text{sample size} \\
 \alpha = \text{significance level}
 \end{aligned}
 $$
+
 ---

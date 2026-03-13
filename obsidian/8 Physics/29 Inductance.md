@@ -363,4 +363,5 @@ L = \text{self inductance} \\
 \phi = \text{phase angle}
 \end{aligned}
 $$
+
 ---

@@ -433,4 +433,5 @@ S \subset X, \forall x \in S, \exists r > 0: N_r(x) \subset S \rightarrow N_r(x)
 S' \subset S \subset X  \rightarrow S' \subset \bigcup_{i}^n S_i  \\
 \end{aligned}
 $$
+
 ---

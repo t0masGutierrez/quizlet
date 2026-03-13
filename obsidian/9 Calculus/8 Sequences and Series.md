@@ -556,4 +556,5 @@ P_n(x) = \sum_{n = 1}^\infty \frac{f^{n'}(c)}{n!}(x - c)^n \\
 c = \text{center}
 \end{aligned}
 $$
+
 ---

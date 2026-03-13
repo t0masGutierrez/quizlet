@@ -133,4 +133,5 @@ a, b = \text{scaling factor} \\
 \mu = \text{parameter} \\
 \end{aligned}
 $$
+
 ---

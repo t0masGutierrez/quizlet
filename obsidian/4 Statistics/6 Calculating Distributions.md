@@ -240,4 +240,5 @@ u, v = \text{F-statistic} \\
 \text{d} = \text{degrees of freedom} 
 \end{aligned}
 $$
+
 ---

@@ -118,4 +118,5 @@ A = \text{matrix} \\
 E_{\lambda} = \text{eigenspace} 
 \end{aligned}
 $$
+
 ---

@@ -157,4 +157,5 @@ p = \text{proportion} \\
 SE = \text{standard error}
 \end{aligned}
 $$
+
 ---

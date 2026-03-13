@@ -340,4 +340,5 @@ I_{avg} = (\frac{2}{\pi})I = 0.637I \\
 I = \text{electric current}
 \end{aligned}
 $$
+
 ---

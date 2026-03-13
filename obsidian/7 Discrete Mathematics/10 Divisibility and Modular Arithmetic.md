@@ -124,4 +124,5 @@ a \times_m b \equiv(a \times b) \ \text{mod} \ m \equiv [(a \ \text{mod} \ m) \t
 Z_m = \{0, 1, ... m - 1\}
 \end{aligned}
 $$
+
 ---

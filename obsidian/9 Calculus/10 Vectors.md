@@ -456,4 +456,5 @@ $$
 d = \frac{|c_2 - c_1|}{v}
 \end{aligned}
 $$
+
 ---

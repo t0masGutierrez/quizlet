@@ -192,4 +192,5 @@ $$
 x, y = \text{bezout coefficient}
 \end{aligned}
 $$
+
 ---

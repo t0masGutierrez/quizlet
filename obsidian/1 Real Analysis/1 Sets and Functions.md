@@ -100,4 +100,5 @@ $$
 f: A \rightarrow B, \forall b \in B, \exists !a \in A: f(a) = b
 \end{aligned}
 $$
+
 ---

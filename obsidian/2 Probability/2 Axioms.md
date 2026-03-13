@@ -186,4 +186,5 @@ A = \text{hypothesis} \\
 B = \text{condition}
 \end{aligned}
 $$
+
 ---

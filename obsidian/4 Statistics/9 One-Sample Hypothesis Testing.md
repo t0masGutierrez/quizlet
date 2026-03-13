@@ -177,4 +177,5 @@ n = \text{sample size} \\
 \mu_1 = \text{alternative hypothesis}
 \end{aligned}
 $$
+
 ---

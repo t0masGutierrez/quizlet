@@ -197,4 +197,5 @@ y = 2\pi \int_{\theta_1}^{\theta_2} r\sin(\theta) \sqrt{r^2 + (\frac{dr}{d\theta
 x = 2\pi \int_{\theta_1}^{\theta_2} r\cos(\theta) \sqrt{r^2 + (\frac{dr}{d\theta})^2}d\theta \\
 \end{aligned}
 $$
+
 ---

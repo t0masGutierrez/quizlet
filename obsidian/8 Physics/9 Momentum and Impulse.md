@@ -144,4 +144,5 @@ v = \text{velocity} \\
 M = \text{system mass}
 \end{aligned}
 $$
+
 ---

@@ -239,4 +239,5 @@ u_* = \text{equilibrium point} \\
 h = \text{parameter}
 \end{aligned}
 $$
+
 ---

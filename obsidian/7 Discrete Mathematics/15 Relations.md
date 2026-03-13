@@ -232,4 +232,5 @@ A_i = \{A_1, A_2, ... A_k\} \\
 \therefore A_i = \{x \in A | x \sim a_i\}
 \end{aligned}
 $$
+
 ---

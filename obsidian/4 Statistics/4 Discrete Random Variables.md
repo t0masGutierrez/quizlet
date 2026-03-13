@@ -330,4 +330,5 @@ $$
 \lambda = \text{average number of events per interval}
 \end{aligned}
 $$
+
 ---

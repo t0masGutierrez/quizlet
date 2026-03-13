@@ -211,4 +211,5 @@ $$
 P(B | A) = \frac{P(A |B) \times P(B)}{P(A)}
 \end{aligned}
 $$
+
 ---

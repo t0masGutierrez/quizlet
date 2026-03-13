@@ -74,4 +74,5 @@ $$
 (L = \text{surjection}) \land (\text{span}(S \subseteq \mathcal V) = \mathcal V) \rightarrow \text{span}(L(S) \subseteq \mathcal W) = \mathcal W \\
 \end{aligned}
 $$
+
 ---

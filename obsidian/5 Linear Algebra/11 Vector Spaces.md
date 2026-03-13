@@ -94,4 +94,5 @@ $$
 c \odot \vec x \in \mathcal V
 \end{aligned}
 $$
+
 ---

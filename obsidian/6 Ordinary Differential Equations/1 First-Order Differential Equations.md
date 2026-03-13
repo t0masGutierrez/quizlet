@@ -266,4 +266,5 @@ y = \text{unknown function} \\
 c = \text{constant} \\
 \end{aligned}
 $$
+
 ---

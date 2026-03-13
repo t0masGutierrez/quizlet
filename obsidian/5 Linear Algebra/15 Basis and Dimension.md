@@ -136,4 +136,5 @@ B = \text{basis} \\
 \lambda = \text{eigenvalue}
 \end{aligned}
 $$
+
 ---

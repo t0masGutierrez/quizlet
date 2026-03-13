@@ -256,4 +256,5 @@ i = \text{electric current} \\
 R = \text{resistance}
 \end{aligned}
 $$
+
 ---

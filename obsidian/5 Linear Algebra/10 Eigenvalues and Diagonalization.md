@@ -222,4 +222,5 @@ n = \text{number of columns} \\
 P = \text{eigenmatrix}
 \end{aligned}
 $$
+
 ---

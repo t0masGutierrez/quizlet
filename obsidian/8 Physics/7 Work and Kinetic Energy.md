@@ -146,4 +146,5 @@ P_{out} = \text{output power} \\
 P_{in} = \text{input power}
 \end{aligned}
 $$
+
 ---

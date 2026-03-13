@@ -150,4 +150,5 @@ n = \text{sample size} \\
 \sigma = \text{alternative hypothesis}
 \end{aligned}
 $$
+
 ---

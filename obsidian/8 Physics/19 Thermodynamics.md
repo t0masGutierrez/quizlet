@@ -406,4 +406,5 @@ S = k_b \ln(1) = 0 \\
 k_b = 1.38 \times 10^{-23} 
 \end{aligned}
 $$
+
 ---

@@ -189,4 +189,5 @@ $$
 r(t) = \int_a^t \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt})^2 + (\frac{dz}{dt})^2}dt = \int_a^t \overrightarrow r \ '(u)du
 \end{aligned}
 $$
+
 ---

@@ -350,4 +350,5 @@ $$
 \exists (x \in D)P(x) \leftrightarrow T \ne \emptyset
 \end{aligned}
 $$
+
 ---

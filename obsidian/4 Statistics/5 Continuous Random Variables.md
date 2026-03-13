@@ -341,4 +341,5 @@ d = n - 1 \\
 d = \text{degrees of freedom}
 \end{aligned}
 $$
+
 ---

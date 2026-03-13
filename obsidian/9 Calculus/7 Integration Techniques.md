@@ -254,4 +254,5 @@ $$
 \int_{-\infty}^{\infty} f(x)dx = \int_{-\infty}^c f(x)dx + \int_c^{\infty} f(x)dx
 \end{aligned}
 $$
+
 ---

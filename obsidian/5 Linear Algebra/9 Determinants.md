@@ -347,4 +347,5 @@ A = \text{matrix} \\
 T = \text{transposition}
 \end{aligned}
 $$
+
 ---

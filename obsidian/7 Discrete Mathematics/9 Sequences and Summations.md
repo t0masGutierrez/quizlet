@@ -144,4 +144,5 @@ a_1 = \text{1st term} \\
 r = \text{common ratio}
 \end{aligned}
 $$
+
 ---

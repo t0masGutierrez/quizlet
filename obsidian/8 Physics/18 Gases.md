@@ -317,4 +317,5 @@ f = \text{degrees of freedom} \\
 R = 8.31
 \end{aligned}
 $$
+
 ---

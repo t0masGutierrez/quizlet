@@ -324,4 +324,5 @@ $$
 \int \frac{du}{u\sqrt{a^2 \pm u^2}} = \frac{1}{a} \ln(\frac{a + \sqrt{a^2 \pm u^2}}{|u|}) + c
 \end{aligned}
 $$
+
 ---

@@ -458,4 +458,5 @@ $$
 \alpha > 0 \rightarrow \forall v_0 \in \mathbb R^2: \lim_{t \rightarrow \infty} v(t) \ne v_* 
 \end{aligned}
 $$
+
 ---

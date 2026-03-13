@@ -232,4 +232,5 @@ v = \text{wave velocity} \\
 L = \text{length}
 \end{aligned}
 $$
+
 ---

@@ -232,4 +232,5 @@ x = \text{coordinate} \\
 \vec e = \text{standard unit vector} 
 \end{aligned}
 $$
+
 ---

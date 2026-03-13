@@ -362,4 +362,5 @@ S = \text{symmetric matrix} \\
 V = \text{skew symmetric matrix}
 \end{aligned}
 $$
+
 ---

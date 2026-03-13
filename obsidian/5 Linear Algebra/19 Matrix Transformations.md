@@ -106,4 +106,5 @@ B = \text{basis} \\
 A = \text{matrix transformation}
 \end{aligned}
 $$
+
 ---

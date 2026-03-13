@@ -284,4 +284,5 @@ C_d = \text{drag coefficient} \\
 A = \text{area}
 \end{aligned}
 $$
+
 ---

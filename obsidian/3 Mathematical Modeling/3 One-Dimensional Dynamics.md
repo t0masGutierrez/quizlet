@@ -242,4 +242,5 @@ $$
 \frac{dx}{dt} = \mu - x^3
 \end{aligned}
 $$
+
 ---

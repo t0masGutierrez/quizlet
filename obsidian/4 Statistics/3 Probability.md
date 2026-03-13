@@ -200,4 +200,5 @@ n = \text{number of objects} \\
 k = \text{number of choices}
 \end{aligned}
 $$
+
 ---

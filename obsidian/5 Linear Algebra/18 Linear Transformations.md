@@ -196,4 +196,5 @@ $$
 (L : \mathcal V \rightarrow \mathcal W) \land (\mathcal W' \le \mathcal W) \rightarrow L^{-1}(\mathcal W') = \{\vec v | L(\vec v) \in \mathcal W'\} \le \mathcal V
 \end{aligned}
 $$
+
 ---

@@ -208,4 +208,5 @@ I = \text{moment of inertia} \\
 \omega = \text{angular velocity}
 \end{aligned}
 $$
+
 ---

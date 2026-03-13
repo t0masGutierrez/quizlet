@@ -219,4 +219,5 @@ F = \text{force} \\
 A = \text{amplitude}
 \end{aligned}
 $$
+
 ---

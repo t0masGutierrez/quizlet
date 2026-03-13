@@ -330,4 +330,5 @@ a > 1 \rightarrow \lim_{n \rightarrow \infty} \frac{n^k}{a^n} = 0 \\
 p > 0 \rightarrow \lim_{n \rightarrow \infty} \frac{\log n}{n^p} = 0
 \end{aligned}
 $$
+
 ---

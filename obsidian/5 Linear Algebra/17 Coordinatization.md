@@ -173,4 +173,5 @@ D = \text{diagonal matrix} \\
 A = \text{matrix}
 \end{aligned}
 $$
+
 ---
