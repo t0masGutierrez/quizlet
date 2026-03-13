@@ -234,12 +234,6 @@ m = \text{order}
 $$
 
 ---
-### calculate series solution
-- compute power series for every term
-- compute power series for LHS of equation
-- equate terms of equation with corresponding powers of epsilon
-- solve equation
----
 ### regular differential equation
 - series solution equal solution of differential equation
 ---

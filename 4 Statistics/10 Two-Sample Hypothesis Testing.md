@@ -5,41 +5,72 @@
 - compare group 1 with group 2
 ---
 independent sample
- - groups with no meaningful relationship
+ - there exists no meaningful relationship between group 1 and group 2
 ---
 ### dependent sample
-- groups with meaningful relationship
+- there exists meaningful relationship between group 1 and group 2
+---
+### standard error
+- standard deviation of sampling distribution
+---
+### mean difference standard error formula
+
+$$
+\begin{aligned}
+SE(\bar X_1 - \bar X_2) = \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}} \\
+\sigma = \text{standard deviation} \\
+n = \text{sample size}
+\end{aligned}
+$$
+
+---
+### proportion difference standard error formula
+
+$$
+\begin{aligned}
+SE(\hat p_1 - \hat p_2) = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}} \\
+p = \text{proportion} \\
+n = \text{sample size}
+\end{aligned}
+$$
+
 ---
 ### sample proportion
 - point estimate of population proportion
 ---
 ### two proportion confidence interval
-- find critical value
-- calculate test statistic
-- calculate margin of error
+- compute sample proportion
+- compute standard error
+- find critical value from confidence level
+- compute margin of error
 - $(\hat p_1 - \hat p_2) - E < (\hat p_1 - \hat p_2) < (\hat p_1 - \hat p_2) + E$ 
 ---
-### two proportion z interval formula
+### two proportion z-interval formula
 
 $$
 \begin{aligned}
-\text{2propZint}(x_1, n_1, x_2, n_2, \alpha) \\
-x = \text{number of successes} \\
+\text{2propZ-int}(X_1, n_1, X_2, n_2, 1-\alpha) \\
+X= \text{number of successes} \\
 n = \text{sample size} \\
-\alpha = \text{confidence level}
+\alpha = \text{significance level}
 \end{aligned}
 $$
 
 ---
 ### two proportion hypothesis test
-- definition
+- state hypotheses
+- choose significance level  
+- calculate test statistic  
+- choose method
+- reject or fail to reject null hypothesis  
+- state conclusion
 ---
-### two proportion z test formula
+### two proportion z-test formula
 
 $$
 \begin{aligned}
-\text{2propZtest}(x_1, n_1, x_2, n_2, p_1) \\
-x = \text{number of successes} \\
+\text{2propZ-test}(X_1, n_1, X_2, n_2, p_1) \\
+X= \text{number of successes} \\
 n = \text{sample size} \\
 p_1 = \text{alternative hypothesis}
 \end{aligned}
@@ -50,52 +81,58 @@ $$
 - point estimate of population mean
 ---
 ### two mean confidence interval
-- find critical value 
-- calculate margin of error
-- $(\bar x_1 - \bar x_2) - E < (\mu_1 - \mu_2) < (\bar x_1 - \bar x_2) + E$ 
+- compute sample proportion
+- compute standard error
+- find critical value from confidence level
+- compute margin of error
+- $(\bar X_1 - \bar X_2) - E < (\mu_1 - \mu_2) < (\bar X_1 - \bar X_2) + E$ 
 ---
-### two mean t interval formula
+### two mean t-interval formula
 
 $$
 \begin{aligned}
-\text{2sampTint}(\bar x_1, s_1, n_1, \bar x_2, s_2, n_2, \alpha, \text{pool}) \\
-\bar x = \text{mean} \\
-s = \text{standard deviation} \\
+\text{2avgT-int}(\bar X_1, s_1, n_1, \bar X_2, s_2, n_2, \alpha, \text{pool}) \\
+\bar X= \text{sample mean} \\
+s = \text{sample standard deviation} \\
 n = \text{sample size} \\
-\alpha = \text{confidence level} \\
+\alpha = \text{significance level} \\
 \text{pool} = \text{if equal then yes}
 \end{aligned}
 $$
 
 ---
 ### two mean hypothesis test
-- definition
+- state hypotheses
+- choose significance level  
+- calculate test statistic  
+- choose method
+- reject or fail to reject null hypothesis  
+- state conclusion
 ---
-### two mean t test formula
+### two mean t-test formula
 
 $$
 \begin{aligned}
-\text{2sampTtest}(\bar x_1, s_1, n_1, \bar x_2, s_2, n_2, \mu_1 : \mu_2, \text{pool}) \\
-\bar x = \text{mean} \\
-s = \text{standard deviation} \\
+\text{2avgT-test}(\bar X_1, s_1, n_1, \bar X_2, s_2, n_2, \mu_1 = \mu_2, \text{pool}) \\
+\bar X= \text{sample mean} \\
+s = \text{sample standard deviation} \\
 n = \text{sample size} \\
-\mu_1 : \mu_2 = \text{equality} \\
 \text{pool} = \text{no}
 \end{aligned}
 $$
 
 ---
-### pool sample variance
+### pool variance
 - combination of two sample variance into single sample variance  
 - population variance unknown and equal
 ---
-### pool sample variance formula
+### pool variance formula
 
 $$
 \begin{aligned}
 s_p^2 = \frac{(n_1 - 1)s_1^2 + (n_2-1)s_2^2}{n_1+n_2-2} \\
 n = \text{sample size} \\
-s = \text{standard deviation}
+s = \text{sample standard deviation}
 \end{aligned}
 $$
 

@@ -52,28 +52,6 @@ n = \text{sample size}
 $$
 
 ---
-### mean difference standard error formula
-
-$$
-\begin{aligned}
-SE(\bar X_1 - \bar X_2) = \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}} \\
-\sigma = \text{standard deviation} \\
-n = \text{sample size}
-\end{aligned}
-$$
-
----
-### proportion difference standard error formula
-
-$$
-\begin{aligned}
-SE(\hat p_1 - \hat p_2) = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}} \\
-p = \text{proportion} \\
-n = \text{sample size}
-\end{aligned}
-$$
-
----
 ### law of large numbers
 - sample statistic approaches population parameter as sample size approaches infinity
 ---

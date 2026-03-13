@@ -252,7 +252,7 @@ $$
 $$
 \begin{aligned}
 t = \frac{\bar X - \mu}{s/\sqrt n} \\
-x = \text{sample mean} \\
+\bar X = \text{sample mean} \\
 \mu = \text{mean} \\
 \sigma = \text{standard deviation}
 \end{aligned}
