@@ -1,11 +1,14 @@
-perturbed equation
+## perturbed equation
 
-- equation containing small nonnegative parameter 
+- equation containing small nonnegative parameter  
+
 ---
-perturbed equation formula
+
+### perturbed equation formula
+
 $$
 \begin{aligned}
-f(t, x, \epsilon) \\
+f(t,x,\epsilon) \\
 0 \le \epsilon \ll 1 \\
 f = \text{perturbed equation} \\
 \epsilon = \text{parameter}
@@ -13,14 +16,18 @@ f = \text{perturbed equation} \\
 $$
 
 ---
-algebraic equation
 
-- equation involving elementary functions of unknown solution
+## algebraic equation
+
+- equation involving elementary functions of unknown solution  
+
 ---
-algebraic equation formula
+
+### algebraic equation formula
+
 $$
 \begin{aligned}
-y = f(t, x, \epsilon) \\
+y = f(t,x,\epsilon) \\
 f = \text{perturbed equation} \\
 t = \text{time} \\
 x = \text{solution} \\
@@ -29,14 +36,18 @@ x = \text{solution} \\
 $$
 
 ---
-differential equation
 
-- equation involving derivatives of unknown solution
+## differential equation
+
+- equation involving derivatives of unknown solution  
+
 ---
-differential equation formula
+
+### differential equation formula
+
 $$
 \begin{aligned}
-\frac{dx}{dt} = f(t, x, \epsilon), x(t=0) = x_0, t \ge 0 \\
+\frac{dx}{dt} = f(t,x,\epsilon), \quad x(0) = x_0,\ t \ge 0 \\
 f = \text{perturbed equation} \\
 t = \text{time} \\
 x = \text{solution} \\
@@ -45,6 +56,7 @@ x = \text{solution} \\
 $$
 
 ---
+
 regular
 
 - every solution of perturbed equation with positive parameter equal solution of perturbed equation with zero parameter
