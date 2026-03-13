@@ -3,7 +3,6 @@ perturbed equation
 - equation containing small nonnegative parameter 
 ---
 perturbed equation formula
-
 $$
 \begin{align*}
 f(t, x, \epsilon) \\
@@ -18,7 +17,6 @@ algebraic equation
 - equation involving elementary functions of unknown solution
 ---
 algebraic equation formula
-
 $$
 \begin{align*}
 y = f(t, x, \epsilon) \\
@@ -34,7 +32,6 @@ differential equation
 - equation involving derivatives of unknown solution
 ---
 differential equation formula
-
 $$
 \begin{align*}
 \frac{dx}{dt} = f(t, x, \epsilon), x(t=0) = x_0, t \ge 0 \\
