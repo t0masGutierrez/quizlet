@@ -1,6 +1,7 @@
 ### bounded above
 - there exist upper bound such that every element of set less or equal upper bound
 ---
+
 ### bounded above formula 
 
 $$
