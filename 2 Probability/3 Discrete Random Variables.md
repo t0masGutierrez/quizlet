@@ -34,7 +34,7 @@ $$
 
 $$
 \begin{aligned}
-\sum_i P(X = x_i) = 1 \\
+P(X) = \sum_i P(X = x_i) = 1 \\
 P(a \le X \le b) = \sum_{i=a}^b P(X = x_i)
 \end{aligned}
 $$

@@ -34,8 +34,9 @@ $$
 
 $$
 \begin{aligned}
-\int_{-\infty}^{\infty}f(x)dx = 1 \\
-P(a \le X \le b) = \int_a^b f(x)dx = 1
+P(X=x) = 0 \\
+P(X) = \int_{-\infty}^{\infty}f(x)dx = 1 \\
+P(a \le X \le b) = \int_a^b f(x)dx
 \end{aligned}
 $$
 
@@ -194,17 +195,18 @@ $$
 
 ---
 ### gamma probability density function
-- probability as function of real number
+- probability as function of waiting time until the $\alpha$th event
 ---
 ### gamma PDF probability formula
 
 $$
 \begin{aligned}
-f(x) = \frac{\lambda^{\alpha}x^{\alpha-1}e^{-\lambda x}}{\Gamma(\alpha)} \\
-\lambda = \text{rate} \\
-\alpha = \text{shape} \\
-x = \text{real number} \\
-\Gamma = \text{gamma}
+f(x) = \frac{\lambda e^{-\lambda x}(\lambda x)^{\alpha-1}}{\Gamma(\alpha)} \\
+\Gamma(\alpha) = \int_0^{\infty}e^{-x}x^{\alpha-1}dx \\
+\lambda = \text{average number of events per time} \\
+x = \text{amount of time between events} \\
+\Gamma = \text{gamma} \\
+\alpha = \text{event number}
 \end{aligned}
 $$
 
@@ -214,8 +216,8 @@ $$
 $$
 \begin{aligned}
 \mu = \frac{\alpha}{\lambda} \\
-\alpha = \text{shape} \\
-\lambda = \text{rate} 
+\alpha = \text{event number} \\
+\lambda = \text{average number of events per time} 
 \end{aligned}
 $$
 
@@ -224,9 +226,9 @@ $$
 
 $$
 \begin{aligned}
-\mu = \sqrt\frac{\alpha}{\lambda^2} \\
-\alpha = \text{shape} \\
-\lambda = \text{rate} 
+\sigma = \sqrt \frac{\alpha}{\lambda^2} \\
+\alpha = \text{event number} \\
+\lambda = \text{average number of events per time} 
 \end{aligned}
 $$
 
@@ -242,6 +244,7 @@ f(x) = \frac{\Gamma(\frac{d+1}{2})}{ \Gamma(\frac{d}{2})\sqrt{d\pi}}(1+\frac{x^2
 d = n-1 \\
 \Gamma = \text{gamma} \\
 d = \text{degrees of freedom} \\
+n = \text{sample size} \\
 x = \text{t-statistic}
 \end{aligned}
 $$
@@ -262,7 +265,8 @@ $$
 \begin{aligned}
 \sigma = \sqrt \frac{d}{d-2} \\
 d = n - 1 \\
-d = \text{degrees of freedom}
+d = \text{degrees of freedom} \\
+n = \text{sample size} \\
 \end{aligned}
 $$
 
@@ -279,6 +283,7 @@ d = n - 1 \\
 x = \text{$\chi^2$-statistic} \\
 \Gamma = \text{gamma} \\
 d = \text{degrees of freedom} \\
+n = \text{sample size} 
 \end{aligned}
 $$
 
@@ -288,7 +293,8 @@ $$
 $$
 \begin{aligned}
 \mu = d = n - 1 \\
-d = \text{degrees of freedom}
+d = \text{degrees of freedom} \\
+n = \text{sample size} 
 \end{aligned}
 $$
 
@@ -298,7 +304,8 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt {2d} = \sqrt {2(n-1)} \\
-d = \text{degrees of freedom}
+d = \text{degrees of freedom} \\
+n = \text{sample size} 
 \end{aligned}
 $$
 
@@ -316,7 +323,8 @@ f(x) = \frac{x^{0.5d_1 - 1}\Gamma(\frac{d_1+d_2}{2})(\frac{d_1}{d_2})^{0.5d_1}
 d = n - 1 \\
 x = \text{F-statistic} \\
 \Gamma = \text{gamma} \\
-d = \text{degrees of freedom}
+d = \text{degrees of freedom} \\
+n = \text{sample size} 
 \end{aligned}
 $$
 
@@ -327,7 +335,8 @@ $$
 \begin{aligned}
 \mu = \frac{d_2}{d_2 - 2} \\
 d = n - 1 \\
-d = \text{degrees of freedom}
+d = \text{degrees of freedom} \\
+n = \text{sample size} 
 \end{aligned}
 $$
 
@@ -338,7 +347,8 @@ $$
 \begin{aligned}
 \sigma = \sqrt {\frac{2d_2^2(d_1+d_2 - 2)}{d_1(d_2 - 2)^2(d_2 - 4)}} \\
 d = n - 1 \\
-d = \text{degrees of freedom}
+d = \text{degrees of freedom} \\
+n = \text{sample size} 
 \end{aligned}
 $$
 

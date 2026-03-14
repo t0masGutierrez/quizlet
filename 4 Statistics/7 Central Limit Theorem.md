@@ -67,10 +67,10 @@ T = \text{sample statistic} \\
 $$
 
 ---
-### central limit
+### central limit theorem
 - sampling distribution approaches normal distribution as sample size approaches infinity regardless of the population distribution
 ---
-### central limit formula
+### central limit theorem formula
 
 $$
 \begin{aligned}

@@ -38,14 +38,14 @@ $$
 ### sample proportion
 - point estimate of population proportion
 ---
-### two proportion confidence interval
+### construct two proportion independent confidence interval
 - compute sample proportion
 - compute standard error
 - find critical value from confidence level
 - compute margin of error
 - $(\hat p_1 - \hat p_2) - E < (\hat p_1 - \hat p_2) < (\hat p_1 - \hat p_2) + E$ 
 ---
-### two proportion z-interval formula
+### two proportion independent z-interval formula
 
 $$
 \begin{aligned}
@@ -57,7 +57,7 @@ n = \text{sample size} \\
 $$
 
 ---
-### two proportion hypothesis test
+### conduct two proportion independent hypothesis test
 - state hypotheses
 - choose significance level  
 - calculate test statistic  
@@ -65,7 +65,7 @@ $$
 - reject or fail to reject null hypothesis  
 - state conclusion
 ---
-### two proportion z-test formula
+### two proportion independent z-test formula
 
 $$
 \begin{aligned}
@@ -80,14 +80,14 @@ $$
 ### sample mean
 - point estimate of population mean
 ---
-### two mean confidence interval
+### construct two mean independent confidence interval
 - compute sample proportion
 - compute standard error
 - find critical value from confidence level
 - compute margin of error
 - $(\bar X_1 - \bar X_2) - E < (\mu_1 - \mu_2) < (\bar X_1 - \bar X_2) + E$ 
 ---
-### two mean t-interval formula
+### two mean independent t-interval formula
 
 $$
 \begin{aligned}
@@ -101,15 +101,10 @@ n = \text{sample size} \\
 $$
 
 ---
-### two mean hypothesis test
-- state hypotheses
-- choose significance level  
-- calculate test statistic  
-- choose method
-- reject or fail to reject null hypothesis  
-- state conclusion
+### conduct two mean independent hypothesis test
+- definition
 ---
-### two mean t-test formula
+### two mean independent t-test formula
 
 $$
 \begin{aligned}
@@ -123,7 +118,7 @@ $$
 
 ---
 ### pool variance
-- combination of two sample variance into single sample variance  
+- combination of two sample variance into single sample variance 
 - population variance unknown and equal
 ---
 ### pool variance formula
@@ -137,53 +132,58 @@ s = \text{sample standard deviation}
 $$
 
 ---
-### match pair
-- meaningful relationship between sample means
----
-### match pair confidence interval
+### construct two mean dependent confidence interval
 - find critical value  
 - calculate margin of error
-- $\bar d - E < µ < \bar d + E$ 
+- $\Delta \bar X - E < µ < \Delta \bar X + E$ 
 ---
-### match pair t interval
+### two mean dependent t-interval formula
 
 $$
 \begin{aligned}
-\text{tInt}(\text{data}, L_3, f, \alpha) \\
+\text{2avgT-Int}(\text{data}, L_3, f, \alpha) \\
 \end{aligned}
 $$
 
 ---
-### match pair hypothesis test
+### conduct two mean dependent hypothesis test
 - definition
 ---
-### match pair t test
+### two mean dependent t-test formula
 
 $$
 \begin{aligned}
-\text{tTest} (\text{data}, \mu_0, L_3, f, \mu_1)
+\text{2avgT-Test} (\text{data}, \mu_0, L_3, f, \mu_1)
 \end{aligned}
 $$
 
----
-### F distribution
-- probability distribution of sample statistic that describes the variability of random sampling of the same size from the same population
 ---
 ### sample variance
 - point estimate of population variance
 ---
-### two variance hypothesis test
-- null hypothesis $σ_1^2 = σ_2^2$
-- two variance F test
+### construct two variance dependent confidence interval
+- definition
 ---
-### two variance F test formula
+### two variance dependent F-int formula
 
 $$
 \begin{aligned}
-\text{2sampFtest}(s, n, \sigma_1) \\
-s = \text{standard deviation} \\
+\text{2varF-Int}() 
+\end{aligned}
+$$
+
+---
+### conduct two variance dependent hypothesis test
+- definition
+---
+### two variance dependent F-test formula
+
+$$
+\begin{aligned}
+\text{2varF-Test}(s, n, \sigma_1) \\
+s = \text{sample standard deviation} \\
 n = \text{sample size} \\
-\sigma = \text{alternative hypothesis}
+\sigma_1 = \text{alternative hypothesis}
 \end{aligned}
 $$
 

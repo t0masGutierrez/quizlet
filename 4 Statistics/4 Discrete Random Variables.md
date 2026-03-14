@@ -34,7 +34,7 @@ $$
 
 $$
 \begin{aligned}
-\sum_i P(X = x_i) = 1 \\
+P(X)=\sum_i P(X = x_i) = 1 \\
 P(a \le X \le b) = \sum_{i=a}^b P(X = x_i)
 \end{aligned}
 $$
@@ -55,9 +55,10 @@ $$
 
 $$
 \begin{aligned}
-\sigma = \sqrt{\sum_i(x_i - \mu)^2P(x_i)} \\
+\sigma = \sqrt{\sum_i(x_i - \mu)^2P(X=x_i)} \\
 x = \text{real number} \\
-\mu = \text{mean} 
+\mu = \text{mean} \\
+X = \text{random variable}
 \end{aligned}
 $$
 

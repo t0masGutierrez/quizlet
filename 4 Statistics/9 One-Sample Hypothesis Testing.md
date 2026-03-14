@@ -4,7 +4,7 @@
 ### hypothesis test
 - evaluate hypothesis by analyzing the significance of sample data
 ---
-### calculate hypothesis test
+### conduct hypothesis test
 - state hypotheses
 - choose significance level  
 - calculate test statistic  

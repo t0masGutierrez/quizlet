@@ -118,6 +118,20 @@ T > c^*_{\rightarrow} \rightarrow \text{reject} \\
 $$
 
 ---
+### margin of error
+- maximum likely amount of error between statistic and parameter
+---
+### margin of error formula
+
+$$
+\begin{aligned}
+E = (c^*)(SE) \\
+c^* = \text{critical value} \\
+SE = \text{standard error}
+\end{aligned}
+$$
+
+---
 ### critical z-value
 - boundary point on normal distribution between rejection region and non-rejection region
 ---
@@ -129,20 +143,6 @@ z^*_{\leftarrow } = N^{-1}(\alpha, 0, 1) \\
 z^*_2 = N^{-1}(1-\frac{\alpha}{2}, 0, 1) \\
 z^*_{\rightarrow} = N^{-1}(1-\alpha, 0, 1) \\
 \alpha = \text{significance level}
-\end{aligned}
-$$
-
----
-### margin of error
-- maximum likely amount of error between statistic and parameter
----
-### margin of error formula
-
-$$
-\begin{aligned}
-E = (c^*)(SE) \\
-c^* = \text{critical value} \\
-SE = \text{standard error}
 \end{aligned}
 $$
 
@@ -244,21 +244,6 @@ n = \text{sample size}
 $$
 
 ---
-### t-score
-- number of estimated standard errors from the mean
----
-### t-score formula
-
-$$
-\begin{aligned}
-t = \frac{\bar X - \mu}{s/\sqrt n} \\
-\bar X = \text{sample mean} \\
-\mu = \text{mean} \\
-\sigma = \text{standard deviation}
-\end{aligned}
-$$
-
----
 ### critical t-value
 - boundary point on student distribution between rejection region and non-rejection region
 ---
@@ -288,21 +273,6 @@ $$
 - find both critical values from confidence level
 - compute margin of error
 - $\sqrt{\frac{(n-1)s^2}{\chi^2_{\alpha/2}}} \leq \sigma \leq \sqrt{\frac{(n-1)s^2}{\chi^2_{1-\alpha/2}}}$ 
----
-### chi-square-score
-- number of deviations from the variance
----
-### chi-square-score formula
-
-$$
-\begin{aligned}
-\chi^2 = \frac{(n-1)s^2}{\sigma^2} \\
-n = \text{sample size} \\
-s = \text{sample standard deviation} \\
-\sigma = \text{standard deviation}
-\end{aligned}
-$$
-
 ---
 ### critical chi-square-value
 - boundary point on chi-square distribution between rejection region and non-rejection region
